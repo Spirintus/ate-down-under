@@ -1,0 +1,7 @@
+fellowship_composition = {
+	levy_size = 8
+	archers = 100
+	light_infantry = 240
+	heavy_infantry = 120
+	#heavy_cavalry = 200
+}

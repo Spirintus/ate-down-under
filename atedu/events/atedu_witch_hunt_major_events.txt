@@ -1,0 +1,386 @@
+namespace = atedu
+
+#by Spirintus
+
+###atedu.1 - atedu.29
+
+#event chain start
+character_event = {
+	id = atedu.1
+	
+	hide_window = yes
+	
+	only_playable = yes
+	only_men = yes
+	min_age = 20
+	
+	
+	trigger = {
+		not = { has_character_flag = on_witch_hunt }
+		or = {
+			religion = imunu
+			religion = imunu_reformed
+		}
+	}
+	
+	immediate = {
+		set_character_flag = on_witch_hunt
+		random_demesne_province = {
+			province_event = { id = atedu.2 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 4
+	}
+}
+
+# witches in demesne province
+province_event = {
+	id = atedu.2
+	desc = EVTDESC_atedu_2
+	title = EVTTITLE_atedu_2
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atedu_2_A #let's go
+		
+		save_event_target_as = target_province
+		
+		holder_scope = {
+			piety = 10
+			add_trait = travelling
+			character_event = { id = atedu.3 days = 2 }
+		}
+		
+		
+	}
+	option = {
+		name = EVTOPT_atedu_2_B #nope
+		holder_scope = {
+			piety = -25
+			random = {
+				chance = 25
+				add_trait = cynical
+			}
+		}
+	}
+	
+}
+
+# choose your witchhunting strategy
+character_event = {
+	id = atedu.3
+	desc = EVTDESC_atedu_3
+	title = EVTTITLE_atedu_3
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atedu_3_A #talkin time
+		#holder_scope = {
+			random = {
+				chance = 25
+				add_trait = gregarious
+			}
+			hidden_tooltip = {
+				random_list = {
+					80 = {
+						character_event = { id = atedu.4 }
+					}
+					20 = {
+						character_event = { id = atedu.10 }
+					}
+				}
+			}
+		#}
+	}
+	option = {
+		name = EVTOPT_atedu_3_B #lookin time
+		#holder_scope = {
+			random = {
+				chance = 25
+				add_trait = diligent
+			}
+			hidden_tooltip = {
+				random_list = {
+					80 = {
+						character_event = { id = atedu.4 }
+					}
+					20 = {
+						character_event = { id = atedu.10 }
+					}
+				}
+			}
+		#}
+	}
+	option = {
+		name = EVTOPT_atedu_3_C #chillin time
+		#holder_scope = {
+			piety = -100
+			hidden_tooltip = {
+				random_list = {
+					60 = {
+						character_event = { id = atedu.8 }
+					}
+					40 = {
+						modifier = {
+							factor = 1.5
+							trait = fair
+						}
+						character_event = { id = atedu.9 }
+					}
+				}
+			}
+		#}
+	}
+}
+
+############### main flow of events ###############
+
+#citizen know the witch
+character_event = {
+	id = atedu.4
+	desc = EVTDESC_atedu_4
+	title = EVTTITLE_atedu_4
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atedu_4_A #witch imma see you
+		
+		piety = 20
+		hidden_tooltip = {
+			random_list = {
+				90 = {
+					 character_event = { id = atedu.5 }
+				}
+				10 = {
+					character_event = { id = atedu.5 } #place for beauty witch event
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPT_atedu_4_B #i dont think so
+		character_event = { id = atedu.10 }
+		random = {
+			chance = 20
+			add_trait = craven
+		}
+		piety = -20
+	}
+}
+
+# found the witch
+character_event = {
+	id = atedu.5
+	desc = EVTDESC_atedu_5
+	title = EVTTITLE_atedu_5
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atedu_5_A #let the witch trail begin
+		character_event = { id = atedu.6 } 
+		piety = 50
+	}
+	option = {
+		name = EVTOPT_atedu_5_B #this is no witch
+		character_event = { id = atedu.10 }
+		piety = -10
+	}
+}
+
+# witch trail
+character_event = {
+	id = atedu.6
+	desc = EVTDESC_atedu_6
+	title = EVTTITLE_atedu_6
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atedu_6_A #bye witch 
+		character_event = { id = atedu.7 } 
+		prestige = 10
+	}
+	option = {
+		name = EVTOPT_atedu_6_B #die witch
+		character_event = { id = atedu.7 }
+		piety = 10
+	}
+	option = {
+		name = EVTOPT_atedu_6_C #yum witch
+		character_event = { id = atedu.7 }
+		piety = 25
+		add_trait = cannibal_trait
+	}
+}
+
+
+character_event = {
+	id = atedu.7
+	desc = EVTDESC_atedu_7
+	#title = EVTTITLE_atedu_10
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atedu_7_A #the witch is no longer a problem
+		
+		remove_trait = travelling
+		clr_character_flag = on_witch_hunt
+		
+		change_variable = {which = witch_hunted_count value = 1}
+		
+		piety = 5
+		prestige = 10
+	}
+}
+
+############### chillin flow of events ############### 
+
+#everything is fine
+character_event = {
+	id = atedu.8
+	desc = EVTDESC_atedu_8
+	title = EVTTITLE_atedu_8
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atedu_8_A #everything is fine
+		character_event = { id = atedu.10 } 
+		random = {
+			chance = 15
+			add_trait = content
+		}
+	}
+}
+
+#wild thug appeared
+character_event = {
+	id = atedu.9
+	desc = EVTDESC_atedu_9
+	title = EVTTITLE_atedu_9
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atedu_9_A #run
+		remove_trait = travelling
+		clr_character_flag = on_witch_hunt
+		prestige = -25
+		random_list = {
+			10 = { add_trait = wounded }
+			5 = { add_trait = maimed }
+		}
+	}
+	option = {
+		name = EVTOPT_atedu_9_B #punch
+		character_event = { id = atedu.10 }
+		prestige = 15
+		random_list = {
+			35 = { add_trait = brave }
+			15 = { add_trait = wounded }
+			10 = { add_trait = maimed }
+		}
+	}
+}
+
+# nothin suspicious
+character_event = {
+	id = atedu.10
+	desc = EVTDESC_atedu_10
+	title = EVTTITLE_atedu_10
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atedu_10_A #thats suspicious
+		trigger = {
+			OR = {
+				trait = lunatic
+				trait = paranoid
+			}
+		}
+		character_event = { id = atedu.11 }
+	}
+	option = {
+		name = EVTOPT_atedu_10_B #home i'll go
+		
+		remove_trait = travelling
+		clr_character_flag = on_witch_hunt
+	}
+}
+
+character_event = {
+	id = atedu.11
+	desc = EVTDESC_atedu_11
+	title = EVTTITLE_atedu_11
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atedu_11_A #fire the village down
+		event_target:target_province = {
+			add_province_modifier = {
+				modifier = burnt_down_village_province
+				duration = 3650
+			}
+		}
+		add_character_modifier = {
+			modifier = burnt_down_village_character
+			duration = 3650
+		}
+		add_trait = cruel
+		piety = 100
+	}
+	option = {
+		name = EVTOPT_atedu_11_B #home i'll go and priest call i will
+		
+		remove_trait = travelling
+		clr_character_flag = on_witch_hunt
+	}
+}
+
+#fallback event
+# character_event = {
+	# id = atedu.20
+	# desc = EVTDESC_atedu_20
+	# title = EVTTITLE_atedu_10
+	
+	# picture = GFX_evt_mysterious_forest
+	
+	# is_triggered_only = yes
+	
+	# option = {
+		# name = EVTOPT_atedu_20_A #my bed wait for me
+		
+		# remove_trait = travelling
+		# clr_character_flag = on_witch_hunt
+	# }
+# }

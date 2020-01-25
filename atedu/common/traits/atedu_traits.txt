@@ -1,0 +1,12 @@
+imunu_disinherited = {
+	cannot_inherit = yes
+	sex_appeal_opinion = -10 #which woman would like weakling?
+	
+	male_insult = INSULT_WEAKLING #INSULT_SHAME_OF_THE_CLAN
+}
+
+hero = {
+	random = no
+	customizer = no
+	#eruist_group_opinion = 50
+}

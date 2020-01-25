@@ -1,0 +1,3 @@
+aboriginalgfx = {
+  skin_tone = 3
+}

@@ -1,0 +1,68 @@
+# The entry should be named in the same way that the elective succession law is named to define it's voter's logic.
+# Root scope - Voter, the character voting in the election
+# From scope - Candidate, Character considered for the title
+# FromFrom scope - The title the nomination is for
+# FromFromFrom scope - The title owner's candidate
+# The voter will vote for the top score candidate calculated from this script.
+
+my_test_law = {
+	elector_stances = { #Electoral stances visible on the Electors' tab. Do not directly affect voting pattern unless used as triggers in the modifiers of candidate_voter_score.
+		
+	}
+	elector_selection = {
+		days = -5 		# If below 0, ROOT is not valid to be an Elector. Any character above 0 will be an elector.
+		max_amount = 6 # Determines max amount of electors, with the lower scoring ones being excluded (limit is optional)
+		additive_modifier = { #
+			value = 10
+			root = {	
+				OR = { 
+					has_landed_title = d_sc_bishop_one
+					has_landed_title = d_sc_bishop_two
+					has_landed_title = d_sc_bishop_three
+					has_landed_title = d_sc_bishop_four
+					has_landed_title = d_sc_bishop_five
+					has_landed_title = d_sc_bishop_six
+				}
+			}
+		}
+		# additive_modifier = {
+			# value = 10
+			# character = FROMFROM
+		# }
+	}
+	elector_vote_strength = { #Affects the voting strength of each elector.
+		days = 1 # 1 elector = 1 vote.
+		additive_modifier = {
+			trait = humble
+			value = 3 # Ex: An Elector with the humble trait is worth an addtional 3 votes.
+		}
+	}
+	candidate_vote_score = { #Chance of an Elector voting for a candidate over the other. The candidate with the highest value will be picked.
+		days = 1
+		##########################   Elector voting himself   ##########################
+		additive_modifier = {
+			value = 15
+			localisation_key = tooltip_feudal_elector_vote_myself
+			character = FROM
+			NOR = {
+				trait = humble
+				trait = content
+				trait = craven
+				trait = slothful
+				trait = stressed
+				trait = depressed
+				trait = ambitious
+			}
+			NOT = { 
+				FROMFROM = { 
+					holder_scope = { 
+						is_parent_of = ROOT
+					} 
+				}
+			}
+		}
+	}
+	candidate_trigger = { #Trigger to determine what characters are valid candidates that can be voted by electors.
+		always = yes
+	}
+}

@@ -1,0 +1,17 @@
+# 112 - Ile de France
+
+# County Title
+title = c_auckland
+
+# Settlements
+max_settlements = 7
+
+b_auckland = castle
+#b_montlhery
+
+#culture = old_frankish
+religion = eruist
+
+# History
+
+

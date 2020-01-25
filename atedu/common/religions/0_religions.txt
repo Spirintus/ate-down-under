@@ -1,0 +1,789 @@
+	# plain_religion = {
+		# graphical_culture = westerngfx
+		#
+		# icon = 1
+		#
+		# color = {0 0 0 }
+		#
+		# crusade_name = PLACEHOLDER
+		# crusade_cb = crusade
+		# scripture_name = PLACEHOLDER
+		# priest_title = PLACEHOLDER
+		#
+		# high_god_name = PLACEHOLDER
+		#
+		# god_names = {
+			# PLACEHOLDER
+		# }
+		 #
+		# evil_god_names = {
+			# PLACEHOLDER
+		# }
+		#
+		# religious_clothing_head = 0
+		# religious_clothing_priest = 1
+	# }
+
+
+christian = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	hostile_within_group = yes
+	
+	color = { 0.8 0.8 0.6 }
+	
+	male_names = {
+	}
+	female_names = {
+	}
+	
+	southcrossers = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		heresy_icon = 2
+		
+		color = {255 215 51}
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		scripture_name = THE_GOSPEL
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_THE_LORD GOD_JESUS GOD_THE_SAVIOUR GOD_THE_SOUTHERN_CROSS
+		}
+		
+		evil_god_names = {
+			SATAN FALLEN_ANGEL THE_GREAT_HERETIC
+		}
+		
+		pentarchy = yes
+		can_excommunicate = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		rel_head_defense = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	johanites = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		heresy_icon = 2
+		
+		color = {51 215 255}
+		
+		crusade_name = CRUSADE
+		
+		scripture_name = THE_GOSPEL
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_THE_LORD GOD_JESUS GOD_THE_SAVIOUR GOD_THE_SOUTHERN_CROSS
+		}
+		
+		evil_god_names = {
+			SATAN FALLEN_ANGEL THE_GREAT_HERETIC
+		}
+		
+		
+		priests_can_inherit = no
+		priests_can_marry = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	true_church = {
+		graphical_culture = westerngfx
+		
+		icon = 3
+		heresy_icon = 2
+		
+		color = { 49 58 183 }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		can_call_crusade = yes
+		can_excommunicate = yes
+		can_grant_claim = yes
+		
+		
+		
+		religious_clothing_priest = 1
+	}
+	aotearoan = {
+		graphical_culture = africangfx
+		
+		icon = 3
+		heresy_icon = 4
+		
+		color = {0 0 0 }
+		
+		crusade_name = CRUSADE
+		crusade_cb = new_crusade
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		piety_name = MANA
+		
+		high_god_name = GOD_ATUA
+		
+		god_names = {
+			GOD_ATUA GOD_JESUS GOD_THE_LORD GOD_THE_BLESSED_VIRGIN
+		}
+		 
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		investiture = yes
+		can_excommunicate = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		priests_can_inherit = no
+		priests_can_marry = no
+		rel_head_defense = yes
+		
+		allow_viking_invasion = yes
+		hard_to_convert = yes
+		
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	purist = {
+		graphical_culture = africangfx
+		
+		icon = 3
+		heresy_icon = 4
+		
+		color = {0 0 0 }
+		
+		crusade_name = CRUSADE
+		crusade_cb = new_crusade
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		piety_name = MANA
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_JESUS GOD_THE_LORD GOD_THE_BLESSED_VIRGIN
+		}
+		 
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		
+		priests_can_inherit = no
+		priests_can_marry = no
+		
+		allow_viking_invasion = yes
+		hard_to_convert = yes
+		
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	indian = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = { 49 58 183 }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BUDDHA
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		
+		can_retire_to_monastery = yes
+		
+		
+		religious_clothing_priest = 1
+	}
+	
+	christian_of_the_sea = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = { 29 29 29 }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BUDDHA
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		#can_call_crusade = yes
+		#can_excommunicate = yes
+		#can_grant_claim = yes
+		#can_retire_to_monastery = yes
+		priests_can_marry = yes
+		
+		religious_clothing_priest = 1
+	}
+}
+
+oldworld = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2
+	ai_convert_other_group = 2
+	
+	color = { 0.1 0.7 0.1 }
+	
+	interface_skin = { hellenic_interface }
+	
+	male_names = {
+	}
+	female_names = {
+	}
+	
+	diggers = {
+		graphical_culture = westerngfx
+		
+		icon = 2
+		
+		color = { 105 48 112 }
+		
+		crusade_name = MISSIONS
+		crusade_cb = crusade
+		scripture_name = ANZAC_LEGEND
+		priest_title = PRIEST
+		
+		high_god_name = ANZAC_SPIRIT
+		
+		god_names = {
+			GOD_SIMPSON_AND_HIS_DONKEY GOD_MONASH GOD_TOMAS_BLAMEY
+		}
+		evil_god_names = {
+			JOHNY_TURK JAP
+		}
+		
+	}
+	
+	cargo_cult = {
+		graphical_culture = westerngfx
+		
+		icon = 2
+		
+		color = { 147 0 0 }
+		
+		crusade_name = MISSIONS
+		crusade_cb = crusade
+		scripture_name = THE_KASTOM
+		priest_title = AVIATOR # TEMPLES = AIRSTRIPS, COUNT LEVEL = CONTROLLER, RELIGHEAD = KEEPER OF THE KASTOM 
+		
+		piety_name = CARGO
+		
+		high_god_name = THE_BRINGER_OF_WEALTH
+		
+		god_names = {
+			GOD_JOHN_FRUM GOD_PRINCE_PHILIP GOD_CARGO GOD_THE_PLANES
+		}
+		evil_god_names = {
+			THE_DENIERS THE_REJECTERS
+		}
+		
+		can_grant_claim = yes
+		uses_jizya_tax = yes
+		allow_looting = yes
+	}
+}
+
+pagan_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
+	
+	color = { 0.6 0.0 0.0 }
+	
+	interface_skin = { pagan_interface }
+	
+	male_names = {
+	}
+	female_names = {
+	}
+	
+	dreaming_pagan = {
+		graphical_culture = africangfx
+		
+		icon = 2
+		
+		color = { 0 0 0 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		crusade_cb = crusade
+		scripture_name = DREAMTIME_STORIES
+		priest_title = PRIEST
+		
+		high_god_name = GOD_RAINBOW_SERPENT
+		
+		god_names = {
+			GOD_RAINBOW_SERPENT
+		}
+		 
+		evil_god_names = {
+			EVIL_SPIRITS JAMES_COOK
+		}
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	highway_cultist = {
+		graphical_culture = westerngfx
+		
+		icon = 2
+		
+		color = {0 0 0 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		crusade_cb = crusade
+		scripture_name = HIGHWAY_CODE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GREAT_HIGHWAY
+		
+		god_names = {
+			GOD_GREAT_HIGHWAY GOD_THE_ROAD_WARRIOR GOD_CARS
+		}
+		 
+		evil_god_names = {
+			RUST GAS_GUZZLER
+		}
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	imunu_reformed = { #highland
+		graphical_culture = norsegfx
+		
+		icon = 2
+		
+		color = {0 0 0 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		crusade_cb = crusade
+		scripture_name = THE_LEGENDS
+		priest_title = PATER
+		
+		piety_name = IMUNU
+		
+		high_god_name = GOD_WOKIM_BIKPEKA
+		
+		god_names = {
+			GOD_OL_SPIRIT GOD_THE_ANCESTORS GOD_PUKPUKPELA GOD_KAIKAI_PAIA
+		}
+		 
+		evil_god_names = {
+			OL_SPIRIT_NOGUT DEWEL OL_POISINMERI OL_SANGUMA
+		}
+		
+		max_wives = 4
+		allow_looting = yes
+		matrilineal_marriages = no
+		
+		allow_in_ruler_designer = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	imunu = { #highland
+		graphical_culture = norsegfx
+		
+		icon = 2
+		
+		color = {0 0 0 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		crusade_cb = crusade
+		scripture_name = THE_LEGENDS
+		priest_title = PATER
+		
+		piety_name = IMUNU
+		
+		high_god_name = GOD_WOKIM_BIKPEKA
+		
+		god_names = {
+			GOD_OL_SPIRIT GOD_THE_ANCESTORS GOD_PUKPUKPELA GOD_KAIKAI_PAIA
+		}
+		 
+		evil_god_names = {
+			OL_SPIRIT_NOGUT DEWEL OL_POISINMERI OL_SANGUMA
+		}
+		
+		max_wives = 4
+		allow_looting = yes
+		peace_prestige_loss = yes
+		matrilineal_marriages = no
+		allow_viking_invasion = yes
+		
+		reformed = imunu_reformed
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+
+	lotu = { #lowland
+		graphical_culture = westerngfx
+		
+		icon = 2
+		
+		color = {0 0 0 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		crusade_cb = crusade
+		scripture_name = THE_LEGENDS
+		priest_title = PATER
+		
+		high_god_name = GOD_BIKPELA
+		
+		god_names = {
+			GOD_BIKMAN GOD_BIKPELA GOD_OL_SPIRIT GOD_ENSEL
+		}
+		 
+		evil_god_names = {
+			TEWEL OL_SPIRIT_NOGUT SATEN 
+		}
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+
+	kaharingan = {
+		graphical_culture = westerngfx
+		
+		icon = 2
+		
+		color = {122 42 136 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		crusade_cb = crusade
+		scripture_name = THE_LEGENDS
+		
+		high_god_name = GOD_THE_CREATOR
+		
+		god_names = {
+			GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		
+		allow_looting = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+}
+
+eruist_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
+	
+	color = { 0.6 0.0 0.0 }
+	
+	interface_skin = { pagan_interface }
+	
+	male_names = {
+	}
+	female_names = {
+	}
+	
+	eruist = {
+		graphical_culture = westerngfx
+		
+		icon = 7
+		heresy_icon = 8
+		
+		color = {0 0 0 }
+		
+		crusade_name = CRUSADE
+		crusade_cb = crusade
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		
+		high_god_name = ERU_ILUVATAR
+		
+		god_names = {
+			GOD_THE_HEROES GOD_THE_ALLFATHER GOD_THE_CHOOSEN_ONE GOD_VALAR GOD_AINUR GOD_QUENDI GOD_ELDARIN GOD_KHAZAD GOD_HOBBITS
+		}
+		 
+		evil_god_names = {
+			THE_KING_OF_DARKNESS THE_EVIL_LORD 
+		}
+		
+		can_excommunicate = yes
+		can_grant_claim = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		allow_viking_invasion = yes
+		
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
+	}
+	
+	quendic = {
+		graphical_culture = westerngfx
+		
+		icon = 7
+		heresy_icon = 8
+		
+		color = {0 0 0 }
+		
+		crusade_name = CRUSADE
+		crusade_cb = crusade
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		
+		high_god_name = GOD_QUENDI
+		
+		god_names = {
+			GOD_THE_HEROES GOD_THE_ALLFATHER GOD_THE_CHOOSEN_ONE ERU_ILUVATAR GOD_ELDARIN GOD_KHAZAD GOD_HOBBITS
+		}
+		 
+		evil_god_names = {
+			THE_KING_OF_DARKNESS THE_EVIL_LORD
+		}
+		
+		parent = eruist
+		
+		can_excommunicate = yes
+		can_grant_claim = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		allow_viking_invasion = yes
+		
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
+	}
+	
+	ritualistic = {
+		graphical_culture = westerngfx
+		
+		icon = 7
+		heresy_icon = 8
+		
+		color = {0 0 0 }
+		
+		crusade_name = CRUSADE
+		crusade_cb = crusade
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		
+		high_god_name = ERU_ILUVATAR
+		
+		god_names = {
+			GOD_THE_HEROES GOD_THE_ALLFATHER GOD_THE_CHOOSEN_ONE GOD_QUENDI GOD_ELDARIN GOD_KHAZAD GOD_HOBBITS GOD_THE_WIZARDS
+		}
+		 
+		evil_god_names = {
+			THE_KING_OF_DARKNESS THE_EVIL_LORD DARTH_SAURON
+		}
+		
+		parent = eruist
+		
+		can_excommunicate = yes
+		can_grant_claim = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		allow_viking_invasion = yes
+		
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
+	}
+
+	
+}
+
+cult_of_saints = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	#crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.8 0.2 0.1 }
+	
+	male_names = {
+	}
+	female_names = {
+	}
+	
+	placeholder_cos = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = {0 0 0 }
+		
+		crusade_name = PLACEHOLDER
+		crusade_cb = crusade
+		scripture_name = PLACEHOLDER
+		priest_title = PLACEHOLDER
+		
+		high_god_name = PLACEHOLDER
+		
+		god_names = {
+			PLACEHOLDER
+		}
+		 
+		evil_god_names = {
+			PLACEHOLDER
+		}
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+}
+
+muslim = {
+	has_coa_on_barony_only = no
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1 # try to convert if ai_zeal is high
+	ai_fabricate_claims = no
+	
+	color = { 0 0.6 0 }
+	
+	interface_skin = { muslim_interface }
+	
+	male_names = {
+	}
+	female_names = {
+	}
+	
+	kebatinan = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = {0 0 0 }
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		can_call_crusade = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+	}
+}
+
+hindu_group = {
+	has_coa_on_barony_only = no
+	graphical_culture = indiangfx
+	playable = yes
+	ai_peaceful = yes # 
+	
+	ai_convert_same_group = 1 
+	ai_convert_other_group = 2	
+	
+	color = { 0.8 0.4 0.0 }
+	
+	interface_skin = { indian_interface muslim_interface }
+	
+	
+}

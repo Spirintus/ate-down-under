@@ -1,0 +1,217 @@
+k_supreme_governor = {
+	color = { 49 58 183 }
+	color2 = {255 255 255}
+	
+	capital = 1 #for now
+	
+	title = "SUPREME_GOVERNOR"
+	foa = "SUPREME_GOVERNOR_FOA"
+	
+	religion = true_church
+	controls_religion = true_church
+	
+	primary = yes
+	
+	dynasty_title_names = no
+}
+
+k_south_cross = {
+	color = {255 215 51}
+	color2 = {255 255 255}
+	
+	capital = 1 #for now
+	
+	title = "ARCHBISHOP"
+	foa = "ARCHBISHOP_FOA"
+	
+	religion = southcrossers
+	controls_religion = southcrossers
+	
+	primary = yes
+	landless = yes
+	
+	dynasty_title_names = no
+	
+	male_names = {
+		"True Guide" "The Most Faithful" "The Faith’s Defender" "Our Lord’s Chosen" "Holy One"
+		"The Holiest of the Holy" "Holyman" "Sacred Guide" "Saviour On earth" "Guide of the Pure" "Holy Warrior"
+		"Chosen By the Southern Cross" "The Pure One" "He Who Fight the Great Heretic"
+		"He Who Fights for the Holy Church" "Lord of the Pure" "Lord of Lords on Earth"
+	}
+}
+
+d_bishop_of_new_zealand = {
+	color = {255 215 51}
+	color2 = {255 255 255}
+	
+	capital = 1 #for now
+	
+	title = "BISHOP"
+	foa = "BISHOP_FOA"
+	
+	pentarchy = southcrossers
+	
+	religion = southcrossers
+	
+	primary = yes
+	
+	dynasty_title_names = no
+}
+
+d_bishop_two = {
+	color = {255 215 51}
+	color2 = {255 255 255}
+	
+	capital = 250 #for now
+	
+	title = "ARCHBISHOP"
+	foa = "ARCHBISHOP_FOA"
+	
+	pentarchy = southcrossers
+	religion = southcrossers
+	
+	primary = yes
+	landless = yes
+	
+	dynasty_title_names = no
+}
+
+d_bishop_three = {
+	color = {255 215 51}
+	color2 = {255 255 255}
+	
+	capital = 79 #for now
+	
+	title = "ARCHBISHOP"
+	foa = "ARCHBISHOP_FOA"
+	
+	pentarchy = southcrossers
+	religion = southcrossers
+	
+	primary = yes
+	landless = yes
+	
+	dynasty_title_names = no
+}
+
+d_bishop_four = {
+	color = {255 215 51}
+	color2 = {255 255 255}
+	
+	capital = 1222 #for now
+	
+	title = "ARCHBISHOP"
+	foa = "ARCHBISHOP_FOA"
+	
+	pentarchy = southcrossers
+	religion = southcrossers
+	
+	primary = yes
+	landless = yes
+	
+	dynasty_title_names = no
+}
+
+d_bishop_five = {
+	color = {255 215 51}
+	color2 = {255 255 255}
+	
+	capital = 700 #for now
+	
+	title = "ARCHBISHOP"
+	foa = "ARCHBISHOP_FOA"
+	
+	pentarchy = southcrossers
+	religion = southcrossers
+	
+	primary = yes
+	landless = yes
+	
+	dynasty_title_names = no
+}
+
+d_bishop_six = {
+	color = {255 215 51}
+	color2 = {255 255 255}
+	
+	capital = 700 #for now
+	
+	title = "ARCHBISHOP"
+	foa = "ARCHBISHOP_FOA"
+	
+	pentarchy = southcrossers
+	religion = southcrossers
+	
+	primary = yes
+	landless = yes
+	
+	dynasty_title_names = no
+}
+
+d_imunu = {
+	color = { 25 25 99 }
+	color2 = {255 255 255}
+	
+	capital = 1 #for now
+	
+	title = "PATER_BILONG_OL_BILIPMANMERI"
+	foa = "PATER_BILONG_OL_BILIPMANMERI_FOA"
+	
+	religion = imunu_reformed
+	controls_religion = imunu_reformed
+	
+	primary = yes
+	
+	dynasty_title_names = no
+}
+
+d_kastom_keeper = {
+	color = { 147 0 0 }
+	color2 = {255 255 255}
+	
+	capital = 1 #for now
+	
+	title = "KEEPER_OF_THE_KASTOM"
+	foa = "KEEPER_OF_THE_KASTOM_FOA"
+	
+	religion = cargo_cult
+	controls_religion = cargo_cult
+	
+	primary = yes
+	
+	dynasty_title_names = no
+}
+
+k_eruist = {
+	color = { 0 0 0 }
+	color2 = {255 255 255}
+	
+	capital = 1 #for now
+	
+	title = "CHOSEN_ONE"
+	foa = "CHOSEN_ONE_FOA"
+	
+	religion = eruist
+	controls_religion = eruist
+	
+	primary = yes
+	
+	dynasty_title_names = no
+}
+
+k_quendic = {
+	color = { 0 0 0 }
+	color2 = {255 255 255}
+	
+	capital = 1 #for now
+	
+	title = "QUENTARO"
+	foa = "QUENTARO_FOA"
+	
+	religion = quendic
+	controls_religion = quendic
+	
+	primary = yes
+	
+	dynasty_title_names = no
+}

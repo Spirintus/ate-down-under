@@ -1,0 +1,209 @@
+namespace = atedu
+
+###atedu.30 - atedu.59
+
+character_event = {
+	id = atedu.30
+
+	hide_window = yes
+	
+	only_men = yes
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		or = {
+			religion = imunu
+			religion = imunu_reformed
+		}
+	}
+	
+	immediate = {
+		character_event = { id = atedu.31 days = 3 random = 3 } #increase number of days
+	}
+}
+
+#kid gets anouncement
+character_event = {
+	id = atedu.31
+	desc = EVTDESC_atedu_31
+	title = EVTTITLE_atedu_31
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+
+	option = { #finally i will became a man
+		name = EVTOPT_atedu_31_A
+		character_event = { id = atedu.32 days = 3 random = 3 }
+		prestige = 10
+	}
+	
+	option = { #may the gods be with me
+		name = EVTOPT_atedu_31_B
+		character_event = { id = atedu.32 days = 3 random = 3 }
+		piety = 10
+	}
+}
+
+#day D
+character_event = {
+	id = atedu.32
+	desc = EVTDESC_atedu_32
+	title = EVTTITLE_atedu_32
+	
+	picture = GFX_evt_mysterious_forest
+	
+	is_triggered_only = yes
+
+	option = { #kid decided to partake ritual
+		name = EVTOPT_atedu_32_A
+		character_event = { id = atedu.33 days = 3 random = 3 }
+		
+		random_list = {
+			65 = {
+				hidden_tooltip = {set_character_flag = initiation_adulthood_succesful}
+			}
+			35 = {
+				hidden_tooltip = {set_character_flag = initiation_adulthood_fucked_up}
+				add_trait = infection
+			}
+		}
+		prestige = 50
+		piety = 50
+	}
+	option = { #kid decided to NOT partake ritual
+		name = EVTOPT_atedu_32_B
+		root = {
+			father = { 
+				if = {
+					limit = { is_alive = yes }
+					character_event = { id = atedu.34 days = 3 random = 3 } 
+					piety = 1
+				}
+				else = {
+					from = { character_event = { id = atedu.36 } }
+				}
+			} 
+		}
+		prestige = -50
+		piety = -100
+	}
+}
+
+
+
+# happy ending
+character_event = {
+	id = atedu.33
+	picture = GFX_evt_mysterious_forest
+	desc = {
+		trigger = {
+			has_character_flag = initiation_adulthood_succesful 
+		}
+		text = EVTDESC_atedu_33A
+	}
+	
+	desc = {
+		trigger = {
+			has_character_flag = initiation_adulthood_fucked_up
+		}
+		text = EVTDESC_atedu_33B
+	}
+	
+	title = EVTTITLE_atedu_33
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = EVTOPT_atedu_33_A
+		custom_tooltip = {
+			text = GOT_PUKPUKSKIN
+			add_character_modifier = {
+				modifier = crocodile_skin
+				duration = -1
+			}
+		}
+		
+	}
+}
+
+# father gets info about kiddo dont wanting to not partaking
+character_event = {
+	id = atedu.34
+	picture = GFX_evt_mysterious_forest
+	desc = EVTDESC_atedu_34
+	
+	title = EVTTITLE_atedu_34
+	
+	is_triggered_only = yes
+	
+	option = { #try it kiddo
+		name = EVTOPT_atedu_34_A
+		from = {
+			character_event = { id = atedu.35 }
+		}
+	}
+	
+	option = { #man must be strong, he is not
+		name = EVTOPT_atedu_34_B
+		prestige = -10
+		piety = -15
+		from = {
+			character_event = { id = atedu.36 }
+		}
+	}
+}
+
+#father tryed to persuade kid
+character_event = {
+	id = atedu.35
+	picture = GFX_evt_mysterious_forest
+	desc = EVTDESC_atedu_35
+	
+	title = EVTTITLE_atedu_35
+	
+	is_triggered_only = yes
+	
+	option = { #imma try
+		name = EVTOPT_atedu_35_A
+		character_event = { id = atedu.33 days = 3 random = 3 }
+		
+		random_list = {
+			65 = {
+				hidden_tooltip = {set_character_flag = initiation_adulthood_succesful}
+			}
+			35 = {
+				hidden_tooltip = {set_character_flag = initiation_adulthood_fucked_up}
+				add_trait = infection
+			}
+		}
+		prestige = 25
+		piety = 25
+	}
+	
+	option = { #nope
+		name = EVTOPT_atedu_35_B
+		character_event = { id = atedu.36 }
+	}
+}
+
+#kiddo didnt make it
+character_event = {
+	id = atedu.36
+	picture = GFX_evt_mysterious_forest
+	desc = EVTDESC_atedu_36
+	
+	title = EVTTITLE_atedu_36
+	
+	is_triggered_only = yes
+	
+	option = { #i didnt wanted to rule anyway
+		name = EVTOPT_atedu_36_A
+		
+		add_trait = imunu_disinherited
+		prestige = -50
+		piety = -50
+	}
+}

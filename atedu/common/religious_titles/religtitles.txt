@@ -1,0 +1,54 @@
+title_southcross_bishop = {
+	religion = southcrossers
+	can_elect_head = yes
+	revoke_allowed = no
+	
+	grant_limit = 6
+	
+	realm_in_name = no
+	show_as_title = yes
+	
+	opinion_effect = 20
+	dignity = 0.9
+	
+	monthly_salary = 0.1
+	monthly_prestige = 0.5
+	
+	allowed_to_grant = {
+		always = no
+	}
+	allow = {
+		religion = southcrossers
+		is_theocracy = yes
+		k_south_cross = {
+			holder_scope = {
+				is_within_diplo_range = ROOT
+			}
+		}
+		NOT = {
+			top_liege = {
+				any_vassal = {
+					any_claim = {
+						title = k_south_cross
+					}
+				}
+			}
+		}
+		# or = {
+			# title = d_bishop_of_new_zealand
+			# title = d_bishop_two
+			# title = d_bishop_three
+			# title = d_bishop_four
+			# title = d_bishop_five
+			# title = d_bishop_six
+		# }
+	}
+	
+	gain_effect = {
+	}
+	
+	lose_effect = {
+	}
+
+	message = yes
+}

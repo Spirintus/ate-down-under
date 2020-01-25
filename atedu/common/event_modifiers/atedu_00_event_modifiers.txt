@@ -1,0 +1,21 @@
+##witch hunt##
+
+burnt_down_village_character = {
+	icon = 34
+	general_opinion = -20
+}
+burnt_down_village_province = {
+	icon = 42
+	local_revolt_risk = 0.2
+	local_build_time_modifier  = -0.1
+	tax_income = -0.1
+}
+
+
+##imunu iniciation##
+
+crocodile_skin = {
+	icon = 7
+	sex_appeal_opinion = 5
+	pagan_group_opinion = 5
+}

@@ -1,0 +1,154 @@
+namespace = atedu
+
+# atedu.60 - atedu.99
+
+character_event = {
+	id = atedu.60
+	desc = EVTDESC_atedu_60
+	title = EVTTITLE_atedu_60
+	picture = GFX_evt_peasants
+	
+	only_independent = yes
+	
+	trigger = {
+		any_realm_title = {
+			title = c_ile_de_france #change to c_dunedin when right time will come
+		}
+		112 = {religion = eruist}
+		not = {religion = eruist}
+		not = {has_global_flag = natural_liberator_appeared}
+		not = {has_global_flag = ongoing_liberator_revolt}
+	}
+	mean_time_to_happen = {
+		days = 16
+		
+		modifier = {
+			factor = 0.5
+			112 = { revolt_risk = 0.1 }
+		}
+		modifier = {
+			factor = 0.5
+			112 = { revolt_risk = 0.05 }
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+	}
+	immediate = {
+		set_global_flag = ongoing_liberator_revolt
+		
+	}
+	
+	option = {
+		name = EVTOPT_atedu_60_A
+		112 = { province_event = { id = atedu.61} }
+	}
+}
+
+
+province_event = {
+	id = atedu.61
+	# desc = EVTDESC_atedu_61
+	# title = EVTTITLE_atedu_61
+	# picture = GFX_evt_peasants
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+
+	immediate = {
+		create_character = {
+			random_traits = no
+			dynasty = 109
+			religion = ROOT
+			culture = ROOT
+			age = 30
+			female = no
+			trait = honest
+			trait = brave
+			trait = diligent
+			trait = proud
+			trait = brilliant_strategist
+			trait = aggressive_leader
+			attributes = {
+				diplomacy = 10
+				martial = 10
+				stewardship = 5
+				intrigue = 6
+				learning = 7
+			}
+		}
+		new_character = {
+			set_character_flag = is_liberator
+			set_defacto_liege = THIS
+			prestige = 100
+			piety = 50
+			create_title = {
+				tier = DUKE
+				landless = yes
+				temporary = yes
+				culture = root
+				name = "LIBERATOR_REVOLT"
+				holder = THIS
+			}
+			# FROM = {
+				# primary_title = {
+					# ROOT = {
+						# add_claim = PREV
+					# }
+				# }
+			# }
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = ROOT
+				home = ROOT
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+					light_cavalry = { 1000 1000 }
+				}
+				attrition = 1.0
+			}
+			spawn_unit = {
+				owner = THIS
+				province = ROOT
+				home = ROOT
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+				}
+				attrition = 1.0
+			}
+			spawn_unit = {
+				owner = THIS
+				province = ROOT
+				home = ROOT
+				troops = {
+					archers = { 1000 1000 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1000 1000 }
+				}
+				attrition = 1.0
+			}
+			unsafe_war = {
+				target = FROM
+				casus_belli = liberator_invasion
+			}
+			# add_claim = c_ile_de_france
+			# war = {
+				# target = FROM
+				# casus_belli = claim
+				# thirdparty_title = c_ile_de_france
+			# }
+		}
+	}
+	
+	# option = {
+		# name = EVTOPT_atedu_61_A
+	# }
+}
+

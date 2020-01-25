@@ -1,0 +1,1 @@
+mild_winter = { 1 }

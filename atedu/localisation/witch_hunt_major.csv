@@ -1,0 +1,44 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_atedu_2;ENGLISH;;;;;;;;;;;;;x
+EVTTITLE_atedu_2;Witch spotted in the [target_province.GetFullName];;;;;;;;;;;;;x
+EVTOPT_atedu_2_A;Saddle my horse! Oh we don't have horses...;;;;;;;;;;;;;x
+EVTOPT_atedu_2_B;Witchcraft. What a nonsense.;;;;;;;;;;;;;x
+EVTDESC_atedu_3;ENGLISH;;;;;;;;;;;;;x
+EVTTITLE_atedu_3;How to catch witch;;;;;;;;;;;;;x
+EVTOPT_atedu_3_A;I should talk with locals.;;;;;;;;;;;;;x
+EVTOPT_atedu_3_B;I should look for her myself.;;;;;;;;;;;;;x
+EVTOPT_atedu_3_C;What a nice place. Maybe I could relax a bit.;;;;;;;;;;;;;x
+EVTDESC_atedu_4;ENGLISH;;;;;;;;;;;;;x
+EVTTITLE_atedu_4;Commoner knows where to find a witch;;;;;;;;;;;;;x
+EVTOPT_atedu_4_A;I should go see this witch myself;;;;;;;;;;;;;x
+EVTOPT_atedu_4_B;nope!;;;;;;;;;;;;;x
+EVTDESC_atedu_5;ENGLISH;;;;;;;;;;;;;x
+EVTTITLE_atedu_5;Old Hag;;;;;;;;;;;;;x
+EVTOPT_atedu_5_A;I am [Root.GetTitledName] and you I came for you witch.;;;;;;;;;;;;;x
+EVTOPT_atedu_5_B; This is granny Charlize, not a witch.;;;;;;;;;;;;;x
+EVTDESC_atedu_6;ENGLISH;;;;;;;;;;;;;x
+EVTTITLE_atedu_6;Witch trail;;;;;;;;;;;;;x
+EVTOPT_atedu_6_A;Then we are done.;;;;;;;;;;;;;x
+EVTOPT_atedu_6_B;Kill her, just in case.;;;;;;;;;;;;;x
+EVTOPT_atedu_6_C;I don't think so... It's time for a witch soup.;;;;;;;;;;;;;x
+EVTDESC_atedu_7;[witch_hunted_count.GetName] is [witch_hunted_count.GetValue];;;;;;;;;;;;;x
+EVTTITLE_atedu_7;Problem solved;;;;;;;;;;;;;x
+EVTOPT_atedu_7_A;I look forward for my own bed.;;;;;;;;;;;;;x
+EVTDESC_atedu_8;ENGLISH;;;;;;;;;;;;;x
+EVTTITLE_atedu_8;Relaxing Kings II;;;;;;;;;;;;;x
+EVTOPT_atedu_8_A;It's good to feel relaxed.;;;;;;;;;;;;;x
+EVTDESC_atedu_9;ENGLISH;;;;;;;;;;;;;x
+EVTTITLE_atedu_9;Wild thug appeared;;;;;;;;;;;;;x
+EVTOPT_atedu_9_A;Run!;;;;;;;;;;;;;x
+EVTOPT_atedu_9_B;Have you ever seen your nose?;;;;;;;;;;;;;x
+EVTDESC_atedu_10;You haven't found anything suspicious during your visit.;;;;;;;;;;;;;x
+EVTTITLE_atedu_10;Everything seems normal;;;;;;;;;;;;;x
+EVTOPT_atedu_10_A;That's suspicious.;;;;;;;;;;;;;x
+EVTOPT_atedu_10_B;It's time to go home.;;;;;;;;;;;;;x
+EVTDESC_atedu_11;ENGLISH;;;;;;;;;;;;;x
+EVTTITLE_atedu_11;Possesed by the witch;;;;;;;;;;;;;x
+EVTOPT_atedu_11_A;Burn the village down, it's better for them to die.;;;;;;;;;;;;;x
+EVTOPT_atedu_11_B;I should rather call priest.;;;;;;;;;;;;;x
+burnt_down_village_province;Burnt village;;;;;;;;;;;;;x
+burnt_down_village_character;Burnt down a village;;;;;;;;;;;;;x
+witch_hunted_count; Number of witches hunted down;;;;;;;;;;;;;x

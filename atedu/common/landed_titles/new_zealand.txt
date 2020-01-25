@@ -1,0 +1,123 @@
+e_new_zealand = {
+	color = { 204 119 34 }
+	color2 = { 255 255 255 }
+
+	capital = 1 #dunedin
+	
+	title = "HIGH_KING"
+	foa = "HIGH_KING_FOA"
+	
+	k_wellington = {
+		color = { 204 199 34 }
+		color2 = { 255 255 255 }
+		
+		capital = 1 #wellington
+		
+	}
+	
+	k_auckland = {
+		color = {180 143 64 }
+		color2 = { 255 255 255 }
+		
+		capital = 1 #auckland and it really was auckland
+		
+		title = "PRINCE"
+		foa = "PRINCE_FOA"
+		
+		d_auckland = {
+			color = {180 143 64 }
+			color2 = { 255 255 255 }
+			capital = 1
+			
+			c_auckland = {
+				color = {180 143 64 }
+				color2 = { 255 255 255 }
+				b_auckland = {}
+			}
+		}
+	}
+	k_chatham = {
+		color = {183 117 170}
+		color2 = { 255 255 255 }
+		
+		capital = 1 #chatham
+		d_chatham = {
+			color = {202 117 170}
+			color2 = { 255 255 255 }
+		
+			capital = 1 #chatham
+			
+			c_chatham = {
+				color = {183 117 170}
+				color2 = { 255 255 255 }
+				
+				#I expect that there won't be more than one holding slot initially but there are ways how to increase their limit during the game so it's better to have more baronies defined
+				
+				b_waitangi = {}
+				b_owenga = {}
+				b_te_one = {}
+				b_kaingaroa = {}
+				b_port_hutt = {}
+			}
+		}
+	}
+	k_norfolk = {
+		color = {70 109 173}
+		color2 = { 255 255 255 }
+		
+		capital = 1 #norfolk
+		d_norfolk = {
+			color = {87, 109, 139}
+			color2 = { 255 255 255 }
+		
+			capital = 1 #norfolk
+			
+			c_norfolk = {
+				color = {76, 141, 183}
+				color2 = { 255 255 255 }
+				
+				b_kingston = {}
+				b_burnt_pine = {}
+				b_cascade = {}
+				b_middlegate =  {}
+				b_nepean_island = {}
+				b_phillip_island = {}
+				b_emily_bay = {}
+			}
+		}
+	}
+	
+	k_antarctic_islands = {
+		color = {70 109 173}
+		color2 = { 255 255 255 }
+		
+		capital = 1 #norfolk
+		d_antarctic_islands = {
+			color = {87, 109, 139}
+			color2 = { 255 255 255 }
+		
+			capital = 1 #norfolk
+			
+			c_auckland_islands = {
+				color = {76, 141, 183}
+				color2 = { 255 255 255 }
+				
+				b_mount_dick = {}
+				b_new_auckland = {}
+				b_adams = {}
+				b_enderby = {}
+				b_dissapointment = {}
+				b_ewing = {}
+				b_rose = {}
+			}
+			c_campbell = {
+				color = {76, 141, 183}
+				color2 = { 255 255 255 }
+				
+				b_campbell = {}
+				b_bellfort = {}
+				
+			}
+		}
+	}
+}
