@@ -1,4 +1,4 @@
-the_fellowship_order = {
+d_the_fellowship_order = {
 	color={ 230 230 230 }
 	color2={ 255 255 255 }
 	

@@ -75,7 +75,7 @@
 	father = 7
 	
 	2623.3.9 = { birth = yes}
-	2343.7.2 = {add_spouse = 20}
+	2643.7.2 = {add_spouse = 20}
 	2661.4.2 = { death = yes }
 }
 
@@ -200,8 +200,8 @@
 	culture = sydneyan
 	female = yes
 	father = 18
-	spouse = 8
 	2635.1.30 = {birth = yes}
+	2643.7.2 = {add_spouse = 8}
 }
 
 

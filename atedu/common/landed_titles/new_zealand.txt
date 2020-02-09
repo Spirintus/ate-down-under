@@ -67,13 +67,13 @@ e_new_zealand = {
 		
 		capital = 1 #norfolk
 		d_norfolk = {
-			color = {87, 109, 139}
+			color = {87 109 139}
 			color2 = { 255 255 255 }
 		
 			capital = 1 #norfolk
 			
 			c_norfolk = {
-				color = {76, 141, 183}
+				color = {76 141 183}
 				color2 = { 255 255 255 }
 				
 				b_kingston = {}
@@ -93,13 +93,13 @@ e_new_zealand = {
 		
 		capital = 1 #norfolk
 		d_antarctic_islands = {
-			color = {87, 109, 139}
+			color = {87 109 139}
 			color2 = { 255 255 255 }
 		
 			capital = 1 #norfolk
 			
 			c_auckland_islands = {
-				color = {76, 141, 183}
+				color = {76 141 183}
 				color2 = { 255 255 255 }
 				
 				b_mount_dick = {}
@@ -111,7 +111,7 @@ e_new_zealand = {
 				b_rose = {}
 			}
 			c_campbell = {
-				color = {76, 141, 183}
+				color = {76 141 183}
 				color2 = { 255 255 255 }
 				
 				b_campbell = {}
