@@ -1,0 +1,25 @@
+bm_bookmark_the_first = {
+	name = "THE_FIRST_ERA"
+	desc = "THE_FIRST_ERA_INFO"
+	date = 2666.9.15
+
+	era = yes
+	picture = GFX_pick_era_image_6
+
+	selectable_character = {
+		id = 10
+		age = 6
+		title = c_auckland
+		title_name = c_auckland
+		name = "Fiona"
+		female = yes
+		character = {
+			dna = axgiowlnepj
+			properties = anm0ka00000000000000000000000000000000
+			dynasty = 200
+			religion = southcrossers
+			culture = sydneyan
+		}
+	}
+
+}

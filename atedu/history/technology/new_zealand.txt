@@ -1,6 +1,9 @@
 technology = {
 	titles = {
 		d_auckland
+		d_chatham
+		d_norfolk
+		d_antarctic_islands
 	}
 	769 = {
 		military = 0.2
