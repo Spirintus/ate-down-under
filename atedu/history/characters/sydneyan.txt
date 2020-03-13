@@ -75,7 +75,7 @@
 	father = 7
 	
 	2623.3.9 = { birth = yes}
-	2643.7.2 = {add_spouse = 20}
+	2653.7.2 = {add_spouse = 20}
 	2661.4.2 = { death = yes }
 }
 
@@ -99,6 +99,7 @@
 	father = 8
 	mother = 20
 	2660.5.3 = { birth = yes}
+	2700.1.1 = { death = yes} # in case
 }
 
 11 = { 
@@ -108,6 +109,7 @@
 	culture = sydneyan
 	father = 7
 	2629.3.14 = { birth = yes}
+	2700.1.1 = { death = yes} # in case
 }
 
 12 = { 
@@ -118,6 +120,7 @@
 	female = yes
 	father = 7
 	2639.2.9 = { birth = yes}
+	2700.1.1 = { death = yes} # in case
 }
 
 13 = {
@@ -182,6 +185,7 @@
 	trait = temperate
 	trait = lustful
 	2610.8.28 = {birth = yes}
+	2700.1.1 = { death = yes} # in case
 }
 
 19 = {
@@ -191,6 +195,7 @@
 	culture = sydneyan
 	father = 18
 	2633.3.23 = {birth = yes}
+	2700.1.1 = { death = yes} # in case
 }
 
 20 = {
@@ -201,14 +206,15 @@
 	female = yes
 	father = 18
 	2635.1.30 = {birth = yes}
-	2643.7.2 = {add_spouse = 8}
+	2653.7.2 = {add_spouse = 8}
+	2700.1.1 = { death = yes} # in case
 }
 
 
-21 = {
-	name = "old guy"
-	dynasty = 1
-	religion = eruist
-	culture = sydneyan
-	1050.1.1 = {birth = yes}
-}
+# 21 = {
+	# name = "old guy"
+	# dynasty = 1
+	# religion = eruist
+	# culture = sydneyan
+	# 1050.1.1 = {birth = yes}
+# }

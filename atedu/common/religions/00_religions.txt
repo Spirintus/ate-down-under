@@ -111,7 +111,6 @@ christian = {
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
 	}
-	
 	true_church = {
 		graphical_culture = westerngfx
 		
