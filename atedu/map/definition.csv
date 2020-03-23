@@ -75,7 +75,7 @@ province;red;green;blue;x;x
 74;107;66;55;Auckland Islands;x
 75;85;20;3;Campbell Islands;x
 76;175;65;108;Chatham Islands;x
-77;1;1;1;PLACEHOLDER77;x
+77;13;82;93;Auckland Bay;x
 78;125;126;53;West Fiordland;x
 79;173;175;0;Alabaster;x
 80;145;147;7;Ionia;x
@@ -93,3 +93,37 @@ province;red;green;blue;x;x
 92;228;233;61;Westcoast;x
 93;182;185;60;Upper Takaka;x
 94;193;196;99;Collingwood;x
+95;54;107;116;Northland Coast;x
+96;15;63;71;Matauri Bay;x
+97;129;198;209;Hauraki Bay;x
+98;4;152;175;Bay of Plenty;x
+99;13;87;98;Maui Coast;x
+100;118;171;179;Coast of Napier;x
+101;60;123;133;Pacific Coast;x
+102;108;191;203;North Palliser;x
+103;48;215;241;Palliser Bay;x
+104;16;141;161;Wellington Strait;x
+105;25;124;167;North Christchurch Bay;x
+106;177;219;237;Christchurch Bay;x
+107;26;164;228;Outer Bay;x
+108;110;173;200;Northern Canterbury Bight;x
+109;38;94;118;Southern Canterbury Bight;x
+110;169;198;210;Port Chalmers;x
+111;16;67;89;Toetoes Bay;x
+112;13;98;134;Foveaux Strait;x
+113;106;203;231;Doubtful Sound;x
+114;23;159;165;Martins Bay;x
+115;83;174;178;Glacierview;x
+116;48;233;241;Karamea Bight;x
+117;9;126;144;South Taranaki Bight;x
+118;110;209;224;Cook Strait;x
+119;17;68;76;North Taranaki Bight;x
+120;133;180;200;Easy Harbour;x
+121;63;81;89;South Haldane Bay;x
+122;186;208;218;Auckland Path;x
+123;115;80;108;Snares Sea;x
+124;92;142;164;Auckland Islands Sea;x
+125;61;88;100;Campbell Islands Sea;x
+126;18;34;41;Open Pacific;x
+127;57;69;75;Western Chatham Sea;x
+128;4;39;55;Chatham Sea;x
