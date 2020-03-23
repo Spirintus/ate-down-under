@@ -14,7 +14,7 @@ b_riverton = castle
 #b_riverton_6 = temple
 
 # Misc
-culture = canadian
-religion = gnostic
+culture = jadite
+religion = eruist
 
 #History

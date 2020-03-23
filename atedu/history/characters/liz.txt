@@ -4,7 +4,7 @@
 	female = yes
 	dynasty = 476
 	religion = "gnostic"
-	culture = "canadian"
+	culture = "jadite"
 	mother = 1452
 	dna="agbbg0cba00"
 	properties="i00f0000000000000000000000000000000000000"
@@ -21,6 +21,7 @@
 	}
 	2664.2.6={
 	add_matrilineal_spouse = 1454 
+	give_nickname = nick_the_heretic
 	}
 	trait = "grey_eminence"
 	trait = "inspiring_leader"
@@ -31,7 +32,7 @@
 1452 = {
 	name = "Tricia"
 	female = yes
-	culture = "canadian"
+	culture = "jadite"
 	religion "gnostic"
 	dynasty = 476
 	dna="agb0a0cba00"
@@ -50,7 +51,7 @@
 }
 1454 = {
 	name = "Dio"
-	culture = "canadian"
+	culture = "portuguese"
 	religion = "gnostic"
 	dynasty = 477
 	dna="aeffd0gaa00"

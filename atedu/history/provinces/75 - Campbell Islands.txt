@@ -10,7 +10,7 @@ b_campbell_islands = castle
 #b_campbell_islands_2 = city
 
 # Misc
-culture = canadian
-religion = gnostic
+culture = jadite
+religion = eruist
 
 #History

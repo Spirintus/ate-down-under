@@ -11,7 +11,7 @@ b_auckland_islands = castle
 #b_auckland_islands_3 = temple
 
 # Misc
-culture = canadian
+culture = jadite
 religion = gnostic
 
 #History
