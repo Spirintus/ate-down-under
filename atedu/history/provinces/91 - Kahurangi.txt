@@ -1,0 +1,16 @@
+# c_kahurangi
+
+# County Title
+title = c_kahurangi
+
+# Settlements
+max_settlements = 2
+
+b_kahurangi = castle
+#b_kahurangi_2 = city
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

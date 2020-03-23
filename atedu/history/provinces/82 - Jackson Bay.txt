@@ -1,0 +1,15 @@
+# c_jackson_bay
+
+# County Title
+title = c_jackson_bay
+
+# Settlements
+max_settlements = 1
+
+b_jackson_bay = castle
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

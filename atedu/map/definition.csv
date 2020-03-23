@@ -1,3 +1,95 @@
 province;red;green;blue;x;x
 1;42;3;128;Auckland;x
-2;13;82;93;DerMare;x
+2;38;35;79;Kaipura;x
+3;96;93;161;Mataura;x
+4;153;152;176;Russell Forest;x
+5;41;38;130;Northland;x
+6;133;12;140;Coromandel;x
+7;75;50;129;Raglan;x
+8;90;30;94;Hamilton;x
+9;186;0;198;Mokau;x
+10;186;32;196;Whangamomona;x
+11;76;31;79;Tongariro;x
+12;146;92;191;Paparangi;x
+13;215;96;223;Tauranga;x
+14;136;47;142;Opotiki;x
+15;132;18;139;Waihau Bay;x
+16;251;96;223;Taupo;x
+17;165;32;174;Waikite Valley;x
+18;143;91;144;Kaimanawa Forest;x
+19;227;148;232;Otuku;x
+20;222;100;232;Mangamahu;x
+21;45;22;49;Palmerston;x
+22;184;68;191;Akitio;x
+23;82;13;86;Herbertville;x
+24;148;27;156;Dannevirke;x
+25;44;20;45;Taihape;x
+26;92;73;93;Sherenden;x
+27;80;38;81;Hastings;x
+28;159;112;161;Hawkes Bay;x
+29;137;58;139;Te Haroto;x
+30;94;62;96;Te Urewera;x
+31;138;5;147;Frasertown;x
+32;232;142;238;Gisborne;x
+33;216;161;220;Mahia;x
+34;98;5;104;Ruatoria;x
+35;121;184;148;Wellington;x
+36;61;133;192;Levin;x
+37;48;99;70;Masterton;x
+38;21;157;79;Castlepoint;x
+39;44;160;93;Plymouth;x
+40;24;206;102;Stratford;x
+41;75;140;103;Patea;x
+42;21;86;49;Whanganui;x
+43;10;166;76;Havelock;x
+44;20;175;86;Nelson;x
+45;102;189;139;Richmond;x
+46;19;91;50;Richmond Hill;x
+47;46;135;84;St Arnaud;x
+48;75;185;124;Blenheim;x
+49;88;212;141;Clarence;x
+50;48;89;66;Kaikoura;x
+51;158;0;62;Cheviot;x
+52;143;39;80;Amberly;x
+53;214;31;101;Christchurch;x
+54;145;77;103;Leeston;x
+55;66;3;27;Willowby;x
+56;143;63;94;Timaru;x
+57;165;61;100;South Palmerston;x
+58;219;145;173;Dunedin;x
+59;81;11;38;Twizel;x
+60;152;19;72;Hanmer Springs;x
+61;126;8;55;Culverden;x
+62;85;14;42;Lake Sumner;x
+63;144;24;71;Arthurs Pass;x
+64;118;69;86;Wanaka;x
+65;88;44;59;Cromwell;x
+66;139;9;58;Alexandra;x
+67;156;63;62;Coronet Peak;x
+68;58;10;28;Riversdale;x
+69;196;87;128;Balclutha;x
+70;250;178;205;Invercargill;x
+71;86;29;13;East Fiordland;x
+72;108;34;15;Riverton;x
+73;148;34;4;Stewart Island;x
+74;107;66;55;Auckland Islands;x
+75;85;20;3;Campbell Islands;x
+76;175;65;108;Chatham Islands;x
+77;1;1;1;PLACEHOLDER77;x
+78;125;126;53;West Fiordland;x
+79;173;175;0;Alabaster;x
+80;145;147;7;Ionia;x
+81;126;126;21;Aspiring;x
+82;188;139;113;Jackson Bay;x
+83;235;238;24;Haast;x
+84;93;94;16;Fox Glacier;x
+85;115;116;60;Ross;x
+86;183;184;111;Greymouth;x
+87;65;66;9;Inchbonnie;x
+88;116;117;38;Victoria Forest;x
+89;136;138;63;Westport;x
+90;123;125;29;Nelson Lakes;x
+91;117;120;5;Kahurangi;x
+92;228;233;61;Westcoast;x
+93;182;185;60;Upper Takaka;x
+94;193;196;99;Collingwood;x

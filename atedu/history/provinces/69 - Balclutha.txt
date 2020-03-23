@@ -1,0 +1,16 @@
+# c_balclutha
+
+# County Title
+title = c_balclutha
+
+# Settlements
+max_settlements = 2
+
+b_balclutha = castle
+#b_balclutha_2 = city
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

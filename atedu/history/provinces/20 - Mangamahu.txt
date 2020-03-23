@@ -1,0 +1,18 @@
+# c_mangamahu
+
+# County Title
+title = c_mangamahu
+
+# Settlements
+max_settlements = 4
+
+b_mangamahu = castle
+#b_mangamahu_2 = city
+#b_mangamahu_3 = temple
+#b_mangamahu_4 = castle
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

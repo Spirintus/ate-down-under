@@ -1,0 +1,20 @@
+# c_stratford
+
+# County Title
+title = c_stratford
+
+# Settlements
+max_settlements = 6
+
+b_stratford = castle
+#b_stratford_2 = city
+#b_stratford_3 = temple
+#b_stratford_4 = castle
+#b_stratford_5 = city
+#b_stratford_6 = temple
+
+# Misc
+culture = wellingtonian
+religion = southcrosser
+
+#History

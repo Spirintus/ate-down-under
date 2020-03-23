@@ -1,0 +1,18 @@
+# c_upper_takaka
+
+# County Title
+title = c_upper_takaka
+
+# Settlements
+max_settlements = 4
+
+b_upper_takaka = castle
+#b_upper_takaka_2 = city
+#b_upper_takaka_3 = temple
+#b_upper_takaka_4 = castle
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

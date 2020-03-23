@@ -1,0 +1,21 @@
+# c_northland
+
+# County Title
+title = c_northland
+
+# Settlements
+max_settlements = 3
+
+b_cape_reinga = castle
+#b_ngataki = city
+#b_te_kao = temple
+#b_rangaunu_bay = castle
+#b_karikari = city
+#b_ohia = temple
+#b_ohiparu = castle
+
+# Misc
+culture = aucklander
+religion = southcrosser
+
+#History

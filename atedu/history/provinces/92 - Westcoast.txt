@@ -1,0 +1,17 @@
+# c_westcoast
+
+# County Title
+title = c_westcoast
+
+# Settlements
+max_settlements = 3
+
+b_westcoast = castle
+#b_westcoast_2 = city
+#b_westcoast_3 = temple
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

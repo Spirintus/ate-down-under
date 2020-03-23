@@ -1,0 +1,20 @@
+# c_tauranga
+
+# County Title
+title = c_tauranga
+
+# Settlements
+max_settlements = 6
+
+b_tauranga = castle
+#b_tauranga_2 = city
+#b_tauranga_3 = temple
+#b_tauranga_4 = castle
+#b_tauranga_5 = city
+#b_tauranga_6 = temple
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

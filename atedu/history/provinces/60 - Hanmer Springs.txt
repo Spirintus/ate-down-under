@@ -1,0 +1,15 @@
+# c_hanmer_springs
+
+# County Title
+title = c_hanmer_springs
+
+# Settlements
+max_settlements = 1
+
+b_hanmer_springs = castle
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

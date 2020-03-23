@@ -1,0 +1,15 @@
+# c_nelson_lakes
+
+# County Title
+title = c_nelson_lakes
+
+# Settlements
+max_settlements = 1
+
+b_nelson_lakes = castle
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

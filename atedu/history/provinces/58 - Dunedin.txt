@@ -1,0 +1,20 @@
+# c_dunedin
+
+# County Title
+title = c_dunedin
+
+# Settlements
+max_settlements = 6
+
+b_dunedin = castle
+#b_dunedin_2 = city
+#b_dunedin_3 = temple
+#b_dunedin_4 = castle
+#b_dunedin_5 = city
+#b_dunedin_6 = temple
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

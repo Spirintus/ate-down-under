@@ -1,0 +1,20 @@
+# c_wellington
+
+# County Title
+title = c_wellington
+
+# Settlements
+max_settlements = 6
+
+b_wellington = castle
+#b_wellington_2 = city
+#b_wellington_3 = temple
+#b_wellington_4 = castle
+#b_wellington_5 = city
+#b_wellington_6 = temple
+
+# Misc
+culture = wellingtonian
+religion = southcrosser
+
+#History

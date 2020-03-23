@@ -1,0 +1,19 @@
+# c_taihape
+
+# County Title
+title = c_taihape
+
+# Settlements
+max_settlements = 5
+
+b_taihape = castle
+#b_taihape_2 = city
+#b_taihape_3 = temple
+#b_taihape_4 = castle
+#b_taihape_5 = city
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

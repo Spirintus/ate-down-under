@@ -1,0 +1,17 @@
+# c_alabaster
+
+# County Title
+title = c_alabaster
+
+# Settlements
+max_settlements = 3
+
+b_alabaster = castle
+#b_alabaster_2 = city
+#b_alabaster_3 = temple
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

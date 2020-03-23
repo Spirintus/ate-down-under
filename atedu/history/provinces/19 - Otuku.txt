@@ -1,0 +1,17 @@
+# c_otuku
+
+# County Title
+title = c_otuku
+
+# Settlements
+max_settlements = 3
+
+b_otuku = castle
+#b_otuku_2 = city
+#b_otuku_3 = temple
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

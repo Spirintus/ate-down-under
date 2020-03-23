@@ -1,0 +1,16 @@
+# c_levin
+
+# County Title
+title = c_levin
+
+# Settlements
+max_settlements = 2
+
+b_levin = castle
+#b_levin_2 = city
+
+# Misc
+culture = wellingtonian
+religion = southcrosser
+
+#History

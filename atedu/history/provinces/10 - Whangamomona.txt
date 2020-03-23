@@ -1,0 +1,19 @@
+# c_whangamomona
+
+# County Title
+title = c_whangamomona
+
+# Settlements
+max_settlements = 5
+
+b_whangamomona = castle
+#b_whangamomona_2 = city
+#b_whangamomona_3 = temple
+#b_whangamomona_4 = castle
+#b_whangamomona_5 = city
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

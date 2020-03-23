@@ -1,0 +1,17 @@
+# c_dannevirke
+
+# County Title
+title = c_dannevirke
+
+# Settlements
+max_settlements = 3
+
+b_dannevirke = castle
+#b_dannevirke_2 = city
+#b_dannevirke_3 = temple
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

@@ -1,0 +1,16 @@
+# c_herbertville
+
+# County Title
+title = c_herbertville
+
+# Settlements
+max_settlements = 2
+
+b_herbertville = castle
+#b_herbertville_2 = city
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

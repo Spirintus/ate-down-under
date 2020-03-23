@@ -1,0 +1,17 @@
+# c_te_urewera
+
+# County Title
+title = c_te_urewera
+
+# Settlements
+max_settlements = 3
+
+b_te_urewera = castle
+#b_te_urewera_2 = city
+#b_te_urewera_3 = temple
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

@@ -1,17 +1,21 @@
-# 1 -Auckland
+# c_auckland
 
 # County Title
 title = c_auckland
 
 # Settlements
-max_settlements = 7
+max_settlements = 6
 
-b_auckland = castle
-#b_montlhery
+b_mount_wellington = castle
+b_waiheke = temple
+b_auckland = city
+b_mount_albert = castle
+#b_albany = city
+#b_clevedon = temple
+#b_flat_bush = castle
 
-#culture = old_frankish
-religion = eruist
-culture = sydneyan
-# History
+# Misc
+culture = aucklander
+religion = southcrosser
 
-
+#History

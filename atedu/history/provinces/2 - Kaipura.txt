@@ -1,0 +1,21 @@
+# c_kaipura
+
+# County Title
+title = c_kaipura
+
+# Settlements
+max_settlements = 5
+
+b_wellsford = castle
+b_tapora = city
+b_south_head = temple
+#b_marsden_point = castle
+#b_dargaville = city
+#b_waipu = temple
+#b_whakapirau = castle
+
+# Misc
+culture = aucklander
+religion = southcrosser
+
+#History

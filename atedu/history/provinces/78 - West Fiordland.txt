@@ -1,0 +1,16 @@
+# c_west_fiordland
+
+# County Title
+title = c_west_fiordland
+
+# Settlements
+max_settlements = 2
+
+b_west_fiordland = tribal
+#b_west_fiordland_2 = city
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

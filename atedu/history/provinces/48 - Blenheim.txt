@@ -1,0 +1,19 @@
+# c_blenheim
+
+# County Title
+title = c_blenheim
+
+# Settlements
+max_settlements = 5
+
+b_blenheim = castle
+#b_blenheim_2 = city
+#b_blenheim_3 = temple
+#b_blenheim_4 = castle
+#b_blenheim_5 = city
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

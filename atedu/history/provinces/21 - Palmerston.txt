@@ -1,0 +1,20 @@
+# c_palmerston
+
+# County Title
+title = c_palmerston
+
+# Settlements
+max_settlements = 6
+
+b_palmerston = castle
+#b_palmerston_2 = city
+#b_palmerston_3 = temple
+#b_palmerston_4 = castle
+#b_palmerston_5 = city
+#b_palmerston_6 = temple
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

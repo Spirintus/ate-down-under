@@ -1,0 +1,21 @@
+# c_russell_forest
+
+# County Title
+title = c_russell_forest
+
+# Settlements
+max_settlements = 2
+
+b_russel = castle
+b_opua = temple
+#b_helena_bay = temple
+#b_moturoa = castle
+#b_haruru_falls = city
+#b_pomare_bay = temple
+#b_pakaraka = castle
+
+# Misc
+culture = aucklander
+religion = southcrosser
+
+#History

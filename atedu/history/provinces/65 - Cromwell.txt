@@ -1,0 +1,16 @@
+# c_cromwell
+
+# County Title
+title = c_cromwell
+
+# Settlements
+max_settlements = 2
+
+b_cromwell = castle
+#b_cromwell_2 = city
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

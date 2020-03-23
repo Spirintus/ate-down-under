@@ -1,0 +1,16 @@
+# c_willowby
+
+# County Title
+title = c_willowby
+
+# Settlements
+max_settlements = 2
+
+b_willowby = castle
+#b_willowby_2 = city
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

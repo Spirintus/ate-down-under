@@ -1,0 +1,17 @@
+# c_coromandel
+
+# County Title
+title = c_coromandel
+
+# Settlements
+max_settlements = 3
+
+b_coromandel = castle
+#b_coromandel_2 = city
+#b_coromandel_3 = temple
+
+# Misc
+culture = aucklander
+religion = southcrosser
+
+#History

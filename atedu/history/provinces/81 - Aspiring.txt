@@ -1,0 +1,18 @@
+# c_aspiring
+
+# County Title
+title = c_aspiring
+
+# Settlements
+max_settlements = 4
+
+b_aspiring = castle
+#b_aspiring_2 = city
+#b_aspiring_3 = temple
+#b_aspiring_4 = castle
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

@@ -1,0 +1,18 @@
+# c_alexandra
+
+# County Title
+title = c_alexandra
+
+# Settlements
+max_settlements = 4
+
+b_alexandra = castle
+#b_alexandra_2 = city
+#b_alexandra_3 = temple
+#b_alexandra_4 = castle
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

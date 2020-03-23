@@ -1,0 +1,17 @@
+# c_coronet_peak
+
+# County Title
+title = c_coronet_peak
+
+# Settlements
+max_settlements = 3
+
+b_coronet_peak = castle
+#b_coronet_peak_2 = city
+#b_coronet_peak_3 = temple
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

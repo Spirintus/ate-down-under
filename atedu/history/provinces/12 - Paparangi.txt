@@ -1,0 +1,18 @@
+# c_paparangi
+
+# County Title
+title = c_paparangi
+
+# Settlements
+max_settlements = 4
+
+b_paparangi = castle
+#b_paparangi_2 = city
+#b_paparangi_3 = temple
+#b_paparangi_4 = castle
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

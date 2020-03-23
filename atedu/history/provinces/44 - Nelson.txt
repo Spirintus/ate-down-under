@@ -1,0 +1,18 @@
+# c_nelson
+
+# County Title
+title = c_nelson
+
+# Settlements
+max_settlements = 4
+
+b_nelson = castle
+#b_nelson_2 = city
+#b_nelson_3 = temple
+#b_nelson_4 = castle
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

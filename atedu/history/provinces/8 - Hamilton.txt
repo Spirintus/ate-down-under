@@ -1,0 +1,20 @@
+# c_hamilton
+
+# County Title
+title = c_hamilton
+
+# Settlements
+max_settlements = 6
+
+b_hamilton = castle
+#b_hamilton_2 = city
+#b_hamilton_3 = temple
+#b_hamilton_4 = castle
+#b_hamilton_5 = city
+#b_hamilton_6 = temple
+
+# Misc
+culture = aucklander
+religion = eruite
+
+#History

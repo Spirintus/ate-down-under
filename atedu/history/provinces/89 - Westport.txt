@@ -1,0 +1,20 @@
+# c_westport
+
+# County Title
+title = c_westport
+
+# Settlements
+max_settlements = 6
+
+b_westport = castle
+#b_westport_2 = city
+#b_westport_3 = temple
+#b_westport_4 = castle
+#b_westport_5 = city
+#b_westport_6 = temple
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

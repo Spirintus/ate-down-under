@@ -1,0 +1,19 @@
+# c_greymouth
+
+# County Title
+title = c_greymouth
+
+# Settlements
+max_settlements = 5
+
+b_greymouth = castle
+#b_greymouth_2 = city
+#b_greymouth_3 = temple
+#b_greymouth_4 = castle
+#b_greymouth_5 = city
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

@@ -1,0 +1,17 @@
+# c_ionia
+
+# County Title
+title = c_ionia
+
+# Settlements
+max_settlements = 3
+
+b_ionia = castle
+#b_ionia_2 = city
+#b_ionia_3 = temple
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

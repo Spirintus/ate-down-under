@@ -1,0 +1,16 @@
+# c_leeston
+
+# County Title
+title = c_leeston
+
+# Settlements
+max_settlements = 2
+
+b_leeston = castle
+#b_leeston_2 = city
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

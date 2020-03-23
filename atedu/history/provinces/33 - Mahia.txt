@@ -1,0 +1,18 @@
+# c_mahia
+
+# County Title
+title = c_mahia
+
+# Settlements
+max_settlements = 4
+
+b_mahia = castle
+#b_mahia_2 = city
+#b_mahia_3 = temple
+#b_mahia_4 = castle
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

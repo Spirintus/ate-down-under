@@ -1,0 +1,17 @@
+# c_wanaka
+
+# County Title
+title = c_wanaka
+
+# Settlements
+max_settlements = 3
+
+b_wanaka = castle
+#b_wanaka_2 = city
+#b_wanaka_3 = temple
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

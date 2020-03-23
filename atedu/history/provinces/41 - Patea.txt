@@ -1,0 +1,19 @@
+# c_patea
+
+# County Title
+title = c_patea
+
+# Settlements
+max_settlements = 5
+
+b_patea = castle
+#b_patea_2 = city
+#b_patea_3 = temple
+#b_patea_4 = castle
+#b_patea_5 = city
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

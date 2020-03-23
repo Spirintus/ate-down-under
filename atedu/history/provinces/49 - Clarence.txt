@@ -1,0 +1,17 @@
+# c_clarence
+
+# County Title
+title = c_clarence
+
+# Settlements
+max_settlements = 3
+
+b_clarence = castle
+#b_clarence_2 = city
+#b_clarence_3 = temple
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

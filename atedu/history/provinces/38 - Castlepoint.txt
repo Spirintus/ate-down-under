@@ -1,0 +1,17 @@
+# c_castlepoint
+
+# County Title
+title = c_castlepoint
+
+# Settlements
+max_settlements = 3
+
+b_castlepoint = castle
+#b_castlepoint_2 = city
+#b_castlepoint_3 = temple
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

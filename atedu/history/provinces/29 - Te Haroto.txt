@@ -1,0 +1,16 @@
+# c_te_haroto
+
+# County Title
+title = c_te_haroto
+
+# Settlements
+max_settlements = 2
+
+b_te_haroto = castle
+#b_te_haroto_2 = city
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

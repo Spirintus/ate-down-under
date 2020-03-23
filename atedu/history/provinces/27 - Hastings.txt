@@ -1,0 +1,17 @@
+# c_hastings
+
+# County Title
+title = c_hastings
+
+# Settlements
+max_settlements = 3
+
+b_hastings = castle
+#b_hastings_2 = city
+#b_hastings_3 = temple
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

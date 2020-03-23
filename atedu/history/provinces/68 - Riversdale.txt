@@ -1,0 +1,16 @@
+# c_riversdale
+
+# County Title
+title = c_riversdale
+
+# Settlements
+max_settlements = 2
+
+b_riversdale = castle
+#b_riversdale_2 = city
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

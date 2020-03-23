@@ -1,0 +1,16 @@
+# c_opotiki
+
+# County Title
+title = c_opotiki
+
+# Settlements
+max_settlements = 2
+
+b_opotiki = castle
+#b_opotiki_2 = city
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

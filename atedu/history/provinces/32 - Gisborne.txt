@@ -1,0 +1,17 @@
+# c_gisborne
+
+# County Title
+title = c_gisborne
+
+# Settlements
+max_settlements = 3
+
+b_gisborne = castle
+#b_gisborne_2 = city
+#b_gisborne_3 = temple
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

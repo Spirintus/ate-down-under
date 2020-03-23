@@ -1,0 +1,18 @@
+# c_st_arnaud
+
+# County Title
+title = c_st_arnaud
+
+# Settlements
+max_settlements = 4
+
+b_st_arnaud = castle
+#b_st_arnaud_2 = city
+#b_st_arnaud_3 = temple
+#b_st_arnaud_4 = castle
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

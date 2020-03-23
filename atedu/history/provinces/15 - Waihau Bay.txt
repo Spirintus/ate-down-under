@@ -1,0 +1,16 @@
+# c_waihau_bay
+
+# County Title
+title = c_waihau_bay
+
+# Settlements
+max_settlements = 2
+
+b_waihau_bay = castle
+#b_waihau_bay_2 = city
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

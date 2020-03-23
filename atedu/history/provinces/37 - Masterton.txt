@@ -1,0 +1,18 @@
+# c_masterton
+
+# County Title
+title = c_masterton
+
+# Settlements
+max_settlements = 4
+
+b_masterton = castle
+#b_masterton_2 = city
+#b_masterton_3 = temple
+#b_masterton_4 = castle
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

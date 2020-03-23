@@ -1,0 +1,18 @@
+# c_raglan
+
+# County Title
+title = c_raglan
+
+# Settlements
+max_settlements = 4
+
+b_raglan = castle
+#b_raglan_2 = city
+#b_raglan_3 = temple
+#b_raglan_4 = castle
+
+# Misc
+culture = aucklander
+religion = eruite
+
+#History

@@ -1,0 +1,16 @@
+# c_ruatoria
+
+# County Title
+title = c_ruatoria
+
+# Settlements
+max_settlements = 2
+
+b_ruatoria = castle
+#b_ruatoria_2 = city
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

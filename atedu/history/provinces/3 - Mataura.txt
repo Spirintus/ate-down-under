@@ -1,0 +1,21 @@
+# c_mataura
+
+# County Title
+title = c_mataura
+
+# Settlements
+max_settlements = 3
+
+b_mataura_forest = castle
+b_omapere = city
+#b_taheke = temple
+#b_tautoro = castle
+#b_otaua = city
+#b_okaihu = temple
+#b_marlborough = castle
+
+# Misc
+culture = aucklander
+religion = southcrosser
+
+#History

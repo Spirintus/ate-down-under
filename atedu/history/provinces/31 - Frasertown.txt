@@ -1,0 +1,19 @@
+# c_frasertown
+
+# County Title
+title = c_frasertown
+
+# Settlements
+max_settlements = 5
+
+b_frasertown = castle
+#b_frasertown_2 = city
+#b_frasertown_3 = temple
+#b_frasertown_4 = castle
+#b_frasertown_5 = city
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

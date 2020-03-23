@@ -1,0 +1,20 @@
+# c_arthurs_pass
+
+# County Title
+title = c_arthurs_pass
+
+# Settlements
+max_settlements = 6
+
+b_arthurs_pass = castle
+#b_arthurs_pass_2 = city
+#b_arthurs_pass_3 = temple
+#b_arthurs_pass_4 = castle
+#b_arthurs_pass_5 = city
+#b_arthurs_pass_6 = temple
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

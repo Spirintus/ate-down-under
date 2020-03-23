@@ -1,0 +1,19 @@
+# c_waikite_valley
+
+# County Title
+title = c_waikite_valley
+
+# Settlements
+max_settlements = 5
+
+b_waikite_valley = castle
+#b_waikite_valley_2 = city
+#b_waikite_valley_3 = temple
+#b_waikite_valley_4 = castle
+#b_waikite_valley_5 = city
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

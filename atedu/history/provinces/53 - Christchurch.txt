@@ -1,0 +1,20 @@
+# c_christchurch
+
+# County Title
+title = c_christchurch
+
+# Settlements
+max_settlements = 6
+
+b_christchurch = castle
+#b_christchurch_2 = city
+#b_christchurch_3 = temple
+#b_christchurch_4 = castle
+#b_christchurch_5 = city
+#b_christchurch_6 = temple
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

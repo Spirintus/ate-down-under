@@ -1,0 +1,18 @@
+# c_invercargill
+
+# County Title
+title = c_invercargill
+
+# Settlements
+max_settlements = 4
+
+b_invercargill = castle
+#b_invercargill_2 = city
+#b_invercargill_3 = temple
+#b_invercargill_4 = castle
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

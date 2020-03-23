@@ -1,0 +1,18 @@
+# c_collingwood
+
+# County Title
+title = c_collingwood
+
+# Settlements
+max_settlements = 4
+
+b_collingwood = castle
+#b_collingwood_2 = city
+#b_collingwood_3 = temple
+#b_collingwood_4 = castle
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

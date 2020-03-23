@@ -1,0 +1,16 @@
+# c_ross
+
+# County Title
+title = c_ross
+
+# Settlements
+max_settlements = 2
+
+b_ross = castle
+#b_ross_2 = city
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

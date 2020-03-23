@@ -1,0 +1,15 @@
+476 = {
+	name = "d'Ontario"
+	culture = canadian
+	coat_of_arms = {
+		template = 0
+		layer = {
+		texture = 0
+		texture_internal = 0
+		emblem = 11
+		color = 2
+		}
+	}
+477 = {
+	name = "Ramos"
+}

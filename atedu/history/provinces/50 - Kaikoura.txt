@@ -1,0 +1,16 @@
+# c_kaikoura
+
+# County Title
+title = c_kaikoura
+
+# Settlements
+max_settlements = 2
+
+b_kaikoura = castle
+#b_kaikoura_2 = city
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

@@ -1,0 +1,18 @@
+# c_sherenden
+
+# County Title
+title = c_sherenden
+
+# Settlements
+max_settlements = 4
+
+b_sherenden = castle
+#b_sherenden_2 = city
+#b_sherenden_3 = temple
+#b_sherenden_4 = castle
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

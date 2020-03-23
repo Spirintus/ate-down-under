@@ -1,0 +1,17 @@
+# c_havelock
+
+# County Title
+title = c_havelock
+
+# Settlements
+max_settlements = 3
+
+b_havelock = castle
+#b_havelock_2 = city
+#b_havelock_3 = temple
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

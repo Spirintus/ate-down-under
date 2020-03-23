@@ -1,0 +1,21 @@
+# c_stewart_island
+
+# County Title
+title = c_stewart_island
+
+# Settlements
+max_settlements = 7
+
+b_stewart_island = castle
+#b_stewart_island_2 = city
+#b_stewart_island_3 = temple
+#b_stewart_island_4 = castle
+#b_stewart_island_5 = city
+#b_stewart_island_6 = temple
+#b_stewart_island_7 = castle
+
+# Misc
+culture = canadian
+religion = gnostic
+
+#History

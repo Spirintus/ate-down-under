@@ -1,0 +1,17 @@
+# c_timaru
+
+# County Title
+title = c_timaru
+
+# Settlements
+max_settlements = 3
+
+b_timaru = castle
+#b_timaru_2 = city
+#b_timaru_3 = temple
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

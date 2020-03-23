@@ -1,0 +1,19 @@
+# c_whanganui
+
+# County Title
+title = c_whanganui
+
+# Settlements
+max_settlements = 5
+
+b_whanganui = castle
+#b_whanganui_2 = city
+#b_whanganui_3 = temple
+#b_whanganui_4 = castle
+#b_whanganui_5 = city
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

@@ -1,0 +1,17 @@
+# c_victoria_forest
+
+# County Title
+title = c_victoria_forest
+
+# Settlements
+max_settlements = 3
+
+b_victoria_forest = castle
+#b_victoria_forest_2 = city
+#b_victoria_forest_3 = temple
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

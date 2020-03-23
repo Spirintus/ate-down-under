@@ -1,0 +1,19 @@
+# c_inchbonnie
+
+# County Title
+title = c_inchbonnie
+
+# Settlements
+max_settlements = 5
+
+b_inchbonnie = castle
+#b_inchbonnie_2 = city
+#b_inchbonnie_3 = temple
+#b_inchbonnie_4 = castle
+#b_inchbonnie_5 = city
+
+# Misc
+culture = jadite
+religion = southcrosser
+
+#History

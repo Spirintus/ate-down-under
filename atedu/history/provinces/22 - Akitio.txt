@@ -1,0 +1,16 @@
+# c_akitio
+
+# County Title
+title = c_akitio
+
+# Settlements
+max_settlements = 2
+
+b_akitio = castle
+#b_akitio_2 = city
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

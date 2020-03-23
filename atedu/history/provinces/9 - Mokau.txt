@@ -1,0 +1,19 @@
+# c_mokau
+
+# County Title
+title = c_mokau
+
+# Settlements
+max_settlements = 5
+
+b_mokau = castle
+#b_mokau_2 = city
+#b_mokau_3 = temple
+#b_mokau_4 = castle
+#b_mokau_5 = city
+
+# Misc
+culture = aucklander
+religion = eruite
+
+#History

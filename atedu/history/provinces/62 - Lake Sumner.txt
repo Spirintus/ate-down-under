@@ -1,0 +1,17 @@
+# c_lake_sumner
+
+# County Title
+title = c_lake_sumner
+
+# Settlements
+max_settlements = 3
+
+b_lake_sumner = castle
+#b_lake_sumner_2 = city
+#b_lake_sumner_3 = temple
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History

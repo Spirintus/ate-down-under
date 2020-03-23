@@ -1,0 +1,17 @@
+# c_hawkes_bay
+
+# County Title
+title = c_hawkes_bay
+
+# Settlements
+max_settlements = 3
+
+b_hawkes_bay = castle
+#b_hawkes_bay_2 = city
+#b_hawkes_bay_3 = temple
+
+# Misc
+culture = maori
+religion = eruite
+
+#History

@@ -1,0 +1,16 @@
+# c_campbell_islands
+
+# County Title
+title = c_campbell_islands
+
+# Settlements
+max_settlements = 2
+
+b_campbell_islands = castle
+#b_campbell_islands_2 = city
+
+# Misc
+culture = canadian
+religion = gnostic
+
+#History

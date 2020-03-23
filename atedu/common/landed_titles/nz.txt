@@ -1,0 +1,61 @@
+e_newzealand = {
+
+	title = "HIGHKING"
+	title_female = "HIGHQUEEN"
+	capital = 58 # Dunedin
+	
+	k_elizabeth = {
+	
+		title_prefix = "PRINCIPALITY"
+		capital = 73 # Stewart Islands
+		title = "PRINCE"
+		title_female = "PRINCESS"
+		color = { 0 49 83 }
+		
+		d_mainland = {
+		color = { 104 69 125 }
+		capital = 72 # Riverton
+		
+			c_east_fiordland = {
+				b_east_fiordland
+			}
+			c_riverton = {
+				b_riverton
+				b_riverton_2 
+				b_riverton_3 
+				b_riverton_4 
+				b_riverton_5 
+				b_riverton_6
+			}
+		}
+		d_isles = {
+		color = { 125 125 125 }
+		capital = 73 # Stewart Island
+			
+			c_stewart_island = {
+			b_stewart_island
+			b_stewart_island_2 
+			b_stewart_island_3 
+			b_stewart_island_4 
+			b_stewart_island_5 
+			b_stewart_island_6
+			}
+			c_auckland_islands = {
+			b_auckland_islands
+			b_auckland_islands_2
+			b_auckland_islands_3
+			b_auckland_islands_4
+			b_auckland_islands_5
+			b_auckland_islands_6
+			}
+			c_campbell_islands = {
+			b_campbell_islands
+			b_campbell_islands_2
+			b_campbell_islands_3
+			b_campbell_islands_4
+			}
+		}
+		
+		
+		
+	}

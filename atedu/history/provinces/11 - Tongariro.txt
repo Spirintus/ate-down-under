@@ -1,0 +1,18 @@
+# c_tongariro
+
+# County Title
+title = c_tongariro
+
+# Settlements
+max_settlements = 4
+
+b_tongariro = castle
+#b_tongariro_2 = city
+#b_tongariro_3 = temple
+#b_tongariro_4 = castle
+
+# Misc
+culture = wellingtonian
+religion = eruite
+
+#History

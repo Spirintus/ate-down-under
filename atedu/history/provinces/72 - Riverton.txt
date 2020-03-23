@@ -1,0 +1,20 @@
+# c_riverton
+
+# County Title
+title = c_riverton
+
+# Settlements
+max_settlements = 6
+
+b_riverton = castle
+#b_riverton_2 = city
+#b_riverton_3 = temple
+#b_riverton_4 = castle
+#b_riverton_5 = city
+#b_riverton_6 = temple
+
+# Misc
+culture = canadian
+religion = gnostic
+
+#History

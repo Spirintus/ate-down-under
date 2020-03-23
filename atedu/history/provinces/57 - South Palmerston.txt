@@ -1,0 +1,18 @@
+# c_south_palmerston
+
+# County Title
+title = c_south_palmerston
+
+# Settlements
+max_settlements = 4
+
+b_south_palmerston = castle
+#b_south_palmerston_2 = city
+#b_south_palmerston_3 = temple
+#b_south_palmerston_4 = castle
+
+# Misc
+culture = southlander
+religion = eruite
+
+#History
