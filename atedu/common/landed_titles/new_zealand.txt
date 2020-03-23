@@ -2,7 +2,7 @@ e_new_zealand = {
 	color = { 204 119 34 }
 	color2 = { 255 255 255 }
 
-	capital = 1 #dunedin
+	capital = 58 #dunedin
 	
 	title = "HIGH_KING"
 	foa = "HIGH_KING_FOA"
@@ -25,14 +25,70 @@ e_new_zealand = {
 		foa = "PRINCE_FOA"
 		
 		d_auckland = {
-			color = {180 143 64 }
+			color = {16 42 142 }
 			color2 = { 255 255 255 }
 			capital = 1
 			
 			c_auckland = {
-				color = {180 143 64 }
+				color = {42 3 128 }
 				color2 = { 255 255 255 }
+				b_mount_wellington = {}
+				b_waiheke = {}
 				b_auckland = {}
+				b_mount_albert = {}
+				b_albany = {}
+				b_clevedon = {}
+				b_flat_bush = {}
+			}
+			c_kaipura = {
+				color = { 38 35 79}
+				color2 = { 255 255 255 }
+				b_wellsford = {}
+				b_tapora = {}
+				b_south_head = {}
+				b_marsden_point = {}
+				b_dargaville = {}
+				b_waipu = {}
+				b_whakapirau = {}
+			}
+		}
+		
+		d_northland = {
+			color = {}
+			color2 = { 97 121 193 }
+			capital = 
+			c_mataura = {
+				color = {96 93 161}
+				color2 = {255 255 255}
+				b_mataura_forest = {}
+				b_omapere = {}
+				b_taheke = {}
+				b_tautoro = {}
+				b_otaua = {}
+				b_okaihu = {}
+				b_marlborough = {}
+			}
+			c_russell_forest = {
+				color = {153 152 176}
+				color2 = {255 255 255}
+				b_russel = {}
+				b_opua = {}
+				b_helena_bay = {}
+				b_moturoa = {}
+				b_haruru_falls = {}
+				b_pomare_bay = {}
+				b_pakaraka = {}
+			}
+			c_northland = {
+				color = {41 38 130}
+				color2 = {255 255 255}
+				b_cape_reinga = {}
+				b_ngataki = {}
+				b_te_kao = {}
+				b_rangaunu_bay = {}
+				b_karikari = {}
+				b_ohia = {}
+				b_ohiparu = {}
 			}
 		}
 	}
@@ -61,37 +117,44 @@ e_new_zealand = {
 			}
 		}
 	}
-	k_norfolk = {
-		color = {70 109 173}
-		color2 = { 255 255 255 }
+	
+	k_elizabeth = {
+	
+		title_prefix = "PRINCIPALITY"
+		capital = 73 # Stewart Islands
+		title = "PRINCE"
+		title_female = "PRINCESS"
+		color = { 0 49 83 }
 		
-		capital = 1 #norfolk
-		d_norfolk = {
-			color = {87 109 139}
-			color2 = { 255 255 255 }
+		d_mainland = {
+		color = { 104 69 125 }
+		capital = 72 # Riverton
 		
-			capital = 1 #norfolk
-			
-			c_norfolk = {
-				color = {76 141 183}
-				color2 = { 255 255 255 }
-				
-				b_kingston = {}
-				b_burnt_pine = {}
-				b_cascade = {}
-				b_middlegate =  {}
-				b_nepean_island = {}
-				b_phillip_island = {}
-				b_emily_bay = {}
+			c_east_fiordland = {
+				b_east_fiordland
+			}
+			c_riverton = {
+				b_riverton
+				b_riverton_2 
+				b_riverton_3 
+				b_riverton_4 
+				b_riverton_5 
+				b_riverton_6
 			}
 		}
-	}
-	
-	k_antarctic_islands = {
-		color = {70 109 173}
-		color2 = { 255 255 255 }
-		
-		capital = 1 #norfolk
+		d_rakiura = {
+		color = { 125 125 125 }
+		capital = 73 # Stewart Island
+			
+			c_stewart_island = {
+				b_stewart_island
+				b_stewart_island_2 
+				b_stewart_island_3 
+				b_stewart_island_4 
+				b_stewart_island_5 
+				b_stewart_island_6
+			}
+		}
 		d_antarctic_islands = {
 			color = {87 109 139}
 			color2 = { 255 255 255 }
@@ -117,6 +180,34 @@ e_new_zealand = {
 				b_campbell = {}
 				b_bellfort = {}
 				
+			}
+		}
+		
+		
+	}
+	
+	k_norfolk = {
+		color = {70 109 173}
+		color2 = { 255 255 255 }
+		
+		capital = 1 #norfolk
+		d_norfolk = {
+			color = {87 109 139}
+			color2 = { 255 255 255 }
+		
+			capital = 1 #norfolk
+			
+			c_norfolk = {
+				color = {76 141 183}
+				color2 = { 255 255 255 }
+				
+				b_kingston = {}
+				b_burnt_pine = {}
+				b_cascade = {}
+				b_middlegate =  {}
+				b_nepean_island = {}
+				b_phillip_island = {}
+				b_emily_bay = {}
 			}
 		}
 	}

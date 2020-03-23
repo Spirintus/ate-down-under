@@ -6,10 +6,11 @@ title = c_chatham_islands
 # Settlements
 max_settlements = 3
 
-b_chatham_islands = city
-#b_chatham_islands_2 = city
-#b_chatham_islands_3 = temple
-
+b_waitangi = tribal
+# b_owenga = {}
+# b_te_one = {}
+# b_kaingaroa = {}
+# b_port_hutt = {}
 # Misc
 culture = chathamite
 religion = eruite
