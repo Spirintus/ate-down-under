@@ -265,7 +265,7 @@
 	2627.9.15 = {
 	birth = yes
 	}
-	2265.12.31 = {
+	2665.12.31 = {
 	death = yes
 	}
 }
@@ -279,9 +279,6 @@
 	2648.1.1 = {
 	birth = yes
 	}
-	2664.2.6={
-	add_matrilineal_spouse = 1453 
-	}
 	diplomacy = 6
 	martial = 6
 	stewardship = 6
@@ -289,3 +286,252 @@
 	intrigue = 6
 	trait = "charismatic_negotiator"
 }	
+
+22 = {
+	name = "Abel"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	2469.7.30 = {birth = yes}
+	2530.1.1 = { death = yes}
+}
+
+23 = {
+	name = "John"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 22
+	trait = zealous
+	trait = celibate
+	2492.4.5 = {birth = yes}
+	2570.6.27 = { death = yes}
+}
+
+24 = {
+	name = "Drake"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 22
+	2495.7.7 = {birth = yes}
+	2545.4.17 = {death = yes}
+}
+
+25 = {
+	name = "Jack"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 24
+	trait = seducer
+	2514.12.3 = {birth = yes}
+	2545.9.19 = {death = yes}
+}
+
+26 = {
+	name = "Abel"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 25
+	trait = twin
+	2530.2.3 = {birth = yes}
+	2574.8.18 = {death = yes}
+}
+
+27 = {
+	name = "Mabel"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 25
+	trait = twin
+	2530.2.3 = {birth = yes}
+	2609.7.7 = {death = yes}
+}
+
+28 = {
+	name = "Mike"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 25
+	trait = strong
+	trait = legit_bastard
+	2531.4.1 = {birth = yes}
+	2567.1.4 = {death = yes}
+}
+
+28 = {
+	name = "Zachary"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 25
+	trait = quick
+	trait = legit_bastard
+	2532.9.9 = {birth = yes}
+	2598.5.4 = {death = yes}
+}
+
+29 = {
+	name = "Zachary"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 25
+	trait = inbred
+	trait = legit_bastard
+	2535.1.29 = {birth = yes}
+	2588.3.14 = {death = yes}
+}
+
+30 = {
+	name = "Ethan"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 25
+	2535.11.13 = {birth = yes}
+	2602.3.23 = {death = yes}
+}
+
+31 = {
+	name = "Oliver"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 25
+	trait = legit_bastard
+	2536.7.4 = {birth = yes}
+	2620.1.25 = {death = yes}
+}
+
+32 = {
+	name = "Victoria"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 25
+	2540.5.14 = {birth = yes}
+	2609.5.15 = {death = yes}
+}
+
+33 = {
+	name = "Jack"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 26
+	2557.7.4 = {birth = yes}
+	2611.2.15 = {death = yes}
+}
+
+34 = {
+	name = "Abel"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 33
+	2580.8.24 = {birth = yes}
+	2640.3.26 = {death = yes}
+}
+
+35 = {
+	name = "Mary"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 33
+	2585.6.29 = {birth = yes}
+	2636.1.4 = {death = yes}
+}
+
+36 = {
+	name = "Drake"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 34
+	2600.9.12 = {birth = yes}
+	2663.6.7 = {death = yes}
+}
+
+37 = {
+	name = "Abel"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 36
+	2620.8.24 = {birth = yes}
+	2623.4.13 = {death = yes}
+}
+
+38 = {
+	name = "Zachary"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 36
+	2634.2.25 = {birth = yes}
+	2635.10.3 = {death = yes}
+}
+
+39 = {
+	name = "William"
+	dynasty = 203
+	religion = southcrosser
+	culture = melbournian
+	mother = 35
+	2603.2.1 = {birth = yes}
+	2650.1.7 = {death = yes}
+}
+
+40 = {
+	name = "Oliver"
+	dynasty = 203
+	religion = southcrosser
+	culture = melbournian
+	mother = 35
+	2612.2.24 = {birth = yes}
+}
+
+41 = {
+	name = "Abel"
+	dynasty = 203
+	religion = southcrosser
+	culture = melbournian
+	father = 39
+	trait = genius
+	trait = just
+	trait = craven
+	trait = lustful
+	trait = honest
+	2620.4.23 = {birth = yes}
+}
+
+42 = {
+	name = "William"
+	dynasty = 203
+	religion = southcrosser
+	culture = melbournian
+	father = 41
+	trait = fair
+	trait = shy
+	2643.5.24 = {birth = yes}
+}
+
+43 = {
+	name = "Mabel"
+	dynasty = 203
+	religion = southcrosser
+	culture = melbournian
+	father = 41
+	trait = gregarious
+	trait = brave
+	2650.5.24 = {birth = yes}
+}
