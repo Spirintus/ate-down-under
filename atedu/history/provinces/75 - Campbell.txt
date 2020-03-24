@@ -1,7 +1,7 @@
 # c_campbell_islands
 
 # County Title
-title = c_campbell_islands
+title = c_campbell
 
 # Settlements
 max_settlements = 2

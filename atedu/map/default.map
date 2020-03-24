@@ -15,12 +15,12 @@ geographical_region = "geographical_region.txt"
 static = "statics"
 seasons = "seasons.txt"
 
-#sea_zones = { 2 5 } #probably
+sea_zones = { 95 128 } #probably
 
 
-# ocean_region = {    # European Ocean
-    # sea_zones = { 1 }
-# }
+ocean_region = {    # That one Ocean
+     sea_zones = { 1 }
+}
 
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
 tree = { 3 4 7 10 }

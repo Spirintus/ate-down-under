@@ -1,6 +1,6 @@
 476 = {
 	name = "d'Ontario"
-	culture = canadian
+	culture = jadide
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -10,6 +10,7 @@
 		color = 2
 		}
 	}
+}
 477 = {
 	name = "Ramos"
 }

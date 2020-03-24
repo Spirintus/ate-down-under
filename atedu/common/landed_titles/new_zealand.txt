@@ -54,9 +54,9 @@ e_new_zealand = {
 		}
 		
 		d_northland = {
-			color = {}
-			color2 = { 97 121 193 }
-			capital = 
+			color = { 97 121 193 }
+			color2 = { 255 255 255 }
+			capital = 5
 			c_mataura = {
 				color = {96 93 161}
 				color2 = {255 255 255}

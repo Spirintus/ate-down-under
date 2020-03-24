@@ -10,11 +10,11 @@ province;red;green;blue;x;x
 9;186;0;198;Mokau;x
 10;186;32;196;Whangamomona;x
 11;76;31;79;Tongariro;x
-12;146;92;191;Paparangi;x
-13;215;96;223;Tauranga;x
+12;146;92;151;Paparangi;x
+13;198;129;202;Tauranga;x 
 14;136;47;142;Opotiki;x
 15;132;18;139;Waihau Bay;x
-16;251;96;223;Taupo;x
+16;215;96;223;Taupo;x
 17;165;32;174;Waikite Valley;x
 18;143;91;144;Kaimanawa Forest;x
 19;227;148;232;Otuku;x
@@ -34,7 +34,7 @@ province;red;green;blue;x;x
 33;216;161;220;Mahia;x
 34;98;5;104;Ruatoria;x
 35;121;184;148;Wellington;x
-36;61;133;192;Levin;x
+36;61;133;92;Levin;x
 37;48;99;70;Masterton;x
 38;21;157;79;Castlepoint;x
 39;44;160;93;Plymouth;x
@@ -46,7 +46,7 @@ province;red;green;blue;x;x
 45;102;189;139;Richmond;x
 46;19;91;50;Richmond Hill;x
 47;46;135;84;St Arnaud;x
-48;75;185;124;Blenheim;x
+48;78;185;124;Blenheim;x
 49;88;212;141;Clarence;x
 50;48;89;66;Kaikoura;x
 51;158;0;62;Cheviot;x
@@ -64,8 +64,8 @@ province;red;green;blue;x;x
 63;144;24;71;Arthurs Pass;x
 64;118;69;86;Wanaka;x
 65;88;44;59;Cromwell;x
-66;139;9;58;Alexandra;x
-67;156;63;62;Coronet Peak;x
+66;138;10;59;Alexandra;x
+67;156;13;62;Coronet Peak;x
 68;58;10;28;Riversdale;x
 69;196;87;128;Balclutha;x
 70;250;178;205;Invercargill;x
@@ -80,7 +80,7 @@ province;red;green;blue;x;x
 79;173;175;0;Alabaster;x
 80;145;147;7;Ionia;x
 81;126;126;21;Aspiring;x
-82;188;139;113;Jackson Bay;x
+82;188;189;113;Jackson Bay;x
 83;235;238;24;Haast;x
 84;93;94;16;Fox Glacier;x
 85;115;116;60;Ross;x
@@ -111,7 +111,7 @@ province;red;green;blue;x;x
 110;169;198;210;Port Chalmers;x
 111;16;67;89;Toetoes Bay;x
 112;13;98;134;Foveaux Strait;x
-113;106;203;231;Doubtful Sound;x
+113;136;203;231;Doubtful Sound;x
 114;23;159;165;Martins Bay;x
 115;83;174;178;Glacierview;x
 116;48;233;241;Karamea Bight;x
@@ -121,7 +121,7 @@ province;red;green;blue;x;x
 120;133;180;200;Easy Harbour;x
 121;63;81;89;South Haldane Bay;x
 122;186;208;218;Auckland Path;x
-123;115;80;108;Snares Sea;x
+123;15;80;108;Snares Sea;x
 124;92;142;164;Auckland Islands Sea;x
 125;61;88;100;Campbell Islands Sea;x
 126;18;34;41;Open Pacific;x
