@@ -1,5 +1,5 @@
 title_southcross_bishop = {
-	religion = southcrossers
+	religion = southcrosser
 	can_elect_head = yes
 	revoke_allowed = no
 	
@@ -18,7 +18,7 @@ title_southcross_bishop = {
 		always = no
 	}
 	allow = {
-		religion = southcrossers
+		religion = southcrosser
 		is_theocracy = yes
 		k_south_cross = {
 			holder_scope = {

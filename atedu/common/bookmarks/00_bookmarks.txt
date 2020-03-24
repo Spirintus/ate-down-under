@@ -17,7 +17,7 @@ bm_bookmark_the_first = {
 			dna = axgiowlnepj
 			properties = anm0ka00000000000000000000000000000000
 			dynasty = 200
-			religion = southcrossers
+			religion = southcrosser
 			culture = sydneyan
 		}
 	}

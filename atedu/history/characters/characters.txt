@@ -1,7 +1,7 @@
 1 = { 
 	name = "Lawrence"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	2508.10.2 = { birth = yes}
 	2573.8.9 = { death = yes }
@@ -10,7 +10,7 @@
 2 = { 
 	name = "Gavin"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 1
 	2529.6.17 = { birth = yes}
@@ -20,7 +20,7 @@
 3 = { 
 	name = "Cyril"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 1
 	2532.12.15 = { birth = yes}
@@ -30,7 +30,7 @@
 4 = { 
 	name = "Sebastian"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 2
 	2559.6.2 = { birth = yes}
@@ -40,7 +40,7 @@
 5 = { 
 	name = "Vincent"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 2
 	2564.7.6 = { birth = yes}
@@ -50,7 +50,7 @@
 6 = { 
 	name = "Harry"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 4
 	2580.7.31= { birth = yes}
@@ -60,7 +60,7 @@
 7 = { 
 	name = "Sebastian"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 6
 	2600.1.1 = { birth = yes}
@@ -70,7 +70,7 @@
 8 = { 
 	name = "Cyril"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 7
 	
@@ -82,7 +82,7 @@
 9 = { 
 	name = "Malcolm"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 8
 	mother = 20
@@ -93,7 +93,7 @@
 10 = { 
 	name = "Fiona"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	female = yes
 	father = 8
@@ -105,7 +105,7 @@
 11 = { 
 	name = "Lawrence"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 7
 	2629.3.14 = { birth = yes}
@@ -115,7 +115,7 @@
 12 = { 
 	name = "Talisha"
 	dynasty = 200
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	female = yes
 	father = 7
@@ -126,7 +126,7 @@
 13 = {
 	name = "Shane"
 	dynasty = 201
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	2534.8.9 = {birth = yes}
 	2576.3.16 = {death = yes}
@@ -135,7 +135,7 @@
 14 = {
 	name = "Shane"
 	dynasty = 201
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	trait = twin
 	father = 13
@@ -146,7 +146,7 @@
 15 = {
 	name = "Clarence"
 	dynasty = 201
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	trait = twin
 	father = 13
@@ -157,7 +157,7 @@
 16 = {
 	name = "Clarence"
 	dynasty = 201
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 15
 	2572.7.2 = {birth = yes}
@@ -167,7 +167,7 @@
 17 = {
 	name = "Clarence"
 	dynasty = 201
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 16
 	2591.5.5 = {birth = yes}
@@ -177,7 +177,7 @@
 18 = {
 	name = "Clarence"
 	dynasty = 201
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 17
 	trait = zealous
@@ -191,7 +191,7 @@
 19 = {
 	name = "Clarence"
 	dynasty = 201
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	father = 18
 	2633.3.23 = {birth = yes}
@@ -201,7 +201,7 @@
 20 = {
 	name = "Christine"
 	dynasty = 201
-	religion = southcrossers
+	religion = southcrosser
 	culture = sydneyan
 	female = yes
 	father = 18
@@ -236,7 +236,7 @@
 	health = 8
 	fertility = 10
 	historical = yes
-	2249.11.1={
+	2649.11.1={
 	birth = yes
 	}
 	2664.2.6={
@@ -262,7 +262,7 @@
 	stewardship = 5
 	intrigue = 5
 	learning = 5
-	2227.9.15 = {
+	2627.9.15 = {
 	birth = yes
 	}
 	2265.12.31 = {
@@ -276,7 +276,7 @@
 	dynasty = 477
 	dna="aeffd0gaa00"
 	properties="if0f0a00000000000000000000000000000000"
-	2248.1.1 = {
+	2648.1.1 = {
 	birth = yes
 	}
 	2664.2.6={
@@ -289,69 +289,3 @@
 	intrigue = 6
 	trait = "charismatic_negotiator"
 }	
-2999001 = {
-	name = "Clarence"
-	religion = southcrossers
-	culture = sydneyan
-	trait = zealous
-	trait = patient
-	trait = temperate
-	trait = lustful
-	1010.8.28 = {birth = yes}
-	1070.8.28 = {death = yes}
-}
-2999002 = {
-	name = "Clarence"
-	religion = southcrossers
-	culture = sydneyan
-	trait = zealous
-	trait = patient
-	trait = temperate
-	trait = lustful
-	1010.8.28 = {birth = yes}
-	1070.8.28 = {death = yes}
-}
-2999003 = {
-	name = "Clarence"
-	religion = southcrossers
-	culture = sydneyan
-	trait = zealous
-	trait = patient
-	trait = temperate
-	trait = lustful
-	1010.8.28 = {birth = yes}
-	1070.8.28 = {death = yes}
-}
-2999004 = {
-	name = "Clarence"
-	religion = southcrossers
-	culture = sydneyan
-	trait = zealous
-	trait = patient
-	trait = temperate
-	trait = lustful
-	1010.8.28 = {birth = yes}
-	1070.8.28 = {death = yes}
-}
-2999005 = {
-	name = "Clarence"
-	religion = southcrossers
-	culture = sydneyan
-	trait = zealous
-	trait = patient
-	trait = temperate
-	trait = lustful
-	1010.8.28 = {birth = yes}
-	1070.8.28 = {death = yes}
-}
-2999006 = {
-	name = "Clarence"
-	religion = southcrossers
-	culture = sydneyan
-	trait = zealous
-	trait = patient
-	trait = temperate
-	trait = lustful
-	1010.8.28 = {birth = yes}
-	1070.8.28 = {death = yes}
-}

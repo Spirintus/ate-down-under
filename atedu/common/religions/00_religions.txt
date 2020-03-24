@@ -44,7 +44,7 @@ christian = {
 	female_names = {
 	}
 	
-	southcrossers = {
+	southcrosser = {
 		graphical_culture = westerngfx
 		
 		icon = 1
@@ -105,6 +105,38 @@ christian = {
 		}
 		
 		
+		priests_can_inherit = no
+		priests_can_marry = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	gnostic = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		heresy_icon = 2
+		
+		color = {90 215 215}
+		
+		crusade_name = CRUSADE
+		
+		scripture_name = THE_GOSPEL
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_THE_LORD GOD_JESUS GOD_THE_SAVIOUR GOD_THE_SOUTHERN_CROSS
+		}
+		
+		evil_god_names = {
+			SATAN FALLEN_ANGEL THE_GREAT_HERETIC
+		}
+		
+		pacifist = yes
+		autocephaly = yes
+		feminist = yes
 		priests_can_inherit = no
 		priests_can_marry = yes
 		

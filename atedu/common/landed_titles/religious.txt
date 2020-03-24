@@ -24,8 +24,8 @@ k_south_cross = {
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
 	
-	religion = southcrossers
-	controls_religion = southcrossers
+	religion = southcrosser
+	controls_religion = southcrosser
 	
 	primary = yes
 	landless = yes
@@ -49,9 +49,9 @@ d_bishop_of_new_zealand = {
 	title = "BISHOP"
 	foa = "BISHOP_FOA"
 	
-	pentarchy = southcrossers
+	pentarchy = southcrosser
 	
-	religion = southcrossers
+	religion = southcrosser
 	
 	primary = yes
 	
@@ -67,8 +67,8 @@ d_bishop_two = {
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
 	
-	pentarchy = southcrossers
-	religion = southcrossers
+	pentarchy = southcrosser
+	religion = southcrosser
 	
 	primary = yes
 	landless = yes
@@ -85,8 +85,8 @@ d_bishop_three = {
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
 	
-	pentarchy = southcrossers
-	religion = southcrossers
+	pentarchy = southcrosser
+	religion = southcrosser
 	
 	primary = yes
 	landless = yes
@@ -103,8 +103,8 @@ d_bishop_four = {
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
 	
-	pentarchy = southcrossers
-	religion = southcrossers
+	pentarchy = southcrosser
+	religion = southcrosser
 	
 	primary = yes
 	landless = yes
@@ -121,8 +121,8 @@ d_bishop_five = {
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
 	
-	pentarchy = southcrossers
-	religion = southcrossers
+	pentarchy = southcrosser
+	religion = southcrosser
 	
 	primary = yes
 	landless = yes
@@ -139,8 +139,8 @@ d_bishop_six = {
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
 	
-	pentarchy = southcrossers
-	religion = southcrossers
+	pentarchy = southcrosser
+	religion = southcrosser
 	
 	primary = yes
 	landless = yes
