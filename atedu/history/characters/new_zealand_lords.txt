@@ -287,7 +287,7 @@
 	trait = "charismatic_negotiator"
 }	
 
-22 = {
+22 = { #founder of the dynasty
 	name = "Abel"
 	dynasty = 202
 	religion = southcrosser
@@ -296,7 +296,7 @@
 	2530.1.1 = { death = yes}
 }
 
-23 = {
+23 = { #zealot who made himself celibate
 	name = "John"
 	dynasty = 202
 	religion = southcrosser
@@ -308,28 +308,28 @@
 	2570.6.27 = { death = yes}
 }
 
-24 = {
+24 = { #irrelevant guy
 	name = "Drake"
 	dynasty = 202
 	religion = southcrosser
 	culture = melbournian
 	father = 22
-	2495.7.7 = {birth = yes}
+	2493.7.7 = {birth = yes}
 	2545.4.17 = {death = yes}
 }
 
-25 = {
+25 = { #master seducer who sired countless children
 	name = "Jack"
 	dynasty = 202
 	religion = southcrosser
 	culture = melbournian
 	father = 24
 	trait = seducer
-	2514.12.3 = {birth = yes}
-	2545.9.19 = {death = yes}
+	2511.12.3 = {birth = yes}
+	2560.9.19 = {death = yes}
 }
 
-26 = {
+26 = { #first king of wellington
 	name = "Abel"
 	dynasty = 202
 	religion = southcrosser
@@ -340,7 +340,7 @@
 	2574.8.18 = {death = yes}
 }
 
-27 = {
+27 = { #woman who became an important landowner in wellington
 	name = "Mabel"
 	dynasty = 202
 	religion = southcrosser
@@ -352,43 +352,43 @@
 	2609.7.7 = {death = yes}
 }
 
-28 = {
+28 = { #one of abel's most loyal followers, was given the south island part of the kingdom
 	name = "Mike"
-	dynasty = 202
+	dynasty = 205
 	religion = southcrosser
 	culture = melbournian
 	father = 25
 	trait = strong
-	trait = legit_bastard
+	trait = bastard
 	2531.4.1 = {birth = yes}
 	2567.1.4 = {death = yes}
 }
 
-28 = {
+29 = { #another loyal follower of abel, was given a duchy
 	name = "Zachary"
-	dynasty = 202
+	dynasty = 206
 	religion = southcrosser
 	culture = melbournian
 	father = 25
 	trait = quick
-	trait = legit_bastard
+	trait = bastard
 	2532.9.9 = {birth = yes}
 	2598.5.4 = {death = yes}
 }
 
-29 = {
+30 = { #inbred bastard who never had any children and died young
 	name = "Zachary"
-	dynasty = 202
+	dynasty = 207
 	religion = southcrosser
 	culture = melbournian
 	father = 25
 	trait = inbred
-	trait = legit_bastard
+	trait = bastard
 	2535.1.29 = {birth = yes}
-	2588.3.14 = {death = yes}
+	2555.3.14 = {death = yes}
 }
 
-30 = {
+31 = { #one of abel's followers, got the counties on the border with taupo
 	name = "Ethan"
 	dynasty = 202
 	religion = southcrosser
@@ -398,18 +398,18 @@
 	2602.3.23 = {death = yes}
 }
 
-31 = {
+32 = { #another of abel's followers, was given land on the kingdom
 	name = "Oliver"
-	dynasty = 202
+	dynasty = 208
 	religion = southcrosser
 	culture = melbournian
 	father = 25
-	trait = legit_bastard
+	trait = bastard
 	2536.7.4 = {birth = yes}
 	2620.1.25 = {death = yes}
 }
 
-32 = {
+33 = { #she married a minor lord near canberra and was never heard of again
 	name = "Victoria"
 	dynasty = 202
 	religion = southcrosser
@@ -420,7 +420,7 @@
 	2609.5.15 = {death = yes}
 }
 
-33 = {
+34 = { #second king of wellington
 	name = "Jack"
 	dynasty = 202
 	religion = southcrosser
@@ -430,82 +430,83 @@
 	2611.2.15 = {death = yes}
 }
 
-34 = {
+35 = { #third king of wellington
 	name = "Abel"
 	dynasty = 202
 	religion = southcrosser
 	culture = melbournian
-	father = 33
+	father = 34
 	2580.8.24 = {birth = yes}
 	2640.3.26 = {death = yes}
 }
 
-35 = {
+36 = { #sister of the king
 	name = "Mary"
 	dynasty = 202
 	religion = southcrosser
 	culture = melbournian
 	female = yes
-	father = 33
+	father = 34
 	2585.6.29 = {birth = yes}
 	2636.1.4 = {death = yes}
 }
 
-36 = {
+37 = { #fourth king of wellington, all his children died young
 	name = "Drake"
 	dynasty = 202
 	religion = southcrosser
 	culture = melbournian
-	father = 34
+	father = 35
 	2600.9.12 = {birth = yes}
 	2663.6.7 = {death = yes}
 }
 
-37 = {
+38 = {
 	name = "Abel"
 	dynasty = 202
 	religion = southcrosser
 	culture = melbournian
-	father = 36
+	father = 37
 	2620.8.24 = {birth = yes}
 	2623.4.13 = {death = yes}
 }
 
-38 = {
+39 = {
 	name = "Zachary"
 	dynasty = 202
 	religion = southcrosser
 	culture = melbournian
-	father = 36
+	father = 37
 	2634.2.25 = {birth = yes}
 	2635.10.3 = {death = yes}
 }
 
-39 = {
+40 = { #fifth king of wellington
 	name = "William"
 	dynasty = 203
 	religion = southcrosser
 	culture = melbournian
-	mother = 35
+	mother = 36
 	2603.2.1 = {birth = yes}
 	2650.1.7 = {death = yes}
 }
 
-40 = {
+41 = { #pretender, was killed in a civil war
 	name = "Oliver"
 	dynasty = 203
 	religion = southcrosser
 	culture = melbournian
-	mother = 35
+	mother = 36
 	2612.2.24 = {birth = yes}
+	2640.4.15 = {death = yes}
 }
 
-41 = {
+42 = { #sixth king of wellington
 	name = "Abel"
 	dynasty = 203
 	religion = southcrosser
 	culture = melbournian
-	father = 39
+	father = 40
 	trait = genius
 	trait = just
 	trait = craven
@@ -514,24 +515,549 @@
 	2620.4.23 = {birth = yes}
 }
 
-42 = {
+43 = { #prince of wellington
 	name = "William"
 	dynasty = 203
 	religion = southcrosser
 	culture = melbournian
-	father = 41
+	father = 42
 	trait = fair
 	trait = shy
 	2643.5.24 = {birth = yes}
 }
 
-43 = {
+44 = { #princess of wellington
 	name = "Mabel"
 	dynasty = 203
 	religion = southcrosser
 	culture = melbournian
-	father = 41
+	female = yes
+	father = 42
 	trait = gregarious
 	trait = brave
 	2650.5.24 = {birth = yes}
+}
+
+45 = { #duke
+	name = "John"
+	dynasty = 204
+	religion = southcrosser
+	culture = melbournian
+	mother = 27
+	2552.2.22 = {birth = yes}
+	2605.9.27 = {death = yes}
+}
+
+46 = { #duke
+	name = "John"
+	dynasty = 204
+	religion = southcrosser
+	culture = melbournian
+	father = 45
+	2570.7.23 = {birth = yes}
+	2605.3.13 = {death = yes}
+}
+
+47 = { #duke
+	name = "John"
+	dynasty = 204
+	religion = southcrosser
+	culture = melbournian
+	father = 46
+	2599.1.11 = {birth = yes}
+	2645.8.14 = {death = yes}
+}
+
+48 = { #duke
+	name = "Drake"
+	dynasty = 204
+	religion = southcrosser
+	culture = melbournian
+	father = 47
+	2620.3.4 = {birth = yes}
+	2644.3.6 = {death = yes}
+}
+
+49 = { #usurper who took the duchy from his niece
+	name = "Abel"
+	dynasty = 204
+	religion = southcrosser
+	culture = melbournian
+	father = 47
+	2623.2.1 = {birth = yes}
+}
+
+50 = { #legitimate duchess
+	name = "Victoria"
+	dynasty = 204
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 48
+	2639.12.25 = {birth = yes}
+}
+
+51 = { #son of the duke
+	name = "Abel"
+	dynasty = 204
+	religion = southcrosser
+	culture = melbournian
+	father = 49
+	2650.7.7 = {birth = yes}
+}
+
+52 = { #son of the duke
+	name = "William Abel"
+	dynasty = 204
+	religion = southcrosser
+	culture = melbournian
+	father = 49
+	2655.9.19 = {birth = yes}
+}
+
+53 = { #son of the duke
+	name = "Jack Abel"
+	dynasty = 204
+	religion = southcrosser
+	culture = melbournian
+	father = 49
+	2662.7.7 = {birth = yes}
+}
+
+54 = { #second duke of south island, consolidated royal control over the hinterland
+	name = "Alexander"
+	dynasty = 205
+	religion = southcrosser
+	culture = melbournian
+	father = 28
+	2553.4.24 = {birth = yes}
+	2624.6.26 = {death = yes}
+}
+
+55 = { #minor count
+	name = "Jack"
+	dynasty = 205
+	religion = southcrosser
+	culture = melbournian
+	father = 28
+	2557.3.4 = {birth = yes}
+	2632.12.12 = {death = yes}
+}
+
+56 = { #third duke of south island, was castrated after being captured by the maori
+	name = "Drake"
+	dynasty = 205
+	religion = southcrosser
+	culture = melbournian
+	father = 54
+	trait = eunuch
+	2577.3.4 = {birth = yes}
+}
+
+57 = { #heir to the duchy of south island
+	name = "Jack"
+	dynasty = 205
+	religion = southcrosser
+	culture = melbournian
+	father = 56
+	2600.3.4 = {birth = yes}
+}
+
+58 = { #son of Jack, was killed in combat during a war with dunedin
+	name = "Nick"
+	dynasty = 205
+	religion = southcrosser
+	culture = melbournian
+	father = 57
+	2635.1.6 = {birth = yes}
+	2665.4.5 = {death = yes}
+}
+
+59 = { #son of Nick, also named Nick
+	name = "Nick"
+	dynasty = 205
+	religion = southcrosser
+	culture = melbournian
+	father = 58
+	2651.4.20 = {birth = yes}
+}
+
+60 = { #minor count, refuses to abandon agnatic succession
+	name = "William"
+	dynasty = 205
+	religion = southcrosser
+	culture = melbournian
+	father = 55
+	2608.8.1 = {birth = yes}
+}
+
+61 = { #daughter of the count
+	name = "Amy"
+	dynasty = 205
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 60
+	2633.6.6 = {birth = yes}
+}
+
+62 = { #daughter of the count
+	name = "Mabel"
+	dynasty = 205
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 60
+	2638.9.8 = {birth = yes}
+}
+
+63 = { #daughter of the count
+	name = "Elizabeth"
+	dynasty = 205
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 60
+	2644.5.16 = {birth = yes}
+}
+
+64 = { #daughter of the count
+	name = "Adelaide"
+	dynasty = 205
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 60
+	2650.3.23 = {birth = yes}
+}
+
+65 = { #duke
+	name = "Malcolm"
+	dynasty = 206
+	religion = southcrosser
+	culture = melbournian
+	father = 29
+	2560.9.9 = {birth = yes}
+	2610.5.4 = {death = yes}
+}
+
+66 = { #duke
+	name = "William"
+	dynasty = 206
+	religion = southcrosser
+	culture = melbournian
+	father = 65
+	2583.10.10 = {birth = yes}
+	2638.3.23 = {death = yes}
+}
+
+67 = { #duke
+	name = "William"
+	dynasty = 206
+	religion = southcrosser
+	culture = melbournian
+	father = 66
+	2600.1.18 = {birth = yes}
+	2660.2.12 = {death = yes}
+}
+
+68 = { #duke
+	name = "William"
+	dynasty = 206
+	religion = southcrosser
+	culture = melbournian
+	father = 67
+	2627.8.19 = {birth = yes}
+	2665.9.13 = {death = yes}
+}
+
+69 = { #young duke
+	name = "William"
+	dynasty = 206
+	religion = southcrosser
+	culture = melbournian
+	father = 68
+	2652.4.15 = {birth = yes}
+}
+
+70 = { #heir to the duchy
+	name = "Albert"
+	dynasty = 206
+	religion = southcrosser
+	culture = melbournian
+	father = 68
+	2662.3.25 = {birth = yes}
+}
+
+71 = { #claimant, hasn't pushed his claim
+	name = "Vincent"
+	dynasty = 206
+	religion = southcrosser
+	culture = melbournian
+	father = 67
+	2632.7.12 = {birth = yes}
+}
+
+72 = { #another claimant
+	name = "Alfred"
+	dynasty = 206
+	religion = southcrosser
+	culture = melbournian
+	father = 67
+	2635.6.15 = {birth = yes}
+}
+
+73 = { #female claimant
+	name = "Mia"
+	dynasty = 206
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 67
+	2642.6.15 = {birth = yes}
+}
+
+74 = { #daughter of Vincent
+	name = "Mia"
+	dynasty = 206
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 71
+	2658.2.5 = {birth = yes}
+}
+
+75 = { #son of Alfred
+	name = "Oliver"
+	dynasty = 206
+	religion = southcrosser
+	culture = melbournian
+	father = 72
+	2661.3.24 = {birth = yes}
+}
+
+76 = { #second marcher lord
+	name = "Ethan"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 31
+	2555.1.1 = {birth = yes}
+	2622.5.3 = {death = yes}
+}
+
+77 = { #third marcher lord, died in battle
+	name = "Abel"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 76
+	2576.5.8 = {birth = yes}
+	2602.5.3 = {death = yes}
+}
+
+78 = { #fourth marcher lord
+	name = "Ethan"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 77
+	2601.1.1 = {birth = yes}
+}
+
+79 = { #heir to the march
+	name = "Alexander"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 78
+	2625.1.1 = {birth = yes}
+	2625.1.5 = {death = yes}
+}
+
+80 = { #second heir
+	name = "Amy"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 78
+	2645.8.9 = {birth = yes}
+	2625.8.12 = {death = yes}
+}
+
+81 = { #third heir
+	name = "Alexander"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 78
+	trait = slow
+	2659.9.11 = {birth = yes}
+}
+
+82 = { #claimant to the march, despite maori support he failed, spent his last days in taupo
+	name = "Jack"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 31
+	2569.6.16 = {birth = yes}
+	2643.5.31 = {death = yes}
+}
+
+83 = { #female claimant, married a maori lord
+	name = "Mary"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 31
+	2575.7.7 = {birth = yes}
+	2634.7.21 = {death = yes}
+}
+
+84 = { #daughter of Jack, died in obscurity
+	name = "Mabel"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 82
+	2594.9.27 = {birth = yes}
+	2654.6.6 = {death = yes}
+}
+
+85 = { #landowner
+	name = "Oliver"
+	dynasty = 208
+	religion = southcrosser
+	culture = melbournian
+	father = 32
+	2556.8.24 = {birth = yes}
+	2622.4.14 = {death = yes}
+}
+
+86 = { #madman, raped his sister and killed her after the birth of their son
+	name = "Alfred"
+	dynasty = 208
+	religion = southcrosser
+	culture = melbournian
+	father = 85
+	trait = kinslayer
+	trait = impaler
+	trait = lustful
+	trait = lunatic
+	2573.9.2 = {birth = yes}
+	2633.5.30 = {death = yes}
+}
+
+87 = { #victim of Alfred's insanity, was murdered
+	name = "Amy"
+	dynasty = 208
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 85
+	2577.2.4 = {birth = yes}
+	2600.3.3 = {death = yes}
+}
+
+88 = { #son of the madman and his sister, was legitimized by his father
+	name = "William"
+	dynasty = 208
+	religion = southcrosser
+	culture = melbournian
+	father = 86
+	mother = 87
+	trait = legit_bastard
+	2600.3.3 = {birth = yes}
+	2662.3.3 = {death = yes}
+}
+
+89 = { #son of the madman and his wife, made a vow of celibacy to avoid siring another madman
+	name = "Abel"
+	dynasty = 208
+	religion = southcrosser
+	culture = melbournian
+	father = 86
+	trait = celibate
+	2611.3.3 = {birth = yes}
+}
+
+90 = { #son of Abel, landowner
+	name = "Nick"
+	dynasty = 208
+	religion = southcrosser
+	culture = melbournian
+	father = 88
+	2630.7.9 = {birth = yes}
+}
+
+91 = { #heir
+	name = "Jack"
+	dynasty = 208
+	religion = southcrosser
+	culture = melbournian
+	father = 90
+	2649.6.12 = {birth = yes}
+}
+
+92 = { #third heir
+	name = "Nick"
+	dynasty = 208
+	religion = southcrosser
+	culture = melbournian
+	father = 90
+	2653.8.17 = {birth = yes}
+}
+
+93 = { #fourth heir
+	name = "Mabel"
+	dynasty = 208
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 90
+	2660.6.12 = {birth = yes}
+}
+
+94 = { #woman
+	name = "Mary"
+	dynasty = 208
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 88
+	2655.3.29 = {birth = yes}
+}
+
+95 = { #second heir
+	name = "Malcolm"
+	dynasty = 208
+	religion = southcrosser
+	culture = melbournian
+	father = 91
+	2665.12.22 = {birth = yes}
+}
+
+96 = { #guy who stayed at home ruling the family realm
+	name = "Dave"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 25
+	2528.6.25 = {birth = yes}
+	2585.2.22 = {death = yes}
+}
+
+97 = { #woman who inherited the duchy, married and ended her line
+	name = "Mary"
+	dynasty = 202
+	religion = southcrosser
+	culture = melbournian
+	father = 96
+	female = yes
+	2560.2.3 = {birth = yes}
+	2628.8.18 = {death = yes}
 }
