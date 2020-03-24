@@ -5,7 +5,8 @@ bm_bookmark_the_first = {
 
 	era = yes
 	picture = GFX_pick_era_image_6
-
+	custom_start = yes	
+	
 	selectable_character = {
 		id = 10
 		age = 6

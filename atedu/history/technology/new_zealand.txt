@@ -4,15 +4,18 @@ technology = {
 		d_chatham
 		d_norfolk
 		d_antarctic_islands
+		d_northland
+		d_mainland
+		d_rakiura
 	}
-	769 = {
+	2666 = {
 		military = 0.2
 		economy = 0.1
 		culture = 0.15
 		
 	}
 	
-	1337 = {
+	3053 = {
 		military = 3.5
 		economy = 3.5
 		culture = 3.5

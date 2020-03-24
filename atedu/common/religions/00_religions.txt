@@ -803,7 +803,7 @@ muslim = {
 	}
 }
 
-hindu_group = {
+indian_group = {
 	has_coa_on_barony_only = no
 	graphical_culture = indiangfx
 	playable = yes
@@ -816,5 +816,106 @@ hindu_group = {
 	
 	interface_skin = { indian_interface muslim_interface }
 	
+	placeholder_hindu_religion = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = {0 0 0 }
+		
+		crusade_name = PLACEHOLDER
+		crusade_cb = crusade
+		scripture_name = PLACEHOLDER
+		priest_title = PLACEHOLDER
+		
+		high_god_name = PLACEHOLDER
+		
+		god_names = {
+			PLACEHOLDER
+		}
+		 
+		evil_god_names = {
+			PLACEHOLDER
+		}
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+}
+jewish_group = {
+	graphical_culture = jewishgfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1	# try to convert if ai_zeal is high
+	
+	color = { 0.1 0.7 1.0 }
+	
+	interface_skin = { jews_interface }
+	
+	placeholder_jewish_religion = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = {0 0 0 }
+		
+		crusade_name = PLACEHOLDER
+		crusade_cb = crusade
+		scripture_name = PLACEHOLDER
+		priest_title = PLACEHOLDER
+		
+		high_god_name = PLACEHOLDER
+		
+		god_names = {
+			PLACEHOLDER
+		}
+		 
+		evil_god_names = {
+			PLACEHOLDER
+		}
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+}
+zoroastrian_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	playable = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2	# always try to convert
+	
+	color = { 0.5 0.7 0.2 }
+	
+	interface_skin = { zoroastrian_interface muslim_interface }
+	
+	placeholder_mazdan_religion = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = {0 0 0 }
+		
+		crusade_name = PLACEHOLDER
+		crusade_cb = crusade
+		scripture_name = PLACEHOLDER
+		priest_title = PLACEHOLDER
+		
+		high_god_name = PLACEHOLDER
+		
+		god_names = {
+			PLACEHOLDER
+		}
+		 
+		evil_god_names = {
+			PLACEHOLDER
+		}
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
 }

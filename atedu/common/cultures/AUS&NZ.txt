@@ -509,7 +509,7 @@ zealandese = {
 		modifier = default_culture_modifier
 	}
 	
-	dunedian = = {
+	dunedian = {
 		graphical_cultures = { englishgfx }
 		color = { 35 255 201 }
 		
@@ -530,7 +530,7 @@ zealandese = {
 		modifier = default_culture_modifier
 	}
 	
-	jadide = {
+	jadite = {
 		graphical_cultures = { celticgfx }
 		color = { 35 255 201 }
 		
