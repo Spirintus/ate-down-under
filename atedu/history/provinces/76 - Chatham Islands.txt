@@ -1,7 +1,7 @@
 # c_chatham_islands
 
 # County Title
-title = c_chatham_islands
+title = c_chatham
 
 # Settlements
 max_settlements = 3

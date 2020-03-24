@@ -235,10 +235,7 @@
 	learning = 5
 	health = 8
 	fertility = 10
-	historical = yes
-	2649.11.1={
-	birth = yes
-	}
+	2649.11.1={ birth = yes }
 	2664.2.6={
 	add_matrilineal_spouse = 1454 
 	give_nickname = nick_the_heretic
@@ -262,12 +259,8 @@
 	stewardship = 5
 	intrigue = 5
 	learning = 5
-	2627.9.15 = {
-	birth = yes
-	}
-	2665.12.31 = {
-	death = yes
-	}
+	2627.9.15 = { birth = yes }
+	2665.12.31 = { death = yes }
 }
 1454 = {
 	name = "Dio"
@@ -276,9 +269,7 @@
 	dynasty = 477
 	dna="aeffd0gaa00"
 	properties="if0f0a00000000000000000000000000000000"
-	2648.1.1 = {
-	birth = yes
-	}
+	2648.1.1 = { birth = yes }
 	diplomacy = 6
 	martial = 6
 	stewardship = 6
