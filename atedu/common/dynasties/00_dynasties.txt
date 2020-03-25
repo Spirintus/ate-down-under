@@ -124,3 +124,12 @@
 
 200 = { name = "Holt" culture = sydneyan}
 201 = { name = "Martin" culture = sydneyan }
+202 = { name = "Campbell" culture = melbournian }
+203 = { name = "Shepherd" culture = melbournian }
+204 = { name = "Johnson" culture = melbournian }
+205 = { name = "Cross" culture = melbournian }
+206 = { name = "Star" culture = melbournian }
+207 = { name = "Lord" culture = melbournian }
+208 = { name = "Prince" culture = melbournian }
+209 = { name = "of Zealand" culture = melbournian }
+210 = { name = "Kiwison" culture = melbournian }
