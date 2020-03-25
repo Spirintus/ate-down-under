@@ -58,95 +58,95 @@ d_bishop_of_new_zealand = {
 	dynasty_title_names = no
 }
 
-d_bishop_two = {
-	color = {255 215 51}
-	color2 = {255 255 255}
+# d_bishop_two = {
+	# color = {255 215 51}
+	# color2 = {255 255 255}
 	
-	capital = 1 #for now
+	# capital = 1 #for now
 	
-	title = "ARCHBISHOP"
-	foa = "ARCHBISHOP_FOA"
+	# title = "ARCHBISHOP"
+	# foa = "ARCHBISHOP_FOA"
 	
-	pentarchy = southcrosser
-	religion = southcrosser
+	# pentarchy = southcrosser
+	# religion = southcrosser
 	
-	primary = yes
-	landless = yes
+	# primary = yes
+	# landless = yes
 	
-	dynasty_title_names = no
-}
+	# dynasty_title_names = no
+# }
 
-d_bishop_three = {
-	color = {255 215 51}
-	color2 = {255 255 255}
+# d_bishop_three = {
+	# color = {255 215 51}
+	# color2 = {255 255 255}
 	
-	capital = 1 #for now
+	# capital = 1 #for now
 	
-	title = "ARCHBISHOP"
-	foa = "ARCHBISHOP_FOA"
+	# title = "ARCHBISHOP"
+	# foa = "ARCHBISHOP_FOA"
 	
-	pentarchy = southcrosser
-	religion = southcrosser
+	# pentarchy = southcrosser
+	# religion = southcrosser
 	
-	primary = yes
-	landless = yes
+	# primary = yes
+	# landless = yes
 	
-	dynasty_title_names = no
-}
+	# dynasty_title_names = no
+# }
 
-d_bishop_four = {
-	color = {255 215 51}
-	color2 = {255 255 255}
+# d_bishop_four = {
+	# color = {255 215 51}
+	# color2 = {255 255 255}
 	
-	capital = 1 #for now
+	# capital = 1 #for now
 	
-	title = "ARCHBISHOP"
-	foa = "ARCHBISHOP_FOA"
+	# title = "ARCHBISHOP"
+	# foa = "ARCHBISHOP_FOA"
 	
-	pentarchy = southcrosser
-	religion = southcrosser
+	# pentarchy = southcrosser
+	# religion = southcrosser
 	
-	primary = yes
-	landless = yes
+	# primary = yes
+	# landless = yes
 	
-	dynasty_title_names = no
-}
+	# dynasty_title_names = no
+# }
 
-d_bishop_five = {
-	color = {255 215 51}
-	color2 = {255 255 255}
+# d_bishop_five = {
+	# color = {255 215 51}
+	# color2 = {255 255 255}
 	
-	capital = 1 #for now
+	# capital = 1 #for now
 	
-	title = "ARCHBISHOP"
-	foa = "ARCHBISHOP_FOA"
+	# title = "ARCHBISHOP"
+	# foa = "ARCHBISHOP_FOA"
 	
-	pentarchy = southcrosser
-	religion = southcrosser
+	# pentarchy = southcrosser
+	# religion = southcrosser
 	
-	primary = yes
-	landless = yes
+	# primary = yes
+	# landless = yes
 	
-	dynasty_title_names = no
-}
+	# dynasty_title_names = no
+# }
 
-d_bishop_six = {
-	color = {255 215 51}
-	color2 = {255 255 255}
+# d_bishop_six = {
+	# color = {255 215 51}
+	# color2 = {255 255 255}
 	
-	capital = 1 #for now
+	# capital = 1 #for now
 	
-	title = "ARCHBISHOP"
-	foa = "ARCHBISHOP_FOA"
+	# title = "ARCHBISHOP"
+	# foa = "ARCHBISHOP_FOA"
 	
-	pentarchy = southcrosser
-	religion = southcrosser
+	# pentarchy = southcrosser
+	# religion = southcrosser
 	
-	primary = yes
-	landless = yes
+	# primary = yes
+	# landless = yes
 	
-	dynasty_title_names = no
-}
+	# dynasty_title_names = no
+# }
 
 d_imunu = {
 	color = { 25 25 99 }

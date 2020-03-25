@@ -81,7 +81,7 @@ christian = {
 		religious_clothing_priest = 1
 	}
 	
-	johanites = {
+	johanite = {
 		graphical_culture = westerngfx
 		
 		icon = 1
@@ -450,6 +450,12 @@ pagan_group = {
 		evil_god_names = {
 			RUST GAS_GUZZLER
 		}
+		
+		female_temple_holders = yes
+		male_temple_holders = no
+		priests_can_marry = yes
+		allow_looting = yes
+		max_wives = 2
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 1

@@ -38,7 +38,7 @@
 	}
 	trait = "grey_eminence"
 	trait = "inspiring_leader"
-	trait = socializer"
+	trait = "socializer"
 	trait = "zealous"
 	trait = "gregarious"
 }
