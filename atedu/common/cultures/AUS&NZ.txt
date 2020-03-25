@@ -35,7 +35,7 @@ indig_australians = {
 		color = { 19 28 177 }
 		
 		male_names = { Ynarkael }
-		female_names = {  }
+		female_names = { Lizzie }
 		
 		from_dynasty_prefix = "of "
 		
@@ -79,8 +79,7 @@ west_australian = {
 		color = { 209 101 93 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -180,8 +179,7 @@ east_australian = {
 		color = { 35 178 39 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -201,8 +199,7 @@ east_australian = {
 		color = { 101 170 28 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -222,8 +219,7 @@ east_australian = {
 		color = { 100 170 58 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -243,8 +239,7 @@ east_australian = {
 		color = { 178 182 31 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -264,8 +259,7 @@ east_australian = {
 		color = { 97 194 132 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -285,8 +279,7 @@ east_australian = {
 		color = { 35 255 39 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -306,8 +299,7 @@ east_australian = {
 		color = { 93 190 0 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -326,8 +318,7 @@ east_australian = {
 		color = { 178 248 25 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -347,8 +338,7 @@ east_australian = {
 		color = { 250 250 12 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -368,8 +358,7 @@ east_australian = {
 		color = { 51 167 62 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -389,8 +378,7 @@ east_australian = {
 		color = { 35 255 201 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -410,8 +398,7 @@ east_australian = {
 		color = { 98 211 78 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -472,8 +459,7 @@ zealandese = {
 		color = { 35 255 201 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -493,8 +479,7 @@ zealandese = {
 		color = { 35 255 201 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		
@@ -514,8 +499,7 @@ zealandese = {
 		color = { 35 255 201 }
 		
 		male_names = { Ynarkael }
-		female_names = {
-		}
+		female_names = {Lizzie}
 		
 		from_dynasty_prefix = "of "
 		

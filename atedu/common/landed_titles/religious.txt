@@ -62,7 +62,7 @@ d_bishop_two = {
 	color = {255 215 51}
 	color2 = {255 255 255}
 	
-	capital = 250 #for now
+	capital = 1 #for now
 	
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
@@ -80,7 +80,7 @@ d_bishop_three = {
 	color = {255 215 51}
 	color2 = {255 255 255}
 	
-	capital = 79 #for now
+	capital = 1 #for now
 	
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
@@ -98,7 +98,7 @@ d_bishop_four = {
 	color = {255 215 51}
 	color2 = {255 255 255}
 	
-	capital = 1222 #for now
+	capital = 1 #for now
 	
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
@@ -116,7 +116,7 @@ d_bishop_five = {
 	color = {255 215 51}
 	color2 = {255 255 255}
 	
-	capital = 700 #for now
+	capital = 1 #for now
 	
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
@@ -134,7 +134,7 @@ d_bishop_six = {
 	color = {255 215 51}
 	color2 = {255 255 255}
 	
-	capital = 700 #for now
+	capital = 1 #for now
 	
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
@@ -186,7 +186,7 @@ k_eruist = {
 	color = { 0 0 0 }
 	color2 = {255 255 255}
 	
-	capital = 1 #for now
+	capital = 58 #for now
 	
 	title = "CHOSEN_ONE"
 	foa = "CHOSEN_ONE_FOA"
@@ -203,7 +203,7 @@ k_quendic = {
 	color = { 0 0 0 }
 	color2 = {255 255 255}
 	
-	capital = 1 #for now
+	capital = 58 #for now
 	
 	title = "QUENTARO"
 	foa = "QUENTARO_FOA"

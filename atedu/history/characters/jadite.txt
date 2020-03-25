@@ -1,0 +1,44 @@
+1452 = {
+	name = "Tricia"
+	female = yes
+	culture = "jadite"
+	religion "gnostic"
+	dynasty = 476
+	dna="agb0a0cba00"
+    properties="i00f0000000000000000000000000000000000000"
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	2627.9.15 = { birth = yes }
+	2665.12.31 = { death = yes }
+}
+
+1453 = {
+	name = "Elizabeth Victoria"
+	female = yes
+	dynasty = 476
+	religion = "gnostic"
+	culture = "jadite"
+	mother = 1452
+	dna="agbbg0cba00"
+	properties="i00f0000000000000000000000000000000000000"
+	diplomacy = 7
+	martial = 6
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	health = 8
+	fertility = 10
+	2649.11.1 = { birth = yes }
+	2664.2.6 = {
+		add_matrilineal_spouse = 1454 
+		give_nickname = nick_the_heretic
+	}
+	trait = "grey_eminence"
+	trait = "inspiring_leader"
+	trait = socializer"
+	trait = "zealous"
+	trait = "gregarious"
+}

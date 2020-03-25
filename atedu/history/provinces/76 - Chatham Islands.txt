@@ -13,6 +13,6 @@ b_waitangi = tribal
 # b_port_hutt = {}
 # Misc
 culture = chathamite
-religion = eruite
+religion = eruist
 
 #History
