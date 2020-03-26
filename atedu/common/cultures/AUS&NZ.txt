@@ -197,7 +197,7 @@ east_australian = {
 	melbournian = {
 		graphical_cultures = { westerngfx }
 		
-		color = {  }
+		color = { 101 170 28 }
 
 		male_names = {
 			Andrew Arthur
@@ -292,7 +292,7 @@ east_australian = {
 	basinfolk = {
 		graphical_cultures = { westerngfx }
 		
-		color = {  }
+		color = { 97 194 132 }
 
 		male_names = {
 			Anthony
@@ -388,7 +388,7 @@ east_australian = {
 	queenslander = {
 		graphical_cultures = { westerngfx }
 		
-		color = {  }
+		color = { 178 248 25 }
 
 		male_names = {
 			Barry Brian Bruce

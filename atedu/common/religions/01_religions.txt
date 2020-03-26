@@ -259,8 +259,8 @@ christian = {
 		color = { 49 58 183 }
 		
 		crusade_name = CRUSADE
-		use_new_crusade = yes
-		crusade_cb = new_crusade
+		#use_new_crusade = yes
+		crusade_cb = crusade
 		scripture_name = THE_BIBLE
 		priest_title = PRIEST
 		
@@ -281,7 +281,7 @@ christian = {
 		religious_clothing_priest = 1
 	}
 	
-	christian_of_the_sea = {
+	party_jesus_the_religion = { #christian pirates
 		graphical_culture = westerngfx
 		
 		icon = 1
@@ -309,6 +309,9 @@ christian = {
 		#can_grant_claim = yes
 		#can_retire_to_monastery = yes
 		priests_can_marry = yes
+		
+		allow_looting = yes
+		allow_viking_invasion = yes
 		
 		religious_clothing_priest = 1
 	}
@@ -404,6 +407,33 @@ pagan_group = {
 	female_names = {
 	}
 	
+	
+	dreaming_pagan_reformed = {
+		graphical_culture = africangfx
+		
+		icon = 2
+		
+		color = { 0 0 0 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		crusade_cb = crusade
+		scripture_name = DREAMTIME_STORIES
+		priest_title = PRIEST
+		
+		high_god_name = GOD_RAINBOW_SERPENT
+		
+		god_names = {
+			GOD_RAINBOW_SERPENT
+		}
+		 
+		evil_god_names = {
+			EVIL_SPIRITS JAMES_COOK
+		}
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
 	dreaming_pagan = {
 		graphical_culture = africangfx
 		
@@ -429,6 +459,39 @@ pagan_group = {
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
 	}
+	
+	highway_cultist_reformed = {
+		graphical_culture = westerngfx
+		
+		icon = 2
+		
+		color = {0 0 0 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		crusade_cb = crusade
+		scripture_name = HIGHWAY_CODE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GREAT_HIGHWAY
+		
+		god_names = {
+			GOD_GREAT_HIGHWAY GOD_THE_ROAD_WARRIOR GOD_CARS
+		}
+		 
+		evil_god_names = {
+			RUST GAS_GUZZLER
+		}
+		
+		female_temple_holders = yes
+		male_temple_holders = no
+		priests_can_marry = yes
+		allow_looting = yes
+		max_wives = 2
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
 	highway_cultist = {
 		graphical_culture = westerngfx
 		
@@ -531,6 +594,32 @@ pagan_group = {
 		religious_clothing_priest = 1
 	}
 
+	lotu_reformed = { #lowland
+		graphical_culture = westerngfx
+		
+		icon = 2
+		
+		color = {0 0 0 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		crusade_cb = crusade
+		scripture_name = THE_LEGENDS
+		priest_title = PATER
+		
+		high_god_name = GOD_BIKPELA
+		
+		god_names = {
+			GOD_BIKMAN GOD_BIKPELA GOD_OL_SPIRIT GOD_ENSEL
+		}
+		 
+		evil_god_names = {
+			TEWEL OL_SPIRIT_NOGUT SATEN 
+		}
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
 	lotu = { #lowland
 		graphical_culture = westerngfx
 		
@@ -557,7 +646,7 @@ pagan_group = {
 		religious_clothing_priest = 1
 	}
 
-	kaharingan = {
+	kaharingan_refomed = {
 		graphical_culture = westerngfx
 		
 		icon = 2
@@ -583,6 +672,31 @@ pagan_group = {
 		religious_clothing_priest = 1
 	}
 	
+	kaharingan = {
+		graphical_culture = westerngfx
+		
+		icon = 2
+		
+		color = {122 42 136 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		crusade_cb = crusade
+		scripture_name = THE_LEGENDS
+		
+		high_god_name = GOD_THE_CREATOR
+		
+		god_names = {
+			GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		
+		allow_looting = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
 }
 
 eruist_group = {
@@ -848,6 +962,87 @@ indian_group = {
 		religious_clothing_priest = 1
 	}
 }
+
+buddhist_group = {
+	has_coa_on_barony_only = no
+	graphical_culture = indiangfx
+	playable = yes
+	ai_peaceful = yes # 
+	
+	ai_convert_same_group = 1 
+	ai_convert_other_group = 2	
+	
+	color = { 0.8 0.4 0.0 }
+	
+	interface_skin = { indian_interface muslim_interface }
+	
+	placeholder_budhist_religion = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = {0 0 0 }
+		
+		crusade_name = PLACEHOLDER
+		crusade_cb = crusade
+		scripture_name = PLACEHOLDER
+		priest_title = PLACEHOLDER
+		
+		high_god_name = PLACEHOLDER
+		
+		god_names = {
+			PLACEHOLDER
+		}
+		 
+		evil_god_names = {
+			PLACEHOLDER
+		}
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+}
+
+eastern_group = { #shenism, shintoism
+	has_coa_on_barony_only = no
+	graphical_culture = indiangfx
+	playable = yes
+	ai_peaceful = yes # 
+	
+	ai_convert_same_group = 1 
+	ai_convert_other_group = 2	
+	
+	color = { 0.8 0.4 0.0 }
+	
+	interface_skin = { indian_interface muslim_interface }
+	
+	placeholder_eastern_religion = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = {0 0 0 }
+		
+		crusade_name = PLACEHOLDER
+		crusade_cb = crusade
+		scripture_name = PLACEHOLDER
+		priest_title = PLACEHOLDER
+		
+		high_god_name = PLACEHOLDER
+		
+		god_names = {
+			PLACEHOLDER
+		}
+		 
+		evil_god_names = {
+			PLACEHOLDER
+		}
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+}
+
 jewish_group = {
 	graphical_culture = jewishgfx
 	crusade_cb = crusade

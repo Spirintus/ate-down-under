@@ -215,3 +215,36 @@ k_quendic = {
 	
 	dynasty_title_names = no
 }
+
+d_aotearoan = {
+	color = { 0 0 0 }
+	color2 = {255 255 255}
+	
+	capital = 58 #for now
+	
+	title = "TOHUNGANUI"
+	foa = "TOHUNGANUI_FOA"
+	
+	religion = aotearoan
+	controls_religion = aotearoan
+	
+	primary = yes
+	
+	dynasty_title_names = no
+}
+d_purist = {
+	color = { 0 0 0 }
+	color2 = {255 255 255}
+	
+	capital = 58 #for now
+	
+	title = "TOHUNGANUI"
+	foa = "TOHUNGANUI_FOA"
+	
+	religion = purist
+	controls_religion = purist
+	
+	primary = yes
+	
+	dynasty_title_names = no
+}
