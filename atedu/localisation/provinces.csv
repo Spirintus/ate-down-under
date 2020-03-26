@@ -1,0 +1,129 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+PROV1;Auckland;;;;;;;;;;;;x
+PROV2;Kaipura;;;;;;;;;;;;x
+PROV3;Mataura;;;;;;;;;;;;x
+PROV4;Russell;;;;;;;;;;;;x
+PROV5;Northland;;;;;;;;;;;;x
+PROV6;Coromandel;;;;;;;;;;;;x
+PROV7;Raglan;;;;;;;;;;;;x
+PROV8;Hamilton;;;;;;;;;;;;x
+PROV9;Mokau;;;;;;;;;;;;x
+PROV10;Whangamonona;;;;;;;;;;;;x
+PROV11;Tongariro;;;;;;;;;;;;x
+PROV12;Paparangi;;;;;;;;;;;;x
+PROV13;Tauranga;;;;;;;;;;;;x
+PROV14;Opotiki;;;;;;;;;;;;x
+PROV15;Waihau Bay;;;;;;;;;;;;x
+PROV16;Taupo;;;;;;;;;;;;x
+PROV17;Waikite;;;;;;;;;;;;x
+PROV18;Kaimanawa;;;;;;;;;;;;x
+PROV19;Otuku;;;;;;;;;;;;x
+PROV20;Mangamahu;;;;;;;;;;;;x
+PROV21;Palmerston;;;;;;;;;;;;x
+PROV22;Akitio;;;;;;;;;;;;x
+PROV23;Herbertville;;;;;;;;;;;;x
+PROV24;Dannevirke;;;;;;;;;;;;x
+PROV25;Taihape;;;;;;;;;;;;x
+PROV26;Sherenden;;;;;;;;;;;;x
+PROV27;Hastings;;;;;;;;;;;;x
+PROV28;Hawkes Bay;;;;;;;;;;;;x
+PROV29;Te Haroto;;;;;;;;;;;;x
+PROV30;Te Urewera;;;;;;;;;;;;x
+PROV31;Frasertown;;;;;;;;;;;;x
+PROV32;Gisborne;;;;;;;;;;;;x
+PROV33;Mahia;;;;;;;;;;;;x
+PROV34;Ruatoria;;;;;;;;;;;;x
+PROV35;Wellington;;;;;;;;;;;;x
+PROV36;Levin;;;;;;;;;;;;x
+PROV37;Masterton;;;;;;;;;;;;x
+PROV38;Castlepoint;;;;;;;;;;;;x
+PROV39;Plymouth;;;;;;;;;;;;x
+PROV40;Stratford;;;;;;;;;;;;x
+PROV41;Patea;;;;;;;;;;;;x
+PROV42;Whanganui;;;;;;;;;;;;x
+PROV43;Havelock;;;;;;;;;;;;x
+PROV44;Nelson;;;;;;;;;;;;x
+PROV45;Richmond;;;;;;;;;;;;x
+PROV46;Richmond Hill;;;;;;;;;;;;x
+PROV47;St Arnaud;;;;;;;;;;;;x
+PROV48;Blenheim;;;;;;;;;;;;x
+PROV49;Clarence;;;;;;;;;;;;x
+PROV50;Kaikoura;;;;;;;;;;;;x
+PROV51;Cheviot;;;;;;;;;;;;x
+PROV52;Amberly;;;;;;;;;;;;x
+PROV53;Christchurch;;;;;;;;;;;;x
+PROV54;Leeston;;;;;;;;;;;;x
+PROV55;Willowby;;;;;;;;;;;;x
+PROV56;Timaru;;;;;;;;;;;;x
+PROV57;South Palmerston;;;;;;;;;;;;x
+PROV58;Dunedin;;;;;;;;;;;;x
+PROV59;Twizel;;;;;;;;;;;;x
+PROV60;Hanmer Springs;;;;;;;;;;;;x
+PROV61;Culverden;;;;;;;;;;;;x
+PROV62;Lake Summer;;;;;;;;;;;;x
+PROV63;Arthurs Pass;;;;;;;;;;;;x
+PROV64;Wanaka;;;;;;;;;;;;x
+PROV65;Cromwell;;;;;;;;;;;;x
+PROV66;Alexandra;;;;;;;;;;;;x
+PROV67;Coronet Park;;;;;;;;;;;;x
+PROV68;Riversdale;;;;;;;;;;;;x
+PROV69;Balclutha;;;;;;;;;;;;x
+PROV70;Invercargill;;;;;;;;;;;;x
+PROV71;East Fiordland;;;;;;;;;;;;x
+PROV72;Riverton;;;;;;;;;;;;x
+PROV73;Stewart Island;;;;;;;;;;;;x
+PROV74;Auckland Islands;;;;;;;;;;;;x
+PROV75;Campbell;;;;;;;;;;;;x
+PROV76;Chatham Islands;;;;;;;;;;;;x
+PROV77;Auckland Bay;;;;;;;;;;;;x
+PROV78;West Fiordland;;;;;;;;;;;;x
+PROV79;Alabaster;;;;;;;;;;;;x
+PROV80;Ionia;;;;;;;;;;;;x
+PROV81;Aspiring;;;;;;;;;;;;x
+PROV82;Jackson Bay;;;;;;;;;;;;x
+PROV83;Haast;;;;;;;;;;;;x
+PROV84;Fox Glacier;;;;;;;;;;;;x
+PROV85;Ross;;;;;;;;;;;;x
+PROV86;Greymouth;;;;;;;;;;;;x
+PROV87;Inchbonnie;;;;;;;;;;;;x
+PROV88;Victoria Forest;;;;;;;;;;;;x
+PROV89;Westport;;;;;;;;;;;;x
+PROV90;Nelson Lakes;;;;;;;;;;;;x
+PROV91;Kahurangi;;;;;;;;;;;;x
+PROV92;Westcoast;;;;;;;;;;;;x
+PROV93;Upper Takaka;;;;;;;;;;;;x
+PROV94;Collingwood;;;;;;;;;;;;x
+PROV95;Northland Coast;;;;;;;;;;;;x
+PROV96;Matauri Bay;;;;;;;;;;;;x
+PROV97;Hauraki Bay;;;;;;;;;;;;x
+PROV98;Bay of Plenty;;;;;;;;;;;;;;;;;;;;;;;x
+PROV99;Maui Coast;;;;;;;;;;;;x
+PROV100;Coast of Napier;;;;;;;;;;;;x
+PROV101;Pacific Coast;;;;;;;;;;;;x
+PROV102;North Palliser;;;;;;;;;;;;x
+PROV103;Palliser Bay;;;;;;;;;;;;x
+PROV104;Wellington Strait;;;;;;;;;;;;x
+PROV105;North Christchurch Bay;;;;;;;;;;;;x
+PROV106;Christchurch Bay;;;;;;;;;;;;x
+PROV107;Outer Bay;;;;;;;;;;;;x
+PROV108;Northern Canterbury Bight;;;;;;;;;;;;x
+PROV109;Southern Canterbury Bight;;;;;;;;;;;;x
+PROV110;Port Chalmers;;;;;;;;;;;;x
+PROV111;Toetoes Bay;;;;;;;;;;;;x
+PROV112;Foveaux Strait;;;;;;;;;;;;x
+PROV113;Doubtful Sound;;;;;;;;;;;;x
+PROV114;Martins Bay;;;;;;;;;;;;x
+PROV115;Glacierview;;;;;;;;;;;;x
+PROV116;Karamea Bight;;;;;;;;;;;;x
+PROV117;South Taranaki Bight;;;;;;;;;;;;x
+PROV118;Cook Strait;;;;;;;;;;;;x
+PROV119;North Taranaki Bight;;;;;;;;;;;;x
+PROV120;Easy Harbour;;;;;;;;;;;;x
+PROV121;South Haldane Bay;;;;;;;;;;;;x
+PROV122;Auckland Path;;;;;;;;;;;;x
+PROV123;Snares Sea;;;;;;;;;;;;x
+PROV124;Auckland Islands Sea;;;;;;;;;;;;x
+PROV125;Campbell Islands Sea;;;;;;;;;;;;x
+PROV126;Open Pacific;;;;;;;;;;;;x
+PROV127;Western Chatham Sea;;;;;;;;;;;;x
+PROV128;Chatham Sea;;;;;;;;;;;;x
