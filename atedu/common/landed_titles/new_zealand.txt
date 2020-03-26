@@ -154,10 +154,10 @@ e_new_zealand = {
 				b_st_arnaud = {}
 			}
 		}	
-	} Z
+	}
 	
 	k_auckland = {
-		color = {180 143 64 }
+		color = {27 56 150 }
 		color2 = { 255 255 255 }
 		
 		capital = 1 #auckland and it really was auckland
