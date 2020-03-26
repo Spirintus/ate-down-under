@@ -1,7 +1,0 @@
-# e_newzealand = {
-
-	# title = "HIGHKING"
-	# title_female = "HIGHQUEEN"
-	# capital = 58 # Dunedin
-	
-# }	

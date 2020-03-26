@@ -11,9 +11,150 @@ e_new_zealand = {
 		color = { 204 199 34 }
 		color2 = { 255 255 255 }
 		
-		capital = 1 #wellington
+		capital = 35 #wellington
 		
-	}
+		d_wellington = {
+			color = {255 255 255 }
+			color2 = { 255 255 255 }
+			
+			capital = 35
+			
+			c_wellington = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_wellington = {}
+				b_wellington_2 = {}
+				b_wellington_3 = {}
+				b_wellington_4 = {}
+				b_wellington_5 = {}
+				b_wellington_6 = {}
+				b_wellington_7 = {}
+			}
+			c_levin = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_levin = {}
+			}
+			c_masterton = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_masterton = {}
+			}
+			c_castlepoint = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_castlepoint = {}
+			}
+		}	
+		d_maori_march = {
+			color = {255 255 255 }
+			color2 = { 255 255 255 }
+			
+			capital = 42
+			
+			c_whanganui = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_whanganui = {}
+			}
+			c_palmerston = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_palmerston = {}
+			}
+			c_akitio = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_akitio = {}
+			}
+		}
+		d_patea = {
+			color = {255 255 255 }
+			color2 = { 255 255 255 }
+			
+			capital = 41
+			
+			c_patea = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_patea = {}
+			}
+			c_stratford = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_stratford = {}
+			}
+			c_paparangi = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_paparangi = {}
+			}
+		}
+		d_patea = {
+			color = {255 255 255 }
+			color2 = { 255 255 255 }
+			
+			capital = 39
+			
+			c_plymouth = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_plymouth = {}
+			}
+			c_whangamomona = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_whangamomona = {}
+			}
+		}	
+		d_south_island = {
+			color = {255 255 255 }
+			color2 = { 255 255 255 }
+			
+			capital = 48
+			
+			c_blenheim = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_blenheim = {}
+			}
+			c_nelson = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_nelson = {}
+			}
+			c_clarence = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_clarence = {}
+			}
+			c_blenheim = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_blenheim = {}
+			}
+			c_havelock = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_havelock = {}
+			}
+			c_richmond_hill = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_richmond_hill = {}
+			}
+			c_richmond = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_richmond = {}
+			}
+			c_st_arnaud = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_st_arnaud = {}
+			}
+		}	
+	} Z
 	
 	k_auckland = {
 		color = {180 143 64 }
