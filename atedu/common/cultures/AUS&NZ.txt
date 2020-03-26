@@ -197,7 +197,7 @@ east_australian = {
 	melbournian = {
 		graphical_cultures = { westerngfx }
 		
-		color = {  }
+		color = { 101 170 28 }
 
 		male_names = {
 			Andrew Arthur
@@ -292,7 +292,7 @@ east_australian = {
 	basinfolk = {
 		graphical_cultures = { westerngfx }
 		
-		color = {  }
+		color = { 97 194 132 }
 
 		male_names = {
 			Anthony
@@ -388,7 +388,7 @@ east_australian = {
 	queenslander = {
 		graphical_cultures = { westerngfx }
 		
-		color = {  }
+		color = { 178 248 25 }
 
 		male_names = {
 			Barry Brian Bruce
@@ -638,5 +638,20 @@ zealandese = {
 		
 		modifier = default_culture_modifier
 	}
-	
+	southlander = {
+		graphical_cultures = { westerngfx_male_early westerngfx}
+		color = { 180 20 96 }
+		male_names = Joshua Jack Benjamin Samuel Daniel Jacob Ethan James Thomas Matthew Liam William Caleb Luke Oliver Ryan Jayden Cameron Connor Graeme Logan Dylan Christopher Max Michael Jordan Nathan Joseph Mitchell Alexander Blake Lachlan Nicholas Harrison 
+		female_names = Susan Karen Christine Julie Deborah Sandra Donna Jennifer Elizabeth Wendy Sharon Joan Linda Robyn Robin Judith Mary Helen Margaret Patricia Debra Carol Barbara_Barb Barb_Barbara Denise Anne Catherine_Catrina Catrina_Catherine Diane Lynette Heather Suzanne
+		
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 34
+		father_name_chance = 20
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+		
+		modifier = default_culture_modifier
+	}
 }
