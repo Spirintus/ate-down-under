@@ -119,7 +119,6 @@ e_new_zealand = {
 	}
 	
 	k_elizabeth = {
-	
 		title_prefix = "PRINCIPALITY"
 		capital = 73 # Stewart Islands
 		title = "PRINCE"
@@ -127,32 +126,40 @@ e_new_zealand = {
 		color = { 0 49 83 }
 		
 		d_mainland = {
-		color = { 104 69 125 }
-		capital = 72 # Riverton
+			color = { 104 69 125 }
+			color2 = { 255 255 255}
+			capital = 72 # Riverton
 		
 			c_east_fiordland = {
-				b_east_fiordland
+				color = { 118 12 125 }
+				color2 = { 255 255 255}
+				b_east_fiordland = {}
 			}
+			
 			c_riverton = {
-				b_riverton
-				b_riverton_2 
-				b_riverton_3 
-				b_riverton_4 
-				b_riverton_5 
-				b_riverton_6
+				color = { 99 70 125 }
+				color2 = { 255 255 255}
+				b_riverton = {}
+				b_riverton_2 = {}
+				b_riverton_3 = {}
+				b_riverton_4 = {}
+				b_riverton_5 = {}
+				b_riverton_6 = {}
 			}
 		}
+		
 		d_rakiura = {
-		color = { 125 125 125 }
-		capital = 73 # Stewart Island
+			color = { 125 125 125 }
+			color2 = { 255 255 255}
+			capital = 73 # Stewart Island
 			
 			c_stewart_island = {
-				b_stewart_island
-				b_stewart_island_2 
-				b_stewart_island_3 
-				b_stewart_island_4 
-				b_stewart_island_5 
-				b_stewart_island_6
+				b_stewart_island = {}
+				b_stewart_island_2 = {}
+				b_stewart_island_3 = {}
+				b_stewart_island_4 = {}
+				b_stewart_island_5 = {}
+				b_stewart_island_6 = {}
 			}
 		}
 		d_antarctic_islands = {

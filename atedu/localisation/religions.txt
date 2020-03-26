@@ -1,29 +1,30 @@
-southcrosser;Southcrosser;;;;;;;;;;;;x
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+southcrosser;Southcrosser;;;;;;;;;;;;;x
 southcrosser_full;Church of Southern Cross;;;;;;;;;;;;x
-southcrosser_desc;The Church of the Southern Cross emerged after a prophet somewhere in the australian interior was given a new bible by Our Saviour, the Gospel. After that the church grew in numbers and spread like wildfire, both through missionary work and war.The head of the church is the archbishop, who lives and rules Brisbane. However he is elected by a council of bishops. Though some claim the church is not christian due to their refusal of the trinity (instead choosing to replace it with a system of four different forms of God), the majority still says they are christians.;;;;;;;;;;;;x
-THE_GOSPEL;The Gospel;;;;;;;;;;;;x
-GOD_THE_SAVIOUR;The Saviour;;;;;;;;;;;;x
-GOD_THE_SOUTHERN_CROSS;The_Southern_Cross;;;;;;;;;;;;x
-FALLEN_ANGEL;Fallen Angel;;;;;;;;;;;;x
-THE_GREAT_HERETIC;The Great Heretic;;;;;;;;;;;;x
-johanite;Johanite;;;;;;;;;;;;x
-johanite_full;Johanite;;;;;;;;;;;;x
+southcrosser_desc;The Church of the Southern Cross emerged after a prophet somewhere in the australian interior was given a new bible by Our Saviour, the Gospel. After that the church grew in numbers and spread like wildfire, both through missionary work and war.The head of the church is the archbishop, who lives and rules Brisbane. However he is elected by a council of bishops. Though some claim the church is not christian due to their refusal of the trinity (instead choosing to replace it with a system of four different forms of God), the majority still says they are christians.;;;;;;;;;;;;;x
+THE_GOSPEL;The Gospel;;;;;;;;;;;;;x
+GOD_THE_SAVIOUR;The Saviour;;;;;;;;;;;;;x
+GOD_THE_SOUTHERN_CROSS;The_Southern_Cross;;;;;;;;;;;;;x
+FALLEN_ANGEL;Fallen Angel;;;;;;;;;;;;;x
+THE_GREAT_HERETIC;The Great Heretic;;;;;;;;;;;;;x
+johanite;Johanite;;;;;;;;;;;;;x
+johanite_full;Johanite;;;;;;;;;;;;;x
 johanite_desc;This movement claims to be based on the ideas of John I, duke of Toowoomba, who famously opposed archbishop Holy Warrior I during the Sydney Accusations. Though in reality these two movements don’t share much beyond an opposition to the archbishop.
-gnostic;Gnostic;;;;;;;;;;;;x
-gnostic_full;Gnostic;;;;;;;;;;;;x
-gnostic_desc;Chunchunmaru;;;;;;;;;;;;x
-true_church;True Church;;;;;;;;;;;;x
-true_church_full;True Church;;;;;;;;;;;;x
-true_church_desc;True Church - After the event and the rise of the Church of the Southern Cross, the few australian christians who refused to switch their allegiance to the new church banded together and reorganized in the west, where the new faith was the weakest, forming the 'True and Christian Church of God and Jesus Christ', commonly known as the True Church. The religion blends aspects of several pre-existing denominations.;;;;;;;;;;;;x
-aotearoan;Aotearoan;;;;;;;;;;;;x
-aotearoan_full;Aotearoan;;;;;;;;;;;;x
+gnostic;Gnostic;;;;;;;;;;;;;x
+gnostic_full;Gnostic;;;;;;;;;;;;;x
+gnostic_desc;Chunchunmaru;;;;;;;;;;;;;x
+true_church;True Church;;;;;;;;;;;;;x
+true_church_full;True Church;;;;;;;;;;;;;x
+true_church_desc;True Church - After the event and the rise of the Church of the Southern Cross, the few australian christians who refused to switch their allegiance to the new church banded together and reorganized in the west, where the new faith was the weakest, forming the 'True and Christian Church of God and Jesus Christ', commonly known as the True Church. The religion blends aspects of several pre-existing denominations.;;;;;;;;;;;;;x
+aotearoan;Aotearoan;;;;;;;;;;;;;x
+aotearoan_full;Aotearoan;;;;;;;;;;;;;x
 aotearoan_desc;After the chaos that consumed the islands after the event, the former Maori Church became the only christian group in the region, as every other denomination was replaced by Eruism. Though still christian, the aotearoan church has adopted some elements from Eruism. 
-;;;;;;;;;;;;x
-MANA;Mana;;;;;;;;;;;;x
-GOD_ATUA;Atua;;;;;;;;;;;;x
-purist;Purist;;;;;;;;;;;;x
-purist_full;Purist;;;;;;;;;;;;x
-purist_desc;After the Aotearoan Church became widespread and started accepting anglos and other peoples into the fold, a group of priests and theologians founded the Purist Movement, which sought to bring the church back to what they saw as ‘the rightful path’, in which the maori are the chosen people and foreigners are not allowed.;;;;;;;;;;;;x
-indian;Indian;;;;;;;;;;;;x
-indian_full;Indian;;;;;;;;;;;;x
-indian_desc;Indian church is christian denomination which have evolved from baptist and presbyterian churches in northeastern India.;;;;;;;;;;;;x
+;;;;;;;;;;;;;x
+MANA;Mana;;;;;;;;;;;;;x
+GOD_ATUA;Atua;;;;;;;;;;;;;x
+purist;Purist;;;;;;;;;;;;;x
+purist_full;Purist;;;;;;;;;;;;;x
+purist_desc;After the Aotearoan Church became widespread and started accepting anglos and other peoples into the fold, a group of priests and theologians founded the Purist Movement, which sought to bring the church back to what they saw as ‘the rightful path’, in which the maori are the chosen people and foreigners are not allowed.;;;;;;;;;;;;;x
+indian;Indian;;;;;;;;;;;;;x
+indian_full;Indian;;;;;;;;;;;;;x
+indian_desc;Indian church is christian denomination which have evolved from baptist and presbyterian churches in northeastern India.;;;;;;;;;;;;;x
