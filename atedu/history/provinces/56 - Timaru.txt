@@ -12,6 +12,6 @@ b_timaru = castle
 
 # Misc
 culture = southlander
-religion = eruite
+religion = eruist
 
 #History

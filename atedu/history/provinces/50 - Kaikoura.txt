@@ -11,6 +11,6 @@ b_kaikoura = castle
 
 # Misc
 culture = wellingtonian
-religion = eruite
+religion = eruist
 
 #History

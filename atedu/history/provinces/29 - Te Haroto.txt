@@ -11,6 +11,6 @@ b_te_haroto = castle
 
 # Misc
 culture = maori
-religion = eruite
+religion = eruist
 
 #History

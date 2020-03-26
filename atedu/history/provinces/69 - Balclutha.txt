@@ -11,6 +11,6 @@ b_balclutha = castle
 
 # Misc
 culture = southlander
-religion = eruite
+religion = eruist
 
 #History

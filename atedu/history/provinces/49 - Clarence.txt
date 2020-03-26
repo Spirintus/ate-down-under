@@ -12,6 +12,6 @@ b_clarence = castle
 
 # Misc
 culture = wellingtonian
-religion = eruite
+religion = eruist
 
 #History

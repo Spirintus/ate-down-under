@@ -12,6 +12,6 @@ b_hastings = castle
 
 # Misc
 culture = maori
-religion = eruite
+religion = eruist
 
 #History

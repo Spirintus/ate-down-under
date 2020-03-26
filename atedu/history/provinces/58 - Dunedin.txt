@@ -15,6 +15,6 @@ b_dunedin = castle
 
 # Misc
 culture = southlander
-religion = eruite
+religion = eruist
 
 #History

@@ -14,6 +14,6 @@ b_frasertown = castle
 
 # Misc
 culture = maori
-religion = eruite
+religion = eruist
 
 #History

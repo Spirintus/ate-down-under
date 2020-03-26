@@ -14,6 +14,6 @@ b_culverden = castle
 
 # Misc
 culture = southlander
-religion = eruite
+religion = eruist
 
 #History

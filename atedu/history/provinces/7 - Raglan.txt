@@ -13,6 +13,6 @@ b_raglan = castle
 
 # Misc
 culture = aucklander
-religion = eruite
+religion = eruist
 
 #History

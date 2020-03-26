@@ -15,6 +15,6 @@ b_hamilton = castle
 
 # Misc
 culture = aucklander
-religion = eruite
+religion = eruist
 
 #History

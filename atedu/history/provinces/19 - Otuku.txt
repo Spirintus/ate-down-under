@@ -12,6 +12,6 @@ b_otuku = castle
 
 # Misc
 culture = maori
-religion = eruite
+religion = eruist
 
 #History

@@ -154,7 +154,7 @@ e_new_zealand = {
 				b_st_arnaud = {}
 			}
 		}	
-	} Z
+	}
 	
 	k_auckland = {
 		color = {180 143 64 }

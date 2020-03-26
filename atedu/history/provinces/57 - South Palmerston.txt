@@ -13,6 +13,6 @@ b_south_palmerston = castle
 
 # Misc
 culture = southlander
-religion = eruite
+religion = eruist
 
 #History

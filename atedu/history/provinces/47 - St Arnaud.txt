@@ -13,6 +13,6 @@ b_st_arnaud = castle
 
 # Misc
 culture = wellingtonian
-religion = eruite
+religion = eruist
 
 #History
