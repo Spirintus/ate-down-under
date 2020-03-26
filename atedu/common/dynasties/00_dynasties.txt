@@ -133,3 +133,117 @@
 208 = { name = "Prince" culture = melbournian }
 209 = { name = "of Zealand" culture = melbournian }
 210 = { name = "Kiwison" culture = melbournian }
+
+301 = { name = "Collingwood" culture = melbournian 
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 9
+			emblem = 0
+			color = 1
+			color = 5
+			color = 0
+		}
+	}
+}
+302 = { name = "Hawthorn" culture = melbournian 
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 9
+			emblem = 0
+			color = 5
+			color = 0
+			color = 0
+		}
+	}
+}
+303 = { name = "Geelong" culture = melbournian 
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 8
+			emblem = 0
+			color = 1
+			color = 2 #Might want a darker blue
+			color = 0
+		}
+	}
+}
+304 = { name = "Essendon" culture = melbournian 
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 39
+			emblem = 0
+			color = 3
+			color = 5
+			color = 0
+		}
+	}
+}
+305 = { name = "Richmond" culture = melbournian 
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 5
+			color = 0
+		}
+	}
+}
+306 = { name = "St Kilda" culture = melbournian 
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 7
+			emblem = 0
+			color = 3
+			color = 1
+			color = 5
+		}
+	}
+}
+307 = { name = "Footscray" culture = melbournian 
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 8
+			emblem = 0
+			color = 2
+			color = 1
+			color = 3
+		}
+	}
+}
+308 = { name = "Fitzroy" culture = melbournian 
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 2
+			color = 0
+			color = 10
+		}
+	}
+}
+309 = { name = "Kerrigan" culture = melbournian }

@@ -1,44 +1,45 @@
-d_the_fellowship_order;The Fellowship of the Ring;;;;;;;;;x
-e_new_zealand;New Zealand;;;;;;;;;x
-k_wellington;Wellington;;;;;;;;;x
-k_auckland;Auckland;;;;;;;;;x
-d_auckland;Auckland;;;;;;;;;x
-c_auckland;Auckland;;;;;;;;;x
-b_mount_wellington;Mount Wellington;;;;;;;;;x
-b_waiheke;Waiheke;;;;;;;;;x
-b_mount_albert;Mount Albert;;;;;;;;;x
-b_albany;Albany;;;;;;;;;x
-b_clevedon;Clevedon;;;;;;;;;x
-b_flat_bush;Flat Bush;;;;;;;;;x
-b_wellsford;Wellsford;;;;;;;;;x
-b_tapora;Tapora;;;;;;;;;x
-b_south_head;South Head;;;;;;;;;x
-b_marsden_point;Marsden Point;;;;;;;;;x
-b_dargaville;Dragaville;;;;;;;;;x
-b_waipu;Waipu;;;;;;;;;x
-b_whakapirau;Whakapirau;;;;;;;;;x
-d_northland;Northland;;;;;;;;;x
-b_mataura_forest;Mataura Forest;;;;;;;;;x
-b_omapere;Omapere;;;;;;;;;x
-b_takehe;Takehe;;;;;;;;;x
-b_tautoro;Tautoro;;;;;;;;;x
-b_otaua;Otaua;;;;;;;;;x
-b_okaihu;Okaihu;;;;;;;;;x
-b_russel;Russel;;;;;;;;;x
-b_opua;Opua;;;;;;;;;x
-b_helena_bay;Helena Bay;;;;;;;;;x
-b_haruhu_falls;Haruhu Falls;;;;;;;;;x
-b_pomare_bay;Pomare bay;;;;;;;;;x
-b_pokaraka;Pokaraka;;;;;;;;;x
-b_cape_reigna;Cape Reinga;;;;;;;;;x
-b_ngataki;Ngataki;;;;;;;;;x
-b_te_kao;Te Kao;;;;;;;;;x
-b_rangaunu_bay;Rangaunu Bay;;;;;;;;;x
-b_karikari;Karikari;;;;;;;;;x
-b_ohia;Ohia;;;;;;;;;x
-b_ohiparu;Ohiparu;;;;;;;;;x
-k_chatham;Chatham Islands;;;;;;;;;x
-d_chatham;Chatham;;;;;;;;;x
-c_chatham;Chatham;;;;;;;;;x
-b_waitangi;Waitangi;;;;;;;;;x
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+d_the_fellowship_order;The Fellowship of the Ring;;;;;;;;;;;;x
+e_new_zealand;New Zealand;;;;;;;;;;;;x
+k_wellington;Wellington;;;;;;;;;;;;x
+k_auckland;Auckland;;;;;;;;;;;;x
+d_auckland;Auckland;;;;;;;;;;;;x
+c_auckland;Auckland;;;;;;;;;;;;x
+b_mount_wellington;Mount Wellington;;;;;;;;;;;;x
+b_waiheke;Waiheke;;;;;;;;;;;;x
+b_mount_albert;Mount Albert;;;;;;;;;;;;x
+b_albany;Albany;;;;;;;;;;;;x
+b_clevedon;Clevedon;;;;;;;;;;;;x
+b_flat_bush;Flat Bush;;;;;;;;;;;;x
+b_wellsford;Wellsford;;;;;;;;;;;;x
+b_tapora;Tapora;;;;;;;;;;;;x
+b_south_head;South Head;;;;;;;;;;;;x
+b_marsden_point;Marsden Point;;;;;;;;;;;;x
+b_dargaville;Dragaville;;;;;;;;;;;;x
+b_waipu;Waipu;;;;;;;;;;;;x
+b_whakapirau;Whakapirau;;;;;;;;;;;;x
+d_northland;Northland;;;;;;;;;;;;x
+b_mataura_forest;Mataura Forest;;;;;;;;;;;;x
+b_omapere;Omapere;;;;;;;;;;;;x
+b_takehe;Takehe;;;;;;;;;;;;x
+b_tautoro;Tautoro;;;;;;;;;;;;x
+b_otaua;Otaua;;;;;;;;;;;;x
+b_okaihu;Okaihu;;;;;;;;;;;;x
+b_russel;Russel;;;;;;;;;;;;x
+b_opua;Opua;;;;;;;;;;;;x
+b_helena_bay;Helena Bay;;;;;;;;;;;;x
+b_haruhu_falls;Haruhu Falls;;;;;;;;;;;;x
+b_pomare_bay;Pomare bay;;;;;;;;;;;;x
+b_pokaraka;Pokaraka;;;;;;;;;;;;x
+b_cape_reigna;Cape Reinga;;;;;;;;;;;;x
+b_ngataki;Ngataki;;;;;;;;;;;;x
+b_te_kao;Te Kao;;;;;;;;;;;;x
+b_rangaunu_bay;Rangaunu Bay;;;;;;;;;;;;x
+b_karikari;Karikari;;;;;;;;;;;;x
+b_ohia;Ohia;;;;;;;;;;;;x
+b_ohiparu;Ohiparu;;;;;;;;;;;;x
+k_chatham;Chatham Islands;;;;;;;;;;;;x
+d_chatham;Chatham;;;;;;;;;;;;x
+c_chatham;Chatham;;;;;;;;;;;;x
+b_waitangi;Waitangi;;;;;;;;;;;;x
 

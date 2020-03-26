@@ -195,22 +195,57 @@ east_australian = {
 	}
 	
 	melbournian = {
-		graphical_cultures = { englishgfx }
-		color = { 101 170 28 }
+		graphical_cultures = { westerngfx }
 		
-		male_names = { Ynarkael }
-		female_names = {Lizzie}
-		
+		color = {  }
+
+		male_names = {
+			Andrew Arthur
+			Barry Bill_William Bob_Robert Bruce
+			Dale Darryl Dennis
+			Frank
+			Gordon Graham
+			Haydyn
+			Ivanhoe
+			Jack_John
+			Kevin
+			Malcolm
+			Ned_Edward Norm_Norman
+			Lawrence
+			Peter Phillip
+			Richo_Richard Ron_Ronald Roy
+			Steve_Stephen
+			Ted_Theodore Tony_Anthony
+			Wayne
+		}
+		female_names = {
+			Alice Amy
+			Belinda Bella Brittney
+			Chelsea
+			Daisy Debbie_Deborah
+			Gemma
+			Helena_Helen
+			Jessica
+			Kilda Kristy
+			Laura Lily_Lillian
+			Martha Maree_Mary
+			Rebecca Rohenna
+			Sal_Sally Sarah Shannon Siobhan Stephanie
+			Tracey
+			Victoria
+		}
 		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
 		
-		pat_grf_name_chance = 20
-		mat_grf_name_chance = 10
-		father_name_chance = 20
-		
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 20
-		mother_name_chance = 10
-		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
 		modifier = default_culture_modifier
 	}
 	
@@ -254,23 +289,60 @@ east_australian = {
 		modifier = default_culture_modifier
 	}
 	
-	murraylander = {
-		graphical_cultures = { englishgfx }
-		color = { 97 194 132 }
+	basinfolk = {
+		graphical_cultures = { westerngfx }
 		
-		male_names = { Ynarkael }
-		female_names = {Lizzie}
-		
+		color = {  }
+
+		male_names = {
+			Anthony
+			Blake Bruce
+			Chas_Charles Christian Cliff Con_Constantine
+			Danny_Daniel
+			Edward Emmanuel
+			Fred_Frederick
+			Jason Joe_Joseph Johno_John
+			Kostas
+			Lachlan Laurie_Lawrence
+			Marco Mario
+			Nic_Nicholas
+			Paul
+			Raff Richard
+			Steve_Stephen Stuart
+			Vince_Vincent
+			William
+		}
+		female_names = {
+			Ada Ana_Anne Angela
+			Bella Beth_Elizabeth
+			Claire Cosima
+			Dina
+			Elena Emma
+			Gabriella Giselle
+			Helen
+			Isabella
+			Jane
+			Laura Lidia Lillian
+			Mary Matilda
+			Nadia Natalie Natasha
+			Oriana
+			Rachael Rebekah_Rebecca
+			Sally Silvie
+			Tina
+			Zoe
+		}
 		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
 		
-		pat_grf_name_chance = 20
-		mat_grf_name_chance = 10
-		father_name_chance = 20
-		
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 20
-		mother_name_chance = 10
-		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
 		modifier = default_culture_modifier
 	}
 	
@@ -314,22 +386,55 @@ east_australian = {
 		modifier = default_culture_modifier
 	}
 	queenslander = {
-		graphical_cultures = { englishgfx }
-		color = { 178 248 25 }
+		graphical_cultures = { westerngfx }
 		
-		male_names = { Ynarkael }
-		female_names = {Lizzie}
-		
+		color = {  }
+
+		male_names = {
+			Barry Brian Bruce
+			Cameron
+			Darwin David Doug_Douglas Duncan
+			Eric
+			Fitzroy
+			Harold Henry Hugh
+			Jackson Joh Josh_Joshua
+			Karl Kenneth Kevin
+			Larry_Lawrence
+			Mike_Michael
+			Phillip
+			Rick_Richard Robert Roger Russell
+			Steve_Stephen
+		}
+		female_names = {
+			Alexandra Amanda Amber Ashley
+			Barbara Bindi
+			Cleo
+			Debbie_Deborah Doris
+			Elizabeth
+			Florence
+			Harper
+			Ita
+			Jacquie Janet
+			Kat_Katherine
+			Mabel Maddie_Madeline Mary Matilda Melissa
+			Natasha
+			Robyn
+			Sophie Suzie_Susan
+			Terri Tracey
+			Victoria
+		}
 		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
 		
-		pat_grf_name_chance = 20
-		mat_grf_name_chance = 10
-		father_name_chance = 20
-		
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 20
-		mother_name_chance = 10
-		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
 		modifier = default_culture_modifier
 	}
 	
