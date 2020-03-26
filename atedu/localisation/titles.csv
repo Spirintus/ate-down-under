@@ -3,8 +3,28 @@ d_the_fellowship_order;The Fellowship of the Ring;;;;;;;;;;;;x
 e_new_zealand;New Zealand;;;;;;;;;;;;x
 k_wellington;Wellington;;;;;;;;;;;;x
 k_auckland;Auckland;;;;;;;;;;;;x
+k_chatham;Chatham Islands;;;;;;;;;;;;x
+k_elizabeth;Elizabeth;;;;;;;;;;;;x
+k_norfolk;Norfolk;;;;;;;;;;;;x
+d_norfolk;Norfolk;;;;;;;;;;;;x
 d_auckland;Auckland;;;;;;;;;;;;x
+d_northland;Northland;;;;;;;;;;;;x
+d_chatham;Chatham;;;;;;;;;;;;x
+d_mainland;The Mainland;;;;;;;;;;;;x
+d_rakiura;Rakiura;;;;;;;;;;;;x
+d_antarctic_islands;The Antarctic;;;;;;;;;;;;x
+c_norfolk;Norfolk;;;;;;;;;;;;x
+c_stewart_island;Stewart Island;;;;;;;;;;;;x
+c_auckland_islands;New Auckland;;;;;;;;;;;;x
+c_campbell;Campbell;;;;;;;;;;;;x
+c_east_fiordland;East Fiordland;;;;;;;;;;;;x
+c_riverton;Riverton;;;;;;;;;;;;x
 c_auckland;Auckland;;;;;;;;;;;;x
+c_northland;Northland;;;;;;;;;;;;x
+c_chatham;Chatham;;;;;;;;;;;;x
+c_russell_forest;Rusell;;;;;;;;;;;;x
+c_mataura;Mataura;;;;;;;;;;;;x
+c_kaipura;Kaipura;;;;;;;;;;;;x
 b_mount_wellington;Mount Wellington;;;;;;;;;;;;x
 b_waiheke;Waiheke;;;;;;;;;;;;x
 b_mount_albert;Mount Albert;;;;;;;;;;;;x
@@ -18,7 +38,6 @@ b_marsden_point;Marsden Point;;;;;;;;;;;;x
 b_dargaville;Dragaville;;;;;;;;;;;;x
 b_waipu;Waipu;;;;;;;;;;;;x
 b_whakapirau;Whakapirau;;;;;;;;;;;;x
-d_northland;Northland;;;;;;;;;;;;x
 b_mataura_forest;Mataura Forest;;;;;;;;;;;;x
 b_omapere;Omapere;;;;;;;;;;;;x
 b_takehe;Takehe;;;;;;;;;;;;x
@@ -38,8 +57,27 @@ b_rangaunu_bay;Rangaunu Bay;;;;;;;;;;;;x
 b_karikari;Karikari;;;;;;;;;;;;x
 b_ohia;Ohia;;;;;;;;;;;;x
 b_ohiparu;Ohiparu;;;;;;;;;;;;x
-k_chatham;Chatham Islands;;;;;;;;;;;;x
-d_chatham;Chatham;;;;;;;;;;;;x
-c_chatham;Chatham;;;;;;;;;;;;x
 b_waitangi;Waitangi;;;;;;;;;;;;x
-
+b_owenga;Owenga;;;;;;;;;;;;x
+b_te_one;Te One;;;;;;;;;;;;x
+b_kaingaroa;Kaingaroa;;;;;;;;;;;;x
+b_port_hutt;Port Hutt;;;;;;;;;;;;x
+b_mount_dick;Mount Dick;;;;;;;;;;;;x
+b_new_auckland;New Auckland;;;;;;;;;;;;x
+b_adams;Adams;;;;;;;;;;;;x
+b_enderby;Enderby;;;;;;;;;;;;x
+b_dissapointment;Disappointment;;;;;;;;;;;;x
+b_ewing;Ewing;;;;;;;;;;;;x
+b_rose;Rose;;;;;;;;;;;;x
+b_kingston;Kingston;;;;;;;;;;;;x
+b_burnt_pine;Burnt Pine;;;;;;;;;;;;x
+b_cascade;Cascade;;;;;;;;;;;;x
+b_middlegate;Middlegate;;;;;;;;;;;;x
+b_nepean_island;Nepean Island;;;;;;;;;;;;x
+b_phillip_island;Phillip Island;;;;;;;;;;;;x
+b_emily_bay;Emily Bay;;;;;;;;;;;;x
+PRINCIPALITY;Principality;;;;;;;;;;;;x
+PRINCE;Prince;;;;;;;;;;;;x
+PRINCESS;Princess;;;;;;;;;;;;x
+HIGH_KING;High King;;;;;;;;;;;;x
+HIGH_QUEEN;High Queen;;;;;;;;;;;;x
