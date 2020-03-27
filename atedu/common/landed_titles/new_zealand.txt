@@ -89,12 +89,6 @@ e_new_zealand = {
 				color2 = { 255 255 255 }
 				b_paparangi = {}
 			}
-		}
-		d_patea = {
-			color = {255 255 255 }
-			color2 = { 255 255 255 }
-			
-			capital = 39
 			
 			c_plymouth = {
 				color = {255 255 255 }
