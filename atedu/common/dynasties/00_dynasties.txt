@@ -134,7 +134,7 @@
 209 = { name = "of Zealand" culture = melbournian }
 210 = { name = "Kiwison" culture = melbournian }
 
-301 = { name = "Collingwood" culture = melbournian 
+211 = { name = "Collingwood" culture = melbournian 
 	coat_of_arms = {
 		religion = catholic
 		template = 0
@@ -148,7 +148,7 @@
 		}
 	}
 }
-302 = { name = "Hawthorn" culture = melbournian 
+212 = { name = "Hawthorn" culture = melbournian 
 	coat_of_arms = {
 		religion = catholic
 		template = 0
@@ -162,7 +162,7 @@
 		}
 	}
 }
-303 = { name = "Geelong" culture = melbournian 
+213 = { name = "Geelong" culture = melbournian 
 	coat_of_arms = {
 		religion = catholic
 		template = 0
@@ -176,7 +176,7 @@
 		}
 	}
 }
-304 = { name = "Essendon" culture = melbournian 
+214 = { name = "Essendon" culture = melbournian 
 	coat_of_arms = {
 		religion = catholic
 		template = 0
@@ -190,7 +190,7 @@
 		}
 	}
 }
-305 = { name = "Richmond" culture = melbournian 
+215 = { name = "Richmond" culture = melbournian 
 	coat_of_arms = {
 		religion = catholic
 		template = 0
@@ -204,7 +204,7 @@
 		}
 	}
 }
-306 = { name = "St Kilda" culture = melbournian 
+216 = { name = "St Kilda" culture = melbournian 
 	coat_of_arms = {
 		religion = catholic
 		template = 0
@@ -218,7 +218,7 @@
 		}
 	}
 }
-307 = { name = "Footscray" culture = melbournian 
+217 = { name = "Footscray" culture = melbournian 
 	coat_of_arms = {
 		religion = catholic
 		template = 0
@@ -232,7 +232,7 @@
 		}
 	}
 }
-308 = { name = "Fitzroy" culture = melbournian 
+218 = { name = "Fitzroy" culture = melbournian 
 	coat_of_arms = {
 		religion = catholic
 		template = 0
@@ -246,4 +246,8 @@
 		}
 	}
 }
-309 = { name = "Kerrigan" culture = melbournian }
+219 = { name = "Kerrigan" culture = melbournian }
+
+300 = { name = "o'Triabunna" culture = witasmen }
+
+

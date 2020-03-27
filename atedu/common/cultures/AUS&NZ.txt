@@ -35,7 +35,7 @@ indig_australians = {
 		color = { 19 28 177 }
 		
 		male_names = { Ynarkael }
-		female_names = { Lizzie }
+		female_names = { Lizzie_Elizabeth }
 		
 		from_dynasty_prefix = "of "
 		
@@ -55,7 +55,7 @@ west_australian = {
 	graphical_cultures = {muslimgfx}
 	
 	westralian = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 244 20 16 }
 		
 		male_names = { Ynarkael }
@@ -75,11 +75,11 @@ west_australian = {
 	}
 	
 	darwinian = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 209 101 93 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -175,11 +175,11 @@ east_australian = {
 	graphical_cultures = { westerngfx }
 	
 	sydneyan = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 35 178 39 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -195,7 +195,7 @@ east_australian = {
 	}
 	
 	melbournian = {
-		graphical_cultures = { westerngfx }
+		graphical_cultures = { englishgfx westerngfx }
 		
 		color = { 101 170 28 }
 
@@ -250,11 +250,11 @@ east_australian = {
 	}
 	
 	victorian = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 100 170 58 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -270,11 +270,11 @@ east_australian = {
 	}
 	
 	baylander = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 178 182 31 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -290,7 +290,7 @@ east_australian = {
 	}
 	
 	basinfolk = {
-		graphical_cultures = { westerngfx }
+		graphical_cultures = { englishgfx westerngfx }
 		
 		color = { 97 194 132 }
 
@@ -347,11 +347,11 @@ east_australian = {
 	}
 	
 	coastlander = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 35 255 39 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -367,11 +367,11 @@ east_australian = {
 	}
 	
 	brisbanite = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 93 190 0 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -386,7 +386,7 @@ east_australian = {
 		modifier = default_culture_modifier
 	}
 	queenslander = {
-		graphical_cultures = { westerngfx }
+		graphical_cultures = { englishgfx westerngfx }
 		
 		color = { 178 248 25 }
 
@@ -439,11 +439,11 @@ east_australian = {
 	}
 	
 	carpentarian = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 250 250 12 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -459,11 +459,11 @@ east_australian = {
 	}
 	
 	capricornian = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 51 167 62 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -479,11 +479,11 @@ east_australian = {
 	}
 	
 	tasman = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 35 255 201 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -503,7 +503,7 @@ east_australian = {
 		color = { 98 211 78 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -560,11 +560,11 @@ zealandese = {
 	graphical_cultures = { westerngfx }
 	
 	chathamite = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 35 255 201 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -580,11 +580,11 @@ zealandese = {
 	}
 	
 	aucklander = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 35 255 201 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -600,11 +600,11 @@ zealandese = {
 	}
 	
 	dunedian = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 35 255 201 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
 		
@@ -640,7 +640,7 @@ zealandese = {
 	}
 	
 	southlander = {
-		graphical_cultures = { westerngfx_male_early westerngfx}
+		graphical_cultures = { englishgfx westerngfx}
 		color = { 180 20 96 }
 		male_names = {
 			Joshua Jack Benjamin Samuel Daniel Jacob Ethan James Thomas Matthew Liam William Caleb Luke Oliver Ryan Jayden Cameron Connor Graeme Logan Dylan 
@@ -663,11 +663,31 @@ zealandese = {
 	}
 	
 	wellingtonian = {
-		graphical_cultures = { englishgfx }
+		graphical_cultures = { englishgfx westerngfx }
 		color = { 35 255 201 }
 		
 		male_names = { Ynarkael }
-		female_names = {Lizzie}
+		female_names = {Lizzie_Elizabeth}
+		
+		from_dynasty_prefix = "of "
+		
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+		
+		modifier = default_culture_modifier
+	}
+	
+	witasmen = {
+		graphical_cultures = { englishgfx westerngfx }
+		color = { 19 240 24 }
+		
+		male_names = { Dick_Richard Ynarkael Sam_Samuel Jo }
+		female_names = { Lizzie_Elizabeth Jenny_Jane Em_Emma Cat_Catherine Puppy_Poppy Domi_Dominica  }
 		
 		from_dynasty_prefix = "of "
 		

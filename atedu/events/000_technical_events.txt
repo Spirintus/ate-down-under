@@ -1,0 +1,16 @@
+namespace = ButWhatAboutDragons
+
+character_event = {
+	id = ButWhatAboutDragons.1
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
+	
+	immediate = {
+		set_global_flag = liberator_not_yet_here
+	}
+}

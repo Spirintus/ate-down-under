@@ -1,0 +1,128 @@
+#500 - 599
+
+500 = {
+	name = "Harold"
+	dynasty = 300
+	culture = witasmen
+	religion = southcrosser
+	2582.12.13 = {birth = yes}
+	2634.4.9 = {death = yes}
+}
+501 = {
+	name = "Sam"
+	dynasty = 300
+	culture = witasmen
+	religion = southcrosser
+	father = 500
+	2601.1.19 = { birth = yes }
+	2630.7.14 = { add_spouse = 502 }
+}
+502 = {
+	name = "Jenny"
+	dynasty = "lowborn"
+	culture = witasmen
+	religion = southcrosser
+	female = yes
+	2611.4.9 = { birth = yes }
+	2630.7.14 = { add_spouse = 501 }
+	trait = cancer
+	trait = attractive
+}
+503 = {
+	name = "Samantha"
+	dynasty = 300
+	culture = witasmen
+	religion = southcrosser
+	father = 501
+	mother = 502
+	female = yes
+	2632.6.15 = { birth = yes }
+	trait = twin
+}
+504 = {
+	name = "Jenny"
+	dynasty = 300
+	culture = witasmen
+	religion = southcrosser
+	father = 501
+	mother = 502
+	female = yes
+	2632.6.15 = { birth = yes }
+	trait = twin
+}
+505 = {
+	name = "Em"
+	dynasty = 300
+	culture = witasmen
+	religion = southcrosser
+	father = 501
+	mother = 502
+	female = yes
+	2635.11.7 = { birth = yes }
+	trait = attractive
+}
+507 = {
+	name = "Cat"
+	dynasty = 300
+	culture = witasmen
+	religion = southcrosser
+	father = 501
+	mother = 502
+	female = yes
+	2639.3.22 = { birth = yes }
+	trait = attractive
+}
+508 = {
+	name = "Puppy"
+	dynasty = 300
+	culture = witasmen
+	religion = southcrosser
+	father = 501
+	mother = 502
+	female = yes
+	2644.7.8 = { birth = yes }
+	trait = attractive
+}
+509 = {
+	name = "Domi"
+	dynasty = 300
+	culture = witasmen
+	religion = southcrosser
+	father = 501
+	mother = 502
+	female = yes
+	2648.2.28 = { birth = yes }
+	trait = attractive
+}
+510 = {
+	name = "Lizzie"
+	dynasty = 300
+	culture = witasmen
+	religion = southcrosser
+	father = 501
+	mother = 502
+	female = yes
+	2652.3.27 = { birth = yes }
+	trait = attractive
+}
+511 = {
+	name = "Malcolm"
+	dynasty = 300
+	culture = witasmen
+	religion = southcrosser
+	father = 500
+	2607.1.9 = { birth = yes }
+	2660.9.1 = { death = yes }
+}
+512 = {
+	name = "Dick"
+	dynasty = 300
+	culture = witasmen
+	religion = southcrosser
+	father = 511
+	2641.1.15 = { birth = yes }
+	trait = cruel
+	trait = zealous
+	trait = arbitrary
+	trait = stubborn
+}

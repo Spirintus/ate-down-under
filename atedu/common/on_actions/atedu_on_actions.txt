@@ -1,3 +1,9 @@
+on_startup = {
+	events = {
+		ButWhatAboutDragons.1
+	}
+}
+
 on_adulthood = {
 	events = {
 		atedu.30

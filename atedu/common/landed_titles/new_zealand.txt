@@ -12,6 +12,13 @@ e_new_zealand = {
 		color2 = { 255 255 255 }
 		
 		capital = 58 #dunedin
+	# }
+	   
+	# k_christchurch = {      #uncomment these lines once christchurch will get it's title will be added
+		# color = {200 139 44}				#my intention is to make dunedin special kingdom for 
+		# color2 = { 255 255 255 }
+		
+		# capital = 53 #christchurch
 		
 		d_otago = {
 			color = {192 115 17}
@@ -24,6 +31,12 @@ e_new_zealand = {
 				color2 = {255 255 255}
 				
 				b_dunedin = {}
+				b_st_clair = {}
+				b_saddle_hill = {}
+				b_north_taieri = {}
+				b_outram = {}
+				b_momona = {}
+				b_lee_stream = {}
 			}
 			
 			c_south_palmerston = {
@@ -31,18 +44,49 @@ e_new_zealand = {
 				color2 = {255 255 255}
 				
 				b_south_palmerston = {}
+				b_goodwood = {}
+				b_flag_swamp = {}
+				b_waikouaiti = {}
+				b_karitane = {}
+				b_seacliff = {}
+				b_omimi = {}
 			}
 			c_balclutha = {
 				color = { 217 78 50}
 				color2 = {255 255 255}
 				
 				b_balclutha = {}
+				b_kaka_point = {}
+				b_wangaloa = {}
+				b_benhar = {}
+				b_warepa = {}
+				b_inch_clutha = {}
+				b_finegand = {}
 			}
 			c_alexandra = {
 				color = { 217 99 99}
 				color2 = {255 255 255}
 				
 				b_alexandra = {}
+				b_roxburgh = {}
+				b_piano_flat = {}
+				b_ettrick = {}
+				b_ophir = {}
+				b_clyde = {}
+				b_earnscleugh = {}
+			}
+			
+			c_invercargill = {
+				color = {255 23 42}
+				color2 = { 255 255 255 }
+				
+				b_invercargill = {}
+				b_lorneville = {}
+				b_ashers = {}
+				b_fortrose = {}
+				b_edendale = {}
+				b_seaward_downs = {}
+				b_waimahaka = {}
 			}
 		}
 	}	
@@ -363,77 +407,6 @@ e_new_zealand = {
 				b_stewart_island_6 = {}
 			}
 		}
-		d_otago = {
-			color = {255 223 42}
-			color2 = { 255 255 255 }
-		
-			capital = 58 #dunedin
-			
-			c_invercargill = {
-				color = {255 223 42}
-				color2 = { 255 255 255 }
-				
-				b_invercargill = {}
-				b_lorneville = {}
-				b_ashers = {}
-				b_fortrose = {}
-				b_edendale = {}
-				b_seaward_downs = {}
-				b_waimahaka = {}
-			}
-			c_alexandra = {
-				color = {255 223 42}
-				color2 = { 255 255 255 }
-				
-				b_alexandra = {}
-				b_roxburgh = {}
-				b_piano_flat = {}
-				b_ettrick = {}
-				b_ophir = {}
-				b_clyde = {}
-				b_earnscleugh = {}
-				
-			}
-			c_balclutha = {
-				color = {255 223 42}
-				color2 = { 255 255 255 }
-				
-				b_balclutha = {}
-				b_kaka_point = {}
-				b_wangaloa = {}
-				b_benhar = {}
-				b_warepa = {}
-				b_inch_clutha = {}
-				b_finegand = {}
-				
-			}
-			c_dunedin = {
-				color = {255 223 42}
-				color2 = { 255 255 255 }
-				
-				b_dunedin = {}
-				b_st_clair = {}
-				b_saddle_hill = {}
-				b_north_taieri = {}
-				b_outram = {}
-				b_momona = {}
-				b_lee_stream = {}
-				
-			}
-			c_south_palmerston= {
-				color = {255 223 42}
-				color2 = { 255 255 255 }
-				
-				b_south_palmerston = {}
-				b_goodwood = {}
-				b_flag_swamp = {}
-				b_waikouaiti = {}
-				b_karitane = {}
-				b_seacliff = {}
-				b_omimi = {}
-				
-			}			
-		}
 		
 		d_antarctic_islands = {
 			color = {87 109 139}
@@ -491,4 +464,11 @@ e_new_zealand = {
 			}
 		}
 	}
+}
+
+d_liberator = {
+	color = { 30 237 69 }
+	color2 = { 255 255 255}
+	
+	landless = yes
 }
