@@ -129,13 +129,6 @@ e_new_zealand = {
 				color2 = { 255 255 255 }
 				b_paparangi = {}
 			}
-		}
-		d_plymouth = {
-			color = {255 125 55 }
-			color2 = { 255 255 255 }
-			
-			capital = 39
-			
 			c_plymouth = {
 				color = {255 255 255 }
 				color2 = { 255 255 255 }
@@ -316,17 +309,43 @@ e_new_zealand = {
 				color = { 118 12 125 }
 				color2 = { 255 255 255}
 				b_east_fiordland = {}
+				b_whare_creek = {}
 			}
 			
 			c_riverton = {
 				color = { 99 70 125 }
 				color2 = { 255 255 255}
 				b_riverton = {}
-				b_riverton_2 = {}
-				b_riverton_3 = {}
-				b_riverton_4 = {}
-				b_riverton_5 = {}
-				b_riverton_6 = {}
+				b_te_waewae = {}
+				b_pourakino_valley = {}
+				b_gropers_bush = {}
+				b_pahia = {}
+				b_tihaka = {}
+				b_colac_bay = {}
+			}
+			
+			c_riversdale = {
+				color = { 99 70 125 }
+				color2 = { 255 255 255}
+				b_riversdale = {}
+				b_otama = {}
+				b_mandeville = {}
+				b_glenure = {}
+				b_balfour = {}
+				b_ardlussa = {}
+				b_lintley = {}
+			}
+						
+			c_coronet_peak = {
+				color = { 99 70 125 }
+				color2 = { 255 255 255}
+				b_queenstown = {}
+				b_closeburn = {}
+				b_kingston = {}
+				b_halfway_bay = {}
+				b_mavora = {}
+				b_mount_nicholas = {}
+				b_athol = {}
 			}
 		}
 		
@@ -344,6 +363,78 @@ e_new_zealand = {
 				b_stewart_island_6 = {}
 			}
 		}
+		d_otago = {
+			color = {255 223 42}
+			color2 = { 255 255 255 }
+		
+			capital = 58 #dunedin
+			
+			c_invercargill = {
+				color = {255 223 42}
+				color2 = { 255 255 255 }
+				
+				b_invercargill = {}
+				b_lorneville = {}
+				b_ashers = {}
+				b_fortrose = {}
+				b_edendale = {}
+				b_seaward_downs = {}
+				b_waimahaka = {}
+			}
+			c_alexandra = {
+				color = {255 223 42}
+				color2 = { 255 255 255 }
+				
+				b_alexandra = {}
+				b_roxburgh = {}
+				b_piano_flat = {}
+				b_ettrick = {}
+				b_ophir = {}
+				b_clyde = {}
+				b_earnscleugh = {}
+				
+			}
+			c_balclutha = {
+				color = {255 223 42}
+				color2 = { 255 255 255 }
+				
+				b_balclutha = {}
+				b_kaka_point = {}
+				b_wangaloa = {}
+				b_benhar = {}
+				b_warepa = {}
+				b_inch_clutha = {}
+				b_finegand = {}
+				
+			}
+			c_dunedin = {
+				color = {255 223 42}
+				color2 = { 255 255 255 }
+				
+				b_dunedin = {}
+				b_st_clair = {}
+				b_saddle_hill = {}
+				b_north_taieri = {}
+				b_outram = {}
+				b_momona = {}
+				b_lee_stream = {}
+				
+			}
+			c_south_palmerston= {
+				color = {255 223 42}
+				color2 = { 255 255 255 }
+				
+				b_south_palmerston = {}
+				b_goodwood = {}
+				b_flag_swamp = {}
+				b_waikouaiti = {}
+				b_karitane = {}
+				b_seacliff = {}
+				b_omimi = {}
+				
+			}			
+		}
+		
 		d_antarctic_islands = {
 			color = {87 109 139}
 			color2 = { 255 255 255 }
