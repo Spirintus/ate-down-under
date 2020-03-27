@@ -7,11 +7,13 @@ title = c_riverton
 max_settlements = 6
 
 b_riverton = castle
-#b_riverton_2 = city
-#b_riverton_3 = temple
-#b_riverton_4 = castle
-#b_riverton_5 = city
-#b_riverton_6 = temple
+b_te_waewae = city
+b_pourakino_valley = temple
+#b_gropers_bush = castle
+#b_pahia = city
+#b_tihaka = temple
+
+#b_colac_bay = castle
 
 # Misc
 culture = jadite

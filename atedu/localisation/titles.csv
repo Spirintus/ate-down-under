@@ -111,6 +111,28 @@ b_waikouaiti;Waikouaiti;;;;;;;;;;;;x
 b_karitane;Karitane;;;;;;;;;;;;x
 b_seacliff;Seacliff;;;;;;;;;;;;x
 b_omimi;Omimi;;;;;;;;;;;;x
+b_whare_creek;Whare Creek;;;;;;;;;;;;x
+b_riverton;Riverton;;;;;;;;;;;;x
+b_te_waewae;Te Waewae;;;;;;;;;;;;x
+b_pourakino_valley;Pourakino Valley;;;;;;;;;;;;x
+b_gropers_bush;Gropers Bush;;;;;;;;;;;;x
+b_pahia;Pahia;;;;;;;;;;;;x
+b_tihaka;Tihaka;;;;;;;;;;;;x
+b_colac_bay;Colac Bay;;;;;;;;;;;;x
+b_riversdale;Riversdale;;;;;;;;;;;;x
+b_otama;Otama;;;;;;;;;;;;x
+b_mandeville;Mandeville;;;;;;;;;;;;x
+b_glenure;Glenure;;;;;;;;;;;;x
+b_balfour;Balfour;;;;;;;;;;;;x
+b_ardlussa;Ardlussa;;;;;;;;;;;;x
+b_lintley;Lintley;;;;;;;;;;;;x
+b_queenstown;Queenstown;;;;;;;;;;;;x
+b_closeburn;Closeburn;;;;;;;;;;;;x
+b_kingston;Kingston;;;;;;;;;;;;x
+b_halfway_bay;Halfway Bay;;;;;;;;;;;;x
+b_mavora;Mavora;;;;;;;;;;;;x
+b_mount_nicholas;Mount Nicholas;;;;;;;;;;;;x
+b_athol;Athol;;;;;;;;;;;;x
 d_otago;Otago;;;;;;;;;;;;x
 d_otago_adj;Otagoan;;;;;;;;;;;;x
 c_invercargill;Invercargill;;;;;;;;;;;;x
@@ -123,6 +145,10 @@ c_dunedin;Dunedin;;;;;;;;;;;;x
 c_dunedin_adj;Dunedinian;;;;;;;;;;;;x
 c_south_palmerston;South Palmerston;;;;;;;;;;;;x
 c_south_palmerston_adj;South Palmerstonian;;;;;;;;;;;;x
+c_riversdale;Riversdale;;;;;;;;;;;;x
+c_riversdale_adj;Riversdalean;;;;;;;;;;;;x
+c_coronet_peak;Coronet Peak;;;;;;;;;;;;x
+c_coronet_peak_adj;Coronet Peakan;;;;;;;;;;;;x
 PRINCIPALITY;Principality;;;;;;;;;;;;x
 PRINCE;Prince;;;;;;;;;;;;x
 PRINCESS;Princess;;;;;;;;;;;;x

@@ -4,9 +4,10 @@
 title = c_east_fiordland
 
 # Settlements
-max_settlements = 1
+max_settlements = 2
 
 b_east_fiordland = tribal
+#b_whare_creek = temple
 
 # Misc
 culture = jadite

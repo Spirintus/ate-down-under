@@ -275,17 +275,43 @@ e_new_zealand = {
 				color = { 118 12 125 }
 				color2 = { 255 255 255}
 				b_east_fiordland = {}
+				b_whare_creek = {}
 			}
 			
 			c_riverton = {
 				color = { 99 70 125 }
 				color2 = { 255 255 255}
 				b_riverton = {}
-				b_riverton_2 = {}
-				b_riverton_3 = {}
-				b_riverton_4 = {}
-				b_riverton_5 = {}
-				b_riverton_6 = {}
+				b_te_waewae = {}
+				b_pourakino_valley = {}
+				b_gropers_bush = {}
+				b_pahia = {}
+				b_tihaka = {}
+				b_colac_bay = {}
+			}
+			
+			c_riversdale = {
+				color = { 99 70 125 }
+				color2 = { 255 255 255}
+				b_riversdale = {}
+				b_otama = {}
+				b_mandeville = {}
+				b_glenure = {}
+				b_balfour = {}
+				b_ardlussa = {}
+				b_lintley = {}
+			}
+						
+			c_coronet_peak = {
+				color = { 99 70 125 }
+				color2 = { 255 255 255}
+				b_queenstown = {}
+				b_closeburn = {}
+				b_kingston = {}
+				b_halfway_bay = {}
+				b_mavora = {}
+				b_mount_nicholas = {}
+				b_athol = {}
 			}
 		}
 		

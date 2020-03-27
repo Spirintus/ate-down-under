@@ -7,7 +7,13 @@ title = c_riversdale
 max_settlements = 2
 
 b_riversdale = castle
-#b_riversdale_2 = city
+#b_otama = city
+
+#b_mandeville = castle
+#b_glenure = castle
+#b_balfour = castle
+#b_ardlussa = castle
+#b_lintley = castle
 
 # Misc
 culture = southlander
