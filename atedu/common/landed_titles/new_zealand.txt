@@ -122,11 +122,6 @@ e_new_zealand = {
 				color2 = { 255 255 255 }
 				b_clarence = {}
 			}
-			c_blenheim = {
-				color = {255 255 255 }
-				color2 = { 255 255 255 }
-				b_blenheim = {}
-			}
 			c_havelock = {
 				color = {255 255 255 }
 				color2 = { 255 255 255 }
