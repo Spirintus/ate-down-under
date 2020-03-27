@@ -7,11 +7,13 @@ title = c_dunedin
 max_settlements = 6
 
 b_dunedin = castle
-#b_dunedin_2 = city
-#b_dunedin_3 = temple
-#b_dunedin_4 = castle
-#b_dunedin_5 = city
-#b_dunedin_6 = temple
+#b_st_clair = city
+#b_saddle_hill = temple
+#b_north_taieri = castle
+#b_outram = city
+#b_momona = temple
+
+#b_lee_stream = castle
 
 # Misc
 culture = southlander

@@ -7,9 +7,13 @@ title = c_alexandra
 max_settlements = 4
 
 b_alexandra = castle
-#b_alexandra_2 = city
-#b_alexandra_3 = temple
-#b_alexandra_4 = castle
+#b_roxburgh = city
+#b_piano_flat = temple
+#b_ettrick = castle
+
+#b_ophir = castle
+#b_clyde = castle
+#b_earnscleugh = castle
 
 # Misc
 culture = southlander

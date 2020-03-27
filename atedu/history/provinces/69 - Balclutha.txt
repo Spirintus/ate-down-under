@@ -7,7 +7,14 @@ title = c_balclutha
 max_settlements = 2
 
 b_balclutha = castle
-#b_balclutha_2 = city
+#b_kaka_point = city
+
+#b_wangaloa = castle
+#b_benhar = castle
+#b_warepa = castle
+#b_inch_clutha = castle
+#b_finegand = castle
+
 
 # Misc
 culture = southlander

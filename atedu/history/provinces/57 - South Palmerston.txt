@@ -7,9 +7,13 @@ title = c_south_palmerston
 max_settlements = 4
 
 b_south_palmerston = castle
-#b_south_palmerston_2 = city
-#b_south_palmerston_3 = temple
-#b_south_palmerston_4 = castle
+#b_goodwood = city
+#b_flag_swamp = temple
+#b_waikouaiti = castle
+
+#b_karitane = castle
+#b_seacliff = castle
+#b_omimi = castle
 
 # Misc
 culture = southlander

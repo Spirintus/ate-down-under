@@ -7,9 +7,13 @@ title = c_invercargill
 max_settlements = 4
 
 b_invercargill = castle
-#b_invercargill_2 = city
-#b_invercargill_3 = temple
-#b_invercargill_4 = castle
+#b_lorneville = city
+#b_ashers = temple
+#b_fortrose = castle
+
+#b_edendale = castle
+#b_seaward_downs = castle
+#b_waimahaka = castle
 
 # Misc
 culture = southlander
