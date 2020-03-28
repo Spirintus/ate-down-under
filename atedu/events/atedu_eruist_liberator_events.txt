@@ -84,7 +84,7 @@ province_event = {
 					set_government_type = feudal_government
 					save_event_target_as = liberator_event_target
 					set_character_flag = this_is_liberator
-					new_title = {
+					d_liberator = {
 						add_law = succ_primogeniture
 						add_law = true_cognatic_succession
 						if = {
@@ -129,7 +129,7 @@ province_event = {
 								learning = 7
 							}
 						}
-						new_character = { add_spouse = THIS}
+						new_character = { add_spouse = PREV}
 					}
 					else = {
 						create_character = {
@@ -154,12 +154,9 @@ province_event = {
 								learning = 7
 							}
 						}
-						new_character = { add_spouse_matrilineal = THIS}
+						new_character = { add_spouse_matrilineal = PREV}
 					}
-					
 				}
-				
-				
 			}
 		}
 	}

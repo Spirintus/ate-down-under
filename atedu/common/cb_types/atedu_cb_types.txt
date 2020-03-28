@@ -14,7 +14,7 @@ liberator_invasion = { #aka subjugation invasion hybrid
 	}
 	
 	is_valid = {
-		ROOT = { has_character_flag = is_liberator}
+		ROOT = { has_character_flag = this_is_liberator}
 	}
 	
 	on_success = {
