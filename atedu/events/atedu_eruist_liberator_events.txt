@@ -168,12 +168,42 @@ province_event = {
 
 narrative_event = {
 	id = erulib.2
-	desc = EVTDESC_erulib_2
 	title = EVTTITLE_erulib_2
+	
+	desc = {
+		text = EVTDESC_erulib_2_eruist
+		trigger = {
+			d_liberator = {
+				religion = eruist
+			}
+		}
+	}
+	
+	desc = {
+		text = EVTDESC_erulib_2_quendic
+		trigger = {
+			d_liberator = {
+				religion = quendic
+			}
+		}
+	}
+	
+	desc = {
+		text = EVTDESC_erulib_2_ritualistic
+		trigger = {
+			d_liberator = {
+				religion = ritualistic
+			}
+		}
+	}
+	
 	picture = GFX_evt_peasants
 	border = GFX_event_narrative_frame_war
 	portrait = d_liberator
 	is_triggered_only = yes
+	
+	#hide_new = yes
+	#hide_from = yes
 	
 	major = yes
 	
@@ -268,12 +298,69 @@ narrative_event = {
 	}
 	
 	option = {
-		name = EVTOPT_erulib_2_A #kay
+		name = {
+			text = EVTOPT_erulib_2_A_eruist #kay
+			trigger = {
+				religion = eruist
+				ROOT = {religion = eruist}
+			}
+		}
+		name = {
+			text = EVTOPT_erulib_2_A_quendic #kay
+			trigger = {
+				religion = quendic
+				ROOT = {religion = quendic}
+			}
+		}
+		name = {
+			text = EVTOPT_erulib_2_A_ritualistic #kay
+			trigger = {
+				religion = ritualistic
+				ROOT = {religion = ritualistic}
+			}
+		}
+		name = {
+			text = EVTOPT_erulib_2_A_eru_group_but_other_religion #kay
+			trigger = {
+				religion_group = eruist_group
+				NOT = { ROOT = { religion = THIS } }
+			}
+		}
+		name = {
+			text = EVTOPT_erulib_2_A_southcrosser #kay
+			trigger = {
+				religion = southcrosser
+			}
+		}
+		name = {
+			text = EVTOPT_erulib_2_A_other #kay
+			trigger = {
+				NOR = {
+					religion = southcrosser
+					religion_group = eruist_group				
+				}
+			}
+		}
 	}
 	option = {
-		name = EVTOPT_erulib_2_B 
+		name = {
+			text = EVTOPT_erulib_2_B_eru #kay
+			trigger = {
+				religion_group = eruist_group
+			}
+		}
+		name = {
+			text = EVTOPT_erulib_2_B_other #kay
+			trigger = {
+				NOT = { THIS = { religion_group = eruist_group } }
+			}
+		}
+		
+		#custom_tooltip = yes
+		
 		trigger = {
 			NOT = { has_character_flag = this_is_liberator}
+			ai = no
 		}
 		if = {	
 			limit = {
