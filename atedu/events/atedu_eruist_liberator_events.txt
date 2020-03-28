@@ -105,33 +105,12 @@ province_event = {
 					
 					if = {
 						limit = {
-							THIS = { is_female = no }
-						}
-						create_character = {
-							random_traits = no
-							name = "Ariana"
-							dynasty = 109
-							religion = ROOT
-							culture = ROOT
-							age = 21
-							female = yes
-							trait = honest
-							trait = brave
-							trait = diligent
-							trait = proud
-							trait = midas_touched
-							trait = aggressive_leader
-							attributes = {
-								diplomacy = 10
-								martial = 8
-								stewardship = 7
-								intrigue = 6
-								learning = 7
+							d_liberator = {
+								holder_scope = { 
+									is_female = yes 
+								} 
 							}
 						}
-						new_character = { add_spouse = PREV}
-					}
-					else = {
 						create_character = {
 							random_traits = no
 							name = "Archer"
@@ -154,6 +133,31 @@ province_event = {
 								learning = 7
 							}
 						}
+						new_character = { add_spouse = PREV}
+					}
+					else = {
+						create_character = {
+							random_traits = no
+							name = "Ariana"
+							dynasty = 109
+							religion = ROOT
+							culture = ROOT
+							age = 21
+							female = yes
+							trait = honest
+							trait = brave
+							trait = diligent
+							trait = proud
+							trait = midas_touched
+							trait = aggressive_leader
+							attributes = {
+								diplomacy = 10
+								martial = 8
+								stewardship = 7
+								intrigue = 6
+								learning = 7
+							}
+						}
 						new_character = { add_spouse_matrilineal = PREV}
 					}
 				}
@@ -167,7 +171,8 @@ narrative_event = {
 	desc = EVTDESC_erulib_2
 	title = EVTTITLE_erulib_2
 	picture = GFX_evt_peasants
-	
+	border = GFX_event_narrative_frame_war
+	portrait = d_liberator
 	is_triggered_only = yes
 	
 	major = yes
