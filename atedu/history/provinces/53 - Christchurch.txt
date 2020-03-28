@@ -7,11 +7,13 @@ title = c_christchurch
 max_settlements = 6
 
 b_christchurch = castle
-#b_christchurch_2 = city
-#b_christchurch_3 = temple
-#b_christchurch_4 = castle
-#b_christchurch_5 = city
-#b_christchurch_6 = temple
+b_belfast = city
+b_prebbleton = temple
+#b_lincoln = castle
+#b_rolleston = city
+#b_swannanoa = temple
+
+#b_kaiapoi = castle
 
 # Misc
 culture = southlander

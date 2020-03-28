@@ -7,10 +7,13 @@ title = c_culverden
 max_settlements = 5
 
 b_culverden = castle
-#b_culverden_2 = city
-#b_culverden_3 = temple
-#b_culverden_4 = castle
-#b_culverden_5 = city
+#b_tekoa = city
+#b_hurunui = temple
+#b_leslie = castle
+#b_st_leonards = city
+
+#b_lyndon = castle
+#b_montrose = castle
 
 # Misc
 culture = southlander

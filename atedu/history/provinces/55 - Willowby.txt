@@ -7,10 +7,17 @@ title = c_willowby
 max_settlements = 2
 
 b_willowby = castle
-#b_willowby_2 = city
+#b_rangitata = city
+
+#b_lowcliffe = castle
+#b_hinds = castle
+#b_ealing = castle
+#b_fountains = castle
+#b_fitzgerald = castle
 
 # Misc
 culture = southlander
 religion = eruist
 
 #History
+				

@@ -88,6 +88,75 @@ e_new_zealand = {
 				b_waimahaka = {}
 			}
 		}
+	    d_otautahi = {
+			color = {32 65 34}
+			color2 = { 255 255 255 }
+			
+			capital = 58 #dunedin
+			
+			c_christchurch = {
+				color = { 7 48 0}
+				color2 = {255 255 255}
+				
+				b_christchurch = {}
+				b_belfast = {}
+				b_prebbleton = {}
+				b_lincoln = {}
+				b_rolleston = {}
+				b_swannanoa = {}
+				b_kaiapoi = {}
+			}
+			
+			c_leeston = {
+				color = { 7 75 40}
+				color2 = {255 255 255}
+				
+				b_leeston = {}
+				b_doyleston = {}
+				b_rakaia = {}
+				b_chertsey = {}
+				b_dorie = {}
+				b_southbridge = {}
+				b_thompsons = {}
+			}
+			c_culverden = {
+				color = { 4 69 25}
+				color2 = {255 255 255}
+				
+				b_culverden = {}
+				b_tekoa = {}
+				b_hurunui = {}
+				b_leslie = {}
+				b_st_leonards = {}
+				b_lyndon = {}
+				b_montrose = {}
+			}
+			c_lake_sumner = {
+				color = { 4 69 35}
+				color2 = {255 255 255}
+				
+				b_sumner = {}
+				b_turnbull = {}
+				b_gray = {}
+				b_dampier = {}
+				b_st_james = {}
+				b_ajax = {}
+				b_camerons = {}
+			}
+			
+			c_willowby = {
+				color = {5 66 25}
+				color2 = { 255 255 255 }
+				
+				b_willowby = {}
+				b_rangitata = {}
+				b_lowcliffe = {}
+				b_hinds = {}
+				b_ealing = {}
+				b_fitzgerald = {}
+				b_fountains = {}
+			}
+		}
 	}	
 	
 	k_wellington = {

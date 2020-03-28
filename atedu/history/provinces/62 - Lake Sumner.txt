@@ -6,9 +6,14 @@ title = c_lake_sumner
 # Settlements
 max_settlements = 3
 
-b_lake_sumner = castle
-#b_lake_sumner_2 = city
-#b_lake_sumner_3 = temple
+b_sumner = castle
+#b_turnbull = city
+#b_gray = temple
+
+#b_dampier
+#b_st_james
+#b_ajax
+#b_camerons
 
 # Misc
 culture = southlander

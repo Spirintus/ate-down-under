@@ -7,10 +7,17 @@ title = c_leeston
 max_settlements = 2
 
 b_leeston = castle
-#b_leeston_2 = city
+#b_doyleston = city
+
+#b_rakaia = castle
+#b_dorie = castle
+#b_chertsey = castle
+#b_southbridge = castle
+#b_thompsons = castle
 
 # Misc
 culture = southlander
 religion = eruist
 
 #History
+
