@@ -2645,7 +2645,7 @@ ROOTs_secret_religion_is_playable_trigger = {
 			# OR = {
 				# secret_religion = taoist
 				# secret_religion = bon 
-				reformed bön prints out as 'bön' and there's no need to display 'bön' twice in the tooltip
+				#reformed bön prints out as 'bön' and there's no need to display 'bön' twice in the tooltip
 				# secret_religion = khurmazta 
 			# }
 			# has_dlc = "Jade Dragon" 

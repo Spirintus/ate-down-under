@@ -102,61 +102,64 @@ province_event = {
 					}
 					set_defacto_liege = THIS
 					narrative_event = { id = erulib.2 days = 7 }
+					
+					if = {
+						limit = {
+							THIS = { is_female = no }
+						}
+						create_character = {
+							random_traits = no
+							name = "Ariana"
+							dynasty = 109
+							religion = ROOT
+							culture = ROOT
+							age = 21
+							female = yes
+							trait = honest
+							trait = brave
+							trait = diligent
+							trait = proud
+							trait = midas_touched
+							trait = aggressive_leader
+							attributes = {
+								diplomacy = 10
+								martial = 8
+								stewardship = 7
+								intrigue = 6
+								learning = 7
+							}
+						}
+						new_character = { add_spouse = THIS}
+					}
+					else = {
+						create_character = {
+							random_traits = no
+							name = "Archer"
+							dynasty = 109
+							religion = ROOT
+							culture = ROOT
+							age = 23
+							female = no
+							trait = honest
+							trait = brave
+							trait = diligent
+							trait = proud
+							trait = midas_touched
+							trait = aggressive_leader
+							attributes = {
+								diplomacy = 10
+								martial = 10
+								stewardship = 5
+								intrigue = 6
+								learning = 7
+							}
+						}
+						new_character = { add_spouse_matrilineal = THIS}
+					}
+					
 				}
 				
-				if = {
-					limit = {
-						PREV = { is_female = no }
-					}
-					create_character = {
-						random_traits = no
-						name = "Ariana"
-						dynasty = 109
-						religion = ROOT
-						culture = ROOT
-						age = 21
-						female = yes
-						trait = honest
-						trait = brave
-						trait = diligent
-						trait = proud
-						trait = brilliant_strategist
-						trait = aggressive_leader
-						attributes = {
-							diplomacy = 10
-							martial = 8
-							stewardship = 7
-							intrigue = 6
-							learning = 7
-						}
-					}
-					new_character = { add_spouse = PREV}
-				}
-				else = {
-					create_character = {
-						random_traits = no
-						name = "Archer"
-						dynasty = 109
-						religion = ROOT
-						culture = ROOT
-						age = 23
-						female = no
-						trait = honest
-						trait = brave
-						trait = diligent
-						trait = proud
-						trait = brilliant_strategist
-						trait = aggressive_leader
-						attributes = {
-							diplomacy = 10
-							martial = 10
-							stewardship = 5
-							intrigue = 6
-							learning = 7
-						}
-					}
-					new_character = { add_spouse_matrilineal = PREV}
-				}
+				
 			}
 		}
 	}
@@ -254,7 +257,7 @@ narrative_event = {
 		}
 		c_dunedin = {
 			holder_scope = {
-				reverse_war = {
+				reverse_unsafe_war = {
 					target = ROOT
 					casus_belli = liberator_invasion
 				}
@@ -270,12 +273,14 @@ narrative_event = {
 		trigger = {
 			NOT = { has_character_flag = this_is_liberator}
 		}
-		limit = {
-			event_target:liberator_event_target = {
-				ai = yes
-				is_playable = yes
+		if = {	
+			limit = {
+				ROOT = {
+					ai = yes
+					is_playable = yes
+				}
 			}
-			set_player_character = event_target:liberator_event_target
+			set_player_character = ROOT
 		}
 	}
 }

@@ -2,7 +2,7 @@
 	name = "Tricia"
 	female = yes
 	culture = "jadite"
-	religion "gnostic"
+	religion = "gnostic"
 	dynasty = 476
 	dna="agb0a0cba00"
     properties="i00f0000000000000000000000000000000000000"

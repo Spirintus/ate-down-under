@@ -178,7 +178,7 @@ check_if_crusader_trigger = {
 				}
 				AND = {
 					ROOT = {
-						religion = _aotearoan
+						religion = aotearoan
 						has_pledged_crusade_participation = yes
 					}
 					aotearoan = {
