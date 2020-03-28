@@ -160,7 +160,7 @@ e_new_zealand = {
 	}	
 	
 	k_wellington = {
-		color = { 171 224 34 }
+		color = { 255 177 89 }
 		color2 = { 255 255 255 }
 		
 		capital = 35 #wellington
@@ -302,8 +302,9 @@ e_new_zealand = {
 		
 		capital = 1 #auckland and it really was auckland
 		
+		title_prefix = "PRINCIPALITY"
 		title = "PRINCE"
-		foa = "PRINCE_FOA"
+		title_female = "PRINCESS"
 		
 		d_auckland = {
 			color = {16 42 142 }
@@ -546,12 +547,9 @@ e_new_zealand = {
 				color2 = { 255 255 255 }
 				
 				b_campbell = {}
-				b_bellfort = {}
-				
+				b_bellfort = {}			
 			}
-		}
-		
-		
+		}	
 	}
 	
 	k_norfolk = {

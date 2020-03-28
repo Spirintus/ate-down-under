@@ -1,0 +1,4 @@
+2624.6.26 = {
+	holder = 56
+	liege = k_wellington
+}

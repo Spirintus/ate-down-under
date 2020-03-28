@@ -696,7 +696,7 @@
 	2611.3.3 = {birth = yes}
 }
 
-90 = { #son of Abel, landowner
+90 = { #son of William, landowner
 	name = "Nick"
 	dynasty = 208
 	religion = southcrosser
