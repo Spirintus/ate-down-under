@@ -8,7 +8,7 @@ e_new_zealand = {
 	foa = "HIGH_KING_FOA"
 	
 	k_dunedin = {
-		color = {200 139 44}
+		color = {152 130 191}
 		color2 = { 255 255 255 }
 		
 		capital = 58 #dunedin
