@@ -26,7 +26,7 @@ e_new_zealand = {
 			capital = 58 #dunedin
 			
 			c_dunedin = {
-				color = { 207 123 33}
+				color = { 177 135 57}
 				color2 = {255 255 255}
 				
 				b_dunedin = {}
@@ -39,7 +39,7 @@ e_new_zealand = {
 			}
 			
 			c_south_palmerston = {
-				color = { 217 101 8}
+				color = { 178 81 32}
 				color2 = {255 255 255}
 				
 				b_south_palmerston = {}
@@ -51,7 +51,7 @@ e_new_zealand = {
 				b_omimi = {}
 			}
 			c_balclutha = {
-				color = { 217 78 50}
+				color = { 178 93 44}
 				color2 = {255 255 255}
 				
 				b_balclutha = {}
@@ -63,7 +63,7 @@ e_new_zealand = {
 				b_finegand = {}
 			}
 			c_alexandra = {
-				color = { 217 99 99}
+				color = { 178 93 22}
 				color2 = {255 255 255}
 				
 				b_alexandra = {}
@@ -76,7 +76,7 @@ e_new_zealand = {
 			}
 			
 			c_invercargill = {
-				color = {255 23 42}
+				color = {177 117 12}
 				color2 = { 255 255 255 }
 				
 				b_invercargill = {}
@@ -183,166 +183,115 @@ e_new_zealand = {
 				b_wellington_7 = {}
 			}
 			c_levin = {
-				color = {255 255 255 }
+				color = {113 122 49 }
 				color2 = { 255 255 255 }
 				b_levin = {}
 			}
 			c_masterton = {
-				color = {255 255 255 }
+				color = {94 123 26 }
 				color2 = { 255 255 255 }
 				b_masterton = {}
 			}
 			c_castlepoint = {
-				color = {255 255 255 }
+				color = {135 126 49 }
 				color2 = { 255 255 255 }
 				b_castlepoint = {}
 			}
 		}	
 		d_maori_march = {
-			color = {170 180 45 }
+			color = {211 3 3 }
 			color2 = { 255 255 255 }
 			
 			capital = 42
 			
 			c_whanganui = {
-				color = {255 255 255 }
+				color = {177 54 37 }
 				color2 = { 255 255 255 }
 				b_whanganui = {}
 			}
 			c_palmerston = {
-				color = {255 255 255 }
+				color = {175 27 31 }
 				color2 = { 255 255 255 }
 				b_palmerston = {}
 			}
 			c_akitio = {
-				color = {255 255 255 }
+				color = {175 0 3 }
 				color2 = { 255 255 255 }
 				b_akitio = {}
 			}
 		}
 		d_patea = {
-			color = {162 194 25 }
+			color = {255 208 139 }
 			color2 = { 255 255 255 }
 			
 			capital = 41
 			
 			c_patea = {
-				color = {255 255 255 }
+				color = {255 208 122 }
 				color2 = { 255 255 255 }
 				b_patea = {}
 			}
 			c_stratford = {
-				color = {255 255 255 }
+				color = {255 228 122 }
 				color2 = { 255 255 255 }
 				b_stratford = {}
 			}
 			c_paparangi = {
-				color = {255 255 255 }
+				color = {174 165 87 }
 				color2 = { 255 255 255 }
 				b_paparangi = {}
 			}
 			c_plymouth = {
-				color = {255 255 255 }
+				color = {251 235 162 }
 				color2 = { 255 255 255 }
 				b_plymouth = {}
 			}
 			c_whangamomona = {
-				color = {255 255 255 }
+				color = {177 165 62 }
 				color2 = { 255 255 255 }
 				b_whangamomona = {}
 			}
 		}	
 		d_south_island = {
-			color = {255 255 255 }
+			color = {18 51 134 }
 			color2 = { 255 255 255 }
 			
 			capital = 48
 			
 			c_blenheim = {
-				color = {255 255 255 }
+				color = {9 57 165 }
 				color2 = { 255 255 255 }
 				b_blenheim = {}
 			}
 			c_nelson = {
-				color = {255 255 255 }
+				color = {51 69 137 }
 				color2 = { 255 255 255 }
 				b_nelson = {}
 			}
 			c_clarence = {
-				color = {255 255 255 }
+				color = {9 51 135 }
 				color2 = { 255 255 255 }
 				b_clarence = {}
 			}
 			c_havelock = {
-				color = {255 255 255 }
+				color = {51 75 168 }
 				color2 = { 255 255 255 }
 				b_havelock = {}
 			}
 			c_richmond_hill = {
-				color = {255 255 255 }
+				color = {7 27 99 }
 				color2 = { 255 255 255 }
 				b_richmond_hill = {}
 			}
 			c_richmond = {
-				color = {255 255 255 }
+				color = {2 43 135 }
 				color2 = { 255 255 255 }
 				b_richmond = {}
 			}
 			c_st_arnaud = {
-				color = {255 255 255 }
+				color = {3 66 165 }
 				color2 = { 255 255 255 }
 				b_st_arnaud = {}
-			}
-		}
-		d_the_fiords = {
-			color = {255 255 255 }
-			color2 = { 255 255 255 }
-			
-			capital = 48
-			
-			c_alabaster = {
-				color = {255 255 255 }
-				color2 = { 255 255 255 }
-				b_alabaster = {}
-				b_poseidon = {}
-				b_bryneira = {}
-				b_skippers = {}
-				b_agepee = {}
-				b_climax = {}
-				b_anchor = {}
-			}
-			c_ionia = {
-				color = {255 255 255 }
-				color2 = { 255 255 255 }
-				b_ionia = {}
-				b_cascade_lagoon = {}
-				b_the_longs_cabin = {}
-				b_martyr = {}
-				b_wharekai = {}
-				b_neils_beach = {}
-				b_haastjack = {}
-			}
-			c_aspiring = {
-				color = {255 255 255 }
-				color2 = { 255 255 255 }
-				b_aspiring = {}
-				b_headlong = {}
-				b_centaur = {}
-				b_black = {}
-				b_fog = {}
-				b_whitebourn = {}
-				b_marshallglas = {}				
-			}
-			c_west_fiordland = {
-				color = {255 255 255 }
-				color2 = { 255 255 255 }
-				b_cooper = {}
-				b_glaisnock = {}
-				b_coal = {}
-				b_secretary = {}
-				b_milfords_bay = {}
-				b_castle_mountain = {}
-				b_anchor = {}
 			}
 		}		
 	}
@@ -471,7 +420,7 @@ e_new_zealand = {
 			}
 			
 			c_riverton = {
-				color = { 99 70 125 }
+				color = { 135 33 154 }
 				color2 = { 255 255 255}
 				b_riverton = {}
 				b_te_waewae = {}
@@ -483,7 +432,7 @@ e_new_zealand = {
 			}
 			
 			c_riversdale = {
-				color = { 99 70 125 }
+				color = { 132 45 159 }
 				color2 = { 255 255 255}
 				b_riversdale = {}
 				b_otama = {}
@@ -495,7 +444,7 @@ e_new_zealand = {
 			}
 						
 			c_coronet_peak = {
-				color = { 99 70 125 }
+				color = { 132 0 129 }
 				color2 = { 255 255 255}
 				b_queenstown = {}
 				b_closeburn = {}
@@ -506,13 +455,65 @@ e_new_zealand = {
 				b_athol = {}
 			}
 		}
-		
+		d_the_fiords = {
+			color = {230 230 230 }
+			color2 = { 255 255 255 }
+			
+			capital = 81
+			
+			c_alabaster = {
+				color = {177 189 186 }
+				color2 = { 255 255 255 }
+				b_alabaster = {}
+				b_poseidon = {}
+				b_bryneira = {}
+				b_skippers = {}
+				b_agepee = {}
+				b_climax = {}
+				b_anchor = {}
+			}
+			c_ionia = {
+				color = {177 183 157 }
+				color2 = { 255 255 255 }
+				b_ionia = {}
+				b_cascade_lagoon = {}
+				b_the_longs_cabin = {}
+				b_martyr = {}
+				b_wharekai = {}
+				b_neils_beach = {}
+				b_haastjack = {}
+			}
+			c_aspiring = {
+				color = {177 210 197 }
+				color2 = { 255 255 255 }
+				b_aspiring = {}
+				b_headlong = {}
+				b_centaur = {}
+				b_black = {}
+				b_fog = {}
+				b_whitebourn = {}
+				b_marshallglas = {}				
+			}
+			c_west_fiordland = {
+				color = {168 204 197 }
+				color2 = { 255 255 255 }
+				b_cooper = {}
+				b_glaisnock = {}
+				b_coal = {}
+				b_secretary = {}
+				b_milfords_bay = {}
+				b_castle_mountain = {}
+				b_anchor = {}
+			}
+		}		
 		d_rakiura = {
-			color = { 125 125 125 }
+			color = { 154 88 44 }
 			color2 = { 255 255 255}
 			capital = 73 # Stewart Island
 			
 			c_stewart_island = {
+				color = { 195 88 44 }
+				color2 = { 255 255 255}
 				b_stewart_island = {}
 				b_stewart_island_2 = {}
 				b_stewart_island_3 = {}
