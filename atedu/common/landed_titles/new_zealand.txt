@@ -12,9 +12,8 @@ e_new_zealand = {
 		color2 = { 255 255 255 }
 		
 		capital = 58 #dunedin
-	# }
 	   
-	# k_christchurch = {      #uncomment these lines once christchurch will get it's title will be added
+	# k_christchurch    #uncomment these lines once christchurch will get it's title will be added
 		# color = {200 139 44}				#my intention is to make dunedin special kingdom for 
 		# color2 = { 255 255 255 }
 		
@@ -225,7 +224,58 @@ e_new_zealand = {
 				color2 = { 255 255 255 }
 				b_st_arnaud = {}
 			}
-		}	
+		}
+		d_the_fiords = {
+			color = {255 255 255 }
+			color2 = { 255 255 255 }
+			
+			capital = 48
+			
+			c_alabaster = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_alabaster = {}
+				b_poseidon = {}
+				b_bryneira = {}
+				b_skippers = {}
+				b_agepee = {}
+				b_climax = {}
+				b_anchor = {}
+			}
+			c_ionia = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_ionia = {}
+				b_cascade_lagoon = {}
+				b_the_longs_cabin = {}
+				b_martyr = {}
+				b_wharekai = {}
+				b_neils_beach = {}
+				b_haastjack = {}
+			}
+			c_aspiring = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_aspiring = {}
+				b_headlong = {}
+				b_centaur = {}
+				b_black = {}
+				b_fog = {}
+				b_whitebourn = {}
+				b_marshallglas = {}				
+			}
+			c_west_fiordland = {
+				color = {255 255 255 }
+				color2 = { 255 255 255 }
+				b_cooper = {}
+				b_glaisnock = {}
+				b_coal = {}
+				b_secretary = {}
+				b_milfords_bay = {}
+				b_castle_mountain = {}
+				b_anchor = {}
+			}
+		}		
 	}
 	
 	k_auckland = {

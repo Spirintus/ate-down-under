@@ -6,8 +6,14 @@ title = c_west_fiordland
 # Settlements
 max_settlements = 2
 
-b_west_fiordland = tribal
-#b_west_fiordland_2 = city
+b_cooper = tribal
+#b_glaisnock = city
+
+#b_coal
+#b_secretary = castle
+#b_milfords_bay = castle
+#b_castle_mountain = castle
+#b_anchor = castle
 
 # Misc
 culture = jadite

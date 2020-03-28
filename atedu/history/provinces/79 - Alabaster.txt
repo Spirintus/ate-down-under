@@ -7,8 +7,13 @@ title = c_alabaster
 max_settlements = 3
 
 b_alabaster = castle
-#b_alabaster_2 = city
-#b_alabaster_3 = temple
+#b_poseidon = city
+#b_bryneira = temple
+
+#b_skippers = castle
+#b_agepee = castle
+#b_climax = castle
+#b_anchor = castle
 
 # Misc
 culture = jadite

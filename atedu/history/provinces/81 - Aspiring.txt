@@ -7,12 +7,18 @@ title = c_aspiring
 max_settlements = 4
 
 b_aspiring = castle
-#b_aspiring_2 = city
-#b_aspiring_3 = temple
-#b_aspiring_4 = castle
+#b_headlong = city
+#b_centaur = temple
+#b_black = castle
+
+#b_fog = castle
+#b_whitebourn = castle
+#b_marshallglas = castle
 
 # Misc
 culture = jadite
 religion = southcrosser
 
 #History
+
+

@@ -13,6 +13,8 @@ d_chatham;Chatham;;;;;;;;;;;;x
 d_mainland;The Mainland;;;;;;;;;;;;x
 d_rakiura;Rakiura;;;;;;;;;;;;x
 d_antarctic_islands;The Antarctic;;;;;;;;;;;;x
+d_the_fiords;The Fiords;;;;;;;;;;;;x
+d_the_fiords_adj;Fiordan;;;;;;;;;;;;x
 c_norfolk;Norfolk;;;;;;;;;;;;x
 c_stewart_island;Stewart Island;;;;;;;;;;;;x
 c_auckland_islands;New Auckland;;;;;;;;;;;;x
@@ -133,6 +135,34 @@ b_halfway_bay;Halfway Bay;;;;;;;;;;;;x
 b_mavora;Mavora;;;;;;;;;;;;x
 b_mount_nicholas;Mount Nicholas;;;;;;;;;;;;x
 b_athol;Athol;;;;;;;;;;;;x
+b_cooper;Cooper;;;;;;;;;;;;x
+b_glaisnock;Glaisnock;;;;;;;;;;;;x
+b_coal;Coal;;;;;;;;;;;;x
+b_secretary;Secretary;;;;;;;;;;;;x
+b_milfords_bay;Milfords Bay;;;;;;;;;;;;x
+b_castle_mountain;Castle Mountain;;;;;;;;;;;;x
+b_anchor;Anchor;;;;;;;;;;;;x
+b_alabaster;Alabaster;;;;;;;;;;;;x
+b_poseidon;Poseidon;;;;;;;;;;;;x
+b_bryneira;Bryneira;;;;;;;;;;;;x
+b_skippers;Skippers;;;;;;;;;;;;x
+b_agepee;Agepee;;;;;;;;;;;;x
+b_climax;Climax;;;;;;;;;;;;x
+b_anchor;Anchor;;;;;;;;;;;;x
+b_ionia;Ionia;;;;;;;;;;;;x
+b_cascade_lagoon;Cascade Lagoon;;;;;;;;;;;;x
+b_the_longs_cabin;The Long's Cabin;;;;;;;;;;;;x
+b_martyr;Martyr;;;;;;;;;;;;x
+b_wharekai;Wharekai;;;;;;;;;;;;x
+b_neils_beach;Neils Beach;;;;;;;;;;;;x
+b_haastjack;Haastjack;;;;;;;;;;;;x
+b_aspiring;Aspiring;;;;;;;;;;;;x
+b_headlong;Headlong;;;;;;;;;;;;x
+b_centaur;Centaur;;;;;;;;;;;;x
+b_black;Black;;;;;;;;;;;;x
+b_fog;Fog;;;;;;;;;;;;x
+b_whitebourn;Whitebourn;;;;;;;;;;;;x
+b_marshallglas;Marshalglas;;;;;;;;;;;;x
 d_otago;Otago;;;;;;;;;;;;x
 d_otago_adj;Otagoan;;;;;;;;;;;;x
 c_invercargill;Invercargill;;;;;;;;;;;;x
@@ -149,6 +179,14 @@ c_riversdale;Riversdale;;;;;;;;;;;;x
 c_riversdale_adj;Riversdalean;;;;;;;;;;;;x
 c_coronet_peak;Coronet Peak;;;;;;;;;;;;x
 c_coronet_peak_adj;Coronet Peakan;;;;;;;;;;;;x
+c_alabaster;Alabaster;;;;;;;;;;;;x
+c_alabaster_adj;Alabastern;;;;;;;;;;;;x
+c_ionia;Ionia;;;;;;;;;;;;x
+c_ionia_adj;Ionian;;;;;;;;;;;;x
+c_aspiring;Aspiring;;;;;;;;;;;;x
+c_aspiring_adj;Aspiringer;;;;;;;;;;;;x
+c_west_fiordland;West Fiordland;;;;;;;;;;;;x
+c_west_fiordland_adj;West Fiordlander;;;;;;;;;;;;x
 PRINCIPALITY;Principality;;;;;;;;;;;;x
 PRINCE;Prince;;;;;;;;;;;;x
 PRINCESS;Princess;;;;;;;;;;;;x

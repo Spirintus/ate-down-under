@@ -7,11 +7,18 @@ title = c_ionia
 max_settlements = 3
 
 b_ionia = castle
-#b_ionia_2 = city
-#b_ionia_3 = temple
+#b_cascade_lagoon = city
+#b_the_longs_cabin = temple
+
+#b_martyr = castle
+#b_wharekai = castle
+#b_neils_beach = castle
+#b_haastjack = castle
+
 
 # Misc
 culture = jadite
 religion = southcrosser
 
 #History
+
