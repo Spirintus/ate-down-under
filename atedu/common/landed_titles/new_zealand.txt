@@ -15,19 +15,19 @@ e_new_zealand = {
 	}  
 	  
 	k_christchurch    #uncomment these lines once christchurch will get it's title will be added
-		color = {213 26 184}				#my intention is to make dunedin special kingdom for 
+		color = {213 26 184}				#my intention is to make dunedin special kingdom for eruists
 		color2 = { 255 255 255 }
 		
 		capital = 53 #christchurch
 		
 		d_otago = {
-			color = {192 115 17}
+			color = {192 115 171}
 			color2 = { 255 255 255 }
 			
 			capital = 58 #dunedin
 			
 			c_dunedin = {
-				color = { 177 135 57}
+				color = { 177 135 157}
 				color2 = {255 255 255}
 				
 				b_dunedin = {}
@@ -40,7 +40,7 @@ e_new_zealand = {
 			}
 			
 			c_south_palmerston = {
-				color = { 178 81 32}
+				color = { 178 81 132}
 				color2 = {255 255 255}
 				
 				b_south_palmerston = {}
@@ -52,7 +52,7 @@ e_new_zealand = {
 				b_omimi = {}
 			}
 			c_balclutha = {
-				color = { 178 93 44}
+				color = { 198 93 144}
 				color2 = {255 255 255}
 				
 				b_balclutha = {}
@@ -64,7 +64,7 @@ e_new_zealand = {
 				b_finegand = {}
 			}
 			c_alexandra = {
-				color = { 178 93 22}
+				color = { 181 27 122}
 				color2 = {255 255 255}
 				
 				b_alexandra = {}
@@ -77,7 +77,7 @@ e_new_zealand = {
 			}
 			
 			c_invercargill = {
-				color = {177 117 12}
+				color = {177 117 129}
 				color2 = { 255 255 255 }
 				
 				b_invercargill = {}
@@ -89,7 +89,7 @@ e_new_zealand = {
 				b_waimahaka = {}
 			}
 		}
-	    d_otautahi = {
+	    d_christchurch = {  #otautahi
 			color = { 230 18 170 }
 			color2 = { 255 255 255 }
 			
@@ -156,6 +156,50 @@ e_new_zealand = {
 				b_ealing = {}
 				b_fitzgerald = {}
 				b_fountains = {}
+			}
+		}
+		d_lakes = {
+			color = {142 42 69}
+			color2 = {}
+			
+			capital = 67
+			c_coronet_peak = {
+				color = {156 13 62}
+				color2 = {255 255 255}
+				b_queenstown = {}
+				b_closeburn = {}
+				b_kingston = {}
+				b_halfway_bay = {}
+				b_mavora = {}
+				b_mount_nicholas = {}
+				b_athol = {}
+			}
+			
+			c_wanaka = {
+				color = {118 69 86}
+				color2 = {255 255 255}
+				
+				b_wanaka = {}
+				b_albert_town = {}
+				b_lake_hawea = {}
+				b_luggate = {}
+				b_treble_cone = {}
+				b_makarora = {}
+				b_ghendu_bay = {}
+				
+			}
+			
+			c_cromwell = {
+				color = {88 44 59}
+				color2 = {255 255 255}
+				
+				b_cromwell = {}
+				b_mount_pisa = {}
+				b_tarras = {}
+				b_lindis_valley ={}
+				b_northburn = {}
+				b_st_bathans = {}
+				b_queensberry = {}
 			}
 		}
 	}	
@@ -444,18 +488,6 @@ e_new_zealand = {
 				b_ardlussa = {}
 				b_lintley = {}
 			}
-						
-			c_coronet_peak = {
-				color = { 132 0 129 }
-				color2 = { 255 255 255}
-				b_queenstown = {}
-				b_closeburn = {}
-				b_kingston = {}
-				b_halfway_bay = {}
-				b_mavora = {}
-				b_mount_nicholas = {}
-				b_athol = {}
-			}
 		}
 		d_the_fiords = {
 			color = {230 230 230 }
@@ -584,5 +616,24 @@ d_liberator = {
 	color = { 30 237 69 }
 	color2 = { 255 255 255}
 	
+	allow = {
+		always = no
+	}
+	
 	landless = yes
+}
+
+e_aotearoa = {
+	color = { 20 138 255 }
+		
+	capital = 1 # change
+
+	title = "KING"
+	title_female = "QUEEN"
+
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+	allow = {
+		always = no # Only created through special event
+	}
 }
