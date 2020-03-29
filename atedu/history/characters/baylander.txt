@@ -1,0 +1,243 @@
+#300-400
+
+300 = { #founder of the dynasty, took the great duchy of Adelaide from the previous owners and shortly after broke free from Murray
+	name = "Bob"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	trait = genius
+	trait = diligent
+	trait = brilliant_strategist
+	trait = strategist
+	2460.1.23 = {birth = yes}
+	2490.6.25 = {
+		give_nickname = nick_the_great
+	}
+	2505.8.27 = {death = yes}
+}
+301 = { #second great duke of Adelaide
+	name = "Bob"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 300
+	2480.5.20 = {birth = yes}
+	2545.4.12 = {death = yes}
+}
+302 = { #third great duke of Adelaide
+	name = "Will"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 301
+	2503.12.3 = {birth = yes}
+	2555.8.27 = {death = yes}
+}
+303 = { #fourth great duke of Adelaide, usurper
+	name = "Rich"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 301
+	2511.6.27 = {birth = yes}
+	2569.9.19 = {death = yes}
+}
+304 = { #legitimate great duke, his line would come to rule christchurch, probably murdered
+	name = "Chris"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 302
+	2526.2.25 = {birth = yes}
+	2561.1.18 = {death = yes}
+}
+305 = { #son of Chris, died in battle
+	name = "Bob"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 304
+	2542.3.14 = {birth = yes}
+	2573.3.2 = {death = yes}
+}
+306 = { #son of Bob, first king of Christchurch
+	name = "Dave"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 305
+	2572.4.1 = {birth = yes}
+	2632.1.8 = {death = yes}
+}
+307 = { #second king of Christchurch, died in battle
+	name = "Steve"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 306
+	2600.11.30 = {birth = yes}
+	2634.6.18 = {death = yes}
+}
+308 = { #first queen of Christchurch, usurper, was poisoned
+	name = "Adelaide"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	female = yes
+	father = 306
+	2604.4.4 = {birth = yes}
+	2637.10.13 = {death = yes}
+}
+309 = { #fourth king of Christchurch, was usurped by Adelaide, but took the throne back
+	name = "Bob"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 307
+	2618.8.8 = {birth = yes}
+}
+310 = { #heir to Christchurch
+	name = "Dave"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 309
+	2639.1.19 = {birth = yes}
+}
+311 = { #second heir to Christchurch
+	name = "Rich"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 309
+	2647.6.25 = {birth = yes}
+}
+312 = { #third heir to Christchurch
+	name = "Ariana"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	female = yes
+	trait = twin
+	father = 309
+	2658.3.10 = {birth = yes}
+}
+313 = { #fourth heir to Christchurch
+	name = "Belle"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	female = yes
+	trait = twin
+	father = 309
+	2658.3.10 = {birth = yes}
+}
+314 = { #fifth heir to Christchurch
+	name = "Bob"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 309
+	2665.12.1 = {birth = yes}
+}
+315 = { #son of Dave
+	name = "Mike"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	father = 310
+	2659.7.8 = {birth = yes}
+}
+323 = { #duchess of Timaru, broke free from Christchurch
+	name = "Jack"
+	dynasty = 400
+	religion = southcrosser
+	culture = baylander
+	mother = 308
+	2634.8.24 = {birth = yes}
+}
+
+316 = { #duke of Kangaroo Island
+	name = "Jack"
+	dynasty = 401
+	religion = southcrosser
+	culture = baylander
+	2590.2.15 = {birth = yes}
+	2651.2.28 = {death = yes}
+}
+317 = { #duke of Kangaroo Island
+	name = "John"
+	dynasty = 401
+	religion = southcrosser
+	culture = baylander
+	father = 316
+	2609.9.9 = {birth = yes}
+	2663.4.13 = {death = yes}
+}
+318 = { #count of Culverden
+	name = "John"
+	dynasty = 401
+	religion = southcrosser
+	culture = baylander
+	father = 316
+	2616.6.7 = {birth = yes}
+}	
+319 = { #heir
+	name = "Bob"
+	dynasty = 401
+	religion = southcrosser
+	culture = baylander
+	father = 318
+	2633.3.2 = {birth = yes}
+}
+320 = { #heir's son
+	name = "Steve"
+	dynasty = 401
+	religion = southcrosser
+	culture = baylander
+	father = 319
+	2660.9.12 = {birth = yes}
+}
+321 = { #second heir
+	name = "Dave"
+	dynasty = 401
+	religion = southcrosser
+	culture = baylander
+	father = 318
+	2641.8.19 = {birth = yes}
+}
+322 = { #second heir's daughter
+	name = "Mary"
+	dynasty = 401
+	religion = southcrosser
+	culture = baylander
+	female = yes
+	father = 321
+	2663.5.5 = {birth = yes}
+}
+
+324 = { #first duke of Alpland
+	name = "Robert"
+	dynasty = 402
+	religion = southcrosser
+	culture = baylander
+	2587.6.17 = {birth = yes}
+	2640.10.31 = {death = yes}
+}
+325 = { #second duke of Alpland
+	name = "John"
+	dynasty = 402
+	religion = southcrosser
+	culture = baylander
+	father = 324
+	2615.8.2 = {birth = yes}
+	2664.3.30 = {death = yes}
+}
+326 = { #third duke of Alpland
+	name = "Steve"
+	dynasty = 402
+	religion = southcrosser
+	culture = baylander
+	father = 325
+	2643.1.29 = {birth = yes}
+}

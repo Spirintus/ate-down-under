@@ -126,3 +126,28 @@
 	trait = arbitrary
 	trait = stubborn
 }
+
+513 = {
+	name = "Rick"
+	dynasty = 301
+	culture = witasmen
+	religion = southcrosser
+	2603.5.12 = { birth = yes }
+	2649.3.11 = { death = yes }
+}
+514 = {
+	name = "Joe"
+	dynasty = 301
+	culture = witasmen
+	father = 513
+	religion = southcrosser
+	2628.12.4 = { birth = yes }
+}
+515 = {
+	name = "Em"
+	dynasty = 301
+	culture = witasmen
+	father = 514
+	religion = southcrosser
+	2649.3.14 = { birth = yes }
+}
