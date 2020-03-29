@@ -158,6 +158,7 @@ e_new_zealand = {
 				b_fountains = {}
 			}
 		}
+		
 		d_lakes = {
 			color = {142 42 69}
 			color2 = {}
@@ -202,6 +203,63 @@ e_new_zealand = {
 				b_queensberry = {}
 			}
 		}
+		d_timaru = {
+			color = { 255 255 255 }
+			color2 = { 255 255 255 }
+			
+			capital = 56
+			
+			c_timaru = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_timaru = {}
+			}
+			c_twizel = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_twizel = {}
+			}
+			c_arthurs_pass = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_arthurs_pass = {}
+			}
+		}
+		
+		d_pegasus = {
+			color = { 255 255 255 }
+			color2 = { 255 255 255 }
+			
+			capital = 52
+			
+			c_amberly = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_amberly = {}
+			}
+			c_hanmer_springs = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_hanmer_springs = {}
+			}
+			c_cheviot = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_cheviot = {}
+			}
+			c_kaikoura = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_kaikoura = {}
+			}
+		}	
 	}	
 	
 	k_wellington = {
@@ -418,6 +476,33 @@ e_new_zealand = {
 				b_ohiparu = {}
 			}
 		}
+		d_outer_auckland = {
+			color = {255 255 255}
+			color2 = { 255 255 255 }
+			
+			capital = 8
+			
+			c_hamilton = {
+				color = {41 38 130}
+				color2 = {255 255 255}
+				b_hamilton = {}
+			}
+			c_coromandel = {
+				color = {41 38 130}
+				color2 = {255 255 255}
+				b_coromandel = {}
+			}
+			c_raglan = {
+				color = {41 38 130}
+				color2 = {255 255 255}
+				b_raglan = {}
+			}
+			c_west_connacht = {
+				color = {41 38 130}
+				color2 = {255 255 255}
+				b_west_connacht = {}
+			}
+		}	
 	}
 	
 	k_chatham = {
@@ -489,57 +574,7 @@ e_new_zealand = {
 				b_lintley = {}
 			}
 		}
-		d_the_fiords = {
-			color = {230 230 230 }
-			color2 = { 255 255 255 }
-			
-			capital = 81
-			
-			c_alabaster = {
-				color = {177 189 186 }
-				color2 = { 255 255 255 }
-				b_alabaster = {}
-				b_poseidon = {}
-				b_bryneira = {}
-				b_skippers = {}
-				b_agepee = {}
-				b_climax = {}
-				b_anchor = {}
-			}
-			c_ionia = {
-				color = {177 183 157 }
-				color2 = { 255 255 255 }
-				b_ionia = {}
-				b_cascade_lagoon = {}
-				b_the_longs_cabin = {}
-				b_martyr = {}
-				b_wharekai = {}
-				b_neils_beach = {}
-				b_haastjack = {}
-			}
-			c_aspiring = {
-				color = {177 210 197 }
-				color2 = { 255 255 255 }
-				b_aspiring = {}
-				b_headlong = {}
-				b_centaur = {}
-				b_black = {}
-				b_fog = {}
-				b_whitebourn = {}
-				b_marshallglas = {}				
-			}
-			c_west_fiordland = {
-				color = {168 204 197 }
-				color2 = { 255 255 255 }
-				b_cooper = {}
-				b_glaisnock = {}
-				b_coal = {}
-				b_secretary = {}
-				b_milfords_bay = {}
-				b_castle_mountain = {}
-				b_anchor = {}
-			}
-		}		
+		
 		d_rakiura = {
 			color = { 154 88 44 }
 			color2 = { 255 255 255}
@@ -610,6 +645,175 @@ e_new_zealand = {
 			}
 		}
 	}
+	k_jade_coast = {
+		color = {0 168 107}
+		color2 = { 255 255 255 }
+		
+		capital = 86 #greymouth
+		
+		d_haast = {
+			color = {255 255 255}
+			color2 = { 255 255 255 }
+		
+			capital = 83 #haast
+			
+			c_haast = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_haast = {}
+			}
+			c_jackson_bay = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_jackson_bay = {}
+			}
+			c_fox_glacier = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_fox_glacier = {}
+			}
+		}
+		d_greymouth = {
+			color = {255 255 255}
+			color2 = { 255 255 255 }
+		
+			capital = 86 #greymouth
+			
+			c_greymouth = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_greymouth = {}
+			}
+			c_ross = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_ross = {}
+			}
+			c_inchbonnie = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_inchbonnie = {}
+			}
+		}
+		d_the_woods = {
+			color = {255 255 255}
+			color2 = { 255 255 255 }
+		
+			capital = 89 #westport
+			
+			c_westport = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_westport = {}
+			}
+			c_victoria_forest = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_victoria_forest = {}
+			}
+			c_nelson_lakes = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_nelson_lakes = {}
+			}
+		}
+		d_cook = {
+			color = {255 255 255}
+			color2 = { 255 255 255 }
+		
+			capital = 91 #kahurangi
+			
+			c_kahurangi = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_kahurangi = {}
+			}
+			c_westcoast = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_westcoast = {}
+			}
+			c_collingwood = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_collingwood = {}
+			}
+			c_upper_takaka = {
+				color = {255 255 255}
+				color2 = { 255 255 255 }
+				
+				b_upper_takaka = {}
+			}
+		}
+		d_the_fiords = {
+			color = {230 230 230 }
+			color2 = { 255 255 255 }
+			
+			capital = 81
+			
+			c_alabaster = {
+				color = {177 189 186 }
+				color2 = { 255 255 255 }
+				b_alabaster = {}
+				b_poseidon = {}
+				b_bryneira = {}
+				b_skippers = {}
+				b_agepee = {}
+				b_climax = {}
+				b_anchor = {}
+			}
+			c_ionia = {
+				color = {177 183 157 }
+				color2 = { 255 255 255 }
+				b_ionia = {}
+				b_cascade_lagoon = {}
+				b_the_longs_cabin = {}
+				b_martyr = {}
+				b_wharekai = {}
+				b_neils_beach = {}
+				b_haastjack = {}
+			}
+			c_aspiring = {
+				color = {177 210 197 }
+				color2 = { 255 255 255 }
+				b_aspiring = {}
+				b_headlong = {}
+				b_centaur = {}
+				b_black = {}
+				b_fog = {}
+				b_whitebourn = {}
+				b_marshallglas = {}				
+			}
+			c_west_fiordland = {
+				color = {168 204 197 }
+				color2 = { 255 255 255 }
+				b_cooper = {}
+				b_glaisnock = {}
+				b_coal = {}
+				b_secretary = {}
+				b_milfords_bay = {}
+				b_castle_mountain = {}
+				b_anchor = {}
+			}
+		}
+	}
+	k_taupo = {
+		color = {255 255 255}
+		color2 = { 255 255 255 }
+		
+		capital = 16 #taupo
 }
 
 d_liberator = {
