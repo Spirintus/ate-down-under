@@ -1,5 +1,5 @@
 e_new_zealand = {
-	color = { 204 119 34 }
+	color = { 152 130 191 }
 	color2 = { 255 255 255 }
 
 	capital = 58 #dunedin
