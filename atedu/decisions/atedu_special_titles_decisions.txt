@@ -6,7 +6,14 @@ decisions = {
 		
 		potential = {
 			is_playable = yes
-			religion = aotearoan
+			OR = {
+				religion = aotearoan
+				religion = purist
+				AND = {
+					culture = maori
+					not = { religion_group = eruist_group }
+				}
+			}
 			e_aotearoa = {
 				has_holder = no
 			}
@@ -48,6 +55,7 @@ decisions = {
 					# set_description = "bloodline_desc_israel"
 				# }
 			# }
+			grant_title = e_aotearoa
 			prestige = 1000
 		}
 		ai_will_do = {
