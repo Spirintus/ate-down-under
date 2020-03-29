@@ -14,7 +14,7 @@ e_new_zealand = {
 		capital = 58 #dunedin
 	}  
 	  
-	k_christchurch    #uncomment these lines once christchurch will get it's title will be added
+	k_christchurch = {   #uncomment these lines once christchurch will get it's title will be added
 		color = {213 26 184}				#my intention is to make dunedin special kingdom for eruists
 		color2 = { 255 255 255 }
 		
@@ -29,6 +29,8 @@ e_new_zealand = {
 			c_dunedin = {
 				color = { 177 135 157}
 				color2 = {255 255 255}
+				
+				holy_site = eruist
 				
 				b_dunedin = {}
 				b_st_clair = {}
@@ -124,6 +126,8 @@ e_new_zealand = {
 				color = { 4 69 25}
 				color2 = {255 255 255}
 				
+				holy_site = eruist
+				
 				b_culverden = {}
 				b_tekoa = {}
 				b_hurunui = {}
@@ -161,7 +165,7 @@ e_new_zealand = {
 		
 		d_lakes = {
 			color = {142 42 69}
-			color2 = {}
+			color2 = {255 255 255}
 			
 			capital = 67
 			c_coronet_peak = {
@@ -204,25 +208,25 @@ e_new_zealand = {
 			}
 		}
 		d_timaru = {
-			color = { 255 255 255 }
+			color = { 195 90 176 }
 			color2 = { 255 255 255 }
 			
 			capital = 56
 			
 			c_timaru = {
-				color = {255 255 255}
+				color = {178 56 111}
 				color2 = { 255 255 255 }
 				
 				b_timaru = {}
 			}
 			c_twizel = {
-				color = {255 255 255}
+				color = {192 19 174}
 				color2 = { 255 255 255 }
 				
 				b_twizel = {}
 			}
 			c_arthurs_pass = {
-				color = {255 255 255}
+				color = {117 7 117}
 				color2 = { 255 255 255 }
 				
 				b_arthurs_pass = {}
@@ -330,7 +334,7 @@ e_new_zealand = {
 			capital = 41
 			
 			c_patea = {
-				color = {255 208 122 }
+				color = {255 208 112 }
 				color2 = { 255 255 255 }
 				b_patea = {}
 			}
@@ -477,7 +481,7 @@ e_new_zealand = {
 			}
 		}
 		d_outer_auckland = {
-			color = {255 255 255}
+			color = {42 0 69}
 			color2 = { 255 255 255 }
 			
 			capital = 8
@@ -488,17 +492,17 @@ e_new_zealand = {
 				b_hamilton = {}
 			}
 			c_coromandel = {
-				color = {41 38 130}
+				color = {42 38 112}
 				color2 = {255 255 255}
 				b_coromandel = {}
 			}
 			c_raglan = {
-				color = {41 38 130}
+				color = {69 38 99}
 				color2 = {255 255 255}
 				b_raglan = {}
 			}
 			c_west_connacht = {
-				color = {41 38 130}
+				color = {59 12 200}
 				color2 = {255 255 255}
 				b_west_connacht = {}
 			}
@@ -652,106 +656,106 @@ e_new_zealand = {
 		capital = 86 #greymouth
 		
 		d_haast = {
-			color = {255 255 255}
+			color = {180 175 12}
 			color2 = { 255 255 255 }
 		
 			capital = 83 #haast
 			
 			c_haast = {
-				color = {255 255 255}
+				color = {200 215 93}
 				color2 = { 255 255 255 }
 				
 				b_haast = {}
 			}
 			c_jackson_bay = {
-				color = {255 255 255}
+				color = {170 198 24}
 				color2 = { 255 255 255 }
 				
 				b_jackson_bay = {}
 			}
 			c_fox_glacier = {
-				color = {255 255 255}
+				color = {225 170 19}
 				color2 = { 255 255 255 }
 				
 				b_fox_glacier = {}
 			}
 		}
 		d_greymouth = {
-			color = {255 255 255}
+			color = {150 148 139}
 			color2 = { 255 255 255 }
 		
 			capital = 86 #greymouth
 			
 			c_greymouth = {
-				color = {255 255 255}
+				color = {148 152 110}
 				color2 = { 255 255 255 }
 				
 				b_greymouth = {}
 			}
 			c_ross = {
-				color = {255 255 255}
+				color = {170 148 74}
 				color2 = { 255 255 255 }
 				
 				b_ross = {}
 			}
 			c_inchbonnie = {
-				color = {255 255 255}
+				color = {169 159 81}
 				color2 = { 255 255 255 }
 				
 				b_inchbonnie = {}
 			}
 		}
 		d_the_woods = {
-			color = {255 255 255}
+			color = {139 172 15}
 			color2 = { 255 255 255 }
 		
 			capital = 89 #westport
 			
 			c_westport = {
-				color = {255 255 255}
+				color = {149 182 55}
 				color2 = { 255 255 255 }
 				
 				b_westport = {}
 			}
 			c_victoria_forest = {
-				color = {255 255 255}
+				color = {139 157 32}
 				color2 = { 255 255 255 }
 				
 				b_victoria_forest = {}
 			}
 			c_nelson_lakes = {
-				color = {255 255 255}
+				color = {128 128 16}
 				color2 = { 255 255 255 }
 				
 				b_nelson_lakes = {}
 			}
 		}
 		d_cook = {
-			color = {255 255 255}
+			color = {152 152 12}
 			color2 = { 255 255 255 }
 		
 			capital = 91 #kahurangi
 			
 			c_kahurangi = {
-				color = {255 255 255}
+				color = {192 192 21}
 				color2 = { 255 255 255 }
 				
 				b_kahurangi = {}
 			}
 			c_westcoast = {
-				color = {255 255 255}
+				color = {167 167 67}
 				color2 = { 255 255 255 }
 				
 				b_westcoast = {}
 			}
 			c_collingwood = {
-				color = {255 255 255}
+				color = {201 201 1}
 				color2 = { 255 255 255 }
 				
 				b_collingwood = {}
 			}
 			c_upper_takaka = {
-				color = {255 255 255}
+				color = {255 255 0}
 				color2 = { 255 255 255 }
 				
 				b_upper_takaka = {}
@@ -814,6 +818,7 @@ e_new_zealand = {
 		color2 = { 255 255 255 }
 		
 		capital = 16 #taupo
+	}
 }
 
 d_liberator = {
