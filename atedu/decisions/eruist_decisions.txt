@@ -1,0 +1,52 @@
+decisions = {	
+	choose_ritualistic_school = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+			age = 12
+			NOT = { trait = incapable }
+			religion = ritualistic
+			or = {
+				NOR = {
+					has_character_modifier = school_arcane
+					has_character_modifier = school_light
+					has_character_modifier = school_dark
+					has_character_modifier = school_hamon
+				}
+				is_adult = no
+			}
+			NOT = { has_character_flag = selecting_magic_school }
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			custom_tooltip = {
+				text = custom_tooltip_choose_patron_diety
+			}
+			character_event = { id = eruve.1 }
+			set_character_flag = selecting_magic_school
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 5
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.5
+				trait = cynical
+			}
+		}
+	}
+	
+	
+	
+}

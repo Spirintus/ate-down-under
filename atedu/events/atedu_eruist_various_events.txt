@@ -1,0 +1,83 @@
+namespace = eruve
+
+character_event = {
+	id = eruve.1
+	desc = EVTDESC_eruve_1
+	
+	desc = {
+		text = EVTDESC_eruve_1_kid
+		trigger = {
+			ROOT = {is_adult = no}
+		}
+	}
+	desc = {
+		text = EVTDESC_eruve_1_adult
+		trigger = {
+			ROOT = {is_adult = yes}
+		}
+	}
+	
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_eruve_1_A #Arcane magic
+		add_character_modifier = {
+			name = arcane_school
+			duration = -1
+		}
+		clr_character_flag = selecting_magic_school
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_MAGIC_SCHOOL_ARCANE
+			}
+		}
+	}
+	option = {
+		name = EVTOPT_eruve_1_B #Light magic
+		add_character_modifier = {
+			name = light_school
+			duration = -1
+		}
+		clr_character_flag = selecting_magic_school
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_MAGIC_SCHOOL_LIGHT
+			}
+		}
+	}
+	option = {
+		name = EVTOPT_eruve_1_C # Dark magic
+		custom_tooltip = they_have_cookies
+		add_character_modifier = {
+			name = dark_school
+			duration = -1
+		}
+		clr_character_flag = selecting_magic_school
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_MAGIC_SCHOOL_DARK
+			}
+		}
+	}
+	option = {
+		name = EVTOPT_eruve_1_D # Hamon Magic
+		
+		add_character_modifier = {
+			name = hamon_school
+			duration = -1
+		}
+		clr_character_flag = selecting_magic_school
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_MAGIC_SCHOOL_HAMON
+			}
+		}
+	}
+}

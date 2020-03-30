@@ -18,12 +18,24 @@
 
 world_nz_south_island = {
 	duchies = {
-		d_otago d_christchurch d_south_island d_mainland d_the_fiords d_rakiura d_lakes
+		d_otago d_christchurch d_south_island d_mainland d_the_fiords d_rakiura d_lakes d_timaru d_pegasus d_haast d_greymouth d_the_woods d_cook d_the_fiords
 	}
 }
 
 world_nz_north_island = {
 	duchies = {
-		d_wellington d_maori_march d_patea d_auckland d_northland 
+		d_wellington d_maori_march d_patea d_auckland d_northland d_outer_auckland
+	}
+}
+
+world_nz_minor_islands = {
+	duchies = {
+		d_chatham d_antarctic_islands d_norfolk
+	}
+}
+
+world_new_zealand = {
+	regions = {
+		world_nz_minor_islands world_nz_north_island world_nz_south_island		
 	}
 }
