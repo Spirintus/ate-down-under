@@ -99,7 +99,7 @@ province;red;green;blue;x;x
 98;4;152;175;Bay of Plenty;x
 99;13;87;98;Maui Coast;x
 100;118;171;179;Coast of Napier;x
-101;60;123;133;Pacific Coast;x
+101;60;123;133;West Pacific Coast;x
 102;108;191;203;North Palliser;x
 103;48;215;241;Palliser Bay;x
 104;16;141;161;Wellington Strait;x
@@ -127,3 +127,4 @@ province;red;green;blue;x;x
 126;18;34;41;Open Pacific;x
 127;57;69;75;Western Chatham Sea;x
 128;4;39;55;Chatham Sea;x
+40;40;140;Outer Bay;x
