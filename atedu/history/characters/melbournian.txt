@@ -772,3 +772,112 @@
 	2560.2.3 = {birth = yes}
 	2628.8.18 = {death = yes}
 }
+
+98 = { #some melbournian lord (we'll expand on his family when australia is on focus)
+	name = "Michael"
+	dynasty = 209
+	religion = southcrosser
+	culture = melbournian
+	2576.10.21 = {birth = yes}
+	2630.8.10 = {death = yes}
+}
+99 = { #some melbournian lord
+	name = "Abel"
+	dynasty = 209
+	religion = southcrosser
+	culture = melbournian
+	father = 98
+	2598.2.26 = {birth = yes}
+	2639.5.5 = {death = yes}
+}
+100 = { #first jade king
+	name = "Robert"
+	dynasty = 209
+	religion = southcrosser
+	culture = melbournian
+	father = 98
+	2601.6.17 = {birth = yes}
+	2645.3.25 = {death = yes}
+}
+101 = { #second jade king
+	name = "Nick"
+	dynasty = 209
+	religion = southcrosser
+	culture = melbournian
+	father = 100
+	2619.12.7 = {birth = yes}
+}
+102 = { #sister of the second jade king
+	name = "Mary"
+	dynasty = 209
+	religion = southcrosser
+	culture = melbournian
+	father = 100
+	female = yes
+	2625.8.4 = {birth = yes}
+}
+103 = { #another sister of the second jade king
+	name = "Belle"
+	dynasty = 209
+	religion = southcrosser
+	culture = melbournian
+	father = 100
+	female = yes
+	2631.8.26 = {birth = yes}
+}
+104 = { #jade prince
+	name = "Nick"
+	dynasty = 209
+	religion = southcrosser
+	culture = melbournian
+	father = 101
+	2646.3.20 = {birth = yes}
+}
+105 = { #another jade prince
+	name = "John"
+	dynasty = 209
+	religion = southcrosser
+	culture = melbournian
+	father = 101
+	2651.4.20 = {birth = yes}
+}
+
+106 = { #count
+	name = "Alfred"
+	dynasty = 210
+	religion = southcrosser
+	culture = melbournian
+	2640.7.4 = {birth = yes}
+}
+
+107 = { #count
+	name = "Alfred"
+	dynasty = 220
+	religion = southcrosser
+	culture = melbournian
+	2638.2.13 = {birth = yes}
+}
+
+108 = { #count
+	name = "Drake"
+	dynasty = 221
+	religion = southcrosser
+	culture = melbournian
+	2640.7.12 = {birth = yes}
+}
+
+109 = { #duke
+	name = "Nick"
+	dynasty = 222
+	religion = southcrosser
+	culture = melbournian
+	2625.9.1 = {birth = yes}
+}
+110 = { #count
+	name = "Nick"
+	dynasty = 222
+	religion = southcrosser
+	culture = melbournian
+	father = 109
+	2649.2.13 = {birth = yes}
+}

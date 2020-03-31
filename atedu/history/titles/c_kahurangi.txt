@@ -1,0 +1,4 @@
+2643.5.16 = {
+	holder = 109
+	liege = k_jade_coast
+}

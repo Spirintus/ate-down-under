@@ -247,6 +247,9 @@
 	}
 }
 219 = { name = "Kerrigan" culture = melbournian }
+220 = { name = "Count" culture = melbournian }
+221 = { name = "Bass" culture = melbournian }
+222 = { name = "Nickson" culture = melbournian }
 
 300 = { name = "o'Triabunna" culture = witasmen }
 301 = { name = "o'Rick" culture = witasmen }
@@ -255,3 +258,5 @@
 400 = { name = "Wineman" culture = baylander }
 401 = { name = "Ross" culture = baylander }
 402 = { name = "Fisher" culture = baylander }
+
+499 = { name = "Arason" culture = jadite }

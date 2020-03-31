@@ -1,0 +1,4 @@
+2659.10.8 = {
+	holder = 108
+	liege = k_jade_coast
+}

@@ -42,3 +42,51 @@
 	trait = "zealous"
 	trait = "gregarious"
 }
+
+1460 = { #count
+	name = "Aragorn"
+	dynasty = 499
+	religion = southcrosser
+	culture = jadite
+	secret_religion = eruist
+	trait = cynical
+	trait = deceitful
+	2598.3.9 = {birth = yes}
+}
+1461 = { #count's son
+	name = "Oliver"
+	dynasty = 499
+	religion = southcrosser
+	culture = jadite
+	father = 1460
+	secret_religion = eruist
+	2521.7.7 = {birth = yes}
+}
+1462 = { #count's grandson
+	name = "Aragorn"
+	dynasty = 499
+	religion = southcrosser
+	culture = jadite
+	father = 1461
+	secret_religion = eruist
+	2543.2.27 = {birth = yes}
+}
+1463 = { #count's grandaughter
+	name = "Mabel"
+	dynasty = 499
+	religion = southcrosser
+	culture = jadite
+	female = yes
+	father = 1461
+	secret_religion = eruist
+	2549.4.14 = {birth = yes}
+}
+1464 = { #count's greatgrandson
+	name = "Archer"
+	dynasty = 499
+	religion = southcrosser
+	culture = jadite
+	father = 1462
+	secret_religion = eruist
+	2563.8.31 = {birth = yes}
+}

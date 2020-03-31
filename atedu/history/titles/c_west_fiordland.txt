@@ -1,0 +1,4 @@
+2665.1.29 = {
+	holder = 107
+	liege = k_jade_coast
+}
