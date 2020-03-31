@@ -2,7 +2,6 @@ namespace = eruve
 
 character_event = {
 	id = eruve.1
-	desc = EVTDESC_eruve_1
 	
 	desc = {
 		text = EVTDESC_eruve_1_kid
@@ -52,7 +51,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPT_eruve_1_C # Dark magic
-		custom_tooltip = they_have_cookies
+		custom_tooltip = {text = they_have_cookies}
 		add_character_modifier = {
 			name = dark_school
 			duration = -1
