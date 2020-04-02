@@ -1,0 +1,9 @@
+#1000-1100
+
+1000 = { #duke of the islands
+	name = "Nicholas"
+	dynasty = 402
+	religion = eruist
+	culture = polar
+	2636.11.6 = {birth = yes}
+}

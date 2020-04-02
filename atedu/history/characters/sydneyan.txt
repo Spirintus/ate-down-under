@@ -211,7 +211,7 @@
 }
 
 
-# 21 = {
+# 21 = { spirintus self insert guy
 	# name = "old guy"
 	# dynasty = 1
 	# religion = eruist

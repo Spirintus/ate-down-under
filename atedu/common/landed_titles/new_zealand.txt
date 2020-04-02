@@ -163,7 +163,7 @@ e_new_zealand = {
 			}
 		}
 		
-		d_lakes = {
+		d_alpland = {
 			color = {142 42 69}
 			color2 = {255 255 255}
 			
@@ -234,7 +234,7 @@ e_new_zealand = {
 		}
 		
 		d_pegasus = {
-			color = { 255 255 255 }
+			color = { 178 0 255 }
 			color2 = { 255 255 255 }
 			
 			capital = 52
@@ -705,7 +705,7 @@ e_new_zealand = {
 				b_inchbonnie = {}
 			}
 		}
-		d_the_woods = {
+		d_jade_forest = {
 			color = {139 172 15}
 			color2 = { 255 255 255 }
 		
