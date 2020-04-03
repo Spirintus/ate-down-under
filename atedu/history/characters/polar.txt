@@ -1,9 +1,83 @@
 #1000-1100
 
-1000 = { #duke of the islands
+1000 = { #duke of the antarctic islands
 	name = "Nicholas"
-	dynasty = 402
+	dynasty = 1000
 	religion = eruist
 	culture = polar
-	2636.11.6 = {birth = yes}
+	health = 7
+	father = 1001
+	trait = kind
+	trait = charitable
+	trait = diligent
+	trait = humble
+	trait = patient
+	trait = temperate
+	trait = chaste
+	trait = trusting
+	trait = honest
+	trait = celibate
+	2572.12.25 = {birth = yes}
+}
+1001 = { #duke of the antarctic islands, died young
+	name = "John"
+	dynasty = 1000
+	religion = eruist
+	culture = polar
+	2549.4.2 = {birth = yes}
+	2579.4.2 = {death = yes}
+}
+1002 = {
+	name = "Michael"
+	dynasty = 1000
+	religion = eruist
+	culture = polar
+	father = 1001
+	2579.1.25 = {birth = yes}
+	2638.6.22 = {death = yes}
+}
+1003 = {
+	name = "Gabriel"
+	dynasty = 1000
+	religion = eruist
+	culture = polar
+	father = 1002
+	2601.7.30 = {birth = yes}
+	2645.6.22 = {death = yes}
+}
+1004 = {
+	name = "Gabriel"
+	dynasty = 1000
+	religion = eruist
+	culture = polar
+	father = 1003
+	2624.8.31 = {birth = yes}
+	2660.8.5 = {death = yes}
+}
+1005 = {
+	name = "Rudolph"
+	dynasty = 1000
+	religion = eruist
+	culture = polar
+	father = 1004
+	trait = drunkard
+	2647.2.12 = {birth = yes}
+}
+1006 = {
+	name = "Mabel"
+	dynasty = 1000
+	religion = eruist
+	culture = polar
+	female = yes
+	father = 1004
+	2653.6.16 = {birth = yes}
+}
+1007 = {
+	name = "Caroline"
+	dynasty = 1000
+	religion = eruist
+	culture = polar
+	female = yes
+	father = 1004
+	2658.10.9 = {birth = yes}
 }

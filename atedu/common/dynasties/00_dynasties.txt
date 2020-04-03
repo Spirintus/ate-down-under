@@ -122,6 +122,9 @@
 122 = { name="Swagman" culture=wastelander }
 123 = { name="Paterson" culture=wastelander }
 
+197 = { name = "of Auckland" culture = sydneyan}
+198 = { name = "Rogers" culture = sydneyan}
+199 = { name = "King" culture = sydneyan}
 200 = { name = "Holt" culture = sydneyan}
 201 = { name = "Martin" culture = sydneyan }
 202 = { name = "Campbell" culture = melbournian }
@@ -260,3 +263,45 @@
 402 = { name = "Fisher" culture = baylander }
 
 499 = { name = "Arason" culture = jadite }
+
+700 = { name="Te Wherowhero" culture=maori }
+701 = { name="Poomare" culture=maori }
+702 = { name="Wairarapa" culture=maori }
+703 = { name="Rimutaka" culture=maori }
+704 = { name="Te Matau-a-Maaui" culture=maori }
+705 = { name="Te Tai Tokerau" culture=maori }
+706 = { name="Taamaki-makau-rau" culture=maori }
+707 = { name="Waikato Tainui" culture=maori }
+708 = { name="Te Moana-a-Toi" culture=maori }
+709 = { name="Te Tai Raawhiti" culture=maori }
+710 = { name="Te Matau-a-Mauai" culture=maori }
+711 = { name="Taranaki" culture=maori }
+712 = { name="Manawatu-Whanganui" culture=maori }
+713 = { name="Te Whanga-nui-a-Tara" culture=maori }
+714 = { name="Te Tai-o-Aorere" culture=maori }
+715 = { name="Whakatu" culture=maori }
+716 = { name="Te Tauihu-o-te-waka" culture=maori }
+717 = { name="Te Tai Poutini" culture=maori }
+718 = { name="Waitaha" culture=maori }
+719 = { name="Otago" culture=maori }
+720 = { name="Murihiku" culture=maori }
+721 = { name="Ngaapuhi" culture=maori }
+722 = { name="Ngaati Porou" culture=maori }
+723 = { name="Ngaati Kahungunu" culture=maori }
+724 = { name="Ngaai Tahu" culture=maori }
+725 = { name="Ngaati Tuwharetoa" culture=maori }
+726 = { name="Ngaati Maniapoto" culture=maori }
+727 = { name="Tuhoe" culture=maori }
+728 = { name="Te Arawa" culture=maori }
+729 = { name="Te Whanganui-a-Tara" culture=maori }
+730 = { name="Otepoti" culture=maori }
+731 = { name="Otautahi" culture=maori }
+
+1000 = { name = "Saint" culture = polar }
+
+1101 = { name = "Dawn" culture = chathamite }
+1102 = { name = "of Pitt" culture = chathamite }
+1103 = { name = "Hanson" culture = chathamite }
+1103 = { name = "Flower" culture = chathamite }
+1104 = { name = "Knight" culture = chathamite }
+1105 = { name = "Ara" culture = chathamite }

@@ -219,4 +219,127 @@
 	# 1050.1.1 = {birth = yes}
 # }
 
-
+22 = { #founder of the dynasty
+	name = "James"
+	dynasty = 199
+	religion = southcrosser
+	culture = sydneyan
+	2489.8.23 = {birth = yes}
+	2540.3.3 = { death = yes}
+}
+23 = { #first lord of hamilton
+	name = "James"
+	dynasty = 199
+	religion = southcrosser
+	culture = sydneyan
+	father = 22
+	2517.6.17 = {birth = yes}
+	2559.8.28 = { death = yes}
+}
+24 = { #stayed at home (family will be expanded when dealing with australia)
+	name = "William"
+	dynasty = 199
+	religion = southcrosser
+	culture = sydneyan
+	father = 22
+	2511.1.2 = {birth = yes}
+	2567.12.29 = { death = yes}
+}
+25 = { #second lord of hamilton
+	name = "Michael"
+	dynasty = 199
+	religion = southcrosser
+	culture = sydneyan
+	father = 23
+	2541.1.23 = {birth = yes}
+	2586.10.28 = { death = yes}
+}
+26 = { #third lord of hamilton
+	name = "John"
+	dynasty = 199
+	religion = southcrosser
+	culture = sydneyan
+	father = 25
+	2560.8.21 = {birth = yes}
+	2589.2.14 = { death = yes}
+}
+27 = { #fourth lord of hamilton
+	name = "Nick"
+	dynasty = 199
+	religion = southcrosser
+	culture = sydneyan
+	father = 25
+	2565.3.12 = {birth = yes}
+	2602.5.25 = { death = yes}
+}
+28 = { #fifth lord of hamilton
+	name = "James"
+	dynasty = 199
+	religion = southcrosser
+	culture = sydneyan
+	father = 27
+	2581.5.6 = {birth = yes}
+	2602.5.29 = { death = yes}
+}
+29 = { #sixth lady of hamilton
+	name = "Mabel"
+	dynasty = 199
+	religion = southcrosser
+	culture = sydneyan
+	female = yes
+	father = 27
+	2587.9.26 = {birth = yes}
+	2645.11.2 = { death = yes}
+}
+30 = { #seventh lord of hamilton, died fighting the maori
+	name = "James"
+	dynasty = 198
+	religion = southcrosser
+	culture = sydneyan
+	mother = 29
+	2609.4.12 = {birth = yes}
+	2656.11.2 = { death = yes}
+}
+31 = { #eigth lord of hamilton
+	name = "James"
+	dynasty = 198
+	religion = southcrosser
+	culture = sydneyan
+	father = 30
+	2627.6.2 = {birth = yes}
+}
+32 = { #heir
+	name = "James"
+	dynasty = 198
+	religion = southcrosser
+	culture = sydneyan
+	father = 31
+	2645.12.9 = {birth = yes}
+}
+33 = { #heiress
+	name = "Adelaide"
+	dynasty = 198
+	religion = southcrosser
+	culture = sydneyan
+	female = yes
+	father = 31
+	trait = twin
+	2651.8.14 = {birth = yes}
+}
+34 = { #heiress
+	name = "Catherine"
+	dynasty = 198
+	religion = southcrosser
+	culture = sydneyan
+	female = yes
+	father = 31
+	trait = twin
+	2651.8.14 = {birth = yes}
+}
+35 = { #heir
+	name = "Robert"
+	dynasty = 197
+	religion = southcrosser
+	culture = sydneyan
+	2639.8.29 = {birth = yes}
+}

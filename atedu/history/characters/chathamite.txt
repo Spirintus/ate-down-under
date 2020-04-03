@@ -1,0 +1,409 @@
+#1101-1130
+
+1101 = { #first king of the island
+	name = "Joseph"
+	dynasty = 1101
+	religion = true_church
+	culture = chathamite
+	2075.3.10 = { birth = yes}
+	2153.6.23 = { death = yes }
+}
+1102 = { #second king
+	name = "Joseph"
+	dynasty = 1101
+	religion = true_church
+	culture = chathamite
+	father = 1101
+	2099.5.11 = { birth = yes}
+	2167.8.19 = { death = yes }
+}
+1103 = { #founder of a cadet branch which will become important later
+	name = "Rick"
+	dynasty = 1102
+	religion = true_church
+	culture = chathamite
+	father = 1101
+	2103.12.24 = { birth = yes}
+	2143.8.19 = { death = yes }
+}
+1104 = { #third king
+	name = "Joseph"
+	dynasty = 1101
+	religion = true_church
+	culture = chathamite
+	father = 1102
+	2120.6.1 = { birth = yes}
+	2194.9.12 = { death = yes }
+}
+1105 = { #fourth king
+	name = "Joseph"
+	dynasty = 1101
+	religion = true_church
+	culture = chathamite
+	father = 1104
+	2139.6.1 = { birth = yes}
+	2195.10.23 = { death = yes }
+}
+1106 = { #fifth king
+	name = "Martin"
+	dynasty = 1101
+	religion = true_church
+	culture = chathamite
+	father = 1105
+	2162.8.29 = { birth = yes}
+	2205.3.24 = { death = yes }
+}
+1107 = { #sixth king
+	name = "Oberon"
+	dynasty = 1101
+	religion = true_church
+	culture = chathamite
+	father = 1106
+	2184.1.1 = { birth = yes}
+	2237.7.27 = { death = yes }
+}
+1108 = { #seventh king
+	name = "Joseph"
+	dynasty = 1101
+	religion = true_church
+	culture = chathamite
+	father = 1106
+	2191.4.5 = { birth = yes}
+	2240.8.18 = { death = yes }
+}
+1109 = { #eighth king
+	name = "Martin"
+	dynasty = 1101
+	religion = true_church
+	culture = chathamite
+	father = 1106
+	2199.8.9 = { birth = yes}
+	2256.6.28 = { death = yes }
+}
+1110 = { #ninth king
+	name = "Martin"
+	dynasty = 1101
+	religion = true_church
+	culture = chathamite
+	father = 1109
+	2220.10.27 = { birth = yes}
+	2289.7.14 = { death = yes }
+}
+1111 = { #tenth king, died fighting Gandalf 'the elf king' at the battle of Flower Pot
+	name = "Joseph"
+	dynasty = 1101
+	religion = true_church
+	culture = chathamite
+	father = 1110
+	2245.12.13 = { birth = yes}
+	2295.8.19 = { death = yes }
+}
+1112 = { #eleventh king, died fighting Saruman 'the brave' at the battle of Waitangi
+	name = "Martin"
+	dynasty = 1101
+	religion = true_church
+	culture = chathamite
+	father = 1111
+	2261.3.24 = { birth = yes}
+	2295.8.23 = { death = yes }
+}
+
+1113 = { #guy
+	name = "Mark"
+	dynasty = 1102
+	religion = true_church
+	culture = chathamite
+	father = 1103
+	2121.2.26 = { birth = yes}
+	2165.12.1 = { death = yes }
+}
+1114 = { #guy
+	name = "Jack"
+	dynasty = 1102
+	religion = true_church
+	culture = chathamite
+	father = 1113
+	2139.8.15 = { birth = yes}
+	2182.12.1 = { death = yes }
+}
+1115 = { #guy
+	name = "Henry"
+	dynasty = 1102
+	religion = true_church
+	culture = chathamite
+	father = 1114
+	2167.3.21 = { birth = yes}
+	2200.5.31 = { death = yes }
+}
+1116 = { #guy
+	name = "William"
+	dynasty = 1102
+	religion = true_church
+	culture = chathamite
+	father = 1115
+	2188.6.8 = { birth = yes}
+	2263.8.7 = { death = yes }
+}
+1117 = { #guy
+	name = "Joseph"
+	dynasty = 1102
+	religion = true_church
+	culture = chathamite
+	father = 1116
+	2214.7.18 = { birth = yes}
+	2278.9.11 = { death = yes }
+}
+1118 = { #guy
+	name = "Michael"
+	dynasty = 1102
+	religion = true_church
+	culture = chathamite
+	father = 1117
+	2214.9.6 = { birth = yes}
+	2278.2.14 = { death = yes }
+}
+1119 = { #twelfth king, attempted a coup, failed and tried again with kiwi support, successfully
+	name = "Oberon"
+	dynasty = 1102
+	religion = eruist
+	culture = chathamite
+	father = 1118
+	2239.2.28 = { birth = yes}
+	2300.7.27 = { death = yes }
+}
+1120 = { #13th king
+	name = "Michael"
+	dynasty = 1102
+	religion = eruist
+	culture = chathamite
+	father = 1119
+	2258.9.30 = { birth = yes}
+	2309.9.2 = { death = yes }
+}
+1121 = { #14th king
+	name = "Joseph"
+	dynasty = 1102
+	religion = eruist
+	culture = chathamite
+	father = 1120
+	2285.12.31 = { birth = yes}
+	2346.2.4 = { death = yes }
+}
+1122 = { #15th king
+	name = "Rick"
+	dynasty = 1102
+	religion = eruist
+	culture = chathamite
+	father = 1121
+	2307.5.30 = { birth = yes}
+	2358.6.24 = { death = yes }
+}
+1123 = { #16th king
+	name = "Michael"
+	dynasty = 1102
+	religion = eruist
+	culture = chathamite
+	father = 1122
+	2307.3.21 = { birth = yes}
+	2358.6.26 = { death = yes }
+}
+1124 = { #17th king
+	name = "Martin"
+	dynasty = 1102
+	religion = eruist
+	culture = chathamite
+	father = 1123
+	2326.8.3 = { birth = yes}
+	2370.11.22 = { death = yes }
+}
+1125 = { #18th king, reigned for only a few months before being usurped, then took the throne again, only to be kicked out of it again
+	name = "Martin"
+	dynasty = 1102
+	religion = eruist
+	culture = chathamite
+	father = 1124
+	2369.4.20 = { birth = yes}
+	2430.1.2 = { death = yes }
+}
+
+1126 = { #19th king, last christian king in the kingdom's history
+	name = "Joseph"
+	dynasty = 1103
+	religion = true_church
+	culture = chathamite
+	2342.3.27 = { birth = yes}
+	2409.7.19 = { death = yes }
+}
+1127 = { #20th king, converted to eruism so the high king wouldn't back Martin
+	name = "Saruman"
+	dynasty = 1103
+	religion = eruist
+	culture = chathamite
+	father = 1126
+	2368.5.21 = { birth = yes}
+	2426.1.23 = { death = yes }
+}
+1128 = { #first queen
+	name = "Galadriel"
+	dynasty = 1103
+	religion = eruist
+	culture = chathamite
+	female = yes
+	father = 1127
+	2386.6.25 = { birth = yes}
+	2437.9.11 = { death = yes }
+}
+
+1129 = { #22nd king
+	name = "Aragorn"
+	dynasty = 1104
+	religion = eruist
+	culture = chathamite
+	mother = 1128
+	2403.8.21 = { birth = yes}
+	2460.9.11 = { death = yes }
+}
+1130 = { #23rd king
+	name = "Joseph"
+	dynasty = 1104
+	religion = eruist
+	culture = chathamite
+	father = 1129
+	2431.7.12 = { birth = yes}
+	2481.3.25 = { death = yes }
+}
+1131 = { #24th king, died childless
+	name = "Martin"
+	dynasty = 1104
+	religion = eruist
+	culture = chathamite
+	father = 1129
+	2454.9.9 = { birth = yes}
+	2507.4.30 = { death = yes }
+}
+
+1132 = { #25th king,
+	name = "Anarion"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	2470.7.19 = { birth = yes}
+	2534.2.28 = { death = yes }
+}
+1133 = { #26th king
+	name = "Joseph"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1132
+	2490.1.23 = { birth = yes}
+	2569.8.11 = { death = yes }
+}
+1134 = { #died of sickness
+	name = "Martin"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1133
+	2508.9.17 = { birth = yes}
+	2518.8.11 = { death = yes }
+}
+1135 = { #died whaling
+	name = "Joseph"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1132
+	2512.2.21 = { birth = yes}
+	2539.7.16 = { death = yes }
+}
+1136 = { #guy
+	name = "Michael"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1132
+	2496.9.13 = { birth = yes}
+	2552.4.27 = { death = yes }
+}
+1137 = { #27th king
+	name = "Aragorn"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1136
+	2520.9.13 = { birth = yes}
+	2581.4.27 = { death = yes }
+}
+1138 = { #28th king
+	name = "Joseph"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1137
+	2544.2.18 = { birth = yes}
+	2585.4.27 = { death = yes }
+}
+1139 = { #29th king
+	name = "Joseph"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1137
+	2550.5.8 = { birth = yes}
+	2600.8.29 = { death = yes }
+}
+1140 = { #30th king
+	name = "Joseph"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1139
+	2573.12.28 = { birth = yes}
+	2630.8.29 = { death = yes }
+}
+1141 = { #31st king
+	name = "Anarion"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1140
+	2599.6.15 = { birth = yes}
+	2645.4.20 = { death = yes }
+}
+1142 = { #32nd king
+	name = "Martin"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1141
+	2623.12.5 = { birth = yes}
+}
+1143 = {
+	name = "Elizabeth"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	female = yes
+	father = 1141
+	2629.12.5 = { birth = yes}
+}
+1144 = {
+	name = "Martha"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	trait = twin
+	female = yes
+	father = 1142
+	2650.2.25 = { birth = yes}
+}
+1145 = {
+	name = "Anarion"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1142
+	trait = twin
+	2650.2.25 = { birth = yes}
+}
