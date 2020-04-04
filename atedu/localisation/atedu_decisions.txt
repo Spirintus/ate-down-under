@@ -1,0 +1,4 @@
+create_aotearoa;Form empire of Aotearoa;;;;;;;;;;;;x
+create_aotearoa_DESC;There will be description... Once;;;;;;;;;;;;x
+create_dunedin;Form kingdom of Dunedin;;;;;;;;;;;;x
+create_dunedin_DESC;There will be description... Once;;;;;;;;;;;;x

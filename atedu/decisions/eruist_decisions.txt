@@ -26,7 +26,7 @@ decisions = {
 		}
 		effect = {
 			custom_tooltip = {
-				text = custom_tooltip_choose_patron_diety
+				text = custom_tooltip_choose_ritualistic_school
 			}
 			character_event = { id = eruve.1 }
 			set_character_flag = selecting_magic_school

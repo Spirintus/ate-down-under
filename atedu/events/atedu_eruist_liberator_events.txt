@@ -166,7 +166,7 @@ province_event = {
 	}
 }
 
-narrative_event = {
+narrative_event = { #Liberator's revolt begins
 	id = erulib.2
 	title = EVTTITLE_erulib_2
 	
@@ -341,16 +341,16 @@ narrative_event = {
 				}
 			}
 		}
-	}
-	option = {
+	} 
+	option = { #I wanna be him/her
 		name = {
-			text = EVTOPT_erulib_2_B_eru #kay
+			text = EVTOPT_erulib_2_B_eru 
 			trigger = {
 				religion_group = eruist_group
 			}
 		}
 		name = {
-			text = EVTOPT_erulib_2_B_other #kay
+			text = EVTOPT_erulib_2_B_other 
 			trigger = {
 				NOT = { THIS = { religion_group = eruist_group } }
 			}
@@ -362,7 +362,7 @@ narrative_event = {
 			NOT = { has_character_flag = this_is_liberator}
 			ai = no
 		}
-		if = {	
+		if = {
 			limit = {
 				ROOT = {
 					ai = yes
@@ -374,656 +374,198 @@ narrative_event = {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-# character_event = {
-	# id = erulib.60
-	# desc = EVTDESC_erulib_60
-	# title = EVTTITLE_erulib_60
-	# picture = GFX_evt_peasants
+narrative_event = { #liberator become king
+	id = erulib.3
+	title = EVTTITLE_erulib_3
+	desc = EVTDESC_erulib_3
+	#picture = 
+	border = GFX_event_narrative_frame_war
 	
-	# only_independent = yes
+	is_triggered_only = yes
 	
-	# trigger = {
-		# # any_realm_title = {
-			# # title = c_dunedin #change to c_dunedin when right time will come
-		# # }
-		# any_demesne_province = {
-			# province = 58
-		# }
-		# 58 = {religion = eruist}
-		# not = {religion = eruist}
-		# not = {has_global_flag = natural_liberator_appeared}
-		# not = {has_global_flag = ongoing_liberator_revolt}
-	# }
-	# mean_time_to_happen = {
-		# days = 16
-		
-		# modifier = {
-			# factor = 0.5
-			# 58 = { revolt_risk = 0.1 }
-		# }
-		# modifier = {
-			# factor = 0.5
-			# 58 = { revolt_risk = 0.05 }
-		# }
-		# modifier = {
-			# factor = 0.5
-			# trait = cruel
-		# }
-	# }
-	# immediate = {
-		# set_global_flag = ongoing_liberator_revolt
-		
-	# }
+	major = yes
 	
-	# option = {
-		# name = EVTOPT_erulib_60_A
-		# 58 = { province_event = { id = erulib.61} }
-	# }
-# }
+	major_trigger = {
+		capital_scope = {
+			region = world_new_zealand
+		}
+	}
+	
+	immediate = {
+		c_dunedin = { usurp_title = ROOT }
+		grant_title = k_dunedin
+		character_event = {id = erulib.4 days = 7 random = 7}
+	}
+	
+	option = {
+		trigger = {
+			has_character_flag = this_is_liberator
+		}
+		name = EVTOPT_erulib_3_A #liberator
+		custom_tooltip = {
+			grant_title = k_dunedin
+		}
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_character_flag = this_is_liberator }
+		}
+		name = {
+			text = EVTOPT_erulib_3_B_christian 
+			trigger = {
+				THIS = { religion_group = christian }
+			}
+		}
+		name = {
+			text = EVTOPT_erulib_3_B 
+			trigger = {
+				NOT = { THIS = { religion_group = christian } }
+			}
+		}
+	}
+}
 
 
-# province_event = {
-	# id = erulib.61
-	# # desc = EVTDESC_erulib_61
-	# # title = EVTTITLE_erulib_61
-	# # picture = GFX_evt_peasants
+character_event = { #Liberator goes to war    
+	id = erulib.4
+	title = EVTTITLE_erulib_4
+	desc = EVTDESC_erulib_4
+	#picture = 
+	border = GFX_event_character_frame_war
 	
-	# hide_window = yes
+	is_triggered_only = yes
 	
-	# is_triggered_only = yes
+	major = yes
 	
-	# immediate = {
-		# create_character = {
-			# random_traits = no
-			# dynasty = 109
-			# religion = ROOT
-			# culture = ROOT
-			# age = 30
-			# female = no
-			# trait = honest
-			# trait = brave
-			# trait = diligent
-			# trait = proud
-			# trait = brilliant_strategist
-			# trait = aggressive_leader
-			# attributes = {
-				# diplomacy = 10
-				# martial = 10
-				# stewardship = 5
-				# intrigue = 6
-				# learning = 7
-			# }
-		# }
-		# new_character = {
-			# set_character_flag = is_liberator
-			# set_defacto_liege = THIS
-			# prestige = 100
-			# piety = 50
-			# create_title = {
-				# tier = DUKE
-				# landless = yes
-				# temporary = yes
-				# culture = root
-				# name = "LIBERATOR_REVOLT"
-				# holder = THIS
-			# }
-			# # FROM = {
-				# # primary_title = {
-					# # ROOT = {
-						# # add_claim = PREV
-					# # }
-				# # }
-			# # }
-			# spawn_unit = {
-				# owner = THIS
-				# leader = THIS
-				# province = ROOT
-				# home = ROOT
-				# troops = {
-					# archers = { 1000 1000 }
-					# light_infantry = { 1500 1500 }
-					# heavy_infantry = { 1000 1000 }
-					# light_cavalry = { 1000 1000 }
-				# }
-				# attrition = 1.0
-			# }
-			# spawn_unit = {
-				# owner = THIS
-				# province = ROOT
-				# home = ROOT
-				# troops = {
-					# archers = { 1000 1000 }
-					# light_infantry = { 1500 1500 }
-					# heavy_infantry = { 1000 1000 }
-				# }
-				# attrition = 1.0
-			# }
-			# spawn_unit = {
-				# owner = THIS
-				# province = ROOT
-				# home = ROOT
-				# troops = {
-					# archers = { 1000 1000 }
-					# light_infantry = { 1500 1500 }
-					# heavy_infantry = { 1000 1000 }
-				# }
-				# attrition = 1.0
-			# }
-			# unsafe_war = {
-				# target = FROM
-				# casus_belli = liberator_invasion
-			# }
-			# # add_claim = c_ile_de_france
-			# # war = {
-				# # target = FROM
-				# # casus_belli = claim
-				# # thirdparty_title = c_ile_de_france
-			# # }
-		# }
-	# }
+	major_trigger = {
+		capital_scope = {
+			region = world_new_zealand
+		}
+	}
+	immediate = {
+		set_character_flag = conquest_of_christchurch
+		create_character = {
+			random_traits = yes
+			dynasty = culture
+			religion = FROM
+			culture = FROM
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = FROM
+				home = FROM
+				owner = liberator_event_target
+				troops = 
+				{
+					archers = { 500 500 }
+					light_infantry = { 800 800 }
+					heavy_infantry = { 500 500 }
+					light_cavalry = { 500 500 }
+				}
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = culture
+			religion = FROM
+			culture = FROM
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = FROM
+				home = FROM
+				owner = liberator_event_target
+				troops = 
+				{
+					archers = { 500 500 }
+					light_infantry = { 800 800 }
+					heavy_infantry = { 500 500 }
+					light_cavalry = { 500 500 }
+				}
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = culture
+			religion = FROM
+			culture = FROM
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = FROM
+				home = FROM
+				owner = liberator_event_target
+				troops = 
+				{
+					archers = { 500 500 }
+					light_infantry = { 800 800 }
+					heavy_infantry = { 500 500 }
+					light_cavalry = { 500 500 }
+				}
+			}
+		}
+		k_christchurch = {
+			any_de_jure_vassal = {
+				if = {
+					limit = {
+						not = { higher_tier_than = duke }
+						is_independent = yes
+					}
+					reverse_unsafe_war = {
+						target = ROOT
+						casus_belli = liberator_invasion
+					}
+				}
+			}
+			holder_scope = {
+				reverse_unsafe_war = {
+					target = ROOT
+					casus_belli = liberator_invasion
+				}
+			}
+		}
+	}
+	option = {
+		trigger = {
+			has_character_flag = this_is_liberator
+		}
+		name = EVTOPT_erulib_4_A #liberator
+	}
 	
-	# # option = {
-		# # name = EVTOPT_erulib_61_A
-	# # }
-# }
-
-# narrative_event = {
-	# id = erulib.1
-	# title = EVTTITLE_erulib_60
-	# desc = EVTDESC_erulib_60
-	# picture = GFX_evt_peasants
-	
-	# major = yes
-	
-	# only_playable = yes
-	# only_independent = yes
-	# portrait = event_target:invasion_leader
-	# show_ROOT = yes
-	# trigger = {
-		# any_realm_title = {
-			# title = c_ile_de_france #change to c_dunedin when right time will come
-		# }
-		# 58 = {religion = eruist}
-		# not = {religion = eruist}
-		# not = {has_global_flag = natural_liberator_appeared}
-		# not = {has_global_flag = ongoing_liberator_revolt}
-		# NOT = {
-			# has_alternate_start_parameter = { key = religion_names value = random }
-		# }
-		# is_landed = yes
-	# }
-	
-	# mean_time_to_happen = {
-		# days = 16
-		
-		# modifier = {
-			# factor = 0.5
-			# 58 = { revolt_risk = 0.1 }
-		# }
-		# modifier = {
-			# factor = 0.5
-			# 58 = { revolt_risk = 0.05 }
-		# }
-		# modifier = {
-			# factor = 0.5
-			# trait = cruel
-		# }
-	# }
-	
-	# immediate = {
-		# set_character_flag = liberator_revolt
-		# set_global_flag = natural_liberator_appeared
-		# 58 = { save_event_target_as = spawn_province }		
-		# event_target:spawn_province = {
-	
-			# religion = eruist
-			
-		
-			# ROOT = {
-				# create_character = {
-					# dynasty = 109
-					# religion = eruist
-					# culture = ROOT
-					# female = no
-					# age = 19
-					# health = 7
-					# fertility = 0.7
-					# random_traits = no
-					# trait = honest
-					# trait = brave
-					# trait = diligent
-					# trait = proud
-					# trait = brilliant_strategist
-					# trait = aggressive_leader
-					# trait = zealous
-					# attributes = {
-						# diplomacy = 10
-						# martial = 10
-						# stewardship = 5
-						# intrigue = 6
-						# learning = 7
-					# }
-				# }
-				
-				# new_character = {
-					# set_character_flag = is_liberator
-					# save_global_event_target_as = invasion_leader
-					# random_list = {
-						# 1 = { change_learning = 2 }
-						# 1 = { change_diplomacy = 2 }
-						# 1 = { change_stewardship = 2 }
-						# 1 = { change_intrigue = 2 }
-						# 1 = { change_martial = 2 }
-					# }
-					# random_list = {
-						# 1 = { change_learning = 3 }
-						# 1 = { change_diplomacy = 3 }
-						# 1 = { change_stewardship = 3 }
-						# 1 = { change_intrigue = 3 }
-						# 1 = { change_martial = 3 }
-					# }
-					# random_list = {
-						# 5 = { }
-						# 15 = { add_trait = strong }
-						# 30 = { add_trait = fair }
-						# 3 = { add_trait = strong add_trait = fair }
-					# }
-					# random_list = {
-						# 5 = { }
-						# 15 = { add_trait = shrewd }
-						# 30 = { add_trait = quick }
-						# 3 = { add_trait = genius }
-						# 1 = { add_trait = genius add_trait = shrewd }
-					# }
-					# remove_education_effect = yes
-					# random_list = {
-						# 10 = { change_learning = 3 }
-						# 10 = { change_diplomacy = 3 }
-						# 10 = { change_stewardship = 3 }
-						# 10 = { change_intrigue = 3 }
-						# 10 = { change_martial = 3 }
-					# }
-					# wealth = 100
-					# create_title = {
-						# tier = DUKE
-						# landless = yes
-						# temporary = yes
-						# culture = ROOT
-						# name = "LIBERATOR_REVOLT"
-						# holder = THIS
-					# }
-					# create_character = {
-						# random_traits = yes
-						# dynasty = none
-						# religion = THIS
-						# culture = THIS
-						# female = no
-						# age = 30
-						# trait = brilliant_strategist
-					# }
-					# new_character = {
-						# if = {
-							# limit = { ROOT = { ai = yes } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.25
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.33
-							# }
-						# }
-						# if = {
-							# limit = { ROOT = { ai = no } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.15
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.25
-							# }
-						# }
-					# }
-					# create_character = {
-						# random_traits = yes
-						# dynasty = none
-						# religion = THIS
-						# culture = THIS
-						# female = no
-						# age = 27
-						# trait = brilliant_strategist
-					# }
-					# new_character = {
-						# if = {
-							# limit = { ROOT = { ai = yes } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.25
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.33
-							# }
-						# }
-						# if = {
-							# limit = { ROOT = { ai = no } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.15
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.25
-							# }
-						# }
-					# }
-					# create_character = {
-						# random_traits = yes
-						# dynasty = none
-						# religion = THIS
-						# culture = THIS
-						# female = no
-						# age = 25
-						# trait = skilled_tactician
-					# }
-					# new_character = {
-						# if = {
-							# limit = { ROOT = { ai = yes } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.25
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.33
-							# }
-						# }
-						# if = {
-							# limit = { ROOT = { ai = no } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.15
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.25
-							# }
-						# }
-					# }
-					# create_character = {
-						# random_traits = yes
-						# dynasty = none
-						# religion = THIS
-						# culture = THIS
-						# female = no
-						# age = 23
-						# trait = skilled_tactician
-					# }
-					# new_character = {
-						# if = {
-							# limit = { ROOT = { ai = yes } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.25
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.33
-							# }
-						# }
-						# if = {
-							# limit = { ROOT = { ai = no } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.15
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.25
-							# }
-						# }
-					# }
-					# create_character = {
-						# random_traits = yes
-						# dynasty = none
-						# religion = THIS
-						# culture = THIS
-						# female = no
-						# age = 27
-						# trait = skilled_tactician
-					# }
-					# new_character = {
-						# if = {
-							# limit = { ROOT = { ai = yes } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.25
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# disband_on_peace = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.33
-							# }
-						# }
-						# if = {
-							# limit = { ROOT = { ai = no } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.15
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# disband_on_peace = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.25
-							# }
-						# }
-					# }
-					# create_character = {
-						# random_traits = yes
-						# dynasty = none
-						# religion = THIS
-						# culture = THIS
-						# female = no
-						# age = 24
-						# trait = skilled_tactician
-					# }
-					# new_character = {
-						# if = {
-							# limit = { ROOT = { ai = yes } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.25
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# disband_on_peace = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.33
-							# }
-						# }
-						# if = {
-							# limit = { ROOT = { ai = no } }
-							# spawn_unit = {
-								# province = PREVPREVPREV
-								# home = PREVPREVPREV
-								# owner = PREV
-								# match_character = PREVPREV
-								# match_mult = 0.15
-								# attrition = 0.5
-								# cannot_inherit = yes
-								# disband_on_peace = yes
-								# reinforces = yes
-								# reinforce_rate_multiplier = 0.25
-							# }
-						# }
-					# }
-					# create_character = {
-						# random_traits = yes
-						# dynasty = none
-						# religion = THIS
-						# culture = THIS
-						# female = no
-						# age = 32
-						# trait = brilliant_strategist
-					# }
-					# new_character = {
-						# spawn_unit = {
-							# province = PREVPREVPREV
-							# home = PREVPREVPREV
-							# owner = PREV
-							# match_character = PREVPREV
-							# match_mult = 0.2
-							# attrition = 0.0
-							# cannot_inherit = yes
-							# disband_on_peace = yes
-							# reinforces = yes
-							# reinforce_rate_multiplier = 0.25
-						# }
-					# }
-					# create_character = {
-						# random_traits = yes
-						# dynasty = none
-						# religion = THIS
-						# culture = THIS
-						# female = no
-						# age = 25
-						# trait = skilled_tactician
-					# }
-					# new_character = {
-						# spawn_unit = {
-							# province = PREVPREVPREV
-							# home = PREVPREVPREV
-							# owner = PREV
-							# match_character = PREVPREV
-							# match_mult = 0.2
-							# attrition = 0.0
-							# cannot_inherit = yes
-							# disband_on_peace = yes
-							# reinforces = yes
-							# reinforce_rate_multiplier = 0.25
-						# }
-					# }
-					# create_character = {
-						# random_traits = yes
-						# dynasty = none
-						# religion = THIS
-						# culture = THIS
-						# female = no
-						# age = 28
-						# trait = skilled_tactician
-					# }
-					# new_character = {
-						# spawn_unit = {
-							# province = PREVPREVPREV
-							# home = PREVPREVPREV
-							# owner = PREV
-							# match_character = PREVPREV
-							# match_mult = 0.2
-							# attrition = 0.0
-							# cannot_inherit = yes
-							# disband_on_peace = yes
-							# reinforces = yes
-							# reinforce_rate_multiplier = 0.25
-						# }
-					# }
-					# war = {
-						# target = ROOT
-						# casus_belli = liberator_invasion
-						# tier = KING
-					# }
-					# save_persistent_event_target = { name = jacobinist_revolution_target scope = PREVPREV }
-					# add_character_modifier = { name = jacobinist_revolution_leader duration = -1 }
-				# }
-			# }
-		# }
-	# }
-	
-	# option = {
-		# name = "EVTOPTAJB1"
-		# trigger = {
-			# has_character_flag = liberator_revolt 
-		# }
-		# clr_character_flag = liberator_revolt
-	# }
-	
-	# option = {
-		# name = "EVTOPTBJB1"
-		# trigger = {
-			# religion = eruist
-		# }
-	# }
-	# option = {
-		# name = "EVTOPTCJB1"
-		# trigger = {
-			# NOT = { religion = eruist }
-			# NOT = { has_character_flag = liberator_revolt }
-		# }
-	# }
-	# option = {
-		# name = "EVTOPTDJB1"
-		# tooltip_info = yes
-		# trigger = {
-			# can_plays_as_invader_trigger = yes
-		# }
-		# clr_character_flag = liberator_revolt
-		# if = {
-		# limit = {
-			# event_target:invasion_leader = {
-				# ai = yes
-				# is_playable = yes
-			# }
-		# }
-		# custom_tooltip = {
-			# text = player_character_invasion_leader_TT
-			# set_player_character = event_target:invasion_leader
-		# }
-	# }
-	# }
-# }
-
+	option = {
+		trigger = {
+			NOT = { has_character_flag = this_is_liberator }
+		}
+		name = {
+			text = EVTOPT_erulib_4_B_christian 
+			trigger = {
+				THIS = { religion_group = christian }
+			}
+		}
+		name = {
+			text = EVTOPT_erulib_4_B 
+			trigger = {
+				NOT = { THIS = { religion_group = christian } }
+			}
+		}
+	}
+}
