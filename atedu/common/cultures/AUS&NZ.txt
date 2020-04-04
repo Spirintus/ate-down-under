@@ -532,14 +532,16 @@ polynesian = {
 		color = { 0.26 0.22 1 }
 		
 		male_names = {
-			Nikau Wiremu Kahurangi Kauri Nikora Tane Tamati Rawiri Anaru Tai Manaia Tama Mikaere "Te Ariki" Ariki "Te Koha" Hoani Manawa Tiare Hemi Niko Kahu Tangaroa Manaaki Ihaia Matiu Pootatau Taawhiao
+			Nikau Wiremu Kahurangi Kauri Nikora Tane Tamati Rawiri Anaru Tai Manaia Tama Mikaere "Te Ariki" Ariki "Te Koha" 
+			Hoani Manawa Tiare Hemi Niko Kahu Tangaroa Manaaki Ihaia Matiu Pootatau Taawhiao
 		}
 		
 		female_names = {
-			Maia Aria Manaia Anahera Ataahua Aroha Tia Ariana Kaia Kahurangi Maraea Waimarie Tui Amaia Miriama Awhina Hana Anika Huia Mareikura Kora Ana Ria Tiare Mereana Nia Wikitoria Hinewai Mahi Terina
+			Maia Aria Manaia Anahera Ataahua Aroha Tia Ariana Kaia Kahurangi Maraea Waimarie Tui Amaia 
+			Miriama Awhina Hana Anika Huia Mareikura Kora Ana Ria Tiare Mereana Nia Wikitoria Hinewai Mahi Terina
 		}
 		
-		from_dynasty_prefix = "no "
+		from_dynasty_prefix = "o "
 
 		pat_grf_name_chance = 20
 		mat_grf_name_chance = 10

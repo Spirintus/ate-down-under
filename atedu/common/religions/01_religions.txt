@@ -338,7 +338,7 @@ oldworld = {
 	female_names = {
 	}
 	
-	diggers = {
+	digger = {
 		graphical_culture = westerngfx
 		
 		icon = 2
@@ -531,7 +531,7 @@ pagan_group = {
 	}
 	
 	imunu_reformed = { #highland
-		graphical_culture = norsegfx
+		graphical_culture = africangfx
 		
 		icon = 2
 		
@@ -544,7 +544,7 @@ pagan_group = {
 		
 		piety_name = IMUNU
 		
-		high_god_name = GOD_WOKIM_BIKPEKA
+		high_god_name = GOD_WOKIM_BIKPELA
 		
 		god_names = {
 			GOD_OL_SPIRIT GOD_THE_ANCESTORS GOD_PUKPUKPELA GOD_KAIKAI_PAIA
@@ -565,7 +565,7 @@ pagan_group = {
 	}
 	
 	imunu = { #highland
-		graphical_culture = norsegfx
+		graphical_culture = africangfx
 		
 		icon = 2
 		
@@ -578,7 +578,7 @@ pagan_group = {
 		
 		piety_name = IMUNU
 		
-		high_god_name = GOD_WOKIM_BIKPEKA
+		high_god_name = GOD_WOKIM_BIKPELA
 		
 		god_names = {
 			GOD_OL_SPIRIT GOD_THE_ANCESTORS GOD_PUKPUKPELA GOD_KAIKAI_PAIA
@@ -734,7 +734,7 @@ eruist_group = {
 		icon = 7
 		heresy_icon = 8
 		
-		color = {0 0 0 }
+		color = {20 8 30 }
 		
 		crusade_name = CRUSADE
 		crusade_cb = crusade
@@ -767,7 +767,7 @@ eruist_group = {
 		icon = 7
 		heresy_icon = 8
 		
-		color = {0 0 0 }
+		color = { 107 107 107 }
 		
 		crusade_name = CRUSADE
 		crusade_cb = crusade
@@ -802,7 +802,7 @@ eruist_group = {
 		icon = 7
 		heresy_icon = 8
 		
-		color = {0 0 0 }
+		color = { 26 26 56 }
 		
 		crusade_name = CRUSADE
 		crusade_cb = crusade
@@ -835,50 +835,50 @@ eruist_group = {
 	
 }
 
-cult_of_saints = {
-	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
+# cult_of_saints = {
+	#has_coa_on_barony_only = yes
+	#graphical_culture = westerngfx
 	#crusade_cb = crusade
-	playable = yes
-	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	hostile_within_group = yes
+	#playable = yes
+	#ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	#hostile_within_group = yes
 	
-	ai_convert_same_group = 1 # try to convert if ai_zeal is high
-	ai_convert_other_group = 2 # always try to convert
+	#ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	#ai_convert_other_group = 2 # always try to convert
 	
-	color = { 0.8 0.2 0.1 }
+	#color = { 0.8 0.2 0.1 }
 	
-	male_names = {
-	}
-	female_names = {
-	}
+	#male_names = {
+	#}
+	#female_names = {
+	#}
 	
-	placeholder_cos = {
-		graphical_culture = westerngfx
+	#placeholder_cos = {
+		#graphical_culture = westerngfx
 		
-		icon = 1
+		#icon = 1
 		
-		color = {0 0 0 }
+		#color = {0 0 0 }
 		
-		crusade_name = PLACEHOLDER
-		crusade_cb = crusade
-		scripture_name = PLACEHOLDER
-		priest_title = PLACEHOLDER
+		#crusade_name = PLACEHOLDER
+		#crusade_cb = crusade
+		#scripture_name = PLACEHOLDER
+		#priest_title = PLACEHOLDER
 		
-		high_god_name = PLACEHOLDER
+		#high_god_name = PLACEHOLDER
 		
-		god_names = {
-			PLACEHOLDER
-		}
+		#god_names = {
+			#PLACEHOLDER
+		#}
 		 
-		evil_god_names = {
-			PLACEHOLDER
-		}
+		#evil_god_names = {
+		#	PLACEHOLDER
+		#}
 		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-	}
-}
+		#religious_clothing_head = 0
+		#religious_clothing_priest = 1
+	#}
+#}
 
 muslim = {
 	has_coa_on_barony_only = no

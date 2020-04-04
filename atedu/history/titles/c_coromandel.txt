@@ -1,0 +1,4 @@
+2665.12.31 = {
+	holder = 31
+	liege = k_auckland
+}

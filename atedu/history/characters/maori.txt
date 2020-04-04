@@ -1,32 +1,11 @@
-182 = {
-	name = "Nikau"
-	dynasty = 82
-	birth = 2628.4.1	
-}
-183 = {
-	name = "Tamati"
-	dynasty = 82
-	birth = 2635.9.8
-}
-184 = {
-	name = "Rawiri"
-	dynasty = 83
-	birth = 2640.12.12
-}
-185 = {
-	name = "Wiremu"
-	dynasty = 84
-	birth = 2640.8.12
-}
-186 = {
-	name = "Ataahua"
-	dynasty = 85
-	birth = 2623.1.8
-	health = 15
-}
-187 = {
-	name = Tangaroa
-	dynasty = 85
-	birth = 2645.3.1
-	mother = 86
+#701-800
+
+701 = {
+	name = "Joseph"
+	dynasty = 1105
+	religion = eruist
+	culture = chathamite
+	father = 1137
+	2550.5.8 = { birth = yes}
+	2600.8.29 = { death = yes }
 }
