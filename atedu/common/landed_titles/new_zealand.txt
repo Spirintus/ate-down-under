@@ -818,154 +818,154 @@ e_new_zealand = {
 		}
 	}
 	k_taupo = {
-		color = {255 255 255}
+		color = {168 25 37}
 		color2 = { 255 255 255 }
 		
 		capital = 16 #taupo
 		
 		d_taupo = {
-			color = {255 255 255 }
+			color = {168 13 21 }
 			color2 = { 255 255 255 }
 			
 			capital = 16
 			
 			c_taupo = {
-				color = {255 255 255 }
+				color = {168 0 2 }
 				color2 = { 255 255 255 }
 				b_taupo = {}
 			}
 			c_otuku = {
-				color = {255 255 255 }
+				color = {168 11 0 }
 				color2 = { 255 255 255 }
 				b_otuku = {}
 			}
 			c_kaimanawa_forest = {
-				color = {255 255 255 }
+				color = {168 32 25 }
 				color2 = { 255 255 255 }
 				b_kaimanawa_forest = {}
 			}
 			c_waikite_valley = {
-				color = {255 255 255 }
+				color = {168 65 21 }
 				color2 = { 255 255 255 }
 				b_waikite_valley = {}
 			}
 		}
 		d_ruapehu = {
-			color = {255 255 255 }
+			color = {168 50 58 }
 			color2 = { 255 255 255 }
 			
 			capital = 11
 			
 			c_tongariro = {
-				color = {255 255 255 }
+				color = {174 56 255 }
 				color2 = { 255 255 255 }
 				b_tongariro = {}
 			}
 			c_taihape = {
-				color = {255 255 255 }
+				color = {255 29 0 }
 				color2 = { 255 255 255 }
 				b_taihape = {}
 			}
 			c_mangamahu = {
-				color = {255 255 255 }
+				color = {255 5 50 }
 				color2 = { 255 255 255 }
 				b_mangamahu = {}
 			}
 			c_sherenden = {
-				color = {255 255 255 }
+				color = {255 15 55 }
 				color2 = { 255 255 255 }
 				b_sherenden = {}
 			}
 		}
 		d_hastings = {
-			color = {255 255 255 }
+			color = {168 10 75 }
 			color2 = { 255 255 255 }
 			
 			capital = 27
 			
 			c_hastings = {
-				color = {255 255 255 }
+				color = {255 0 63 }
 				color2 = { 255 255 255 }
 				b_hastings = {}
 			}
 			c_dannevirke = {
-				color = {255 255 255 }
+				color = {255 95 63 }
 				color2 = { 255 255 255 }
 				b_dannevirke = {}
 			}
 			c_herbertville = {
-				color = {255 255 255 }
+				color = {255 29 0 }
 				color2 = { 255 255 255 }
 				b_herbertville = {}
 			}
 		}
 		d_wairoa = {
-			color = {255 255 255 }
+			color = {168 0 41 }
 			color2 = { 255 255 255 }
 			
 			capital = 32
 			
 			c_gisborne = {
-				color = {255 255 255 }
+				color = {178 255 91 }
 				color2 = { 255 255 255 }
 				b_gisborne = {}
 			}
 			c_mahia = {
-				color = {255 255 255 }
+				color = {221 255 109 }
 				color2 = { 255 255 255 }
 				b_mahia = {}
 			}
 			c_frasertown = {
-				color = {255 255 255 }
+				color = {255 130 99 }
 				color2 = { 255 255 255 }
 				b_frasertown = {}
 			}
 			c_te_urewera = {
-				color = {255 255 255 }
+				color = {255 212 112 }
 				color2 = { 255 255 255 }
 				b_te_urewera = {}
 			}
 			c_te_haroto = {
-				color = {255 255 255 }
+				color = {173 123 157 }
 				color2 = { 255 255 255 }
 				b_te_haroto = {}
 			}
 			c_hawkes_bay = {
-				color = {255 255 255 }
+				color = {255 242 0 }
 				color2 = { 255 255 255 }
 				b_hawkes_bay = {}
 			}
 		}
 		d_ruatoria = {
-			color = {255 255 255 }
+			color = {96 0 88 }
 			color2 = { 255 255 255 }
 			
 			capital = 34
 			
 			c_ruatoria = {
-				color = {255 255 255 }
+				color = {255 196 58 }
 				color2 = { 255 255 255 }
 				b_ruatoria = {}
 			}
 			c_waihau_bay = {
-				color = {255 255 255 }
+				color = {255 135 61 }
 				color2 = { 255 255 255 }
 				b_waihau_bay = {}
 			}
 		}
 		d_tauranga = {
-			color = {255 255 255 }
+			color = {255 38 30 }
 			color2 = { 255 255 255 }
 			
 			capital = 13
 			
 			c_tauranga = {
-				color = {255 255 255 }
+				color = {255 211 135 }
 				color2 = { 255 255 255 }
 				b_tauranga = {}
 			}
 			c_opotiki = {
-				color = {255 255 255 }
+				color = {255 156 35 }
 				color2 = { 255 255 255 }
 				b_opotiki = {}
 			}
