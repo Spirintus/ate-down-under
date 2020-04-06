@@ -16,18 +16,25 @@ decisions = {
 			}
 			e_aotearoa = {
 				has_holder = no
+				is_titular = yes
 			}
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
 		}
 		allow = {
-			#completely_controls = something
-			1 = { #change this
-				religion = ROOT
+			regional_percentage = {
+				region = world_new_zealand
+				percentage = 0.8
+				controlled_by = ROOT
 			}
-			piety = 500
-			prestige = 500
+			e_aotearoa = {
+				capital_scope = {
+					religion = ROOT
+				}
+			}
+			prestige = 4000
+			piety = 1500
 		}
 		effect = {
 			# make new narrative_event = { id = SoA.102 tooltip = EVTTOOLTIP_SoA_102 }
@@ -63,4 +70,63 @@ decisions = {
 		}
 	}
 	
+	create_dunedin = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 24
+		
+		potential = {
+			is_playable = yes
+			religion_group = eruist_group
+			k_dunedin = {
+				has_holder = no
+				is_titular = yes
+			}
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			k_dunedin = {
+				capital_scope = {
+					religion = ROOT
+					controlled_by = ROOT 
+				}
+			}
+			prestige = 1000
+			piety = 500
+		}
+		effect = {
+			# make new narrative_event = { id = SoA.102 tooltip = EVTTOOLTIP_SoA_102 }
+			# if = {
+				# limit = {
+					# is_female = yes
+					# has_dlc = "Holy Fury"
+				# }
+				# create_bloodline = {
+					# type = israel_female
+				# }
+				# new_bloodline = {
+					# set_description = "bloodline_desc_israel"
+				# }
+			# }
+			# if = {
+				# limit = {
+					# is_female = no
+					# has_dlc = "Holy Fury"
+				# }
+				# create_bloodline = {
+					# type = israel_male
+				# }
+				# new_bloodline = {
+					# set_description = "bloodline_desc_israel"
+				# }
+			# }
+			grant_title = k_dunedin
+			prestige = 500
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

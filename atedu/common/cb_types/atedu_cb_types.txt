@@ -36,6 +36,16 @@ liberator_invasion = { #aka subjugation invasion hybrid
 				}
 				give_nickname = nick_the_liberator
 			}
+			
+			hidden_tooltip = {
+				if = { #if liberator isn't king of dunedin then he has just conquered Dunedin and therefore he is crowned
+					limit = {
+						has_character_flag = this_is_liberator
+						not = { k_dunedin = { holder_scope = { character = ROOT } } }
+					}
+					narrative_event = {id = erulib.3 days = 7}
+				}
+			}
 		}
 		FROM = {
 			piety = -100
