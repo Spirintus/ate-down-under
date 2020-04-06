@@ -10,7 +10,7 @@ b_herbertville = castle
 #b_herbertville_2 = city
 
 # Misc
-culture = maori
-religion = eruist
+culture = wellingtonian
+religion = aotearoan
 
 #History

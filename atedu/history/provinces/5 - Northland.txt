@@ -15,7 +15,7 @@ b_cape_reinga = castle
 #b_ohiparu = castle
 
 # Misc
-culture = aucklander
+culture = maori
 religion = southcrosser
 
 #History

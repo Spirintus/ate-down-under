@@ -11,7 +11,7 @@ b_dannevirke = castle
 #b_dannevirke_3 = temple
 
 # Misc
-culture = maori
-religion = eruist
+culture = wellingtonian
+religion = aotearoan
 
 #History

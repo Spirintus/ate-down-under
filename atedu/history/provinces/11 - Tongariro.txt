@@ -12,7 +12,7 @@ b_tongariro = castle
 #b_tongariro_4 = castle
 
 # Misc
-culture = wellingtonian
-religion = eruist
+culture = maori
+religion = aotearoan
 
 #History

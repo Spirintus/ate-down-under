@@ -556,6 +556,37 @@ polynesian = {
 		seafarer = yes
 		modifier = default_culture_modifier
 	}
+	itaukei = {
+		#graphical_cultures = { brownpacificgfx }
+		graphical_cultures = { muslimgfx }
+		
+		#unit_graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		
+		color = { 255 255 255 }
+		
+		male_names = {
+		Ynarkael
+		}
+		
+		female_names = {
+		Lizzie_Elizabeth
+		}
+		
+		from_dynasty_prefix = "ni "
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+		
+		used_for_random = no
+		
+		seafarer = yes
+		modifier = default_culture_modifier
+	}
 }
 
 zealandese = {

@@ -12,7 +12,7 @@ b_paparangi = castle
 #b_paparangi_4 = castle
 
 # Misc
-culture = maori
+culture = wellingtonian
 religion = eruist
 
 #History

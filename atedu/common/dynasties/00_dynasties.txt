@@ -297,6 +297,8 @@
 730 = { name="Otepoti" culture=maori }
 731 = { name="Otautahi" culture=maori }
 
+751 = { name="Dane" culture = wellingtonian }
+
 1000 = { name = "Saint" culture = polar }
 
 1101 = { name = "Dawn" culture = chathamite }
@@ -305,3 +307,5 @@
 1103 = { name = "Flower" culture = chathamite }
 1104 = { name = "Knight" culture = chathamite }
 1105 = { name = "Ara" culture = chathamite }
+
+10000 = { name = "Holy Sword" culture = itaukei }

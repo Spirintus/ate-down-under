@@ -1,0 +1,27 @@
+#751-799
+
+751 = { #count, his family converted to Aotearoan christianity to get maori support against the crusaders, was vassalized by Ruapehu
+	name = "William"
+	dynasty = 751
+	religion = aotearoan
+	culture = wellingtonian
+	trait = zealous
+	2620.4.11 = {birth = yes}
+}
+752 = { #count's son
+	name = "Ryan"
+	dynasty = 751
+	religion = aotearoan
+	father = 751
+	culture = wellingtonian
+	trait = homosexual
+	2641.2.13 = {birth = yes}
+}
+753 = { #count's son
+	name = "Oliver"
+	dynasty = 751
+	religion = aotearoan
+	father = 751
+	culture = wellingtonian
+	2659.3.26 = {birth = yes}
+}

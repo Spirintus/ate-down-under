@@ -1,4 +1,4 @@
-#1101-1130
+#1101-1150
 
 1101 = { #first king of the island
 	name = "Joseph"

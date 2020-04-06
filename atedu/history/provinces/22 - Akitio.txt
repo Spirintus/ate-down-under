@@ -10,7 +10,7 @@ b_akitio = castle
 #b_akitio_2 = city
 
 # Misc
-culture = maori
+culture = wellingtonian
 religion = eruist
 
 #History

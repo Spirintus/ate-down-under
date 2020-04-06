@@ -11,6 +11,6 @@ b_waihau_bay = castle
 
 # Misc
 culture = maori
-religion = eruist
+religion = aotearoan
 
 #History

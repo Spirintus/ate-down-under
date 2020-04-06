@@ -998,3 +998,15 @@ e_aotearoa = {
 		always = no # Only created through special event
 	}
 }
+
+k_holy_land = {
+	color = { 255 215 50 }
+		
+	capital = 13
+
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+	allow = {
+		always = no # Only created through special event
+	}
+}

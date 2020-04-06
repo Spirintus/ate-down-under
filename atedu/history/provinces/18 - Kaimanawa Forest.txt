@@ -13,6 +13,6 @@ b_kaimanawa_forest = castle
 
 # Misc
 culture = maori
-religion = eruist
+religion = aotearoan
 
 #History

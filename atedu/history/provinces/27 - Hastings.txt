@@ -11,7 +11,7 @@ b_hastings = castle
 #b_hastings_3 = temple
 
 # Misc
-culture = maori
+culture = wellingtonian
 religion = eruist
 
 #History

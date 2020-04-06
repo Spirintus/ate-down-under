@@ -13,6 +13,6 @@ b_mangamahu = castle
 
 # Misc
 culture = maori
-religion = eruist
+religion = aotearoan
 
 #History

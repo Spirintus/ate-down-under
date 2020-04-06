@@ -13,6 +13,6 @@ b_mahia = castle
 
 # Misc
 culture = maori
-religion = eruist
+religion = aotearoan
 
 #History

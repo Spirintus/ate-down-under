@@ -12,6 +12,6 @@ b_hawkes_bay = castle
 
 # Misc
 culture = maori
-religion = eruist
+religion = aotearoan
 
 #History

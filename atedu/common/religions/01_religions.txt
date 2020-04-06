@@ -176,12 +176,12 @@ christian = {
 		religious_clothing_priest = 1
 	}
 	aotearoan = {
-		graphical_culture = africangfx
+		graphical_culture = westerngfx
 		
 		icon = 3
 		heresy_icon = 4
 		
-		color = {0 0 0 }
+		color = {109 172 255 }
 		
 		crusade_name = CRUSADE
 		crusade_cb = new_crusade
@@ -734,7 +734,7 @@ eruist_group = {
 		icon = 7
 		heresy_icon = 8
 		
-		color = {20 8 30 }
+		color = {255 69 48 }
 		
 		crusade_name = CRUSADE
 		crusade_cb = crusade
@@ -767,7 +767,7 @@ eruist_group = {
 		icon = 7
 		heresy_icon = 8
 		
-		color = { 107 107 107 }
+		color = { 232 63 94 }
 		
 		crusade_name = CRUSADE
 		crusade_cb = crusade
@@ -802,7 +802,7 @@ eruist_group = {
 		icon = 7
 		heresy_icon = 8
 		
-		color = { 26 26 56 }
+		color = { 178 13 110 }
 		
 		crusade_name = CRUSADE
 		crusade_cb = crusade

@@ -11,6 +11,6 @@ b_ruatoria = castle
 
 # Misc
 culture = maori
-religion = eruist
+religion = aotearoan
 
 #History

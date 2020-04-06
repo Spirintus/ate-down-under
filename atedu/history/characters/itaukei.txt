@@ -1,0 +1,93 @@
+#1601-1650
+
+1601 = { #lowborn fijian peasant who was converted by southcrosser missionaries, he'd go on to gather thousands of warriors and wage a holy crusade against the maori, had many children
+	name = "Holyman"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	trait = lunatic
+	trait = zealous
+	trait = adventurer
+	trait = strategist
+	2605.3.10 = { birth = yes }
+	2652.6.23 = { death = yes }
+}
+1602 = {
+	name = "Joseph"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1601
+	trait = twin
+	2626.3.10 = { birth = yes }
+}
+1603 = {
+	name = "Abraham"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1601
+	trait = twin
+	2626.3.10 = { birth = yes }
+}
+1604 = {
+	name = "Adam"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1601
+	2629.6.11 = { birth = yes }
+}
+1605 = {
+	name = "Noah"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1601
+	2635.8.1 = { birth = yes }
+}
+1606 = {
+	name = "Matilda"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1601
+	female = yes
+	2639.12.14 = { birth = yes }
+}
+1607 = {
+	name = "Abel"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1601
+	2641.4.9 = { birth = yes }
+}
+1608 = {
+	name = "Gabriel"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1601
+	2645.5.18 = { birth = yes }
+}
+1609 = {
+	name = "Rose"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1601
+	female = yes
+	trait = twin
+	2649.12.19 = { birth = yes }
+}
+1610 = {
+	name = "Isaiah"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1601
+	female = yes
+	trait = twin
+	2649.12.19 = { birth = yes }
+}

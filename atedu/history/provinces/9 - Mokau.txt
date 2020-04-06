@@ -13,7 +13,7 @@ b_mokau = castle
 #b_mokau_5 = city
 
 # Misc
-culture = aucklander
-religion = eruist
+culture = maori
+religion = aotearoan
 
 #History
