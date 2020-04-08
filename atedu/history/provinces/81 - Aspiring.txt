@@ -17,7 +17,7 @@ b_aspiring = castle
 
 # Misc
 culture = jadite
-religion = southcrosser
+religion = eruist
 
 #History
 

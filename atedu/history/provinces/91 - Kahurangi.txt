@@ -10,7 +10,7 @@ b_kahurangi = castle
 #b_kahurangi_2 = city
 
 # Misc
-culture = jadite
-religion = southcrosser
+culture = wellingtonian
+religion = eruist
 
 #History

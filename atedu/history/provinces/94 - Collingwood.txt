@@ -12,7 +12,7 @@ b_collingwood = castle
 #b_collingwood_4 = castle
 
 # Misc
-culture = jadite
-religion = southcrosser
+culture = wellingtonian
+religion = eruist
 
 #History

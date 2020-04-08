@@ -17,6 +17,6 @@ b_prebbleton = temple
 
 # Misc
 culture = southlander
-religion = eruist
+religion = southcrosser
 
 #History

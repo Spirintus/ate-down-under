@@ -11,6 +11,6 @@ b_haast = castle
 
 # Misc
 culture = jadite
-religion = southcrosser
+religion = eruist
 
 #History

@@ -17,6 +17,6 @@ b_alabaster = castle
 
 # Misc
 culture = jadite
-religion = southcrosser
+religion = eruist
 
 #History

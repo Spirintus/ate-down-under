@@ -15,7 +15,7 @@ b_mount_dick = castle
 # b_rose = {}
 
 # Misc
-culture = jadite
-religion = gnostic
+culture = polar
+religion = eruist
 
 #History

@@ -10,6 +10,6 @@ b_jackson_bay = castle
 
 # Misc
 culture = jadite
-religion = southcrosser
+religion = eruist
 
 #History

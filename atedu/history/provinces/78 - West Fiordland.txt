@@ -17,6 +17,6 @@ b_cooper = tribal
 
 # Misc
 culture = jadite
-religion = southcrosser
+religion = eruist
 
 #History

@@ -594,7 +594,7 @@ zealandese = {
 	
 	chathamite = {
 		graphical_cultures = { englishgfx westerngfx }
-		color = { 35 255 201 }
+		color = { 48 35 122 }
 		
 		male_names = { Ynarkael }
 		female_names = {Lizzie_Elizabeth}
@@ -614,7 +614,7 @@ zealandese = {
 	
 	aucklander = {
 		graphical_cultures = { englishgfx westerngfx }
-		color = { 35 255 201 }
+		color = { 40 110 124 }
 		
 		male_names = { Ynarkael }
 		female_names = {Lizzie_Elizabeth}
@@ -634,7 +634,7 @@ zealandese = {
 	
 	dunedian = {
 		graphical_cultures = { englishgfx westerngfx }
-		color = { 35 255 201 }
+		color = { 17 124 110 }
 		
 		male_names = { Ynarkael }
 		female_names = {Lizzie_Elizabeth}
@@ -654,7 +654,7 @@ zealandese = {
 	
 	jadite = {
 		graphical_cultures = { celticgfx }
-		color = { 35 255 201 }
+		color = { 11 124 49 }
 		
 		male_names = { Ynarkael }
 		female_names = { Elizabeth Tricia }

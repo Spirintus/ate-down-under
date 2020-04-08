@@ -11,7 +11,7 @@ b_westcoast = castle
 #b_westcoast_3 = temple
 
 # Misc
-culture = jadite
-religion = southcrosser
+culture = wellingtonian
+religion = eruist
 
 #History

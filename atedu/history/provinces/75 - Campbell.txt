@@ -10,7 +10,7 @@ b_campbell = castle
 #b_bellfort 
 
 # Misc
-culture = jadite
+culture = polar
 religion = eruist
 
 #History
