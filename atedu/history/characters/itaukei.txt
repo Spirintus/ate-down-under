@@ -87,7 +87,6 @@
 	religion = southcrosser
 	culture = itaukei
 	father = 1601
-	female = yes
 	trait = twin
 	2649.12.19 = { birth = yes }
 }

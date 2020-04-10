@@ -269,83 +269,6 @@ east_australian = {
 		modifier = default_culture_modifier
 	}
 	
-	baylander = {
-		graphical_cultures = { englishgfx westerngfx }
-		color = { 178 182 31 }
-		
-		male_names = { Ynarkael }
-		female_names = {Lizzie_Elizabeth}
-		
-		from_dynasty_prefix = "of "
-		
-		pat_grf_name_chance = 20
-		mat_grf_name_chance = 10
-		father_name_chance = 20
-		
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 20
-		mother_name_chance = 10
-		
-		modifier = default_culture_modifier
-	}
-	
-	basinfolk = {
-		graphical_cultures = { englishgfx westerngfx }
-		
-		color = { 97 194 132 }
-
-		male_names = {
-			Anthony
-			Blake Bruce
-			Chas_Charles Christian Cliff Con_Constantine
-			Danny_Daniel
-			Edward Emmanuel
-			Fred_Frederick
-			Jason Joe_Joseph Johno_John
-			Kostas
-			Lachlan Laurie_Lawrence
-			Marco Mario
-			Nic_Nicholas
-			Paul
-			Raff Richard
-			Steve_Stephen Stuart
-			Vince_Vincent
-			William
-		}
-		female_names = {
-			Ada Ana_Anne Angela
-			Bella Beth_Elizabeth
-			Claire Cosima
-			Dina
-			Elena Emma
-			Gabriella Giselle
-			Helen
-			Isabella
-			Jane
-			Laura Lidia Lillian
-			Mary Matilda
-			Nadia Natalie Natasha
-			Oriana
-			Rachael Rebekah_Rebecca
-			Sally Silvie
-			Tina
-			Zoe
-		}
-		from_dynasty_prefix = "of "
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 5
-		father_name_chance = 10
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 50
-		mother_name_chance = 5
-
-		modifier = default_culture_modifier
-	}
-	
 	coastlander = {
 		graphical_cultures = { englishgfx westerngfx }
 		color = { 35 255 39 }
@@ -516,9 +439,90 @@ east_australian = {
 		mother_name_chance = 10
 		
 		modifier = default_culture_modifier
-	}
-	
+	}	
 }
+
+murraylander = {
+	graphical_cultures = { westerngfx }
+	
+	baylander = {
+		graphical_cultures = { englishgfx westerngfx }
+		color = { 178 182 31 }
+		
+		male_names = { 
+		Bob
+		}
+		female_names = {Lizzie_Elizabeth}
+		
+		from_dynasty_prefix = "of "
+		
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+		
+		modifier = default_culture_modifier
+	}
+	basinfolk = {
+		graphical_cultures = { englishgfx westerngfx }
+		
+		color = { 97 194 132 }
+
+		male_names = {
+			Anthony
+			Blake Bruce Bob
+			Chas_Charles Christian Cliff Con_Constantine
+			Danny_Daniel
+			Edward Emmanuel
+			Fred_Frederick
+			Jason Joe_Joseph Johno_John
+			Kostas
+			Lachlan Laurie_Lawrence Loklan_Lachlan
+			Marco Mario
+			Nic_Nicholas
+			Paul
+			Raff Richard
+			Steve_Stephen Stuart
+			Vince_Vincent
+			William
+		}
+		female_names = {
+			Ada Ana_Anne Angela
+			Bella Beth_Elizabeth
+			Claire Cosima
+			Dina
+			Elena Emma
+			Gabriella Giselle
+			Helen
+			Isabella
+			Jane
+			Laura Lidia Lillian
+			Mary Matilda
+			Nadia Natalie Natasha
+			Oriana
+			Rachael Rebekah_Rebecca
+			Sally Silvie
+			Tina
+			Zoe
+		}
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+}	
 
 polynesian = {
 	graphical_cultures = { muslimgfx }

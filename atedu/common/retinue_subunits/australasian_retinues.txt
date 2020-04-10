@@ -1,0 +1,89 @@
+# Types:
+# 0 - Light Infantry
+# 1 - Heavy Infantry
+# 2 - Pikemen
+# 3 - Light Cavalry
+# 4 - Heavy Cavalry
+# 5 - Archers
+# 6 - Special troops
+
+RETTYPE_CUL_KIWI = 
+{
+	first_type = 3
+	first_amount = 150
+	
+	second_type = 4
+	second_amount = 250
+	
+	potential = {
+		is_nomadic = no
+		culture_group = zealandese
+		culture = tasman
+		}	
+	
+	modifier = {
+		knights_offensive = 0.5
+		knights_defensive = 0.1
+		knights_morale = 0.3
+		light_cavalry_offensive = 0.5
+		light_cavalry_defensive = 0.1
+		light_cavalry_morale = 0.3
+	}
+}
+RETTYPE_CUL_EASTAUSSIE = 
+{
+	first_type = 1
+	first_amount = 150
+	
+	second_type = 2
+	second_amount = 300
+	
+	potential = {
+		is_nomadic = no
+		culture_group = east_australian
+		NOT = { culture = tasman }
+		}
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+		heavy_infantry_defensive = 0.4
+		heavy_infantry_morale = 0.3
+		pikemen_offensive = 0.5
+		pikemen_defensive = 0.3
+		pikemen_morale = 0.3
+	}
+}
+RETTYPE_CUL_BASIN = 
+{
+	first_type = 6
+	first_amount = 350
+	
+	special_troops = camel_cavalry
+	
+	potential = {
+		is_nomadic = no
+		culture_group = murraylander
+		}
+	
+	modifier = {
+		camel_cavalry_offensive = 0.5
+		camel_cavalry_defensive = 0.1
+		camel_cavalry_morale = 0.3
+	}
+}
+RETTYPE_CUL_POLYNESIAN = 
+{
+	first_type = 2
+	first_amount = 300
+	
+	potential = {
+		is_nomadic = no
+		culture_group = polynesian
+	}
+
+	modifier = {
+		pikemen_defensive = 0.3
+		pikemen_offensive = 0.3
+		pikemen_morale = 0.3
+	}
+}

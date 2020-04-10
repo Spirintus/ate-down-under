@@ -1,0 +1,248 @@
+castle = {
+	# Sworn Kinghts Lodge
+	ca_culture_zealandese_1 = {
+		desc = ca_culture_zealandese_1_desc
+		potential = {
+			OR = { 
+				culture_group = zealandese 
+				has_building = ca_culture_zealandese_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = zealandese
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				culture_group = zealandese
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 25
+		knights = 20
+		light_cavalry_morale = 0.10
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_zealandese_2 = {
+		desc = ca_culture_zealandese_1_desc
+		potential = {
+			OR = { 
+				culture_group = zealandese 
+				has_building = ca_culture_zealandese_1
+				has_building = ca_culture_zealandese_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = zealandese
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				culture_group = zealandese
+			}
+		}
+		upgrades_from = ca_culture_zealandese_1
+		gold_cost = 300
+		build_time = 1095
+		light_cavalry = 35
+		knights = 30
+		light_cavalry_morale = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_zealandese_3 = {
+		desc = ca_culture_zealandese_1_desc
+		potential = {
+			OR = { 
+				culture_group = zealandese 
+				has_building = ca_culture_zealandese_1
+				has_building = ca_culture_zealandese_2
+				has_building = ca_culture_zealandese_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = zealandese
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				culture_group = zealandese
+			}
+		}
+		upgrades_from = ca_culture_zealandese_2
+		gold_cost = 400
+		build_time = 2190
+		light_cavalry = 45
+		knights = 40
+		light_cavalry_morale = 0.20
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_maori_4 = {
+		desc = ca_culture_zealandese_1_desc
+		potential = {
+			OR = { 
+				culture_group = zealandese 
+				has_building = ca_culture_zealandese_1
+				has_building = ca_culture_zealandese_2
+				has_building = ca_culture_zealandese_3
+				has_building = ca_culture_zealandese_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture_group = zealandese
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				culture_group = zealandese
+			}
+		}
+		upgrades_from = ca_culture_zealandese_3
+		gold_cost = 500
+		build_time = 2190
+		light_cavalry = 55
+		knights = 50
+		light_cavalry_morale = 0.25
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+    # Maori Warrior Training Grounds
+	ca_culture_maori_1 = {
+		desc = ca_culture_maori_1_desc
+		potential = {
+			OR = { 
+				culture = maori 
+				has_building = ca_culture_maori_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture = maori
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				culture = maori
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 30
+		heavy_infantry = 15
+		light_infantry_morale = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_maori_2 = {
+		desc = ca_culture_maori_1_desc
+		potential = {
+			OR = { 
+				culture = maori 
+				has_building = ca_culture_maori_1
+				has_building = ca_culture_maori_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture = maori
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				culture = maori
+			}
+		}
+		upgrades_from = ca_culture_maori_1
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 40
+		heavy_infantry = 20
+		light_infantry_morale = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_maori_3 = {
+		desc = ca_culture_maori_1_desc
+		potential = {
+			OR = { 
+				culture = maori 
+				has_building = ca_culture_maori_1
+				has_building = ca_culture_maori_2
+				has_building = ca_culture_maori_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture = maori
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				culture = maori
+			}
+		}
+		upgrades_from = ca_culture_maori_2
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 50
+		heavy_infantry = 25
+		light_infantry_morale = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_maori_4 = {
+		desc = ca_culture_maori_1_desc
+		potential = {
+			OR = { 
+				culture = maori 
+				has_building = ca_culture_maori_1
+				has_building = ca_culture_maori_2
+				has_building = ca_culture_maori_3
+				has_building = ca_culture_maori_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				culture = maori
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				culture = maori
+			}
+		}
+		upgrades_from = ca_culture_maori_3
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 60
+		heavy_infantry = 30
+		light_infantry_morale = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+}	
