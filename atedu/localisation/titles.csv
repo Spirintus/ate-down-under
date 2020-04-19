@@ -6,7 +6,32 @@ k_auckland;Auckland;;;;;;;;;;;;x
 k_chatham;Chatham Islands;;;;;;;;;;;;x
 k_elizabeth;Elizabeth;;;;;;;;;;;;x
 k_norfolk;Norfolk;;;;;;;;;;;;x
+k_taupo;Taupo;;;;;;;;;;;;x
+k_holy_land;the Holy Land;;;;;;;;;;;;x
+k_jade_coast;the Jade Coast;;;;;;;;;;;;x
+k_south_cross;the Archbishopric;;;;;;;;;;;;x
+k_dunedin;Dunedin;;;;;;;;;;;;x
+k_christchurch;Christchurch;;;;;;;;;;;;x
+d_pegasus;Pegasus;;;;;;;;;;;;x
+d_christchurch;Christchurch;;;;;;;;;;;;x
+d_timaru;Timaru;;;;;;;;;;;;x
+d_alpland;Alpland;;;;;;;;;;;;x
+d_cook;Cook;;;;;;;;;;;;x
+d_jade_forest;the Jade Forest;;;;;;;;;;;;x
+d_greymouth;Greymouth;;;;;;;;;;;;x
+d_haast;Haast;;;;;;;;;;;;x
+d_ruapehu;Ruapehu;;;;;;;;;;;;x
+d_taupo;Taupo;;;;;;;;;;;;x
+d_tauranga;Tauranga;;;;;;;;;;;;x
+d_wairoa;Wairoa;;;;;;;;;;;;x
+d_ruatoria;Ruatoria;;;;;;;;;;;;x
+d_hastings;Hastings;;;;;;;;;;;;x
 d_norfolk;Norfolk;;;;;;;;;;;;x
+d_south_island;South Island;;;;;;;;;;;;x
+d_maori_march;the Maori March;;;;;;;;;;;;x
+d_wellington;Wellington;;;;;;;;;;;;x
+d_patea;Patea;;;;;;;;;;;;x
+d_hamilton;Hamilton;;;;;;;;;;;;x
 d_auckland;Auckland;;;;;;;;;;;;x
 d_northland;Northland;;;;;;;;;;;;x
 d_chatham;Chatham;;;;;;;;;;;;x
@@ -224,8 +249,11 @@ c_aspiring;Aspiring;;;;;;;;;;;;x
 c_aspiring_adj;Aspiringer;;;;;;;;;;;;x
 c_west_fiordland;West Fiordland;;;;;;;;;;;;x
 c_west_fiordland_adj;West Fiordlander;;;;;;;;;;;;x
-PRINCIPALITY;Principality;;;;;;;;;;;;x
+PRINCIPALITY;Principality of;;;;;;;;;;;;x
 PRINCE;Prince;;;;;;;;;;;;x
 PRINCESS;Princess;;;;;;;;;;;;x
 HIGH_KING;High King;;;;;;;;;;;;x
 HIGH_QUEEN;High Queen;;;;;;;;;;;;x
+LORDSHIP;Lordship of;;;;;;;;;;;;x
+LORD;Lord;;;;;;;;;;;;x
+LADY;Lady;;;;;;;;;;;;x

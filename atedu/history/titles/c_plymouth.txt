@@ -1,3 +1,23 @@
+2554.6.25 = {
+	holder = 45
+	liege = k_wellington
+}
+2604.9.27 = {
+	holder = 46
+	liege = k_wellington
+}
+2605.3.13 = {
+	holder = 47
+	liege = k_wellington
+}
+2642.8.14 = {
+	holder = 48
+	liege = k_wellington
+}
+2644.3.6 = {
+	holder = 50
+	liege = k_wellington
+}
 2652.8.19 = {
 	holder = 49
 	liege = k_wellington

@@ -1,3 +1,7 @@
+2580.6.25 = {
+	holder = 55
+	liege = k_wellington
+}
 2632.12.12 = {
 	holder = 60
 	liege = d_south_island

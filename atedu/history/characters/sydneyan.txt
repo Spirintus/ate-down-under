@@ -64,7 +64,7 @@
 	culture = sydneyan
 	father = 6
 	2600.1.1 = { birth = yes}
-	2662.7.26 = { death = yes }
+	2660.8.29 = { death = yes }
 }
 
 8 = { 
@@ -219,7 +219,7 @@
 	# 1050.1.1 = {birth = yes}
 # }
 
-22 = { #founder of the dynasty
+9122 = { #founder of the dynasty
 	name = "James"
 	dynasty = 199
 	religion = southcrosser
@@ -227,116 +227,116 @@
 	2489.8.23 = {birth = yes}
 	2540.3.3 = { death = yes}
 }
-23 = { #first lord of hamilton
+9123 = { #first lord of hamilton
 	name = "James"
 	dynasty = 199
 	religion = southcrosser
 	culture = sydneyan
-	father = 22
+	father = 9122
 	2517.6.17 = {birth = yes}
 	2559.8.28 = { death = yes}
 }
-24 = { #stayed at home (family will be expanded when dealing with australia)
+9124 = { #stayed at home (family will be expanded when dealing with australia)
 	name = "William"
 	dynasty = 199
 	religion = southcrosser
 	culture = sydneyan
-	father = 22
+	father = 9122
 	2511.1.2 = {birth = yes}
 	2567.12.29 = { death = yes}
 }
-25 = { #second lord of hamilton
+9125 = { #second lord of hamilton
 	name = "Michael"
 	dynasty = 199
 	religion = southcrosser
 	culture = sydneyan
-	father = 23
+	father = 9123
 	2541.1.23 = {birth = yes}
 	2586.10.28 = { death = yes}
 }
-26 = { #third lord of hamilton
+9126 = { #third lord of hamilton
 	name = "John"
 	dynasty = 199
 	religion = southcrosser
 	culture = sydneyan
-	father = 25
+	father = 9125
 	2560.8.21 = {birth = yes}
 	2589.2.14 = { death = yes}
 }
-27 = { #fourth lord of hamilton
+9127 = { #fourth lord of hamilton
 	name = "Nick"
 	dynasty = 199
 	religion = southcrosser
 	culture = sydneyan
-	father = 25
+	father = 9125
 	2565.3.12 = {birth = yes}
 	2602.5.25 = { death = yes}
 }
-28 = { #fifth lord of hamilton
+9128 = { #fifth lord of hamilton
 	name = "James"
 	dynasty = 199
 	religion = southcrosser
 	culture = sydneyan
-	father = 27
+	father = 9127
 	2581.5.6 = {birth = yes}
 	2602.5.29 = { death = yes}
 }
-29 = { #sixth lady of hamilton
+9129 = { #sixth lady of hamilton
 	name = "Mabel"
 	dynasty = 199
 	religion = southcrosser
 	culture = sydneyan
 	female = yes
-	father = 27
+	father = 9127
 	2587.9.26 = {birth = yes}
 	2645.11.2 = { death = yes}
 }
-30 = { #seventh lord of hamilton, died fighting the maori
+9130 = { #seventh lord of hamilton, died fighting the maori
 	name = "James"
 	dynasty = 198
 	religion = southcrosser
 	culture = sydneyan
-	mother = 29
+	mother = 9129
 	2609.4.12 = {birth = yes}
 	2656.11.2 = { death = yes}
 }
-31 = { #eigth lord of hamilton
+9131 = { #eigth lord of hamilton
 	name = "James"
 	dynasty = 198
 	religion = southcrosser
 	culture = sydneyan
-	father = 30
+	father = 9130
 	2627.6.2 = {birth = yes}
 }
-32 = { #heir
+9132 = { #heir
 	name = "James"
 	dynasty = 198
 	religion = southcrosser
 	culture = sydneyan
-	father = 31
+	father = 9131
 	2645.12.9 = {birth = yes}
 }
-33 = { #heiress
+9133 = { #heiress
 	name = "Adelaide"
 	dynasty = 198
 	religion = southcrosser
 	culture = sydneyan
 	female = yes
-	father = 31
+	father = 9131
 	trait = twin
 	2651.8.14 = {birth = yes}
 }
-34 = { #heiress
+9134 = { #heiress
 	name = "Catherine"
 	dynasty = 198
 	religion = southcrosser
 	culture = sydneyan
 	female = yes
-	father = 31
+	father = 9131
 	trait = twin
 	2651.8.14 = {birth = yes}
 }
-35 = { #heir
+9135 = { #heir
 	name = "Robert"
 	dynasty = 197
 	religion = southcrosser

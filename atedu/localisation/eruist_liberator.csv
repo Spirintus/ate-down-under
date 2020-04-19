@@ -1,22 +1,22 @@
-EVTTITLE_erulib_2;Liberator have arisen;;;;;;;;;;;;x
-EVTDESC_erulib_2_eruist;After many long years of exploitation and oppression by the australian crusaders, the kiwi have had enough. In Dunedin, the old capital of New Zealand, a powerful couple has gathered thousands for a holy war of liberation against their distant kin.\n Holy men of the Eruist faith are debating whether or not the so-called 'liberator' is the legendary King who will Rule them All, otherwise known as the Chosen One, a hero of unlimited power who is said will come to New Zealand on its darkest hour to bring a golden age and world domination for the Eruist believers.\n Meanwhile the southcrosser lord of Dunedin gathers his supporters to crush them.;;;;;;;;;;;;x
-EVTDESC_erulib_2_quendic;After many long years of exploitation and oppression by the australian crusaders, the kiwi have had enough. In Dunedin, the old capital of New Zealand, a powerful couple has gathered thousands for a holy war of liberation against their distant kin. \n Holy men of the Quendic faith are debating whether or not the so-called 'liberator' was sent by Quendi to Earth to destroy the southcrosser overlords and restore peace and order to New Zealand. \n Meanwhile the southcrosser lord of Dunedin gathers his supporters to crush them.;;;;;;;;;;;;x
+EVTTITLE_erulib_2;Liberator has arisen;;;;;;;;;;;;x
+EVTDESC_erulib_2_eruist;After many long years of exploitation and oppression by the australian crusaders, the kiwi have had enough. In Dunedin, the old capital of New Zealand, a powerful couple has gathered thousands for a holy war of liberation against their distant kin.\n Holy men of the Eruist faith are debating whether or not the so-called 'liberator' is the legendary King who will Rule over All, otherwise known as the Chosen One, a hero of unlimited power who is said will come to New Zealand on its darkest hour to bring a golden age and world domination for the Eruist believers.\n Meanwhile the southcrosser lord of Dunedin gathers his supporters to crush them.;;;;;;;;;;;;x
+EVTDESC_erulib_2_quendic;After many long years of exploitation and oppression by the australian crusaders, the kiwi have had enough. In Dunedin, the old capital of New Zealand, a powerful couple has gathered thousands for a holy war of liberation against their distant kin. \n Holy men of the Quendic faith are debating whether or not the so-called 'liberator' was sent by the Quendi to Earth to destroy the southcrosser overlords and restore peace and order to New Zealand. \n Meanwhile the southcrosser lord of Dunedin gathers his supporters to crush them.;;;;;;;;;;;;x
 EVTDESC_erulib_2_ritualistic;After many long years of exploitation and oppression by the australian crusaders, the kiwi have had enough. In Dunedin, the old capital of New Zealand, a powerful couple has gathered thousands for a holy war of liberation against their distant kin. \n Many wizards and other experts in magic and rituals are debating whether or not the so-called 'liberator' is the prophesied Wisest of All, a legendary Archwizard with endless knowledge in all the ways of magic who can even alter the fabric of reality with his spells. \n Meanwhile the southcrosser lord of Dunedin gathers his supporters to crush them.;;;;;;;;;;;;x
 EVTOPT_erulib_2_A_eruist;Could [ROOT.GetSheHe] really be the [ROOT.GetKingQueen] who will Rule Over All?;;;;;;;;;;;;x  
-EVTOPT_erulib_2_A_quendic;Could [ROOT.GetSheHe] really be sent by Quendi?;;;;;;;;;;;;x
+EVTOPT_erulib_2_A_quendic;Could [ROOT.GetSheHe] really be sent by the Quendi?;;;;;;;;;;;;x
 EVTOPT_erulib_2_A_ritualistic;Could [ROOT.GetSheHe] really be the Wisest of All?;;;;;;;;;;;;x
-EVTOPT_erulib_2_A_eru_group_but_other_religion;So those heretics are on move.;;;;;;;;;;;;x
+EVTOPT_erulib_2_A_eru_group_but_other_religion;So those heretics are on the move.;;;;;;;;;;;;x
 EVTOPT_erulib_2_A_southcrosser;Just another cursed heathen! Right?;;;;;;;;;;;;x
 EVTOPT_erulib_2_A_other;Interesting developments...;;;;;;;;;;;;x
 EVTOPT_erulib_2_B_eru; Why didn't I think of this myself?;;;;;;;;;;;;x
-EVTOPT_erulib_2_B_other;As if [ROOT.GetSheHe] had any chance to win;;;;;;;;;;;;x
+EVTOPT_erulib_2_B_other;As if I had any chance to win;;;;;;;;;;;;x
 EVTTITLE_erulib_3;King of Dunedin;;;;;;;;;;;;x
-EVTDESC_erulib_3;Holy men has gathered to crown the first king of Children of Ilúvatar after decades of oppression by australian crusaders. One of them thought: This event will need longer description.;;;;;;;;;;;;x
+EVTDESC_erulib_3;Holy men have gathered to crown the first king of the Children of Ilúvatar after decades of oppression under australian domination. One of them thought: This event will need longer description.;;;;;;;;;;;;x
 EVTOPT_erulib_3_A;You bow to no one my friends;;;;;;;;;;;;x
 EVTOPT_erulib_3_B_christian;Oh no;;;;;;;;;;;;x
 EVTOPT_erulib_3_B;Interesting developments;;;;;;;;;;;;x
 EVTTITLE_erulib_4;Reconquest of Dunedin;;;;;;;;;;;;x
-EVTDESC_erulib_4;Even more warriors have gathered under the command of newly crowned king of Dunedin to expand the Kingdom of Children of Ilúvatar. Liberator goes to war again.;;;;;;;;;;;;x
+EVTDESC_erulib_4;Even more warriors have gathered under the command of newly crowned king of Dunedin to expand the Kingdom of the Children of Ilúvatar. The Liberator goes to war again.;;;;;;;;;;;;x
 EVTOPT_erulib_4_A;For second breakfast!;;;;;;;;;;;;x
 EVTOPT_erulib_4_B_christian; Oh no;;;;;;;;;;;;x
 EVTOPT_erulib_4_B;Interesting developments;;;;;;;;;;;;x

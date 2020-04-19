@@ -5,7 +5,7 @@ southcrosser_DESC;
 The Church of the Southern Cross emerged after a prophet somewhere in the australian interior was given a new bible by Our Saviour, the Gospel. After that the church grew in numbers and spread like wildfire, both through missionary work and war. \n The head of the church is the archbishop, who lives and rules Brisbane. However he is elected by a council of bishops. \n Though some claim the church is not christian due to their refusal of the trinity (instead choosing to replace it with a system of four different forms of God), the majority still says they are christians.;;;;;;;;;;;;;x
 THE_GOSPEL;The Gospel;;;;;;;;;;;;;x
 GOD_THE_SAVIOUR;The Saviour;;;;;;;;;;;;;x
-GOD_THE_SOUTHERN_CROSS;The_Southern_Cross;;;;;;;;;;;;;x
+GOD_THE_SOUTHERN_CROSS;The Southern Cross;;;;;;;;;;;;;x
 FALLEN_ANGEL;Fallen Angel;;;;;;;;;;;;;x
 THE_GREAT_HERETIC;The Great Heretic;;;;;;;;;;;;;x
 johanite;Johanite;;;;;;;;;;;;;x
@@ -30,16 +30,18 @@ indian_full;Indian;;;;;;;;;;;;;x
 indian_DESC;Indian church is christian denomination which have evolved from baptist and presbyterian churches in northeastern India.;;;;;;;;;;;;;x
 eruist;Eruist;;;;;;;;;;;;x
 eruist_full;Eruism;;;;;;;;;;;;x
-eruist_DESC;There will be description. Once...;;;;;;;;;;;;x
+eruist_DESC;
+Though the origins of Eruism are shrouded in mystery and legend, with some claiming it was founded by a prophet known only as ‘Tolkien’, it is known that this monotheistic religion only became widespread after the XXII century. Followers believe in Eru Ilúvatar, the only god and the creator of all life, though they also believe in countless other beings, like the Ainur, and in the prophecy of the Chosen One.
+;;;;;;;;;;;;x
 GOD_ERU_ILUVATAR;Eru Ilúvatar;;;;;;;;;;;;x
-GOD_THE_HEROES;Heroes;;;;;;;;;;;;x
+GOD_THE_HEROES;the Heroes;;;;;;;;;;;;x
 GOD_THE_CHOOSEN_ONE;The Chosen One;;;;;;;;;;;;x
-GOD_VALAR;Valar;;;;;;;;;;;;x
-GOD_AINUR;Ainur;;;;;;;;;;;;x
-GOD_QUENDI;Quendi;;;;;;;;;;;;x
+GOD_VALAR;the Valar;;;;;;;;;;;;x
+GOD_AINUR;the Ainur;;;;;;;;;;;;x
+GOD_QUENDI;the Quendi;;;;;;;;;;;;x
 GOD_ELDARIN;Eldarin;;;;;;;;;;;;x
 GOD_KHAZAD;Khazad;;;;;;;;;;;;x
-GOD_HOBBITS;Hobbits;;;;;;;;;;;;x
+GOD_HOBBITS;the Hobbits;;;;;;;;;;;;x
 GOD_THE_WIZARDS;The Wizards;;;;;;;;;;;;x
 THE_KING_OF_DARKNESS;The King of Darkness;;;;;;;;;;;;x
 THE_EVIL_LORD;The Evil Lord;;;;;;;;;;;;x
@@ -50,3 +52,7 @@ quendic_DESC;There will be description. Once...;;;;;;;;;;;;x
 ritualistic;Ritualistic;;;;;;;;;;;;x
 ritualistic_full;Ritualism;;;;;;;;;;;;x
 ritualistic_DESC;There will be description. Once...;;;;;;;;;;;;x
+ARCHBISHOP;Archbishop;;;;;;;;;;;;x
+CHOSEN_ONE;Chosen One;;;;;;;;;;;;x
+TOHUNGANUI;Tohunganui;;;;;;;;;;;;x
+eruist_group;Eruist;;;;;;;;;;;;x

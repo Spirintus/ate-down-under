@@ -1,4 +1,32 @@
+2552.11.30 = {
+	holder = 9123
+	liege = k_auckland
+}
+2559.8.28 = {
+	holder = 9125
+	liege = k_auckland
+}
+2586.10.28 = {
+	holder = 9126
+	liege = k_auckland
+}
+2589.2.14 = {
+	holder = 9127
+	liege = k_auckland
+}
+2602.5.25 = {
+	holder = 9128
+	liege = k_auckland
+}
+2602.5.29 = {
+	holder = 9129
+	liege = k_auckland
+}
+2645.11.2 = {
+	holder = 9130
+	liege = k_auckland
+}
 2656.11.2 = {
-	holder = 31
+	holder = 9131
 	liege = k_auckland
 }

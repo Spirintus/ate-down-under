@@ -169,7 +169,7 @@
 	culture = melbournian
 	father = 35
 	2600.9.12 = {birth = yes}
-	2663.6.7 = {death = yes}
+	2643.6.7 = {death = yes}
 }
 
 38 = {
@@ -256,7 +256,7 @@
 	culture = melbournian
 	mother = 27
 	2552.2.22 = {birth = yes}
-	2605.9.27 = {death = yes}
+	2604.9.27 = {death = yes}
 }
 
 46 = { #duke
@@ -276,7 +276,7 @@
 	culture = melbournian
 	father = 46
 	2599.1.11 = {birth = yes}
-	2645.8.14 = {death = yes}
+	2642.8.14 = {death = yes}
 }
 
 48 = { #duke
@@ -554,7 +554,7 @@
 	culture = melbournian
 	father = 31
 	2555.1.1 = {birth = yes}
-	2622.5.3 = {death = yes}
+	2608.4.23 = {death = yes}
 }
 
 77 = { #third marcher lord, died in battle
@@ -564,7 +564,7 @@
 	culture = melbournian
 	father = 76
 	2576.5.8 = {birth = yes}
-	2602.5.3 = {death = yes}
+	2612.5.3 = {death = yes}
 }
 
 78 = { #fourth marcher lord
@@ -576,7 +576,7 @@
 	2601.1.1 = {birth = yes}
 }
 
-79 = { #heir to the march
+79 = { #dead heir to the march
 	name = "Alexander"
 	dynasty = 202
 	religion = southcrosser
@@ -593,7 +593,7 @@
 	culture = melbournian
 	female = yes
 	father = 78
-	2625.8.9 = {birth = yes}
+	2626.12.29 = {birth = yes}
 	2645.8.12 = {death = yes}
 }
 

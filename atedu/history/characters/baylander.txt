@@ -148,7 +148,7 @@
 	father = 310
 	2659.7.8 = {birth = yes}
 }
-323 = { #duchess of Timaru, broke free from Christchurch
+323 = { #duke of Timaru, broke free from Christchurch
 	name = "Jack"
 	dynasty = 400
 	religion = southcrosser

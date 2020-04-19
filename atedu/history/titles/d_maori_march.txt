@@ -1,4 +1,16 @@
-2602.5.3 = {
+2580.6.25 = {
+	holder = 31
+	liege = k_wellington
+}
+2602.3.23 = {
+	holder = 76
+	liege = k_wellington
+}
+2608.4.23 = {
+	holder = 77
+	liege = k_wellington
+}
+2612.5.3 = {
 	holder = 78
 	liege = k_wellington
 }

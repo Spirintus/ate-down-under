@@ -1,4 +1,4 @@
 2656.11.2 = {
-	holder = 31
+	holder = 9131
 	liege = k_auckland
 }
