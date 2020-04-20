@@ -448,8 +448,34 @@ character_event = { #Liberator goes to war
 		create_character = {
 			random_traits = yes
 			dynasty = culture
-			religion = FROM
-			culture = FROM
+			religion = 58
+			culture = 58
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 58
+				home = 58
+				owner = liberator_event_target
+				troops = 
+				{
+					archers = { 500 500 }
+					light_infantry = { 800 800 }
+					heavy_infantry = { 500 500 }
+					light_cavalry = { 500 500 }
+				}
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = culture
+			religion = 58
+			culture = 58
 			female = no
 			age = 30
 			attributes = {
@@ -474,8 +500,8 @@ character_event = { #Liberator goes to war
 		create_character = {
 			random_traits = yes
 			dynasty = culture
-			religion = FROM
-			culture = FROM
+			religion = 58
+			culture = 58
 			female = no
 			age = 30
 			attributes = {
@@ -485,34 +511,8 @@ character_event = { #Liberator goes to war
 		}
 		new_character = {
 			spawn_unit = {
-				province = FROM
-				home = FROM
-				owner = liberator_event_target
-				troops = 
-				{
-					archers = { 500 500 }
-					light_infantry = { 800 800 }
-					heavy_infantry = { 500 500 }
-					light_cavalry = { 500 500 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = culture
-			religion = FROM
-			culture = FROM
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = FROM
-				home = FROM
+				province = 58
+				home = 58
 				owner = liberator_event_target
 				troops = 
 				{
@@ -524,24 +524,24 @@ character_event = { #Liberator goes to war
 			}
 		}
 		k_christchurch = {
-			any_de_jure_vassal = {
-				if = {
-					limit = {
-						not = { higher_tier_than = duke }
-						is_independent = yes
-					}
-					reverse_unsafe_war = {
-						target = ROOT
-						casus_belli = liberator_invasion
-					}
-				}
-			}
-			holder_scope = {
+			any_direct_de_jure_vassal_title = {
+				# if = {
+					# limit = {
+						# not = { higher_tier_than = duke }
+						# is_independent = yes
+					# }
 				reverse_unsafe_war = {
 					target = ROOT
 					casus_belli = liberator_invasion
 				}
+				#}
 			}
+			# holder_scope = {
+				# reverse_unsafe_war = {
+					# target = ROOT
+					# casus_belli = liberator_invasion
+				# }
+			# }
 		}
 	}
 	option = {
