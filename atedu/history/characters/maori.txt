@@ -198,7 +198,7 @@
 }
 
 722 = { #husband of Aroha
-	name = "Pootatau" 
+	name = "Potatau" 
 	dynasty = 705
 	religion = aotearoan
 	culture = maori

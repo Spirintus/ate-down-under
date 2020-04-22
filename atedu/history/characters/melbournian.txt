@@ -854,6 +854,7 @@
 	dynasty = 210
 	religion = southcrosser
 	culture = melbournian
+	father = 116
 	2640.7.4 = {birth = yes}
 }
 
@@ -862,6 +863,7 @@
 	dynasty = 220
 	religion = southcrosser
 	culture = melbournian
+	father = 111
 	2638.2.13 = {birth = yes}
 }
 
@@ -890,4 +892,98 @@
 	father = 109
 	mother = 102
 	2649.2.13 = {birth = yes}
+}
+
+111 = { #father of count of west fiordland
+	name = "Phillip"
+	dynasty = 220
+	religion = southcrosser
+	culture = melbournian
+	2611.7.16 = {birth = yes}
+	2665.1.29 = {death = yes}
+}
+112 = { #Phillip's younger son
+	name = "Frank"
+	dynasty = 220
+	religion = southcrosser
+	culture = melbournian
+	father = 111
+	2641.5.12 = {birth = yes}
+}
+113 = { #count's son
+	name = "Phillip"
+	dynasty = 220
+	religion = southcrosser
+	culture = melbournian
+	father = 107
+	2661.11.12 = {birth = yes}
+}
+
+114 = { #daughter of count of alabaster
+	name = "Kristy"
+	dynasty = 221
+	religion = southcrosser
+	culture = melbournian
+	father = 108
+	mother = 507
+	female = yes
+	2663.9.27 = {birth = yes}
+}
+115 = { #Kristy's younger sister
+	name = "Tracey"
+	dynasty = 221
+	religion = southcrosser
+	culture = melbournian
+	father = 108
+	mother = 507
+	female = yes
+	2665.11.9 = {birth = yes}
+}
+
+116 = { #father of count of fox glacier
+	name = "Dennis"
+	dynasty = 210
+	religion = southcrosser
+	culture = melbournian
+	2607.4.30 = {birth = yes}
+	2660.6.9 = {death = yes}
+}
+117 = { #eldest son of Dennis, died young
+	name = "Jack"
+	dynasty = 210
+	religion = southcrosser
+	culture = melbournian
+	father = 116
+	trait = diligent
+	trait = feeble
+	2631.2.8 = {birth = yes}
+	2655.8.14 = {death = yes}
+}
+118 = {#daughter of Jack, did not inherit as her father died before her grandfather
+	name = "Belinda"
+	dynasty = 210
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 117
+	2654.3.8 = {birth = yes}
+}
+119 = { #daughter of Dennis
+	name = "Chelsea"
+	dynasty = 210
+	religion = southcrosser
+	culture = melbournian
+	female = yes
+	father = 116
+	trait = lustful
+	2635.7.10 = {birth = yes}
+}
+120 = { #bastard of Chelsea
+	name = "Norm"
+	dynasty = 210
+	religion = southcrosser
+	culture = melbournian
+	mother = 119
+	trait = bastard
+	2653.10.20 = {birth = yes}
 }

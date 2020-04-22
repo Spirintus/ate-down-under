@@ -147,7 +147,7 @@
 	2628.12.4 = { birth = yes }
 }
 515 = {
-	name = "Em"
+	name = "Emmett"
 	dynasty = 301
 	culture = witasmen
 	father = 514

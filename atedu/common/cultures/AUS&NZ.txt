@@ -178,8 +178,26 @@ east_australian = {
 		graphical_cultures = { englishgfx westerngfx }
 		color = { 35 178 39 }
 		
-		male_names = { Ynarkael }
-		female_names = {Lizzie_Elizabeth}
+		male_names = {
+			Clarence Cyril
+			Gavin
+			Harry
+			James John_John
+			Lawrence_Lawrence
+			Malcolm Michael_Michael
+			Nick_Nicholas
+			Robert_Robert
+			Sebastian_Sebastian Shane
+			Vincent_Vincent
+			William_William
+		}
+		female_names = {
+			Adelaide_Adelaide
+			Catherine_Catherine Christine_Christine
+			Fiona
+			Mabel
+			Talisha
+		}
 		
 		from_dynasty_prefix = "of "
 		
@@ -200,37 +218,41 @@ east_australian = {
 		color = { 101 170 28 }
 
 		male_names = {
-			Andrew Arthur
+			Abel Albert Alfred Andrew Arthur
 			Barry Bill_William Bob_Robert Bruce
-			Dale Darryl Dennis
-			Frank
-			Gordon Graham
-			Haydyn
+			Dale Darryl Dave_David Dennis Drake
+			Ethan_Ethan
+			Frank_Francis
+			Gordon Graham_Graham
+			Haydyn_Hayden
 			Ivanhoe
-			Jack_John
+			Jack_Jacob "Jack Abel" John_John
 			Kevin
-			Malcolm
-			Ned_Edward Norm_Norman
-			Lawrence
-			Peter Phillip
-			Richo_Richard Ron_Ronald Roy
+			Lawrence_Lawrence
+			Malcolm Michael_Michael Michael_Mike
+			Ned_Edward Norm_Norman Nick_Nicholas
+			Peter_Peter Phillip_Philip
+			Richo_Richard Robert_Robert Ron_Ronald Roy
 			Steve_Stephen
 			Ted_Theodore Tony_Anthony
-			Wayne
+			Vincent_Vincent
+			Wayne William_William "William Abel"
+			Zachary_Zachary
 		}
 		female_names = {
-			Alice Amy
-			Belinda Bella Brittney
+			Adelaide_Adelaide Alice_Alice Amy_Amy
+			Belinda_Linda Bella_Belle Belle_Belle Brittney_Britney
 			Chelsea
 			Daisy Debbie_Deborah
+			Elizabeth_Elizabeth
 			Gemma
 			Helena_Helen
-			Jessica
-			Kilda Kristy
-			Laura Lily_Lillian
-			Martha Maree_Mary
+			Jessica_Jessica
+			Kilda Kristy_Christine
+			Laura_Laura Lily_Lillian
+			Mabel Martha Maree_Mary Mary_Mary Mia
 			Rebecca Rohenna
-			Sal_Sally Sarah Shannon Siobhan Stephanie
+			Sal_Sally Sarah_Sarah Shannon Siobhan Stephanie
 			Tracey
 			Victoria
 		}
@@ -450,9 +472,21 @@ murraylander = {
 		color = { 178 182 31 }
 		
 		male_names = { 
-		Bob
+			Bob_Robert
+			Chris_Christopher
+			Dave_David
+			Jack_Jacob John_John
+			Mike_Michael
+			Rich_Richard
+			Robert_Robert
+			Steve_Stephen
+			Will_William
 		}
-		female_names = {Lizzie_Elizabeth}
+		female_names = {
+			Adelaide_Adelaide Ariana
+			Belle_Belle
+			Mary_Mary
+		}
 		
 		from_dynasty_prefix = "of "
 		
@@ -536,13 +570,27 @@ polynesian = {
 		color = { 0.26 0.22 1 }
 		
 		male_names = {
-			Nikau Wiremu Kahurangi Kauri Nikora Tane Tamati Rawiri Anaru Tai Manaia Tama Mikaere "Te Ariki" Ariki "Te Koha" 
-			Hoani Manawa Tiare Hemi Niko Kahu Tangaroa Manaaki Ihaia Matiu Pootatau Taawhiao
+			Anaru Ariki
+			Hemi Hoani
+			Ihaia
+			Kahu Kahurangi Kauri
+			Manaaki Manaia Manawa Matiu Mikaere
+			Nikau Niko Nikora
+			Paora Potatau
+			Rangi Rawiri
+			Tawhiao Tai Tama Tamati Tane Tangaroa "Te Ariki" "Te Koha" Tiare
+			Wiremu
 		}
 		
 		female_names = {
-			Maia Aria Manaia Anahera Ataahua Aroha Tia Ariana Kaia Kahurangi Maraea Waimarie Tui Amaia 
-			Miriama Awhina Hana Anika Huia Mareikura Kora Ana Ria Tiare Mereana Nia Wikitoria Hinewai Mahi Terina
+			Amaia Ana Anahera Anika Aria Ariana Aroha Ataahua Awhina
+			Hana Hinewai Huia
+			Kahurangi Kaia Kora
+			Mahi Maia Manaia Maraea Mareikura Mereana Miriama Moana
+			Nia
+			Ria
+			Terina Tia Tiare Tui
+			Waimarie Wikitoria
 		}
 		
 		from_dynasty_prefix = "o "
@@ -569,11 +617,15 @@ polynesian = {
 		color = { 255 255 255 }
 		
 		male_names = {
-		Ynarkael
+			Abel Abraham_Abraham Adam
+			Gabriel_Gabriel
+			Isaiah
+			Joseph_Joseph
+			Noah
 		}
-		
 		female_names = {
-		Lizzie_Elizabeth
+			Matilda
+			Rose_Rose
 		}
 		
 		from_dynasty_prefix = "ni "
@@ -600,8 +652,21 @@ zealandese = {
 		graphical_cultures = { englishgfx westerngfx }
 		color = { 48 35 122 }
 		
-		male_names = { Ynarkael }
-		female_names = {Lizzie_Elizabeth}
+		male_names = {
+			Anarion Aragorn
+			Henry_Henry
+			Joseph_Joseph
+			Mark_Mark Martin_Martin Michael_Michael
+			Oberon
+			Rick_Richard
+			Saruman
+			William_William
+		}
+		female_names = {
+			Elizabeth_Elizabeth
+			Galadriel
+			Martha
+		}
 		
 		from_dynasty_prefix = "of "
 		
@@ -660,8 +725,16 @@ zealandese = {
 		graphical_cultures = { celticgfx }
 		color = { 11 124 49 }
 		
-		male_names = { Ynarkael }
-		female_names = { Elizabeth Tricia }
+		male_names = {
+			Aragorn Archer_Archer
+			Oliver
+		}
+		female_names = {
+			Elizabeth_Elizabeth "Elizabeth Victoria"
+			Mabel
+			Tricia_Patricia
+			Victoria
+		}
 		
 		from_dynasty_prefix = "of "
 		
@@ -680,12 +753,38 @@ zealandese = {
 		graphical_cultures = { englishgfx westerngfx}
 		color = { 180 20 96 }
 		male_names = {
-			Joshua Jack Benjamin Samuel Daniel Jacob Ethan James Thomas Matthew Liam William Caleb Luke Oliver Ryan Jayden Cameron Connor Graeme Logan Dylan 
-			Christopher Max Michael Jordan Nathan Joseph Mitchell Alexander Blake Lachlan Nicholas Harrison 
+			Alexander_Alexander Archer_Archer
+			Benjamin_Benjamin Blake
+			Caleb Cameron Christopher_Christopher Connor
+			Daniel_Daniel Dylan
+			Ethan_Ethan
+			Graeme_Graham
+			Harrison
+			Jack_Jacob Jacob_Jacob James Jayden_Jayden Jordan Joseph_Joseph Joshua_Joshua
+			Lachlan Liam Logan Luke_Lucas
+			Matthew_Matthew Max_Max Michael_Michael Mitchell_Mitchell
+			Nathan_Nathan Nicholas_Nicholas
+			Oliver
+			Ryan
+			Samuel_Samuel
+			Thomas_Thomas
+			William_William     
 		}
 		female_names = {
-			Susan Karen Christine Julie Deborah Sandra Donna Jennifer Elizabeth Wendy Sharon Joan Linda Robyn Robin Judith 
-			Mary Helen Margaret Patricia Debra Carol Barbara_Barb Barb_Barbara Denise Anne Catherine_Catrina Catrina_Catherine Diane Lynette Heather Suzanne 
+			Anne_Anna Ariana
+			Barb_Barbara Barbara_Barbara
+			Carol_Caroline Catherine_Catherine Catrina_Catherine Christine_Christine
+			Deborah_Deborah Debra_Deborah Denise Diane_Diane Donna
+			Elizabeth_Elizabeth
+			Heather Helen_Helen
+			Jennifer_Jennifer Joan_Joan Judith Julie_Julie
+			Karen
+			Linda_Linda Lynette_Linda
+			Margaret_Margaret Mary_Mary
+			Patricia_Patricia
+			Robin_Robin Robyn_Robin
+			Sandra Sharon Susan_Susan Suzanne_Susan
+			Wendy
 		}
 		
 		pat_grf_name_chance = 20
@@ -703,7 +802,11 @@ zealandese = {
 		graphical_cultures = { englishgfx westerngfx }
 		color = { 35 255 201 }
 		
-		male_names = { Ynarkael }
+		male_names = {
+			Oliver
+			Ryan
+			William_William
+		}
 		female_names = {Lizzie_Elizabeth}
 		
 		from_dynasty_prefix = "of "
@@ -724,10 +827,22 @@ zealandese = {
 		color = { 19 240 24 }
 		
 		male_names = {
-			Dick_Richard Ynarkael Sam_Samuel Jo 
+			Dick_Richard
+			Emmett_Emmett
+			Harold
+			Joe_Joseph
+			Malcolm
+			Rick_Richard
+			Sam_Samuel 
 		}
 		female_names = {
-			Lizzie_Elizabeth Jenny_Jane Em_Emma Cat_Catherine Puppy_Poppy Domi_Dominica  
+			Cat_Catherine
+			Domi_Dominica  
+			Em_Emma
+			Jenny_Jennfier
+			Lizzie_Elizabeth
+			Puppy_Poppy
+			Samantha
 		}
 		
 		from_dynasty_prefix = "o'"
@@ -747,11 +862,21 @@ zealandese = {
 		graphical_cultures = { englishgfx westerngfx }
 		color = { 190 255 255 }
 		
-		male_names = { 
-			Nicholas Kris_Nicholas Rudolph
+		male_names = {
+			Gabriel_Gabriel
+			Kris_Christopher
+			John_John
+			Michael_Michael
+			Nicholas_Nicholas
+			Rudolph
 		}
 		female_names = {
-			Jessica Samantha Nancy Anna
+			Anna_Anna
+			Caroline_Caroline
+			Jessica_Jessica
+			Mabel
+			Nancy
+			Samantha
 		}
 		
 		from_dynasty_prefix = "of "

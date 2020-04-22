@@ -246,3 +246,21 @@
 	father = 325
 	2643.1.29 = {birth = yes}
 }
+327 = { #third duke's older sister
+	name = "Ariana"
+	dynasty = 402
+	religion = southcrosser
+	culture = baylander
+	female = yes
+	father = 325
+	2639.5.18 = {birth = yes}
+}
+328 = {third duke's younger sister
+	name = "Adelaide"
+	dynasty = 402
+	religion = southcrosser
+	culture = baylander
+	female = yes
+	father = 325
+	2646.7.9 = {birth = yes}
+}
