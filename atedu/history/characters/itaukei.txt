@@ -54,6 +54,7 @@
 	father = 1601
 	female = yes
 	2639.12.14 = { birth = yes }
+	2658.5.17 = {add_spouse = 72}
 }
 1607 = {
 	name = "Abel"

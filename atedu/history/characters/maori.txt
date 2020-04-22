@@ -70,6 +70,7 @@
 	female = yes
 	father = 707
 	2574.10.8 = {birth = yes}
+	2599.2.10 = {add_spouse = 722}
 	2617.6.30 = { death = yes}
 }
 709 = { #fifth duke of Taupo, elected and died fighting the crusaders
@@ -96,6 +97,7 @@
 	dynasty = 705
 	religion = aotearoan
 	culture = maori
+	father = 722
 	mother = 708
 	2614.3.28 = {birth = yes}
 }
@@ -104,6 +106,7 @@
 	dynasty = 705
 	religion = aotearoan
 	culture = maori
+	father = 722
 	mother = 708
 	trait = celibate
 	2609.2.14 = {birth = yes}
@@ -114,8 +117,10 @@
 	religion = aotearoan
 	culture = maori
 	female = yes
+	father = 722
 	mother = 708
 	2602.9.18 = {birth = yes}
+	2624.12.2 = {add_spouse = 57}
 }
 
 714 = { #guy
@@ -124,7 +129,8 @@
 	religion = aotearoan
 	culture = maori
 	mother = 713
-	2634.12.3 = {birth = yes}
+	trait = bastard
+	2634.2.3 = {birth = yes}
 }
 
 715 = { #guy
@@ -190,3 +196,14 @@
 	culture = maori
 	2642.8.5 = {birth = yes}
 }
+
+722 = { #husband of Aroha
+	name = "Pootatau" 
+	dynasty = 705
+	religion = aotearoan
+	culture = maori
+	2572.3.19 = {birth = yes}
+	2599.2.10 = {add_spouse = 708}
+	2630.8.24 = {death = yes}
+}
+	

@@ -306,6 +306,7 @@
 	female = yes
 	father = 48
 	2639.12.25 = {birth = yes}
+	2660.2.7 = {add_spouse = 9135}
 }
 
 51 = { #son of the duke
@@ -372,6 +373,7 @@
 	culture = melbournian
 	father = 56
 	2600.3.4 = {birth = yes}
+	2624.12.2 = {add_spouse = 713}
 }
 
 58 = { #son of Jack, was killed in combat during a war with dunedin
@@ -380,6 +382,7 @@
 	religion = southcrosser
 	culture = melbournian
 	father = 57
+	mother = 713
 	2635.1.6 = {birth = yes}
 	2665.4.5 = {death = yes}
 }
@@ -516,6 +519,7 @@
 	culture = melbournian
 	father = 67
 	2635.6.15 = {birth = yes}
+	2658.5.17 = {add_spouse = 1606}
 }
 
 73 = { #female claimant
@@ -544,6 +548,7 @@
 	religion = southcrosser
 	culture = melbournian
 	father = 72
+	mother = 1606
 	2661.3.24 = {birth = yes}
 }
 
@@ -815,6 +820,7 @@
 	father = 100
 	female = yes
 	2625.8.4 = {birth = yes}
+	2645.11.22 = {add_spouse = 109}
 }
 103 = { #another sister of the second jade king
 	name = "Belle"
@@ -824,6 +830,7 @@
 	father = 100
 	female = yes
 	2631.8.26 = {birth = yes}
+	2654.1.5 = {add_spouse = 323}
 }
 104 = { #jade prince
 	name = "Nick"
@@ -864,6 +871,7 @@
 	religion = southcrosser
 	culture = melbournian
 	2640.7.12 = {birth = yes}
+	2661.12.5 = {add_spouse = 507}
 }
 
 109 = { #duke
@@ -872,6 +880,7 @@
 	religion = southcrosser
 	culture = melbournian
 	2625.9.1 = {birth = yes}
+	2645.11.22 = {add_spouse = 102}
 }
 110 = { #count
 	name = "Nick"
@@ -879,5 +888,6 @@
 	religion = southcrosser
 	culture = melbournian
 	father = 109
+	mother = 102
 	2649.2.13 = {birth = yes}
 }

@@ -103,6 +103,7 @@
 	culture = baylander
 	father = 309
 	2639.1.19 = {birth = yes}
+	2657.12.13 = {add_spouse = 12}
 }
 311 = { #second heir to Christchurch
 	name = "Rich"
@@ -146,6 +147,7 @@
 	religion = southcrosser
 	culture = baylander
 	father = 310
+	mother = 12
 	2659.7.8 = {birth = yes}
 }
 323 = { #duke of Timaru, broke free from Christchurch
@@ -155,6 +157,7 @@
 	culture = baylander
 	mother = 308
 	2634.8.24 = {birth = yes}
+	2654.1.5 = {add_spouse = 103}
 }
 
 316 = { #duke of Kangaroo Island
@@ -189,6 +192,7 @@
 	culture = baylander
 	father = 318
 	2633.3.2 = {birth = yes}
+	2655.2.9 = {add_spouse = 503}
 }
 320 = { #heir's son
 	name = "Steve"
@@ -196,6 +200,7 @@
 	religion = southcrosser
 	culture = baylander
 	father = 319
+	mother = 503
 	2660.9.12 = {birth = yes}
 }
 321 = { #second heir

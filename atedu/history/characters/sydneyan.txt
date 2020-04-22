@@ -120,6 +120,7 @@
 	female = yes
 	father = 7
 	2639.2.9 = { birth = yes}
+	2657.12.13 = {add_spouse = 310}
 	2700.1.1 = { death = yes} # in case
 }
 
@@ -195,6 +196,7 @@
 	culture = sydneyan
 	father = 18
 	2633.3.23 = {birth = yes}
+	2657.8.3 = {add_spouse = 505}
 	2700.1.1 = { death = yes} # in case
 }
 
@@ -342,4 +344,5 @@
 	religion = southcrosser
 	culture = sydneyan
 	2639.8.29 = {birth = yes}
+	2660.2.7 = {add_spouse = 50}
 }
