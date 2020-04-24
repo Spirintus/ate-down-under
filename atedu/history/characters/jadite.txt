@@ -30,7 +30,7 @@
 	intrigue = 4
 	learning = 5
 	health = 8
-	fertility = 10
+	fertility = 4
 	2649.11.1 = { birth = yes }
 	2664.2.6 = {
 		add_matrilineal_spouse = 1454 
@@ -42,7 +42,26 @@
 	trait = "zealous"
 	trait = "gregarious"
 }
+1454 = { #liz's dream man
 
+	name = "Suleiman"
+	religion = "gnostic"
+	culture = "afghan"
+	dna="aedbf00ac00"
+	properties="ql00hb00000000000000000000000000000000"
+	diplomacy = 6
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 6
+	health = 8
+	fertility = 4
+	trait = "skilled_tactician"
+	trait = "attractive"
+	trait = "quick"
+	trait = "robust"
+	trait = "siege_leader"
+	
 1460 = { #count
 	name = "Aragorn"
 	dynasty = 499
@@ -92,7 +111,7 @@
 }
 
 1465 = { #father of Tricia
-	name = "George Arthur"
+	name = "Daniel"
 	dynasty = 476
 	religion = southcrosser
 	culture = jadite
@@ -101,7 +120,7 @@
 	2653.2.11 = {death = yes}
 }
 1466 = { #bastard of George Arthur
-	name = "Eddie"
+	name = "Nathan"
 	dynasty = 476
 	religion = southcrosser
 	culture = jadite
@@ -110,7 +129,7 @@
 	2621.7.3 = {birth = yes}
 }
 1467 = { #first queen of elizabeth
-	name = "Alexandra"
+	name = "Elizabeth"
 	dynasty = 476
 	religion = southcrosser
 	culture = jadite
