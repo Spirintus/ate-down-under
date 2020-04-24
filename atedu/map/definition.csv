@@ -93,38 +93,44 @@ province;red;green;blue;x;x
 92;228;233;61;Westcoast;x
 93;182;185;60;Upper Takaka;x
 94;193;196;99;Collingwood;x
-95;54;107;116;Northland Coast;x
-96;15;63;71;Matauri Bay;x
-97;129;198;209;Hauraki Bay;x
-98;4;152;175;Bay of Plenty;x
-99;13;87;98;Maui Coast;x
-100;118;171;179;Coast of Napier;x
-101;60;123;133;West Pacific Coast;x
-102;108;191;203;North Palliser;x
-103;48;215;241;Palliser Bay;x
-104;16;141;161;Wellington Strait;x
-105;25;124;167;North Christchurch Bay;x
-106;177;219;237;Christchurch Bay;x
-107;26;164;228;Outer Bay;x
-108;110;173;200;Northern Canterbury Bight;x
-109;38;94;118;Southern Canterbury Bight;x
-110;169;198;210;Port Chalmers;x
-111;16;67;89;Toetoes Bay;x
-112;13;98;134;Foveaux Strait;x
-113;136;203;231;Doubtful Sound;x
-114;23;159;165;Martins Bay;x
-115;83;174;178;Glacierview;x
-116;48;233;241;Karamea Bight;x
-117;9;126;144;South Taranaki Bight;x
-118;110;209;224;Cook Strait;x
-119;17;68;76;North Taranaki Bight;x
-120;133;180;200;Easy Harbour;x
-121;63;81;89;South Haldane Bay;x
-122;186;208;218;Auckland Path;x
-123;15;80;108;Snares Sea;x
-124;92;142;164;Auckland Islands Sea;x
-125;61;88;100;Campbell Islands Sea;x
-126;18;34;41;Open Pacific;x
-127;57;69;75;Western Chatham Sea;x
-128;4;39;55;Chatham Sea;x
-40;40;140;Outer Bay;x
+95;157;70;46;Macquarie Island;x
+#new zealand ends, ocean begins
+96;177;123;159;Auckland Coast;x
+97;62;75;107;Northland Coast;x
+98;30;62;163;Bay of Plenty;x
+99;11;64;200;Poverty Bay;x
+100;45;66;118;Hawke's Bay;x
+101;74;117;225;Pegasus Bay;x
+102;17;50;132;Strait of Wellington;x
+103;31;134;177;East Zealandese Coast;x
+104;136;203;231;Strait of Stewart;x
+105;17;49;130;West Zealandese Coast;x
+106;74;111;203;Karamea Bight;x
+107;14;88;119;Auckland Sea;x
+108;64;113;133;Macquarie Sea;x
+109;29;108;141;Campbell Sea;x
+110;63;88;151;Chatham Sea;x
+111;75;155;188;Chatham Sea;x
+112;107;141;156;Chatham Sea;x
+113;69;112;223;Chatham Sea;x
+114;91;155;181;Macquarie Sea;x
+115;106;153;172;Macquarie Sea;x
+116;37;106;135;Stewart Sea;x
+117;50;100;122;West Zealandese Sea;x
+118;80;140;165;West Zealandese Sea;x
+119;45;164;214;West Zealandese Sea;x
+120;32;123;161;Tasman Passage;x
+121;47;151;194;Storm Bay;x
+122;46;102;125;Tasman Strait;x
+123;91;159;188;Tasman Strait;x
+#new zealand oceans stop, tasmania starts
+124;235;101;10;Hobart;x
+125;176;72;0;Gordon;x
+126;215;109;36;Meredith;x
+127;227;148;95;Wynard;x
+128;165;73;10;Launceston;x
+129;155;76;23;Freycinet;x
+130;124;77;44;South Launceston;x
+131;201;108;45;Furneaux;x
+132;254;158;92;Kings Island;x
+#tasmania finished

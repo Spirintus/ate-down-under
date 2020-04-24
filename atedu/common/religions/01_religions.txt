@@ -121,8 +121,6 @@ christian = {
 		
 		color = {90 215 215}
 		
-		crusade_name = CRUSADE
-		
 		scripture_name = THE_NEW_TESTAMENT
 		priest_title = PRIEST
 		
