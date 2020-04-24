@@ -96,11 +96,12 @@ liberator_invasion = { #aka subjugation invasion hybrid
 	
 	on_invalidation = {
 		ROOT = {
-			any_realm_title = {
+			any_demesne_title = {
 				limit = {
 					OR = {
 						tier = king
 						tier = emperor
+						title = d_liberator
 					}
 				}
 				destroy_landed_title = THIS
@@ -127,11 +128,12 @@ liberator_invasion = { #aka subjugation invasion hybrid
 			hidden_tooltip = { participation_scaled_prestige = 100 }
 		}
 		ROOT = {
-			any_realm_title = {
+			any_demesne_title = {
 				limit = {
 					OR = {
 						tier = king
 						tier = emperor
+						title = d_liberator
 					}
 				}
 				destroy_landed_title = THIS

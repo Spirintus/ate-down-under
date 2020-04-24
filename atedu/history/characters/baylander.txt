@@ -253,7 +253,7 @@
 	father = 325
 	2639.5.18 = {birth = yes}
 }
-328 = {third duke's younger sister
+328 = { #third duke's younger sister
 	name = "Adelaide"
 	dynasty = 402
 	religion = southcrosser
