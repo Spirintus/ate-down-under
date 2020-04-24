@@ -395,7 +395,19 @@ narrative_event = { #liberator become king
 		c_dunedin = { usurp_title = ROOT }
 		#capital = 58
 		grant_title = k_dunedin
-		k_dunedin = { copy_title_laws = d_liberator }
+		k_dunedin = {
+			add_law = succ_primogeniture
+			add_law = true_cognatic_succession
+			if = {
+				limit = {
+					has_dlc = "Zeus"
+				}
+				add_law = revoke_title_law_2
+			}
+			else = {
+				add_law = crown_authority_1
+			}
+		}
 		character_event = {id = erulib.4 days = 7 random = 7}
 	}
 	
