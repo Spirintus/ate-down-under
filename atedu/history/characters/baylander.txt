@@ -192,7 +192,6 @@
 	culture = baylander
 	father = 318
 	2633.3.2 = {birth = yes}
-	2655.2.9 = {add_spouse = 503}
 }
 320 = { #heir's son
 	name = "Steve"
@@ -200,7 +199,6 @@
 	religion = southcrosser
 	culture = baylander
 	father = 319
-	mother = 503
 	2660.9.12 = {birth = yes}
 }
 321 = { #second heir

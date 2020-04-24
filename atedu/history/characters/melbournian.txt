@@ -873,7 +873,6 @@
 	religion = southcrosser
 	culture = melbournian
 	2640.7.12 = {birth = yes}
-	2661.12.5 = {add_spouse = 507}
 }
 
 109 = { #duke
@@ -925,7 +924,6 @@
 	religion = southcrosser
 	culture = melbournian
 	father = 108
-	mother = 507
 	female = yes
 	2663.9.27 = {birth = yes}
 }
@@ -935,7 +933,6 @@
 	religion = southcrosser
 	culture = melbournian
 	father = 108
-	mother = 507
 	female = yes
 	2665.11.9 = {birth = yes}
 }

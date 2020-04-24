@@ -1,3 +1,15 @@
+2630.7.11 = {
+	liege = "k_elizabeth"
+	holder = 1467
+}
+2637.6.23 = {
+	liege = "k_elizabeth"
+	holder = 1465
+}
+2653.2.11 = {
+	liege = "k_elizabeth"
+	holder = 1452
+}
 2666.1.1 = {
 	liege = "k_elizabeth"
 	holder = 1453

@@ -4,6 +4,7 @@
 	culture = "jadite"
 	religion = "gnostic"
 	dynasty = 476
+	father = 1465
 	dna="agb0a0cba00"
     properties="i00f0000000000000000000000000000000000000"
 	diplomacy = 5
@@ -12,9 +13,8 @@
 	intrigue = 5
 	learning = 5
 	2627.9.15 = { birth = yes }
-	2665.12.31 = { death = yes }
+	2666.1.1 = { death = yes }
 }
-
 1453 = {
 	name = "Elizabeth Victoria"
 	female = yes
@@ -89,4 +89,32 @@
 	father = 1462
 	secret_religion = eruist
 	2663.8.31 = {birth = yes}
+}
+
+1465 = { #father of Tricia
+	name = "George Arthur"
+	dynasty = 476
+	religion = southcrosser
+	culture = jadite
+	mother = 1467
+	2601.4.17 = {birth = yes}
+	2653.2.11 = {death = yes}
+}
+1466 = { #bastard of George Arthur
+	name = "Eddie"
+	dynasty = 476
+	religion = southcrosser
+	culture = jadite
+	father = 1465
+	trait = bastard
+	2621.7.3 = {birth = yes}
+}
+1467 = { #first queen of elizabeth
+	name = "Alexandra"
+	dynasty = 476
+	religion = southcrosser
+	culture = jadite
+	female = yes
+	2578.10.4 = {birth = yes}
+	2637.6.23 = {death = yes}
 }

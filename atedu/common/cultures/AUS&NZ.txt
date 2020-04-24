@@ -574,7 +574,7 @@ polynesian = {
 			Hemi Hoani
 			Ihaia
 			Kahu Kahurangi Kauri
-			Manaaki Manaia Manawa Matiu Mikaere
+			Manaaki Manawa Matiu Mikaere
 			Nikau Niko Nikora
 			Paora Potatau
 			Rangi Rawiri
@@ -618,14 +618,20 @@ polynesian = {
 		
 		male_names = {
 			Abel Abraham_Abraham Adam
+			Benjamin_Benjamin
 			Gabriel_Gabriel
 			Isaiah
 			Joseph_Joseph
+			Levi
 			Noah
 		}
 		female_names = {
+			Cassandra_Cassandra
+			Grace
 			Matilda
-			Rose_Rose
+			Rose_Rose Ruth
+			Sarah_Sarah
+			Tabitha
 		}
 		
 		from_dynasty_prefix = "ni "
@@ -726,10 +732,13 @@ zealandese = {
 		color = { 11 124 49 }
 		
 		male_names = {
-			Aragorn Archer_Archer
+			Aragorn Archer_Archer Arthur
+			Eddie_Edward
+			George_George "George Arthur"
 			Oliver
 		}
 		female_names = {
+			Alexandra_Alexandra
 			Elizabeth_Elizabeth "Elizabeth Victoria"
 			Mabel
 			Tricia_Patricia
@@ -783,7 +792,7 @@ zealandese = {
 			Margaret_Margaret Mary_Mary
 			Patricia_Patricia
 			Robin_Robin Robyn_Robin
-			Sandra Sharon Susan_Susan Suzanne_Susan
+			Sandra_Cassandra Sharon Susan_Susan Suzanne_Susan
 			Wendy
 		}
 		

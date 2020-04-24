@@ -194,11 +194,12 @@
 	dynasty = 703
 	religion = aotearoan
 	culture = maori
+	father = 723
 	2642.8.5 = {birth = yes}
 }
 
 722 = { #husband of Aroha
-	name = "Potatau" 
+	name = "Paora" 
 	dynasty = 705
 	religion = aotearoan
 	culture = maori
@@ -206,4 +207,30 @@
 	2599.2.10 = {add_spouse = 708}
 	2630.8.24 = {death = yes}
 }
-	
+
+723 = { #father of count of te haroto
+	name = "Potatau"
+	dynasty = 703
+	religion = aotearoan
+	culture = maori
+	2611.8.2 = {birth = yes}
+	2660.9.14 = {death = yes}
+}
+724 = { #daughter of Potatau
+	name = "Manaia"
+	dynasty = 703
+	religion = aotearoan
+	culture = maori
+	father = 723
+	female = yes
+	2635.10.13 = {birth = yes}
+}
+725 = { #another daughter of Potatau
+	name = "Wikitoria"
+	dynasty = 703
+	religion = aotearoan
+	culture = maori
+	father = 723
+	female = yes
+	2632.6.6 = {birth = yes}
+}

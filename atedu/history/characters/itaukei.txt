@@ -91,3 +91,75 @@
 	trait = twin
 	2649.12.19 = { birth = yes }
 }
+1611 = { #daughter of Joseph
+	name = "Grace"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1602
+	female = yes
+	2653.9.28 = {birth = yes}
+}
+1612 = { #daughter of Joseph
+	name = "Ruth"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1602
+	female = yes
+	2656.7.3 = {birth = yes}
+}
+1613 = { #daughter of Joseph
+	name = "Tabitha"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1602
+	female = yes
+	2658.12.3 = {birth = yes}
+}
+1614 = { #son of Adam
+	name = "Levi"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1604
+	2652.3.19 = {birth = yes}
+}
+1615 = { #daughter of Adam
+	name = "Matilda"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1604
+	female = yes
+	2656.9.20 = {birth = yes}
+}
+1616 = { #son of Adam
+	name = "Benjamin"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1604
+	2660.2.1 = {birth = yes}
+}
+1617 = { #daughter of Noah
+	name = "Cassandra"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1605
+	female = yes
+	trait = twin
+	2663.4.25 = {birth = yes}
+}
+1618 = { #daughter of Noah
+	name = "Sarah"
+	dynasty = 10000
+	religion = southcrosser
+	culture = itaukei
+	father = 1605
+	female = yes
+	trait = twin
+	2663.4.25 = {birth = yes}
+}

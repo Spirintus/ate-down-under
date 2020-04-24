@@ -37,7 +37,6 @@
 	mother = 502
 	female = yes
 	2632.6.15 = { birth = yes }
-	2655.2.9 = {add_spouse = 319}
 	trait = twin
 }
 504 = {
@@ -60,7 +59,6 @@
 	mother = 502
 	female = yes
 	2635.11.7 = { birth = yes }
-	2657.8.3 = {add_spouse = 19}
 	trait = attractive
 }
 507 = {
@@ -72,7 +70,6 @@
 	mother = 502
 	female = yes
 	2639.3.22 = { birth = yes }
-	2661.12.5 = {add_spouse = 108}
 	trait = attractive
 }
 508 = {

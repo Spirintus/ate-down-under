@@ -196,7 +196,6 @@
 	culture = sydneyan
 	father = 18
 	2633.3.23 = {birth = yes}
-	2657.8.3 = {add_spouse = 505}
 	2700.1.1 = { death = yes} # in case
 }
 
@@ -338,11 +337,46 @@
 	trait = twin
 	2651.8.14 = {birth = yes}
 }
-9135 = { #heir
+
+9135 = { #count
 	name = "Robert"
 	dynasty = 197
 	religion = southcrosser
 	culture = sydneyan
+	father = 9136
 	2639.8.29 = {birth = yes}
 	2660.2.7 = {add_spouse = 50}
+}
+9136 = { #father
+	name = "Sebastian"
+	dynasty = 197
+	religion = southcrosser
+	culture = sydneyan
+	2619.5.19 = {birth = yes}
+	2656.11.2 = {death = yes}
+}
+9137 = { #son
+	name = "Drake"
+	dynasty = 197
+	religion = southcrosser
+	culture = sydneyan
+	father = 9135
+	mother = 50
+	2662.8.10 = {birth = yes}
+}
+9138 = { #brother
+	name = "Shane"
+	dynasty = 197
+	religion = southcrosser
+	culture = sydneyan
+	father = 9136
+	2641.11.30 = {birth = yes}
+}
+9139 = { #brother
+	name = "Harry"
+	dynasty = 197
+	religion = southcrosser
+	culture = sydneyan
+	father = 9136
+	2645.4.14 = {birth = yes}
 }
