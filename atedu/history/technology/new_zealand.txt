@@ -1,7 +1,7 @@
 # santa's workshop
 technology = {
 	titles = {
-		d_antartic_islands
+		d_antarctic_islands
 	}
 	
 	2666 = {

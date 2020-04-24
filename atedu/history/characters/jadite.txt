@@ -61,7 +61,8 @@
 	trait = "quick"
 	trait = "robust"
 	trait = "siege_leader"
-	
+	2649.3.7 = {birth = yes}
+}
 1460 = { #count
 	name = "Aragorn"
 	dynasty = 499
@@ -119,7 +120,7 @@
 	2601.4.17 = {birth = yes}
 	2653.2.11 = {death = yes}
 }
-1466 = { #bastard of George Arthur
+1466 = { #bastard of Daniel
 	name = "Nathan"
 	dynasty = 476
 	religion = southcrosser
