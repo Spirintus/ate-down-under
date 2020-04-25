@@ -1,0 +1,26 @@
+# c_freycinet
+
+# County Title
+title = c_freycinet
+
+tasmanian = "Triabunna"
+witasmen = "Triabunna"
+melbournian = "Triabunna"
+victorian = "Triabunna"
+
+# Settlements
+max_settlements = 5
+
+b_triabunna = castle
+b_swansea = city
+b_ross = temple
+b_fingal = city
+b_oatlands = castle
+#b_campbell_town = castle
+#b_bicheno = castle
+
+# Misc
+culture = witasmen
+religion = eruist
+
+#History

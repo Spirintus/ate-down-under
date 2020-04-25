@@ -1,0 +1,21 @@
+# c_furneaux
+
+# County Title
+title = c_furneaux
+
+# Settlements
+max_settlements = 4
+
+b_whitemark = city
+b_palana = castle
+b_cape_barren = city
+#b_wingaroo = castle
+#b_emita = castle
+#b_memana = castle
+#b_babel = castle
+
+# Misc
+culture = tasmanian
+religion = digger
+
+#History

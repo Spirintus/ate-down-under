@@ -1,0 +1,21 @@
+# c_south_launceston
+
+# County Title
+title = c_south_launceston
+
+# Settlements
+max_settlements = 5
+
+b_longford = castle
+b_cressy = temple
+b_evandale = castle
+b_nile = city
+b_bracknell = city
+#b_conara = castle
+#b_dover = castle
+
+# Misc
+culture = witasmen
+religion = eruist
+
+#History

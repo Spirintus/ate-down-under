@@ -1,0 +1,21 @@
+# c_wynyard
+
+# County Title
+title = c_wynyard
+
+# Settlements
+max_settlements = 5
+
+b_wynyard = castle
+b_smithton = temple
+b_burnie = city
+b_ulverstone = castle
+#b_devonport = castle
+#b_hunter_island = castle
+#b_montagu = castle
+
+# Misc
+culture = tasmanian
+religion = digger
+
+#History

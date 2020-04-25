@@ -1,0 +1,21 @@
+# c_gordon
+
+# County Title
+title = c_gordon
+
+# Settlements
+max_settlements = 4
+
+b_new_harbour = castle
+b_berry = temple
+b_counsel = castle
+#b_ray = castle
+#b_hean = castle
+#b_upper_castle = castle
+#b_port_davey = castle
+
+# Misc
+culture = tasmanian
+religion = digger
+
+#History

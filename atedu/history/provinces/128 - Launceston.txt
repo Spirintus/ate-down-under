@@ -1,0 +1,21 @@
+# c_launceston
+
+# County Title
+title = c_launceston
+
+# Settlements
+max_settlements = 5
+
+b_launceston = castle
+b_george_town = castle
+b_scottsdale = city
+b_tomahawk = temple
+#b_boobyalla = castle
+#b_gladstone = castle
+#b_forester = castle
+
+# Misc
+culture = tasmanian
+religion = digger
+
+#History

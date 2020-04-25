@@ -1,0 +1,21 @@
+# c_meredith
+
+# County Title
+title = c_meredith
+
+# Settlements
+max_settlements = 4
+
+b_strahan = castle
+b_queenstown_in_tasmania = city
+b_corinna = temple
+#b_zeehan = castle
+#b_fort_meredith = castle
+#b_elliott = castle
+#b_princess = castle
+
+# Misc
+culture = tasmanian
+religion = digger
+
+#History

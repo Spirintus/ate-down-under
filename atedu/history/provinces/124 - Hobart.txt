@@ -1,0 +1,21 @@
+# c_hobart
+
+# County Title
+title = c_hobart
+
+# Settlements
+max_settlements = 5
+
+b_hobart = castle
+b_kingston = city
+b_port_arthur = temple
+b_huonville = city
+b_south_arm = castle
+#b_bruny_island = castle
+#b_dover = castle
+
+# Misc
+culture = witasmen
+religion = eruist
+
+#History

@@ -1,0 +1,21 @@
+# c_kings_island
+
+# County Title
+title = c_kings_island
+
+# Settlements
+max_settlements = 4
+
+b_currie = city
+b_naracoopa = city
+b_grassy = temple
+#b_lymwood = castle
+#b_pearshape = castle
+#b_loorana = castle
+#b_wickham = castle
+
+# Misc
+culture = tasmanian
+religion = digger
+
+#History

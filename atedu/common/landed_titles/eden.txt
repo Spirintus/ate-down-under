@@ -1,0 +1,21 @@
+e_new_zealand = {
+	color = { 185 66 79 }
+	color2 = { 255 255 255 }
+
+	capital = 140 #melbourne
+	
+	melbournian = "Victoria"
+	victorian = "Victoria"
+	tasmanian = "Straya"
+	jadite = "Kiwilaw"
+	aucklander = "Kiwilaw"
+	southlander = "Kiwilaw"
+	wellingtonian = "Kiwilaw"
+	polar = "Kiwilaw"
+	chathamite = "Kiwilaw"
+	
+	k_tassie = {
+		color = {255 200 85}   #{152 130 191}
+		color2 = { 255 255 255 }
+		
+		capital = 124 #hobart
