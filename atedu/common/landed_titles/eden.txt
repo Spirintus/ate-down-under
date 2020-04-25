@@ -1,4 +1,4 @@
-e_new_zealand = {
+e_eden = {
 	color = { 185 66 79 }
 	color2 = { 255 255 255 }
 
@@ -19,3 +19,135 @@ e_new_zealand = {
 		color2 = { 255 255 255 }
 		
 		capital = 124 #hobart
+		
+		d_huonia= {
+			color = {255 190 0}
+			color2 = { 255 255 255 }
+			
+			capital = 124 #hobart
+			
+			c_hobart = {
+				color = {235 101 10}
+				color2 = {255 255 255}
+				
+				b_hobart = {}
+                b_kingston = {}
+                b_port_arthur = {}
+                b_huonville = {}
+                b_south_arm = {}
+                b_bruny_island = {}
+                b_dover = {}
+			}
+			
+			c_freycinet = {
+				color = {155 76 23}
+				color2 = {255 255 255}
+				
+				b_triabunna = {}
+                b_swansea = {}
+                b_ross = {}
+                b_fingal = {}
+                b_oatlands = {}
+                b_campbell_town = {}
+                b_bicheno = {}
+			}
+			c_south_launceston = {
+				color = {124 77 44}
+				color2 = {255 255 255}
+				
+				b_longford = {}
+                b_cressy = {}
+                b_evandale = {}
+                b_nile = {}
+                b_bracknell = {}
+                b_conara = {}
+                b_dover = {}
+			}
+		}	
+		d_tassieland = {
+			color = {255 250 63}
+			color2 = { 255 255 255 }
+			
+			capital = 128 #launceston
+			
+			c_gordon = {
+				color = {176 72 0}
+				color2 = {255 255 255}	
+				
+				b_new_harbour = {}
+                b_berry = {}
+                b_counsel = {}
+                b_ray = {}
+                b_hean = {}
+                b_upper_castle = {}
+                b_port_davey = {}
+			}	
+			c_meredith = {
+				color = {215 109 36}
+				color2 = {255 255 255}	
+				
+				b_strahan = {}
+                b_queenstown_in_tasmania = {}
+                b_corinna = {}
+                b_zeehan = {}
+                b_fort_meredith = {}
+                b_elliott = {}
+                b_princess = {}
+			}
+			c_wynyard = {
+				color = {227 148 95}
+				color2 = {255 255 255}	
+				
+				b_wynyard = {}
+                b_smithton = {}
+                b_burnie = {}
+                b_ulverstone = {}
+                b_devonport = {}
+                b_hunter_island = {}
+                b_montagu = {}
+			}
+			c_launceston = {
+				color = {165 73 10}
+				color2 = {255 255 255}	
+				
+				b_launceston = {}
+                b_george_town = {}
+                b_scottsdale = {}
+                b_tomahawk = {}
+                b_boobyalla = {}
+                b_gladstone = {}
+                b_forester = {}
+			}
+		}	
+		d_bass = {
+			color = {255 205 147}
+			color2 = { 255 255 255 }
+			
+			capital = 132 #kings island
+			
+			c_furneaux = {
+				color = {201 108 45}
+				color2 = {255 255 255}	
+				
+				b_whitemark = {}
+                b_palana = {}
+                b_cape_barren = {}
+                b_wingaroo = {}
+                b_emita = {}
+                b_memana = {}
+                b_babel = {}
+			}
+			c_kings_island = {
+				color = {254 158 92}
+				color2 = {255 255 255}	
+				
+				b_currie = {}
+                b_naracoopa = {}
+                b_grassy = {}
+                b_lymwood = {}
+                b_pearshape = {}
+                b_loorana = {}
+                b_wickham = {}
+			}
+		}
+	}	
