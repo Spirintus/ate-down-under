@@ -75,7 +75,6 @@ province;red;green;blue;x;x
 74;107;66;55;Auckland Islands;x
 75;85;20;3;Campbell;x
 76;175;65;108;Chatham Islands;x
-77;13;82;93;Auckland Bay;x
 78;125;126;53;West Fiordland;x
 79;173;175;0;Alabaster;x
 80;145;147;7;Ionia;x
@@ -94,10 +93,9 @@ province;red;green;blue;x;x
 93;182;185;60;Upper Takaka;x
 94;193;196;99;Collingwood;x
 95;157;70;46;Macquarie Island;x
-#new zealand ends, ocean begins
-96;177;123;159;Auckland Coast;x
+96;117;123;159;Auckland Coast;x
 97;62;75;107;Northland Coast;x
-98;30;62;163;Bay of Plenty;x
+98;30;62;143;Bay of Plenty;x
 99;11;64;200;Poverty Bay;x
 100;45;66;118;Hawke's Bay;x
 101;74;117;225;Pegasus Bay;x
@@ -110,7 +108,7 @@ province;red;green;blue;x;x
 108;64;113;133;Macquarie Sea;x
 109;29;108;141;Campbell Sea;x
 110;63;88;151;Chatham Sea;x
-111;75;155;188;Chatham Sea;x
+111;78;155;188;Chatham Sea;x
 112;107;141;156;Chatham Sea;x
 113;69;112;223;Chatham Sea;x
 114;91;155;181;Macquarie Sea;x
@@ -123,7 +121,6 @@ province;red;green;blue;x;x
 121;47;151;194;Storm Bay;x
 122;46;102;125;Tasman Strait;x
 123;91;159;188;Tasman Strait;x
-#new zealand oceans stop, tasmania starts
 124;235;101;10;Hobart;x
 125;176;72;0;Gordon;x
 126;215;109;36;Meredith;x
@@ -133,4 +130,3 @@ province;red;green;blue;x;x
 130;124;77;44;South Launceston;x
 131;201;108;45;Furneaux;x
 132;254;158;92;Kings Island;x
-#tasmania finished

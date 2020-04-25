@@ -732,13 +732,12 @@ zealandese = {
 		color = { 11 124 49 }
 		
 		male_names = {
-			Aragorn Archer_Archer Arthur
-			Eddie_Edward
-			George_George "George Arthur"
+			Aragorn Archer_Archer
+			Daniel_Daniel
+			Nathan_Nathan
 			Oliver
 		}
 		female_names = {
-			Alexandra_Alexandra
 			Elizabeth_Elizabeth "Elizabeth Victoria"
 			Mabel
 			Tricia_Patricia
