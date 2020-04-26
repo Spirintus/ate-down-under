@@ -25,8 +25,8 @@ ocean_region = {    # That one Ocean
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
 tree = { 3 4 7 10 }
 
-# major_rivers = 
-# { 
+# major_rivers =
+# {
 
 # }
 
