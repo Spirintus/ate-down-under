@@ -1,0 +1,13 @@
+# County Title
+title = c_hsinchu
+
+# Settlements
+max_settlements = 1
+
+b_hsinchu = city
+
+# Misc
+culture = aucklander
+religion = southcrosser
+
+#History

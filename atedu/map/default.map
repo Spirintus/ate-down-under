@@ -1,4 +1,4 @@
-max_provinces = 133
+max_provinces = 153
 definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
@@ -15,11 +15,17 @@ geographical_region = "geographical_region.txt"
 static = "statics"
 seasons = "seasons.txt"
 
-sea_zones = { 96 123 } #probably
+# New Zealand and Tasmania
+sea_zones = { 96 123 }
+# Taiwan and Ryukyu
+sea_zones = { 133 140 }
 
+ocean_region = {
+	sea_zones = { 1 } # Southern Pacific Ocean
+}
 
-ocean_region = {    # That one Ocean
-     sea_zones = { 1 }
+ocean_region = {
+	sea_zones = { 2 } # Northern Pacific until we connect it
 }
 
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment

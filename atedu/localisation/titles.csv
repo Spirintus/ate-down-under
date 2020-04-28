@@ -1,6 +1,7 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 d_the_fellowship_order;The Fellowship of the Ring;;;;;;;;;;;;x
 e_new_zealand;New Zealand;;;;;;;;;;;;x
+e_china;China;;;;;;;;;;;;x
 k_wellington;Wellington;;;;;;;;;;;;x
 k_auckland;Auckland;;;;;;;;;;;;x
 k_chatham;Chatham Islands;;;;;;;;;;;;x
@@ -12,6 +13,8 @@ k_jade_coast;the Jade Coast;;;;;;;;;;;;x
 k_south_cross;the Archbishopric;;;;;;;;;;;;x
 k_dunedin;Dunedin;;;;;;;;;;;;x
 k_christchurch;Christchurch;;;;;;;;;;;;x
+k_ryukyu;Ryukyu;;;;;;;;;;;;x
+k_taiwan;Taiwan;;;;;;;;;;;;x
 d_pegasus;Pegasus;;;;;;;;;;;;x
 d_christchurch;Christchurch;;;;;;;;;;;;x
 d_timaru;Timaru;;;;;;;;;;;;x
@@ -42,6 +45,10 @@ d_the_fiords;The Fiords;;;;;;;;;;;;x
 d_the_fiords_adj;Fiordan;;;;;;;;;;;;x
 d_otautahi;Otauahi;;;;;;;;;;;;x
 d_otautahi_adj;Otauahian;;;;;;;;;;;;x
+d_ryukyu_islands;Ryukyu Islands;;;;;;;;;;;;x
+d_taipei;Taipei;;;;;;;;;;;;x
+d_taichung;Taichung;;;;;;;;;;;;x
+d_hualien;Hualien;;;;;;;;;;;;x
 c_norfolk;Norfolk;;;;;;;;;;;;x
 c_stewart_island;Stewart Island;;;;;;;;;;;;x
 c_auckland_islands;New Auckland;;;;;;;;;;;;x
@@ -54,6 +61,18 @@ c_chatham;Chatham;;;;;;;;;;;;x
 c_russell_forest;Rusell;;;;;;;;;;;;x
 c_mataura;Mataura;;;;;;;;;;;;x
 c_kaipura;Kaipura;;;;;;;;;;;;x
+c_okinawa;Okinawa;;;;;;;;;;;;x
+c_sakishima_islands;;;;;;;;;;;;x
+c_yilan;Yilan;;;;;;;;;;;;x
+c_taipei;Taipei;;;;;;;;;;;;x
+c_hsinchu;Hsinchu;;;;;;;;;;;;x
+c_taichung;Taichung;;;;;;;;;;;;x
+c_nantou;Nantou;;;;;;;;;;;;x
+c_tainan;Tainan;;;;;;;;;;;;x
+c_kaohsiung;Kaohsiung;;;;;;;;;;;;x
+c_pingtung;Pingtung;;;;;;;;;;;;x
+c_taitung;Taitung;;;;;;;;;;;;x
+c_hualien;Hualien;;;;;;;;;;;;x
 b_mount_wellington;Mount Wellington;;;;;;;;;;;;x
 b_waiheke;Waiheke;;;;;;;;;;;;x
 b_mount_albert;Mount Albert;;;;;;;;;;;;x
@@ -225,10 +244,22 @@ b_lincoln;Lincoln;;;;;;;;;;;;x
 b_rolleston;Rolleston;;;;;;;;;;;;x
 b_swannanoa;Swannanoa;;;;;;;;;;;;x
 b_kaiapoi;Kaiapoi;;;;;;;;;;;;x
+b_naha;Naha;;;;;;;;;;;;x
+b_miyakojima;Miyakojima;;;;;;;;;;;;x
+b_yilan;Yilan;;;;;;;;;;;;x
+b_taipei;Taipei;;;;;;;;;;;;x
+b_hsinchu;Hsinchu;;;;;;;;;;;;x
+b_taichung;Taichung;;;;;;;;;;;;x
+b_nantou;Nantou;;;;;;;;;;;;x
+b_tainan;Tainan;;;;;;;;;;;;x
+b_kaohsiung;Kaohsiung;;;;;;;;;;;;x
+b_pingtung;Pingtung;;;;;;;;;;;;x
+b_taitung;Taitung;;;;;;;;;;;;x
+b_hualien;Hualien;;;;;;;;;;;;x
 d_otago;Otago;;;;;;;;;;;;x
 d_otago_adj;Otagoan;;;;;;;;;;;;x
 c_invercargill;Invercargill;;;;;;;;;;;;x
-c_invercargill_adj;Invercargillan;;;;;;;;;;;;x\
+c_invercargill_adj;Invercargillan;;;;;;;;;;;;x
 c_alexandra;Alexandra;;;;;;;;;;;;x
 c_alexandra_adj;Alexandran;;;;;;;;;;;;x
 c_balclutha;Balclutha;;;;;;;;;;;;x

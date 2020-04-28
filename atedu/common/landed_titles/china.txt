@@ -1,0 +1,148 @@
+e_china = {
+	color = { 220 72 34 }
+	color2 = { 255 255 255 }
+	
+	culture = melbournian
+	
+	capital = 170 # Guangzhou
+	
+	# cultural names
+	
+	k_ryukyu = {
+		color = { 64 122 83 }
+		color2 = { 255 255 255 }
+		
+		culture = melbournian
+		
+		capital = 141 # okinawa
+		
+		d_ryukyu_islands = {
+			color = { 165 186 147 }
+			color2 = { 255 255 255 }
+			
+			culture = melbournian
+			
+			capital = 141 # okinawa
+			
+			c_okinawa = {
+				color = { 140 156 118 }
+				color2 = { 255 255 255 }
+				
+				b_naha = {}
+			}
+			
+			c_sakishima_islands = {
+				color = { 129 156 139 }
+				color2 = { 255 255 255 }
+				
+				b_miyakojima = {}
+			}
+		}
+	}
+	
+	k_taiwan = {
+		color = { 25 44 117 }
+		color2 = { 255 255 255 }
+		
+		culture = melbournian
+		
+		capital = 144 # taipei
+		
+		d_taipei = {
+			color = { 33 28 214 }
+			color2 = { 255 255 255 }
+			
+			culture = melbournian
+			
+			capital = 144 # taipei
+			
+			c_yilan = {
+				color = { 63 78 255 }
+				color2 = { 255 255 255 }
+				
+				b_yilan = {}
+			}
+			
+			c_taipei = {
+				color = { 9 69 157 }
+				color2 = { 255 255 255 }
+				
+				b_taipei = {}
+			}
+			
+			c_hsinchu = {
+				color = { 91 129 251 }
+				color2 = { 255 255 255 }
+				
+				b_hsinchu = {}
+			}
+		}
+		
+		d_taichung = {
+			color = { 63 185 250 }
+			color2 = { 255 255 255 }
+			
+			culture = melbournian
+			
+			capital = 146 # taichung
+			
+			c_taichung = {
+				color = { 119 163 220 }
+				color2 = { 255 255 255 }
+				
+				b_taichung = {}
+			}
+			
+			c_nantou = {
+				color = { 44 226 182 }
+				color2 = { 255 255 255 }
+				
+				b_nantou = {}
+			}
+			
+			c_tainan = {
+				color = { 25 135 98 }
+				color2 = { 255 255 255 }
+				
+				b_tainan = {}
+			}
+			
+			c_kaohsiung = {
+				color = { 130 107 220 }
+				color2 = { 255 255 255 }
+				
+				b_kaohsiung = {}
+			}
+		}
+		
+		d_hualien = {
+			color = { 50 53 151 }
+			color2 = { 255 255 255 }
+			
+			culture = melbournian
+			
+			capital = 152 # hualien
+			
+			c_pingtung = {
+				color = { 100 91 214 }
+				color2 = { 255 255 255 }
+				
+				b_pingtung = {}
+			}
+			
+			c_taitung = {
+				color = { 160 185 251 }
+				color2 = { 255 255 255 }
+				
+				b_taitung = {}
+			}
+			
+			c_hualien = {
+				color = { 88 40 170 }
+				color2 = { 255 255 255 }
+				
+				b_hualien = {}
+			}
+		}
+	}
+}
