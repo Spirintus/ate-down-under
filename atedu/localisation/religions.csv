@@ -1,65 +1,79 @@
-#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-southcrosser;Southcrosser;;;;;;;;;;;;;x
-southcrosser_full;Church of Southern Cross;;;;;;;;;;;;x
-southcrosser_DESC;
-The Church of the Southern Cross emerged after a prophet somewhere in the australian interior was given a new bible by Our Saviour, the Gospel. After that the church grew in numbers and spread like wildfire, both through missionary work and war. \n The head of the church is the archbishop, who lives and rules Brisbane. However he is elected by a council of bishops. \n Though some claim the church is not christian due to their refusal of the trinity (instead choosing to replace it with a system of four different forms of God), the majority still says they are christians.;;;;;;;;;;;;;x
-THE_GOSPEL;The Gospel;;;;;;;;;;;;;x
-GOD_THE_SAVIOUR;The Saviour;;;;;;;;;;;;;x
-GOD_THE_SOUTHERN_CROSS;The Southern Cross;;;;;;;;;;;;;x
-FALLEN_ANGEL;Fallen Angel;;;;;;;;;;;;;x
-THE_GREAT_HERETIC;The Great Heretic;;;;;;;;;;;;;x
-GOD_THE_HIDDEN_GOD;The Hidden God;;;;;;;;;;;;;x
-HEBREW_GOD;The Hebrew God;;;;;;;;;;;;;x
-DEMIURGE;The Demiurge;;;;;;;;;;;;;x
-GOD_STPAUL;Paul the Apostle;;;;;;;;;;;;;x
-PROPHET_MARCION;Marcion of Sinope;;;;;;;;;;;;;x
-johanite;Johanite;;;;;;;;;;;;;x
-SATAN;Satan;;;;;;;;;;;;;x
-THE_NEW_TESTAMENT;The New Testament;;;;;;;;;;;;;x
-johanite_full;Johanite;;;;;;;;;;;;;x
-johanite_DESC;This movement claims to be based on the ideas of John I, duke of Toowoomba, who famously opposed archbishop Holy Warrior I during the Sydney Accusations. Though in reality these two movements don’t share much beyond an opposition to the archbishop. ;;;;;;;;;;;;;x
-gnostic;Marcionite;;;;;;;;;;;;;x
-gnostic_full;The Church of Marcion;;;;;;;;;;;;;x
-gnostic_DESC;The ideas proposed by Marcion of Sinope are almost as old as Christianity itself, but the Church in its modern form was founded rather recently. It traces its origin to a dispute between the Elizabethan clergy and the mainstream Southcrosser opinion on the validity of the historical New Testament, eventually culminating in a schism between the Principality of Elizabeth and the rest of the Southcrosser church and the total rejection of the Southcrosser Gospel. It rejects the god of the Old Testament, claiming that the teachings of Jesus are incompatible with the genocidal maniac featured in the Old Testament. In game, they are unable to declare Holy Wars and have decreased martial stats to represent their pacifism and loving nature.;;;;;;;;;;;;;x
-true_church;True Church;;;;;;;;;;;;;x
-true_church_full;True Church;;;;;;;;;;;;;x
-true_church_DESC;True Church - After the event and the rise of the Church of the Southern Cross, the few australian christians who refused to switch their allegiance to the new church banded together and reorganized in the west, where the new faith was the weakest, forming the 'True and Christian Church of God and Jesus Christ', commonly known as the True Church. The religion blends aspects of several pre-existing denominations.;;;;;;;;;;;;;x
-aotearoan;Aotearoan;;;;;;;;;;;;;x
-aotearoan_full;Aotearoan;;;;;;;;;;;;;x
-aotearoan_DESC;After the chaos that consumed the islands after the event, the former Maori Church became the only christian group in the region, as every other denomination was replaced by Eruism. Though still christian, the aotearoan church has adopted some elements from Eruism.;;;;;;;;;;;;;x
-MANA;Mana;;;;;;;;;;;;;x
-GOD_ATUA;Atua;;;;;;;;;;;;;x
-purist;Purist;;;;;;;;;;;;;x
-purist_full;Purist;;;;;;;;;;;;;x
-purist_DESC;After the Aotearoan Church became widespread and started accepting anglos and other peoples into the fold, a group of priests and theologians founded the Purist Movement, which sought to bring the church back to what they saw as ‘the rightful path’, in which the maori are the chosen people and foreigners are not allowed.;;;;;;;;;;;;;x
-indian;Indian;;;;;;;;;;;;;x
-indian_full;Indian;;;;;;;;;;;;;x
-indian_DESC;Indian church is christian denomination which have evolved from baptist and presbyterian churches in northeastern India.;;;;;;;;;;;;;x
-eruist;Eruist;;;;;;;;;;;;x
-eruist_full;Eruism;;;;;;;;;;;;x
-eruist_DESC;
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,,,,
+southcrosser;Southcrosser;;;;;;;;;;;;;x,,,,,,
+southcrosser_full;Church of Southern Cross;;;;;;;;;;;;x,,,,,,
+southcrosser_DESC;,,,,,,
+The Church of the Southern Cross emerged after a prophet somewhere in the australian interior was given a new bible by Our Saviour, the Gospel. After that the church grew in numbers and spread like wildfire, both through missionary work and war. \n The head of the church is the archbishop, who lives and rules Brisbane. However he is elected by a council of bishops. \n Though some claim the church is not christian due to their refusal of the trinity (instead choosing to replace it with a system of four different forms of God), the majority still says they are christians.;;;;;;;;;;;;;x,,
+THE_GOSPEL;The Gospel;;;;;;;;;;;;;x,,,,,,
+GOD_THE_SAVIOUR;The Saviour;;;;;;;;;;;;;x,,,,,,
+GOD_THE_SOUTHERN_CROSS;The Southern Cross;;;;;;;;;;;;;x,,,,,,
+FALLEN_ANGEL;Fallen Angel;;;;;;;;;;;;;x,,,,,,
+THE_GREAT_HERETIC;The Great Heretic;;;;;;;;;;;;;x,,,,,,
+GOD_THE_HIDDEN_GOD;The Hidden God;;;;;;;;;;;;;x,,,,,,
+HEBREW_GOD;The Hebrew God;;;;;;;;;;;;;x,,,,,,
+DEMIURGE;The Demiurge;;;;;;;;;;;;;x,,,,,,
+GOD_STPAUL;Paul the Apostle;;;;;;;;;;;;;x,,,,,,
+PROPHET_MARCION;Marcion of Sinope;;;;;;;;;;;;;x,,,,,,
+johanite;Johanite;;;;;;;;;;;;;x,,,,,,
+SATAN;Satan;;;;;;;;;;;;;x,,,,,,
+THE_NEW_TESTAMENT;The New Testament;;;;;;;;;;;;;x,,,,,,
+johanite_full;Johanite;;;;;;;;;;;;;x,,,,,,
+johanite_DESC;This movement claims to be based on the ideas of John I, duke of Toowoomba, who famously opposed archbishop Holy Warrior I during the Sydney Accusations. Though in reality these two movements don’t share much beyond an opposition to the archbishop. ;;;;;;;;;;;;;x,,,,
+gnostic;Marcionite;;;;;;;;;;;;;x,,,,,,
+gnostic_full;The Church of Marcion;;;;;;;;;;;;;x,,,,,,
+gnostic_DESC;The ideas proposed by Marcion of Sinope are almost as old as Christianity itself, but the Church in its modern form was founded rather recently. It traces its origin to a dispute between the Elizabethan clergy and the mainstream Southcrosser opinion on the validity of the historical New Testament, eventually culminating in a schism between the Principality of Elizabeth and the rest of the Southcrosser church and the total rejection of the Southcrosser Gospel. It rejects the god of the Old Testament, claiming that the teachings of Jesus are incompatible with the genocidal maniac featured in the Old Testament. In game, they are unable to declare Holy Wars and have decreased martial stats to represent their pacifism and loving nature.;;;;;;;;;;;;;x,,
+true_church;True Church;;;;;;;;;;;;;x,,,,,,
+true_church_full;True Church;;;;;;;;;;;;;x,,,,,,
+true_church_DESC;True Church - After the event and the rise of the Church of the Southern Cross, the few australian christians who refused to switch their allegiance to the new church banded together and reorganized in the west, where the new faith was the weakest, forming the 'True and Christian Church of God and Jesus Christ', commonly known as the True Church. The religion blends aspects of several pre-existing denominations.;;;;;;;;;;;;;x,,
+aotearoan;Aotearoan;;;;;;;;;;;;;x,,,,,,
+aotearoan_full;Aotearoan;;;;;;;;;;;;;x,,,,,,
+aotearoan_DESC;After the chaos that consumed the islands after the event, the former Maori Church became the only christian group in the region, as every other denomination was replaced by Eruism. Though still christian, the aotearoan church has adopted some elements from Eruism.;;;;;;;;;;;;;x,,,
+MANA;Mana;;;;;;;;;;;;;x,,,,,,
+GOD_ATUA;Atua;;;;;;;;;;;;;x,,,,,,
+purist;Purist;;;;;;;;;;;;;x,,,,,,
+purist_full;Purist;;;;;;;;;;;;;x,,,,,,
+purist_DESC;After the Aotearoan Church became widespread and started accepting anglos and other peoples into the fold, a group of priests and theologians founded the Purist Movement, which sought to bring the church back to what they saw as ‘the rightful path’, in which the maori are the chosen people and foreigners are not allowed.;;;;;;;;;;;;;x,,,
+indian;Indian;;;;;;;;;;;;;x,,,,,,
+indian_full;Indian;;;;;;;;;;;;;x,,,,,,
+indian_DESC;Indian church is christian denomination which have evolved from baptist and presbyterian churches in northeastern India.;;;;;;;;;;;;;x,,,,,,
+eruist;Eruist;;;;;;;;;;;;x,,,,,,
+eruist_full;Eruism;;;;;;;;;;;;x,,,,,,
+eruist_DESC;,,,,,,
 Though the origins of Eruism are shrouded in mystery and legend, with some claiming it was founded by a prophet known only as ‘Tolkien’, it is known that this monotheistic religion only became widespread after the XXII century. Followers believe in Eru Ilúvatar, the only god and the creator of all life, though they also believe in countless other beings, like the Ainur, and in the prophecy of the Chosen One.
-;;;;;;;;;;;;x
-GOD_ERU_ILUVATAR;Eru Ilúvatar;;;;;;;;;;;;x
-GOD_THE_HEROES;the Heroes;;;;;;;;;;;;x
-GOD_THE_CHOOSEN_ONE;The Chosen One;;;;;;;;;;;;x
-GOD_VALAR;the Valar;;;;;;;;;;;;x
-GOD_AINUR;the Ainur;;;;;;;;;;;;x
-GOD_QUENDI;the Quendi;;;;;;;;;;;;x
-GOD_ELDARIN;Eldarin;;;;;;;;;;;;x
-GOD_KHAZAD;Khazad;;;;;;;;;;;;x
-GOD_HOBBITS;the Hobbits;;;;;;;;;;;;x
-GOD_THE_WIZARDS;The Wizards;;;;;;;;;;;;x
-THE_KING_OF_DARKNESS;The King of Darkness;;;;;;;;;;;;x
-THE_EVIL_LORD;The Evil Lord;;;;;;;;;;;;x
-DARTH_SAURON; Darth Sauron;;;;;;;;;;;;x
-quendic;Quendic;;;;;;;;;;;;x
-quendic_full;Quendism;;;;;;;;;;;;x
-quendic_DESC;There will be description. Once...;;;;;;;;;;;;x
-ritualistic;Ritualistic;;;;;;;;;;;;x
-ritualistic_full;Ritualism;;;;;;;;;;;;x
-ritualistic_DESC;There will be description. Once...;;;;;;;;;;;;x
-ARCHBISHOP;Archbishop;;;;;;;;;;;;x
-CHOSEN_ONE;Chosen One;;;;;;;;;;;;x
-TOHUNGANUI;Tohunganui;;;;;;;;;;;;x
-eruist_group;Eruist;;;;;;;;;;;;x
+;;;;;;;;;;;;x,,,,,,
+GOD_ERU_ILUVATAR;Eru Ilúvatar;;;;;;;;;;;;x,,,,,,
+GOD_THE_HEROES;the Heroes;;;;;;;;;;;;x,,,,,,
+GOD_THE_CHOOSEN_ONE;The Chosen One;;;;;;;;;;;;x,,,,,,
+GOD_VALAR;the Valar;;;;;;;;;;;;x,,,,,,
+GOD_AINUR;the Ainur;;;;;;;;;;;;x,,,,,,
+GOD_QUENDI;the Quendi;;;;;;;;;;;;x,,,,,,
+GOD_ELDARIN;Eldarin;;;;;;;;;;;;x,,,,,,
+GOD_KHAZAD;Khazad;;;;;;;;;;;;x,,,,,,
+GOD_HOBBITS;the Hobbits;;;;;;;;;;;;x,,,,,,
+GOD_THE_WIZARDS;The Wizards;;;;;;;;;;;;x,,,,,,
+THE_KING_OF_DARKNESS;The King of Darkness;;;;;;;;;;;;x,,,,,,
+THE_EVIL_LORD;The Evil Lord;;;;;;;;;;;;x,,,,,,
+DARTH_SAURON; Darth Sauron;;;;;;;;;;;;x,,,,,,
+quendic;Quendic;;;;;;;;;;;;x,,,,,,
+quendic_full;Quendism;;;;;;;;;;;;x,,,,,,
+quendic_DESC;There will be description. Once...;;;;;;;;;;;;x,,,,,,
+ritualistic;Ritualistic;;;;;;;;;;;;x,,,,,,
+ritualistic_full;Ritualism;;;;;;;;;;;;x,,,,,,
+ritualistic_DESC;There will be description. Once...;;;;;;;;;;;;x,,,,,,
+ARCHBISHOP;Archbishop;;;;;;;;;;;;x,,,,,,
+CHOSEN_ONE;Chosen One;;;;;;;;;;;;x,,,,,,
+TOHUNGANUI;Tohunganui;;;;;;;;;;;;x,,,,,,
+eruist_group;Eruist;;;;;;;;;;;;x,,,,,,
+eastern_group;Eastern;;;;;;;;;;;;x,,,,,,
+shinto;Shinto;;;;;;;;;;;;x,,,,,,
+GOD_THE_EMPEROR;The Emperor;;;;;;;;;;;;x,,,,,,
+GOD_AMATERASU;Amaterasu;;;;;;;;;;;;x,,,,,,
+GOD_TSUKUYOMI;Tsukuyomi;;;;;;;;;;;;x,,,,,,
+GOD_SUSANOO;Susanoo;;;;;;;;;;;;x,,,,,,
+GOD_UZUME;Uzume;;;;;;;;;;;;x,,,,,,
+GOD_INARI;Inari;;;;;;;;;;;;x,,,,,,
+GOD_TENJIN;Tenjin;;;;;;;;;;;;x,,,,,,
+GOD_EBISU;Ebisu;;;;;;;;;;;;x,,,,,,
+GOD_RYUJIN;Ryujin;;;;;;;;;;;;x,,,,,,
+GOD_JIZO;Jizo;;;;;;;;;;;;x,,,,,,
+GOD_THE_YOKAI;The Yokai;;;;;;;;;;;;x,,,,,,
+THE_KOJIKI;The Kojiki;;;;;;;;;;;;x,,,,,,

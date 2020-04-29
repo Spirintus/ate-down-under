@@ -1,0 +1,87 @@
+# parts taken from after the end fan fork
+chinese = {
+	graphical_cultures = { chinesegfx }
+	
+	taiwanese = {
+		graphical_cultures = { chinesegfx }
+		unit_graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+
+		dynasty_name_first = yes
+		
+		color = { 17 2 43 }
+		
+		male_names = {
+		Chen-jui Cheng-en
+		Jui-en
+		Pin-jui Po-yu
+		Yu-chen Yu-en Yu-hsiang Yu-ting
+		}
+		
+		female_names = {
+		En-chi
+		Jui-yu
+		Pin-yen Pin-yu
+		Tzu-ching
+		Yu-tung Yung-ching
+		}
+		
+		dynasty_name_first = yes
+		from_dynasty_prefix = ""
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+		
+		used_for_random = no
+		
+		seafarer = yes
+		modifier = default_culture_modifier
+	}
+}
+			
+
+nihonjin = {
+	graphical_cultures = { chinesegfx }
+	
+	edokko = {
+		graphical_cultures = { chinesegfx }
+		unit_graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+
+		dynasty_name_first = yes
+		
+		color = { 255 221 202 }
+		
+		male_names = {
+			Aoi Arata
+			Haruto
+			Minato
+			Ren Ritsu
+		}
+		
+		female_names = {
+			An
+			Himari
+			Rin
+			Tsumugi
+			Yua
+		}
+		
+		from_dynasty_prefix = ""
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+		
+		used_for_random = no
+
+		modifier = default_culture_modifier
+	}
+}
