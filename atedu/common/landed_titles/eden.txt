@@ -2,7 +2,7 @@ e_eden = {
 	color = { 185 66 79 }
 	color2 = { 255 255 255 }
 
-	capital = 140 #melbourne
+	capital = 160 # melbourne
 	
 	melbournian = "Victoria"
 	victorian = "Victoria"

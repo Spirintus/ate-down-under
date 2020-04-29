@@ -75,6 +75,7 @@ province;red;green;blue;x;x
 74;107;66;55;Auckland Islands;x
 75;85;20;3;Campbell;x
 76;175;65;108;Chatham Islands;x
+77;77;77;77;Nothing;x
 78;125;126;53;West Fiordland;x
 79;173;175;0;Alabaster;x
 80;145;147;7;Ionia;x
@@ -130,3 +131,23 @@ province;red;green;blue;x;x
 130;124;77;44;South Launceston;x
 131;201;108;45;Furneaux;x
 132;254;158;92;Kings Island;x
+133;47;63;166;Okinawa Sea;x
+134;98;88;255;East China Sea;x
+135;12;88;242;East China Sea;x
+136;37;9;233;Sakishima Sea;x
+137;50;15;195;Keelung Coast;x
+138;12;53;135;Taitung Coast;x
+139;22;6;122;Taiwan Strait;x
+140;94;139;227;Taiwan Strait;x
+141;182;170;192;Okinawa;x
+142;132;144;135;Sakishima Islands;x
+143;187;160;21;Yilan;x
+144;163;119;57;Taipei;x
+145;209;197;74;Hsinchu;x
+146;188;122;34;Taichung;x
+147;220;179;94;Nantou;x
+148;255;217;31;Tainan;x
+149;255;161;41;Kaohsiung;x
+150;161;158;35;Pingtung;x
+151;187;132;28;Taitung;x
+152;246;224;69;Hualien;x
