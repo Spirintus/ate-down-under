@@ -183,7 +183,7 @@ d_kastom_keeper = {
 }
 
 k_eruist = {
-	color = { 0 0 0 }
+	color = { 56 198 69 }
 	color2 = {255 255 255}
 	
 	capital = 58 #for now
@@ -194,13 +194,11 @@ k_eruist = {
 	religion = eruist
 	controls_religion = eruist
 	
-	primary = yes
-	
 	dynasty_title_names = no
 }
 
 k_quendic = {
-	color = { 0 0 0 }
+	color = { 127 24 136 }
 	color2 = {255 255 255}
 	
 	capital = 58 #for now
@@ -211,13 +209,23 @@ k_quendic = {
 	religion = quendic
 	controls_religion = quendic
 	
-	primary = yes
+	dynasty_title_names = no
+}
+k_ritualistic = {
+	color  = { 189 211 36 }
+	color2 = { 255 255 255}
+	
+	capital = 58
+	title = "ARCHWIZARD"
+	foa = "ARCHWIZARD_FOA"
+	
+	religion = ritualistic
+	controls_religion = ritualistic
 	
 	dynasty_title_names = no
 }
-
 d_aotearoan = {
-	color = { 0 0 0 }
+	color = { 14 27 192 }
 	color2 = {255 255 255}
 	
 	capital = 58 #for now
@@ -233,7 +241,7 @@ d_aotearoan = {
 	dynasty_title_names = no
 }
 d_purist = {
-	color = { 0 0 0 }
+	color = { 38 38 38 }
 	color2 = {255 255 255}
 	
 	capital = 58 #for now

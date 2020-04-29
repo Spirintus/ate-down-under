@@ -420,7 +420,8 @@ pagan_group = {
 	dreaming_pagan_reformed = {
 		graphical_culture = africangfx
 		
-		icon = 2
+		icon = 10
+		heresy_icon = 11
 		
 		color = { 0 0 0 }
 		
@@ -439,6 +440,8 @@ pagan_group = {
 			EVIL_SPIRITS JAMES_COOK
 		}
 		
+		allow_in_ruler_designer = no
+		
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
 	}
@@ -446,7 +449,8 @@ pagan_group = {
 	dreaming_pagan = {
 		graphical_culture = africangfx
 		
-		icon = 2
+		icon = 9
+		heresy_icon = 11
 		
 		color = { 0 0 0 }
 		
@@ -474,7 +478,8 @@ pagan_group = {
 	highway_cultist_reformed = {
 		graphical_culture = westerngfx
 		
-		icon = 2
+		icon = 13
+		heresy_icon = 14
 		
 		color = {0 0 0 }
 		
@@ -499,6 +504,8 @@ pagan_group = {
 		allow_looting = yes
 		max_wives = 2
 		
+		allow_in_ruler_designer = no
+		
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
 	}
@@ -506,7 +513,8 @@ pagan_group = {
 	highway_cultist = {
 		graphical_culture = westerngfx
 		
-		icon = 2
+		icon = 12
+		heresy_icon = 14
 		
 		color = {0 0 0 }
 		
@@ -628,6 +636,8 @@ pagan_group = {
 		evil_god_names = {
 			TEWEL OL_SPIRIT_NOGUT SATEN 
 		}
+		
+		allow_in_ruler_designer = no
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
