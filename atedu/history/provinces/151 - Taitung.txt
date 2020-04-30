@@ -8,6 +8,6 @@ b_taitung = castle
 
 # Misc
 culture = taiwanese
-religion = southcrosser
+religion = shenist
 
 #History

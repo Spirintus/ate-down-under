@@ -8,6 +8,6 @@ b_hsinchu = city
 
 # Misc
 culture = taiwanese
-religion = southcrosser
+religion = shenist
 
 #History
