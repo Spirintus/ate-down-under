@@ -1044,12 +1044,46 @@ eastern_group = { #shenism, shintoism
 	
 	interface_skin = { indian_interface muslim_interface }
 	
+	shenist = {
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
+		
+		icon = 13
+		
+		color = { 250 235 3 }
+		
+		interface_skin = { taoist_interface indian_interface muslim_interface }
+		
+		high_god_name = GOD_TIAN
+		
+		god_names = {
+			GOD_THE_JADE_EMPEROR GOD_THE_QUEEN_MOTHER_OF_THE_WEST GOD_SHENG_YIJUN GOD_CONFUCIUS GOD_LAOZI GOD_GUANYIN GOD_THE_DRAGON_KING GOD_THE_EIGHT_IMMORTALS GOD_THE_YELLOW_EMPEROR GOD_THE_FLAME_EMPEROR GOD_THE_ANCESTORS
+		}
+		
+		evil_god_names = {
+			GOD_YAN_WANG GOD_THE_GUI GOD_MAO GOD_THE_PARTY
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		max_consorts = 3 #can take concubines
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_CHINESE_CLASSICS
+		priest_title = PRIEST
+		piety_name = DE
+	}
+	
 	shinto = {
 		graphical_culture = chinesegfx
 		secondary_event_pictures = sunni
 
 		icon = 12
-		heresy_icon = 12
 		
 		color = { 0.9 0.65 0.65 }
 		

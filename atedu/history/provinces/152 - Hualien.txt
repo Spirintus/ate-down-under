@@ -8,6 +8,6 @@ b_hualien = castle
 
 # Misc
 culture = taiwanese
-religion = southcrosser
+religion = shenist
 
 #History
