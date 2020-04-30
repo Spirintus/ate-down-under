@@ -22,60 +22,58 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPT_eruve_1_A #Arcane magic
+		name = EVTOPT_eruve_1_A #School of Gandalf
 		add_character_modifier = {
-			name = arcane_school
+			name = gray_magic
 			duration = -1
 		}
 		clr_character_flag = selecting_magic_school
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_MAGIC_SCHOOL_ARCANE
+				entry = CHRONICLE_MAGIC_SCHOOL_GRAY
 			}
 		}
 	}
 	option = {
-		name = EVTOPT_eruve_1_B #Light magic
+		name = EVTOPT_eruve_1_A #School of Saruman
 		add_character_modifier = {
-			name = light_school
+			name = white_magic
 			duration = -1
 		}
 		clr_character_flag = selecting_magic_school
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_MAGIC_SCHOOL_LIGHT
+				entry = CHRONICLE_MAGIC_SCHOOL_WHITE
 			}
 		}
 	}
 	option = {
-		name = EVTOPT_eruve_1_C # Dark magic
-		custom_tooltip = {text = they_have_cookies}
+		name = EVTOPT_eruve_1_A #School of Radagast
 		add_character_modifier = {
-			name = dark_school
+			name = brown_magic
 			duration = -1
 		}
 		clr_character_flag = selecting_magic_school
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_MAGIC_SCHOOL_DARK
+				entry = CHRONICLE_MAGIC_SCHOOL_BROWN
 			}
 		}
 	}
 	option = {
-		name = EVTOPT_eruve_1_D # Hamon Magic
-		
+		name = EVTOPT_eruve_1_A #School of Ithryn Luin
 		add_character_modifier = {
-			name = hamon_school
+			name = blue_magic
 			duration = -1
 		}
 		clr_character_flag = selecting_magic_school
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_MAGIC_SCHOOL_HAMON
+				entry = CHRONICLE_MAGIC_SCHOOL_BLUE
 			}
 		}
 	}

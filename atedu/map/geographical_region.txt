@@ -18,7 +18,7 @@
 
 world_nz_south_island = {
 	duchies = {
-		d_otago d_christchurch d_south_island d_mainland d_the_fiords d_rakiura d_lakes d_timaru d_pegasus d_haast d_greymouth d_the_woods d_cook d_the_fiords
+		d_otago d_christchurch d_south_island d_mainland d_the_fiords d_rakiura d_lakes d_timaru d_pegasus d_haast d_greymouth d_the_woods d_cook
 	}
 }
 

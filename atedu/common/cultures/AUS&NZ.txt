@@ -423,7 +423,7 @@ east_australian = {
 		modifier = default_culture_modifier
 	}
 	
-	tasman = {
+	tasmanian = {
 		graphical_cultures = { englishgfx westerngfx }
 		color = { 35 255 201 }
 		

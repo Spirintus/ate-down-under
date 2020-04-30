@@ -186,13 +186,15 @@ k_eruist = {
 	color = { 56 198 69 }
 	color2 = {255 255 255}
 	
-	capital = 58 #for now
+	capital = 58 
 	
 	title = "CHOSEN_ONE"
 	foa = "CHOSEN_ONE_FOA"
 	
 	religion = eruist
 	controls_religion = eruist
+	
+	primary = yes
 	
 	dynasty_title_names = no
 }
@@ -201,13 +203,15 @@ k_quendic = {
 	color = { 127 24 136 }
 	color2 = {255 255 255}
 	
-	capital = 58 #for now
+	capital = 58 
 	
 	title = "QUENTARO"
 	foa = "QUENTARO_FOA"
 	
 	religion = quendic
 	controls_religion = quendic
+	
+	primary = yes
 	
 	dynasty_title_names = no
 }
@@ -222,13 +226,15 @@ k_ritualistic = {
 	religion = ritualistic
 	controls_religion = ritualistic
 	
+	primary = yes
+	
 	dynasty_title_names = no
 }
 d_aotearoan = {
 	color = { 14 27 192 }
 	color2 = {255 255 255}
 	
-	capital = 58 #for now
+	capital = 98 #Bay of Plenty
 	
 	title = "TOHUNGANUI"
 	foa = "TOHUNGANUI_FOA"
@@ -244,13 +250,29 @@ d_purist = {
 	color = { 38 38 38 }
 	color2 = {255 255 255}
 	
-	capital = 58 #for now
+	capital = 98 #Bay of Plenty
 	
 	title = "TOHUNGANUI"
 	foa = "TOHUNGANUI_FOA"
 	
 	religion = purist
 	controls_religion = purist
+	
+	primary = yes
+	
+	dynasty_title_names = no
+}
+d_digger = {
+	color = { 255 255 230}
+	color2 = { 255 255 255 }
+	
+	capital = 124 #for now
+	
+	title = "FIELD_MARSHALL"
+	foa = "FIELD_MARSHALL_FOA"
+	
+	religion = digger
+	controls_religion = digger
 	
 	primary = yes
 	

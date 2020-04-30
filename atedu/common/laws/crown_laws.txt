@@ -158,8 +158,6 @@ de_jure_laws = {
 							NOT = { religion_group = pagan_group }
 							not = { holder_scope = { government = mandala_government } }
 							is_reformed_religion = yes
-							religion = bon
-							religion = bon_reformed
 						}
 					}
 				}
@@ -257,8 +255,6 @@ de_jure_laws = {
 							NOT = { religion_group = pagan_group }
 							not = { holder_scope = { government = mandala_government } }
 							is_reformed_religion = yes
-							religion = bon
-							religion = bon_reformed
 						}
 					}
 				}
@@ -360,8 +356,6 @@ de_jure_laws = {
 							NOT = { religion_group = pagan_group }
 							not = { holder_scope = { government = mandala_government } }
 							is_reformed_religion = yes
-							religion = bon
-							religion = bon_reformed
 						}
 					}
 				}
@@ -452,8 +446,8 @@ de_jure_laws = {
 		potential = {
 			holder_scope = {
 				OR = {
-					religion = catholic
-					religion = fraticelli
+					religion = aotearoan
+					religion = purist
 				}
 				is_tribal = no
 				is_nomadic = no
@@ -495,8 +489,8 @@ de_jure_laws = {
 		potential = {
 			holder_scope = {
 				OR = {
-					religion = catholic
-					religion = fraticelli
+					religion = aotearoan
+					religion = purist
 				}
 				is_tribal = no
 				is_nomadic = no

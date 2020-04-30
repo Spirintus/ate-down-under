@@ -1,14 +1,13 @@
 EVTDESC_eruve_1_kid;These are four schools of magic which has been performed by wise wizards for centuries. The time has come for me to choose one of them. Before I achieve adulthood I am allowed to change my mind, however if I wanted to change my school without mastering once I become an adult, it would be great shame.;;;;;;;;;;;;x
 EVTDESC_eruve_1_adult;These are four schools of magic which has been performed by wise wizards for centuries. I should choose one of them and make an attempt to master it. It would be great shame if I tried to change my school as an adult.;;;;;;;;;;;;x
-EVTOPT_eruve_1_A;School of the wisest wizards, the Arcane magic.;;;;;;;;;;;;x
-EVTOPT_eruve_1_B;Magic of Teuperion and Laurelin, the Light side of the magic.;;;;;;;;;;;;x
-EVTOPT_eruve_1_C;Or maybe I will join the the Dark side of the magic;;;;;;;;;;;;x
-they_have_cookies;They have cookies;;;;;;;;;;;;x
-EVTOPT_eruve_1_D;Hamon, the school centered around controlling of one's own body;;;;;;;;;;;;x
-arcane_school;Arcane Magic;;;;;;;;;;;;x
-light_school;The Light side of the Magic;;;;;;;;;;;;x
-dark_school;The Dark side of the Magic;;;;;;;;;;;;x
-hamon_school;Hamon;;;;;;;;;;;;x
+EVTOPT_eruve_1_A;School of the wandering wizard, Gandalf the Gray.;;;;;;;;;;;;x
+EVTOPT_eruve_1_B;School of the wisest wizard, Saruman the White.;;;;;;;;;;;;x
+EVTOPT_eruve_1_C;School of the Tender of Beasts, Radegast The Brown;;;;;;;;;;;;x
+EVTOPT_eruve_1_D;School of the progenitors of New Zealand, two Blue Wizards;;;;;;;;;;;;x
+gray_magic;School of Ganfalf;;;;;;;;;;;;x
+white_magic;School of Saruman;;;;;;;;;;;;x
+brown_magic;School of Radagast;;;;;;;;;;;;x
+blue_magic;School of Ithryn Luin;;;;;;;;;;;;x
 choose_ritualistic_school;Choose the school of magic;;;;;;;;;;;;x
-choose_ritualistic_school_desc;Every ritualistic character might try to learn and master a magic;;;;;;;;;;;;x
+choose_ritualistic_school_desc;Every ritualistic character might try to learn and master one of four magical schools;;;;;;;;;;;;x
 custom_tooltip_choose_ritualistic_school;Choose school of magic;;;;;;;;;;;;x

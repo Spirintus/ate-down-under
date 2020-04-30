@@ -1688,6 +1688,7 @@ gender_laws = {
 				holder_scope = {
 					OR = {
 						religion = gnostic
+						religion = aotearoan
 						religion_group = eruist_group
 						has_religion_feature = religion_equal
 					}
@@ -1719,6 +1720,7 @@ gender_laws = {
 							has_religion_feature = religion_equal
 							religion_group = eruist_group
 							religion = gnostic
+							religion = aotearoan
 						}
 					}
 				}
@@ -1731,6 +1733,7 @@ gender_laws = {
 						has_religion_feature = religion_equal
 						religion_group = eruist_group
 						religion = gnostic
+						religion = aotearoan
 					}
 				}
 			}

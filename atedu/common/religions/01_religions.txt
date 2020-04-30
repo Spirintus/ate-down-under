@@ -350,7 +350,7 @@ oldworld = {
 		
 		icon = 2
 		
-		color = { 105 48 112 }
+		color = {255 255 230} #{ 105 48 112 }
 		
 		crusade_name = MISSIONS
 		crusade_cb = crusade
@@ -360,12 +360,16 @@ oldworld = {
 		high_god_name = ANZAC_SPIRIT
 		
 		god_names = {
-			GOD_SIMPSON_AND_HIS_DONKEY GOD_MONASH GOD_TOMAS_BLAMEY
+			GOD_AUSSIE_STRAYA GOD_SIMPSON_AND_HIS_DONKEY GOD_MONASH GOD_TOMAS_BLAMEY GOD_NED_KELLY 
 		}
 		evil_god_names = {
-			JOHNY_TURK JAP
+			JOHNY_TURK JAP HUN
 		}
 		
+		can_call_crusade = yes
+		
+		priests_can_marry = yes
+		priests_can_inherit = yes
 	}
 	
 	cargo_cult = {

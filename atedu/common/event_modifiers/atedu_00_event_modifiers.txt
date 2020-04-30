@@ -22,23 +22,21 @@ crocodile_skin = {
 
 
 ##ritualistic schools##
-arcane_school = {
+gray_magic = { #Gandalf
 	icon = 48
 	learning = 3
 }
-light_school = {
+blue_magic = { #Blue Wizards - progenitors of New Zealand
 	icon = 48
+	diplomacy = 2
 	martial = 1
-	learning = 1
-	intrigue = -1
 } 
-dark_school = {
+white_magic = { #Saruman
 	icon = 48
 	intrigue = 2
-	diplomacy = -1
 	combat_rating = 5
 }
-hamon_school = {
+brown_magic = { #Radagast
 	icon = 48
 	combat_rating = 10
 	health = 0.5

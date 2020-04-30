@@ -26,7 +26,7 @@
 	2611.4.9 = { birth = yes }
 	2630.7.14 = { add_spouse = 501 }
 	trait = cancer
-	trait = attractive
+	trait = fair
 }
 503 = {
 	name = "Samantha"
@@ -59,7 +59,7 @@
 	mother = 502
 	female = yes
 	2635.11.7 = { birth = yes }
-	trait = attractive
+	trait = fair
 }
 507 = {
 	name = "Cat"
@@ -70,7 +70,7 @@
 	mother = 502
 	female = yes
 	2639.3.22 = { birth = yes }
-	trait = attractive
+	trait = fair
 }
 508 = {
 	name = "Puppy"
@@ -81,7 +81,7 @@
 	mother = 502
 	female = yes
 	2644.7.8 = { birth = yes }
-	trait = attractive
+	trait = fair
 }
 509 = {
 	name = "Domi"
@@ -92,7 +92,7 @@
 	mother = 502
 	female = yes
 	2648.2.28 = { birth = yes }
-	trait = attractive
+	trait = fair
 }
 510 = {
 	name = "Lizzie"
@@ -103,7 +103,7 @@
 	mother = 502
 	female = yes
 	2652.3.27 = { birth = yes }
-	trait = attractive
+	trait = fair
 }
 511 = {
 	name = "Malcolm"
