@@ -984,3 +984,28 @@
 	trait = bastard
 	2653.10.20 = {birth = yes}
 }
+
+121 = { #ruler of tasmania
+	name = "Dale"
+	dynasty = 212
+	religion = southcrosser
+	culture = melbournian
+	trait = strong
+	2610.6.26 = {birth = yes}
+}
+
+140 = { #ruler of wynyard
+	name = "Ned"
+	dynasty = 213
+	religion = southcrosser
+	culture = melbournian
+	2630.2.12 = {birth = yes}
+}
+
+150 = { #ruler of the bass islands
+	name = "Kevin"
+	dynasty = 218
+	religion = southcrosser
+	culture = melbournian
+	2626.7.19 = {birth = yes}
+}
