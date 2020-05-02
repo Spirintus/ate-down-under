@@ -1,4 +1,10 @@
-on_startup = {
+on_startup = { #on startup triggers also on loading from save
+	events = {
+		#ButWhatAboutDragons.1
+	}
+}
+
+on_chronicle_start = { #triggers only at game start
 	events = {
 		ButWhatAboutDragons.1
 	}
@@ -6,6 +12,11 @@ on_startup = {
 
 on_adulthood = {
 	events = {
-		atedu.30
+		atedu.30 
 	}
 }
+# on_war_ended_victory = {
+	# events = {
+		# erulib.5 #liberator checks if he should move his conquest to another region
+	# }
+# }

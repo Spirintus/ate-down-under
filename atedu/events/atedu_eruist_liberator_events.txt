@@ -212,81 +212,34 @@ narrative_event = { #Liberator's revolt begins
 	# }
 	
 	immediate = {
-		create_character = {
-			random_traits = yes
-			dynasty = culture
-			religion = FROM
-			culture = FROM
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
+		while = {
+			count = 3
+			create_character = {
+				random_traits = yes
+				dynasty = culture
+				religion = FROM
+				culture = FROM
+				female = no
+				age = 30
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
 			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = FROM
-				home = FROM
-				owner = liberator_event_target
-				troops = 
-				{
-					archers = { 300 300 }
-					light_infantry = { 500 500 }
-					heavy_infantry = { 300 300 }
+			new_character = {
+				spawn_unit = {
+					province = FROM
+					home = FROM
+					owner = liberator_event_target
+					troops = {
+						archers = { 300 300 }
+						light_infantry = { 500 500 }
+						heavy_infantry = { 300 300 }
+					}
 				}
 			}
 		}
-		create_character = {
-			random_traits = yes
-			dynasty = culture
-			religion = FROM
-			culture = FROM
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = FROM
-				home = FROM
-				owner = liberator_event_target
-				troops = 
-				{
-					archers = { 300 300 }
-					light_infantry = { 500 500 }
-					heavy_infantry = { 300 300 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = culture
-			religion = FROM
-			culture = FROM
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = FROM
-				home = FROM
-				owner = liberator_event_target
-				troops = 
-				{
-					archers = { 300 300 }
-					light_infantry = { 500 500 }
-					heavy_infantry = { 300 300 }
-				}
-			}
-		}
+		
 		c_dunedin = {
 			holder_scope = {
 				reverse_unsafe_war = {
@@ -440,7 +393,6 @@ narrative_event = { #liberator become king
 	}
 }
 
-
 character_event = { #Liberator goes to war    
 	id = erulib.4
 	title = EVTTITLE_erulib_4
@@ -459,103 +411,52 @@ character_event = { #Liberator goes to war
 	}
 	immediate = {
 		set_character_flag = conquest_of_christchurch
-		create_character = {
-			random_traits = yes
-			dynasty = culture
-			religion = 58
-			culture = 58
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 58
-				home = 58
-				owner = liberator_event_target
-				troops = 
-				{
-					archers = { 500 500 }
-					light_infantry = { 800 800 }
-					heavy_infantry = { 500 500 }
-					light_cavalry = { 500 500 }
+		while = {
+			count = 3
+			create_character = {
+				random_traits = yes
+				dynasty = culture
+				religion = 58
+				culture = 58
+				female = no
+				age = 30
+				attributes = {
+					martial = 12
 				}
+				trait = brilliant_strategist
 			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = culture
-			religion = 58
-			culture = 58
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = FROM
-				home = FROM
-				owner = liberator_event_target
-				troops = 
-				{
-					archers = { 500 500 }
-					light_infantry = { 800 800 }
-					heavy_infantry = { 500 500 }
-					light_cavalry = { 500 500 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = culture
-			religion = 58
-			culture = 58
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 58
-				home = 58
-				owner = liberator_event_target
-				troops = 
-				{
-					archers = { 500 500 }
-					light_infantry = { 800 800 }
-					heavy_infantry = { 500 500 }
-					light_cavalry = { 500 500 }
+			new_character = {
+				spawn_unit = {
+					province = 58
+					home = 58
+					owner = liberator_event_target
+					troops = 
+					{
+						archers = { 500 500 }
+						light_infantry = { 800 800 }
+						heavy_infantry = { 500 500 }
+						light_cavalry = { 500 500 }
+					}
 				}
 			}
 		}
 		k_christchurch = {
 			any_de_jure_vassal_title = {
-				# if = {
-					# limit = {
-						# not = { higher_tier_than = duke }
-						# is_independent = yes
-					# }
+				limit = {
+					holder_scope = {
+						OR = {
+							NOT = { higher_tier_than = duke }
+							has_landed_title = k_christchurch
+						}
+						independent = yes
+						NOT = { religion = ROOT }
+					}
+				}
 				reverse_unsafe_war = {
 					target = ROOT
 					casus_belli = liberator_invasion
 				}
-				#}
 			}
-			# holder_scope = {
-				# reverse_unsafe_war = {
-					# target = ROOT
-					# casus_belli = liberator_invasion
-				# }
-			# }
 		}
 	}
 	option = {
@@ -577,6 +478,217 @@ character_event = { #Liberator goes to war
 		}
 		name = {
 			text = EVTOPT_erulib_4_B 
+			trigger = {
+				NOT = { THIS = { religion_group = christian } }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = erulib.5
+	
+	is_triggered_only = yes
+	
+	hide_window = yes
+	
+	has_character_flag = this_is_liberator
+	
+	trigger = {
+		war = no
+	}
+	
+	immediate = {
+		trigger_switch = {
+			on_trigger = has_character_flag
+			conquest_of_christchurch = { 
+				clr_character_flag = conquest_of_christchurch
+				set_character_flag = conquest_of_south_island
+				character_event = { id = erulib.6 days = 7 }
+			}
+			conquest_of_south_island = {
+				clr_character_flag = conquest_of_south_island
+				set_character_flag = conquest_of_north_island
+				character_event = { id = erulib.7 days = 7 }
+			}
+			conquest_of_north_island = {
+				clr_character_flag = conquest_of_north_island
+				set_character_flag = conquest_has_been_finished
+				#character_event = { id = erulib.7 days = 7 }   ###To be continue###
+			}
+		}
+	}
+}
+
+character_event = { #Liberator goes to war again   
+	id = erulib.6
+	title = EVTTITLE_erulib_6
+	desc = EVTDESC_erulib_6
+	#picture = 
+	border = GFX_event_character_frame_war
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	major_trigger = {
+		capital_scope = {
+			region = world_new_zealand
+		}
+	}
+	immediate = {
+		#while = {
+			#count = 3
+			create_character = {
+				random_traits = yes
+				dynasty = culture
+				religion = 58
+				culture = 58
+				female = no
+				age = 30
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = 58
+					home = 58
+					owner = liberator_event_target
+					troops = 
+					{
+						archers = { 500 500 }
+						light_infantry = { 800 800 }
+						heavy_infantry = { 500 500 }
+						light_cavalry = { 500 500 }
+					}
+				}
+			}
+		#}
+		e_new_zealand = {
+			any_de_jure_vassal_title = {
+				limit = {
+					region = world_nz_south_island
+					holder_scope = {
+						NOT = { religion = ROOT }
+						independent = yes
+					}
+				}
+				reverse_unsafe_war = {
+					target = ROOT
+					casus_belli = liberator_invasion
+				}
+			}
+		}
+	}
+	option = {
+		trigger = {
+			has_character_flag = this_is_liberator
+		}
+		name = EVTOPT_erulib_6_A #liberator
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_character_flag = this_is_liberator }
+		}
+		name = {
+			text = EVTOPT_erulib_6_B_christian 
+			trigger = {
+				THIS = { religion_group = christian }
+			}
+		}
+		name = {
+			text = EVTOPT_erulib_6_B 
+			trigger = {
+				NOT = { THIS = { religion_group = christian } }
+			}
+		}
+	}
+}
+
+character_event = { #Liberator goes to war last time 
+	id = erulib.7
+	title = EVTTITLE_erulib_7
+	desc = EVTDESC_erulib_7
+	#picture = 
+	border = GFX_event_character_frame_war
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	major_trigger = {
+		capital_scope = {
+			region = world_new_zealand
+		}
+	}
+	immediate = {
+		#while = {
+			#count = 3
+			create_character = {
+				random_traits = yes
+				dynasty = culture
+				religion = 58
+				culture = 58
+				female = no
+				age = 30
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = 58
+					home = 58
+					owner = liberator_event_target
+					troops = 
+					{
+						archers = { 500 500 }
+						light_infantry = { 800 800 }
+						heavy_infantry = { 500 500 }
+						light_cavalry = { 500 500 }
+					}
+				}
+			}
+		#}
+		e_new_zealand = {
+			any_de_jure_vassal_title = {
+				limit = {
+					region = world_nz_north_island
+					holder_scope = {
+						NOT = { religion = ROOT }
+						independent = yes
+					}
+				}
+				reverse_unsafe_war = {
+					target = ROOT
+					casus_belli = liberator_invasion
+				}
+			}
+		}
+	}
+	option = {
+		trigger = {
+			has_character_flag = this_is_liberator
+		}
+		name = EVTOPT_erulib_7_A #liberator
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_character_flag = this_is_liberator }
+		}
+		name = {
+			text = EVTOPT_erulib_7_B_christian 
+			trigger = {
+				THIS = { religion_group = christian }
+			}
+		}
+		name = {
+			text = EVTOPT_erulib_7_B 
 			trigger = {
 				NOT = { THIS = { religion_group = christian } }
 			}

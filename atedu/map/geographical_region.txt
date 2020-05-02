@@ -24,7 +24,7 @@ world_nz_south_island = {
 
 world_nz_north_island = {
 	duchies = {
-		d_wellington d_maori_march d_patea d_auckland d_northland d_outer_auckland
+		d_wellington d_maori_march d_patea d_auckland d_northland d_outer_auckland d_taupo d_ruapehu d_hastings d_wairoa d_ruatoria d_tauranga
 	}
 }
 

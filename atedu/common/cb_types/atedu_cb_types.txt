@@ -45,6 +45,7 @@ liberator_invasion = { #aka subjugation invasion hybrid
 					}
 					narrative_event = {id = erulib.3 days = 7}
 				}
+				else = { character_event = { id = erulib.5 days = 7} } #if he is crowned already he is expanding so he checks if he should approach the next step of his conquest
 			}
 		}
 		FROM = {
