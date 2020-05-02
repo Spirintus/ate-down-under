@@ -147,7 +147,7 @@
 			emblem = 0
 			color = 1
 			color = 5
-			color = 0
+			color = 1
 		}
 	}
 }
@@ -160,8 +160,8 @@
 			texture_internal = 9
 			emblem = 0
 			color = 5
-			color = 0
-			color = 0
+			color = 1
+			color = 1
 		}
 	}
 }
@@ -175,7 +175,7 @@
 			emblem = 0
 			color = 1
 			color = 2 #Might want a darker blue
-			color = 0
+			color = 1
 		}
 	}
 }
@@ -189,7 +189,7 @@
 			emblem = 0
 			color = 3
 			color = 5
-			color = 0
+			color = 1
 		}
 	}
 }
@@ -201,9 +201,9 @@
 			texture = 0
 			texture_internal = 39
 			emblem = 0
-			color = 0
+			color = 1
 			color = 5
-			color = 0
+			color = 1
 		}
 	}
 }
@@ -244,7 +244,7 @@
 			texture_internal = 0
 			emblem = 0
 			color = 2
-			color = 0
+			color = 1
 			color = 10
 		}
 	}
