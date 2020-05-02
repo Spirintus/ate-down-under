@@ -12,7 +12,7 @@ e_china = {
 		color = { 64 122 83 }
 		color2 = { 255 255 255 }
 		
-		culture = melbournian
+		culture = edokko
 		
 		capital = 141 # okinawa
 		
@@ -20,15 +20,23 @@ e_china = {
 			color = { 165 186 147 }
 			color2 = { 255 255 255 }
 			
-			culture = melbournian
+			culture = edokko
 			
 			capital = 141 # okinawa
 			
-			c_okinawa = {
+			c_okinawa_islands = {
 				color = { 140 156 118 }
 				color2 = { 255 255 255 }
 				
+				holy_site = shinto
+				
 				b_naha = {}
+				b_okinawa = {}
+				b_urasoe = {}
+				b_ginowan = {}
+				b_tomigusuku = {}
+				b_itoman = {}
+				b_nanjo = {}
 			}
 			
 			c_sakishima_islands = {
@@ -36,6 +44,12 @@ e_china = {
 				color2 = { 255 255 255 }
 				
 				b_miyakojima = {}
+				b_ishigaki = {}
+				b_tarama = {}
+				b_taketomi = {}
+				b_yonaguni = {}
+				b_miyako = {}
+				b_yaeyama = {}
 			}
 		}
 	}
@@ -44,7 +58,7 @@ e_china = {
 		color = { 25 44 117 }
 		color2 = { 255 255 255 }
 		
-		culture = melbournian
+		culture = taiwanese
 		
 		capital = 144 # taipei
 		
@@ -52,7 +66,7 @@ e_china = {
 			color = { 33 28 214 }
 			color2 = { 255 255 255 }
 			
-			culture = melbournian
+			culture = taiwanese
 			
 			capital = 144 # taipei
 			
@@ -61,13 +75,25 @@ e_china = {
 				color2 = { 255 255 255 }
 				
 				b_yilan = {}
+				b_luodong = {}
+				b_dongshan = {}
+				b_su'ao = {}
+				b_wujie = {}
+				b_jiaoxi = {}
+				b_yuanshan = {}
 			}
 			
 			c_taipei = {
 				color = { 9 69 157 }
 				color2 = { 255 255 255 }
-				
+
 				b_taipei = {}
+				b_keelung = {}
+				b_taoyuan = {}
+				b_banqiao = {}
+				b_zhonghe = {}
+				b_xinzhuang = {}
+				b_sanchong = {}
 			}
 			
 			c_hsinchu = {
@@ -75,22 +101,36 @@ e_china = {
 				color2 = { 255 255 255 }
 				
 				b_hsinchu = {}
+				b_miaoli = {}
+				b_zhubei = {}
+				b_toufen = {}
+				b_zhudong = {}
+				b_zhunan = {}
+				b_hukou = {}
 			}
 		}
 		
-		d_taichung = {
+		d_kaohsiung = {
 			color = { 63 185 250 }
 			color2 = { 255 255 255 }
 			
-			culture = melbournian
+			culture = taiwanese
 			
-			capital = 146 # taichung
+			capital = 149 # kaohsiung
 			
 			c_taichung = {
 				color = { 119 163 220 }
 				color2 = { 255 255 255 }
 				
+				holy_site = shinto
+				
 				b_taichung = {}
+				b_changhua = {}
+				b_yuanlin = {}
+				b_beitun = {}
+				b_xitun = {}
+				b_dali = {}
+				b_taiping = {}
 			}
 			
 			c_nantou = {
@@ -98,13 +138,27 @@ e_china = {
 				color2 = { 255 255 255 }
 				
 				b_nantou = {}
+				b_caotun = {}
+				b_puli = {}
+				b_zhushan = {}
+				b_mingjian = {}
+				b_guoxing = {}
+				b_lugu = {}
 			}
 			
 			c_tainan = {
 				color = { 25 135 98 }
 				color2 = { 255 255 255 }
 				
+				holy_site = shenist
+				
 				b_tainan = {}
+				b_chiayi = {}
+				b_annan = {}
+				b_douliu = {}
+				b_magong = {}
+				b_puzi = {}
+				b_taibao = {}
 			}
 			
 			c_kaohsiung = {
@@ -112,6 +166,12 @@ e_china = {
 				color2 = { 255 255 255 }
 				
 				b_kaohsiung = {}
+				b_fongshan = {}
+				b_sanmin = {}
+				b_zuoying = {}
+				b_nanzih = {}
+				b_cianjhen = {}
+				b_lingya = {}
 			}
 		}
 		
@@ -119,7 +179,7 @@ e_china = {
 			color = { 50 53 151 }
 			color2 = { 255 255 255 }
 			
-			culture = melbournian
+			culture = taiwanese
 			
 			capital = 152 # hualien
 			
@@ -128,6 +188,12 @@ e_china = {
 				color2 = { 255 255 255 }
 				
 				b_pingtung = {}
+				b_chaozhou = {}
+				b_donggang = {}
+				b_hengchun = {}
+				b_neipu = {}
+				b_wandan = {}
+				b_xinyuan = {}
 			}
 			
 			c_taitung = {
@@ -135,6 +201,12 @@ e_china = {
 				color2 = { 255 255 255 }
 				
 				b_taitung = {}
+				b_beinan = {}
+				b_chenggong = {}
+				b_taimali = {}
+				b_guanshan = {}
+				b_donghe = {}
+				b_chishang = {}
 			}
 			
 			c_hualien = {
@@ -142,6 +214,12 @@ e_china = {
 				color2 = { 255 255 255 }
 				
 				b_hualien = {}
+				b_ji'an = {}
+				b_yuli = {}
+				b_xincheng = {}
+				b_shoufeng = {}
+				b_xiulin = {}
+				b_guangfu = {}
 			}
 		}
 	}

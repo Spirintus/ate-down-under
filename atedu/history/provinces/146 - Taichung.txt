@@ -2,9 +2,11 @@
 title = c_taichung
 
 # Settlements
-max_settlements = 1
+max_settlements = 5
 
 b_taichung = castle
+b_changhua = temple
+b_yuanlin = city
 
 # Misc
 culture = taiwanese

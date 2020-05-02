@@ -1036,7 +1036,7 @@ buddhist_group = {
 }
 
 eastern_group = { #shenism, shintoism
-	has_coa_on_barony_only = no
+	has_coa_on_barony_only = yes
 	graphical_culture = indiangfx
 	playable = yes
 	ai_peaceful = yes # 
@@ -1052,7 +1052,8 @@ eastern_group = { #shenism, shintoism
 		graphical_culture = chinesegfx
 		secondary_event_pictures = sunni
 		
-		icon = 13
+		icon = 17
+		heresy_icon = 18
 		
 		color = { 250 235 3 }
 		
@@ -1071,7 +1072,6 @@ eastern_group = { #shenism, shintoism
 		can_grant_divorce = yes
 		priests_can_inherit = yes
 		priests_can_marry = yes
-		allow_rivermovement = yes
 		max_consorts = 3 #can take concubines
 		
 		religious_clothing_head = 10
@@ -1087,7 +1087,8 @@ eastern_group = { #shenism, shintoism
 		graphical_culture = chinesegfx
 		secondary_event_pictures = sunni
 
-		icon = 12
+		icon = 15
+		heresy_icon = 16
 		
 		color = { 0.9 0.65 0.65 }
 		
@@ -1106,8 +1107,8 @@ eastern_group = { #shenism, shintoism
 		can_grant_divorce = yes
 		priests_can_inherit = yes
 		priests_can_marry = yes
-		allow_rivermovement = yes
 		max_consorts = 3 #can take concubines
+		seafarer = yes
 
 		religious_clothing_head = 10
 		religious_clothing_priest = 10

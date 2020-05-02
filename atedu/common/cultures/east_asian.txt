@@ -51,7 +51,6 @@ chinese = {
 		
 		used_for_random = no
 		
-		seafarer = yes
 		modifier = default_culture_modifier
 	}
 }
@@ -106,6 +105,64 @@ nihonjin = {
 			Taji Takako Takara Tami Tane Tansho Tohru Toka Tokie Tokiwa Toku Tomi Tomo Tomoe Toshi Toshiko Toyoko Tsubasa Tsugi Tsukiko Tsukiyama Tsumugi
 			Uka Umeki Una Urako Urano Urara Usagi Uta
 			Yachi Yasu Yayoi Yomiko Yoriko Yoshe Yoshike Yoshiko Yotsuba Yufu Yui Yuina Yuki Yukika Yukishiro Yumako Yuna Yuno Yuria Yuro Yutsuko Yuuko
+		}
+		
+		from_dynasty_prefix = ""
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+		
+		used_for_random = no
+
+		modifier = default_culture_modifier
+	}
+	
+	ryukyuan = {
+		graphical_cultures = { chinesegfx }
+		unit_graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+
+		dynasty_name_first = yes
+		
+		color = { 255 31 69 }
+		
+		male_names = {
+			Atsushi
+			Chojun
+			Eiichi Eiki Eisaku Etsujiro
+			Futoshi
+			Gakuto
+			Hajime Haruki Haru Haruto Hayato Hideo Hiroki Hiroko Hiroshi
+			Ichiro Irei
+			Juhatsu Junya
+			Kaito Kamezo Kanbun Kanei Kanki Kanryo Kazuki Kazuyuki Kentsu Ken Kenwa Kintaro Kiyoshi Kochu Kofuku Kohei Koichi Koji Koki Kota
+			Makoto Masafumi Meitatsu Meitoku Michio Minoru Mitsuru Mitsutoshi Morio
+			Noriyuki
+			Riku Ryoji Ryota Rui Ryuko Ryusei
+			Satoshi Seiichi Seikichi Seiko Shigeru Shin Shingo Shinsho Shinya Shoji Soma Sora Sota Sosuke Suematsu
+			Takeshi Takuji Tatsuhiko Tatsuhiro Tatsuki Tatsuo Teruo Teruya Toru Toshiki Toshihiro Tsutomu
+			Yamato Yasutsune Yotoku Yuito Yuken Yuki Yoshimitsu Yuichiro Yuma Yusaku Yusei Yuto Yuzo
+			Zenryo
+		}
+		
+		female_names = {
+			Aino Akari Aoi Ayako Azumi
+			Chieko Chikako Chizuko
+			Fusako
+			Gozei
+			Haruka Hina Hinata Hiromi Honoka
+			Ichika
+			Kamai Kana Koharu Kokona Kumiko Kyoko
+			Mai Mariko Matsumi Mei Mie Mio Misaki Misako Miwa Miyu Miyuki Momoka
+			Nabi Nami
+			Rena Reno Riko Rin Rio
+			Saki Sakura Seina Sueko Sumie
+			Takako Takayo Tomi Tsuru
+			Yui Yukari Yukiko Yuna
 		}
 		
 		from_dynasty_prefix = ""

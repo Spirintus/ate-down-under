@@ -2,9 +2,10 @@
 title = c_hsinchu
 
 # Settlements
-max_settlements = 1
+max_settlements = 4
 
 b_hsinchu = city
+b_miaoli = castle
 
 # Misc
 culture = taiwanese

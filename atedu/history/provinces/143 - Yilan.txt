@@ -2,9 +2,10 @@
 title = c_yilan
 
 # Settlements
-max_settlements = 1
+max_settlements = 3
 
 b_yilan = city
+b_luodong = castle
 
 # Misc
 culture = taiwanese
