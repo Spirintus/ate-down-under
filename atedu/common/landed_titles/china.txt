@@ -2,17 +2,18 @@ e_china = {
 	color = { 220 72 34 }
 	color2 = { 255 255 255 }
 	
-	culture = melbournian
+	culture = taiwanese
 	
 	capital = 170 # Guangzhou
 	
-	# cultural names
+	edokko = "Chugoku"
+	ryukyuan = "Chugoku"
 	
 	k_ryukyu = {
 		color = { 64 122 83 }
 		color2 = { 255 255 255 }
 		
-		culture = edokko
+		culture = ryukyuan
 		
 		capital = 141 # okinawa
 		
@@ -20,7 +21,7 @@ e_china = {
 			color = { 165 186 147 }
 			color2 = { 255 255 255 }
 			
-			culture = edokko
+			culture = ryukyuan
 			
 			capital = 141 # okinawa
 			
@@ -70,14 +71,26 @@ e_china = {
 			
 			capital = 144 # taipei
 			
+			edokko = "Taihoku"
+			ryukyuan = "Taihoku"
+			
 			c_yilan = {
 				color = { 63 78 255 }
 				color2 = { 255 255 255 }
 				
-				b_yilan = {}
-				b_luodong = {}
+				edokko = "Giran"
+				ryukyuan = "Giran"
+				
+				b_yilan = {
+					edokko = "Giran"
+					ryukyuan = "Giran" }
+				b_luodong = {
+					edokko = "Rato"
+					ryukyuan = "Rato" }
 				b_dongshan = {}
-				b_su'ao = {}
+				b_su'ao = {
+					edokko = "Suo"
+					ryukyuan = "Suo" }
 				b_wujie = {}
 				b_jiaoxi = {}
 				b_yuanshan = {}
@@ -86,11 +99,24 @@ e_china = {
 			c_taipei = {
 				color = { 9 69 157 }
 				color2 = { 255 255 255 }
+				
+				edokko = "Taihoku"
+				ryukyuan = "Taihoku"
+				
+				holy_site = shinto
 
-				b_taipei = {}
-				b_keelung = {}
-				b_taoyuan = {}
-				b_banqiao = {}
+				b_taipei = {
+					edokko = "Taihoku"
+					ryukyuan = "Taihoku" }
+				b_keelung = {
+					edokko = "Kirun"
+					ryukyuan = "Kirun" }
+				b_taoyuan = {
+					edokko = "Toen"
+					ryukyuan = "Toen" }
+				b_banqiao = {
+					edokko = "Itabashi"
+					ryukyuan = "Itabashi" }
 				b_zhonghe = {}
 				b_xinzhuang = {}
 				b_sanchong = {}
@@ -100,9 +126,18 @@ e_china = {
 				color = { 91 129 251 }
 				color2 = { 255 255 255 }
 				
-				b_hsinchu = {}
-				b_miaoli = {}
-				b_zhubei = {}
+				edokko = "Shinchiku"
+				ryukyuan = "Shinchiku"
+				
+				b_hsinchu = {
+					edokko = "Shinchiku"
+					ryukyuan = "Shinchiku" }
+				b_miaoli = {
+					edokko = "Byoritsu"
+					ryukyuan = "Byoritsu" }
+				b_zhubei = {
+					edokko = "Chikuhoku"
+					ryukyuan = "Chikuhoku" }
 				b_toufen = {}
 				b_zhudong = {}
 				b_zhunan = {}
@@ -118,14 +153,22 @@ e_china = {
 			
 			capital = 149 # kaohsiung
 			
+			edokko = "Takao"
+			ryukyuan = "Takao"
+			
 			c_taichung = {
 				color = { 119 163 220 }
 				color2 = { 255 255 255 }
 				
-				holy_site = shinto
+				edokko = "Taichu"
+				ryukyuan = "Taichu"
 				
-				b_taichung = {}
-				b_changhua = {}
+				b_taichung = {
+					edokko = "Taichu"
+					ryukyuan = "Taichu" }
+				b_changhua = {
+					edokko = "Shoka"
+					ryukyuan = "Shoka" }
 				b_yuanlin = {}
 				b_beitun = {}
 				b_xitun = {}
@@ -137,11 +180,20 @@ e_china = {
 				color = { 44 226 182 }
 				color2 = { 255 255 255 }
 				
-				b_nantou = {}
+				edokko = "Nanto"
+				ryukyuan = "Nanto"
+				
+				b_nantou = {
+					edokko = "Nanto"
+					ryukyuan = "Nanto" }
 				b_caotun = {}
-				b_puli = {}
+				b_puli = {
+					edokko = "Hori"
+					ryukyuan = "Hori" }
 				b_zhushan = {}
-				b_mingjian = {}
+				b_mingjian = {
+					edokko = "Nama"
+					ryukyuan = "Nama" }
 				b_guoxing = {}
 				b_lugu = {}
 			}
@@ -153,11 +205,19 @@ e_china = {
 				holy_site = shenist
 				
 				b_tainan = {}
-				b_chiayi = {}
+				b_chiayi = {
+					edokko = "Kagi"
+					ryukyuan = "Kagi" }
 				b_annan = {}
-				b_douliu = {}
-				b_magong = {}
-				b_puzi = {}
+				b_douliu = {
+					edokko = "Toroku"
+					ryukyuan = "Toroku" }
+				b_magong = {
+					edokko = "Mako"
+					ryukyuan = "Mako" }
+				b_puzi = {
+					edokko = "Bokushi"
+					ryukyuan = "Bokushi" }
 				b_taibao = {}
 			}
 			
@@ -165,8 +225,15 @@ e_china = {
 				color = { 130 107 220 }
 				color2 = { 255 255 255 }
 				
-				b_kaohsiung = {}
-				b_fongshan = {}
+				edokko = "Takao"
+				ryukyuan = "Takao"
+				
+				b_kaohsiung = {
+					edokko = "Takao"
+					ryukyuan = "Takao" }
+				b_fongshan = {
+					edokko = "Hozan"
+					ryukyuan = "Hozan" }
 				b_sanmin = {}
 				b_zuoying = {}
 				b_nanzih = {}
@@ -183,14 +250,26 @@ e_china = {
 			
 			capital = 152 # hualien
 			
+			edokko = "Karenko"
+			ryukyuan = "Karenko"
+			
 			c_pingtung = {
 				color = { 100 91 214 }
 				color2 = { 255 255 255 }
 				
-				b_pingtung = {}
+				edokko = "Heito"
+				ryukyuan = "Heito"
+				
+				b_pingtung = {
+					edokko = "Heito"
+					ryukyuan = "Heito"}
 				b_chaozhou = {}
-				b_donggang = {}
-				b_hengchun = {}
+				b_donggang = {
+					edokko = "Toko"
+					ryukyuan = "Toko"}
+				b_hengchun = {
+					edokko = "Koshun"
+					ryukyuan = "Koshun"}
 				b_neipu = {}
 				b_wandan = {}
 				b_xinyuan = {}
@@ -200,12 +279,27 @@ e_china = {
 				color = { 160 185 251 }
 				color2 = { 255 255 255 }
 				
-				b_taitung = {}
-				b_beinan = {}
-				b_chenggong = {}
-				b_taimali = {}
-				b_guanshan = {}
-				b_donghe = {}
+				edokko = "Taito"
+				ryukyuan = "Taito"
+				
+				b_taitung = {
+					edokko = "Nankyo"
+					ryukyuan = "Nankyo" }
+				b_beinan = {
+					edokko = "Pinan"
+					ryukyuan = "Pinan" }
+				b_chenggong = {
+					edokko = "Shinko"
+					ryukyuan = "Shinko" }
+				b_taimali = {
+					edokko = "Tamari"
+					ryukyuan = "Tamari" }
+				b_guanshan = {
+					edokko = "Kanzan"
+					ryukyuan = "Kanzan" }
+				b_donghe = {
+					edokko = "Toran"
+					ryukyuan = "Toran" }
 				b_chishang = {}
 			}
 			
@@ -213,8 +307,15 @@ e_china = {
 				color = { 88 40 170 }
 				color2 = { 255 255 255 }
 				
-				b_hualien = {}
-				b_ji'an = {}
+				edokko = "Karenko"
+				ryukyuan = "Karenko"
+				
+				b_hualien = {
+					edokko = "Karen"
+					ryukyuan = "Karen" }
+				b_ji'an = {
+					edokko = "Yoshino"
+					ryukyuan = "Yoshino" }
 				b_yuli = {}
 				b_xincheng = {}
 				b_shoufeng = {}
