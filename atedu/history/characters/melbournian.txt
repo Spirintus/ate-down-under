@@ -1,3 +1,5 @@
+#22-
+
 22 = { #founder of the dynasty
 	name = "Abel"
 	dynasty = 202

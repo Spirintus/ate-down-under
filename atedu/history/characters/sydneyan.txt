@@ -1,3 +1,5 @@
+#1-21, 9122-9300
+
 1 = { 
 	name = "Lawrence"
 	dynasty = 200
