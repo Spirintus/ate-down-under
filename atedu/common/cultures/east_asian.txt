@@ -13,17 +13,18 @@ chinese = {
 		male_names = {
 		Che-wei Chen-jui Cheng-en Cheng-han Chi-mai Chia-hao Chia-ming Chia-wei Chien-hwa Chien-ming Chih-hao Chih-hung Chih-wei Ching-he Chien-hung Chin-fang Ching-tien Chuan-huing Chun-chieh Chun-hsien Chun-hung
 		Feng-cheng
-		Hsin-hung Hung-lu
+		Hsin-hung Hua-ying Hung-lu
 		Jing-tian Jui-en
 		Kai-fu Keng-lin Kuan-lin Kuan-ting Kuan-yu Kuo-chu
 		Ming-tsai Mong-kai
 		Pai-han Pin-jui Po-yu
 		Ta-yu Te-fu Teng-hui Tsiong-tso Tsung-han
-		Wan-an Wei-ting
+		Wan-an Wei-shui Wei-ting
 		Yan-ting Yi-hua Yu-chen Yu-en Yu-hsiang Yu-hsuan Yu-ting Yung-chang
 		}
 		
 		female_names = {
+		Ah-shin
 		Chi-ling Chia-hsuan Chia-hua Chia-hui Chia-jung Chia-ling Chia-ying Chia-yu Chih-cheng Chiao-hui Ching-yi
 		En-chi
 		Fu-chen
