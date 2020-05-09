@@ -9,9 +9,9 @@ EVTOPT_erulib_2_A_eru_group_but_other_religion;So those heretics are on the move
 EVTOPT_erulib_2_A_southcrosser;Just another cursed heathen! Right?;;;;;;;;;;;;x
 EVTOPT_erulib_2_A_other;Interesting developments...;;;;;;;;;;;;x
 EVTOPT_erulib_2_B_eru; Why didn't I think of this myself?;;;;;;;;;;;;x
-EVTOPT_erulib_2_B_other;As if he had any chance to win;;;;;;;;;;;;x
+EVTOPT_erulib_2_B_other;As if I had any chance to win;;;;;;;;;;;;x
 EVTTITLE_erulib_3;King of Dunedin;;;;;;;;;;;;x
-EVTDESC_erulib_3;Holy men have gathered to crown the first king of the Children of Ilúvatar after decades of oppression under australian domination. One of them thought: This event will need longer description.;;;;;;;;;;;;x
+EVTDESC_erulib_3;After the initial victories against the australian crusaders in what used to be the kingdom of Dunedin, many holy men from the once forbidden native faith have gathered at what used to be the palace of the high kings to crown the Liberator as [ROOT.GetKingQueen] of Dunedin, a title which stopped existing when the crusaders conquered the land. A mysterious man dressed in a grey cloak placed a makeshift crown resembling that of the old high kings on the Liberator's head, proclaiming for all to hear: ''now we won't bow to anyone, now the [ROOT.GetKingQueen] will guide and defend us. Long live the Liberator!''. All the people there gathered cheered, hoping the man's words were true.;;;;;;;;;;;;x
 EVTOPT_erulib_3_A;You bow to no one my friends;;;;;;;;;;;;x
 EVTOPT_erulib_3_B_christian;Oh no;;;;;;;;;;;;x
 EVTOPT_erulib_3_B;Interesting developments;;;;;;;;;;;;x
@@ -20,3 +20,11 @@ EVTDESC_erulib_4;Even more warriors have gathered under the command of newly cro
 EVTOPT_erulib_4_A;For second breakfast!;;;;;;;;;;;;x
 EVTOPT_erulib_4_B_christian; Oh no;;;;;;;;;;;;x
 EVTOPT_erulib_4_B;Interesting developments;;;;;;;;;;;;x
+EVTTITLE_erulib_6;Reconquest of the South Island;;;;;;;;;;;;x
+EVTDESC_erulib_6;Dunedin's new ruler has decreed that the kingdom must grow until the crusaders have been totally defeated and New Zealand is ruled by the Children of Ilúvatar. To achieve that goal, [ROOT.GetName] has declared that the rest of the South Island must be liberated from the invaders. The remaining crusader lords of the island have gathered their own soldiers and asked for reinforcements, desperate, for they don't want to experience the same fate as the southcrosser rulers of Dunedin.;;;;;;;;;;;;x
+EVTOPT_erulib_6_A;More wars!;;;;;;;;;;;;x
+EVTOPT_erulib_6_B;Damn it!;;;;;;;;;;;;x
+EVTTITLE_erulib_7;Reconquest of the North Island;;;;;;;;;;;;x
+EVTDESC_erulib_7;After successfully kicking the crusaders out of the South Island, the Liberator has made another declaration, saying that now it's the North Island's turn to be liberated and put under the rule of Dunedin. Although Eruists are a minority in that island, thanks to a longer crusader presence and the Maori's own faith, it was a core part of the High Kingdom. Thousands of warriors have taken their ships and now set sail for the northern realms, which are getting ready to fight the decisive battle for the fate of the archipelago.;;;;;;;;;;;;x
+EVTOPT_erulib_7_A;This is the last war!;;;;;;;;;;;;x
+EVTOPT_erulib_7_B;It's the last chance to stop them!;;;;;;;;;;;;x
