@@ -1,4 +1,4 @@
-max_provinces = 188
+max_provinces = 187
 definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
@@ -20,7 +20,7 @@ sea_zones = { 96 123 }
 # Taiwan and Ryukyu
 sea_zones = { 133 140 }
 # South Australia
-sea_zones = { 186 187 }
+sea_zones = { 185 186 }
 
 ocean_region = {
 	sea_zones = { 1 3 } # Southern Pacific Ocean
