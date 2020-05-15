@@ -122,6 +122,7 @@
 122 = { name="Swagman" culture=wastelander }
 123 = { name="Paterson" culture=wastelander }
 
+196 = { name = "Cooker" culture = sydneyan }
 197 = { name = "of Auckland" culture = sydneyan}
 198 = { name = "Rogers" culture = sydneyan}
 199 = { name = "King" culture = sydneyan}
@@ -300,6 +301,32 @@
 751 = { name="Dane" culture = wellingtonian }
 
 1000 = { name = "Saint" culture = polar }
+1001 = { name = "Troyan" culture = polar }
+1002 = { name = "Adams" culture = polar }
+1003 = { name = "Elder" culture = polar }
+1004 = { name = "Tarn" culture = polar }
+1005 = { name = "Enderby" culture = polar }
+1006 = { name = "Rose" culture = polar }
+1007 = { name = "Langdon" culture = polar }
+1008 = { name = "Penguin" culture = polar }
+1009 = { name = "Sealer" culture = polar }
+1010 = { name = "Wing" culture = polar }
+1011 = { name = "Dissapontment" culture = polar }
+1012 = { name = "Hongry" culture = polar }
+1013 = { name = "Lost" culture = polar }
+1014 = { name = "Sailor" culture = polar }
+1015 = { name = "Giftgiver" culture = polar }
+1016 = { name = "Charitable" culture = polar }
+1017 = { name = "Stranger" culture = polar }
+1018 = { name = "Fisher" culture = polar }
+1019 = { name = "Fishman" culture = polar }
+1020 = { name = "Drowned" culture = polar }
+1021 = { name = "Snowball" culture = polar }
+1022 = { name = "Evergreen" culture = polar }
+1023 = { name = "Minstix" culture = polar }
+1024 = { name = "Upatree" culture = polar }
+1025 = { name = "Mary " culture = polar }
+1026 = { name = "Openslae " culture = polar }
 
 1101 = { name = "Dawn" culture = chathamite }
 1102 = { name = "of Pitt" culture = chathamite }

@@ -348,9 +348,22 @@ c_west_fiordland;West Fiordland;;;;;;;;;;;;x
 c_west_fiordland_adj;West Fiordlander;;;;;;;;;;;;x
 PRINCIPALITY;Principality of;;;;;;;;;;;;x
 PRINCE;Prince;;;;;;;;;;;;x
+PRINCE_FOA;His Royal Highness;;;;;;;;;;;;x
 PRINCESS;Princess;;;;;;;;;;;;x
+PRINCESS_FOA;Her Royal Highness;;;;;;;;;;;;x
 HIGH_KING;High King;;;;;;;;;;;;x
 HIGH_QUEEN;High Queen;;;;;;;;;;;;x
 LORDSHIP;Lordship of;;;;;;;;;;;;x
 LORD;Lord;;;;;;;;;;;;x
+LORD_FOA;Milord;;;;;;;;;;;;x
 LADY;Lady;;;;;;;;;;;;x
+LADY_FOA;Milady;;;;;;;;;;;;x
+d_bishop_of_auckland;Bishop of Auckland;;;;;;;;;;;;x
+d_bishop_of_canberra;Bishop Aide of Canberra;;;;;;;;;;;;x
+d_bishop_of_sinai;Bishop of Sinai;;;;;;;;;;;;x
+d_bishop_of_jakarta;Bishop of Jakarta;;;;;;;;;;;;x
+d_bishop_of_moresby;Bishop of Moresby;;;;;;;;;;;;x
+d_bishop_of_canton;Bishop of Canton;;;;;;;;;;;;x
+BISHOP;Bishop;;;;;;;;;;;;x
+BISHOP_FOA;Your Excellence;;;;;;;;;;;;x
+ARCHBISHOP_FOA;Your Archexcellence;;;;;;;;;;;;x

@@ -871,12 +871,18 @@ zealandese = {
 		color = { 190 255 255 }
 		
 		male_names = {
+			Alabaster 
+			Bushy 
 			Gabriel_Gabriel
 			Kris_Christopher
 			John_John
 			Michael_Michael
 			Nicholas_Nicholas
+			Oliver
+			Pepper
 			Rudolph
+			Shinny Sugarplum 
+			Wunorse 
 		}
 		female_names = {
 			Anna_Anna

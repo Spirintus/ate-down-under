@@ -24,6 +24,7 @@ k_south_cross = {
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
 	
+	#pentarchy = southcrosser
 	religion = southcrosser
 	controls_religion = southcrosser
 	
@@ -36,11 +37,47 @@ k_south_cross = {
 		"True Guide" "The Most Faithful" "The Faith’s Defender" "Our Lord’s Chosen" "Holy One"
 		"The Holiest of the Holy" "Holyman" "Sacred Guide" "Saviour On earth" "Guide of the Pure" "Holy Warrior"
 		"Chosen By the Southern Cross" "The Pure One" "He Who Fight the Great Heretic"
-		"He Who Fights for the Holy Church" "Lord of the Pure" "Lord of Lords on Earth"
+		"He Who Fights for the Holy Church" "Lord of the Pure" "Lord of Lords on Earth" "Holy Guide"
 	}
 }
 
-d_bishop_of_new_zealand = {
+d_bishop_of_auckland = {
+	color = {255 215 51}
+	color2 = {255 255 255}
+	
+	capital = 1 
+	
+	title = "BISHOP"
+	foa = "BISHOP_FOA"
+	
+	pentarchy = southcrosser
+	religion = southcrosser
+	
+	primary = yes
+	landless = yes
+	
+	dynasty_title_names = no
+}
+
+d_bishop_of_canberra = {
+	color = {255 215 51}
+	color2 = {255 255 255}
+	
+	capital = 124 #for now it's Hobart, change to Canberra later
+	
+	title = "BISHOP"
+	foa = "BISHOP_FOA"
+	
+	pentarchy = southcrosser
+	religion = southcrosser
+	
+	primary = yes
+	landless = yes
+	
+	dynasty_title_names = no
+}
+
+d_bishop_of_sinai = {
 	color = {255 215 51}
 	color2 = {255 255 255}
 	
@@ -50,103 +87,67 @@ d_bishop_of_new_zealand = {
 	foa = "BISHOP_FOA"
 	
 	pentarchy = southcrosser
-	
 	religion = southcrosser
 	
 	primary = yes
+	landless = yes
 	
 	dynasty_title_names = no
 }
 
-# d_bishop_two = {
-	# color = {255 215 51}
-	# color2 = {255 255 255}
+d_bishop_of_jakarta = {
+	color = {255 215 51}
+	color2 = {255 255 255}
 	
-	# capital = 1 #for now
+	capital = 1 #for now
 	
-	# title = "ARCHBISHOP"
-	# foa = "ARCHBISHOP_FOA"
+	title = "BISHOP"
+	foa = "BISHOP_FOA"
 	
-	# pentarchy = southcrosser
-	# religion = southcrosser
+	pentarchy = southcrosser
+	religion = southcrosser
 	
-	# primary = yes
-	# landless = yes
+	primary = yes
+	landless = yes
 	
-	# dynasty_title_names = no
-# }
+	dynasty_title_names = no
+}
 
-# d_bishop_three = {
-	# color = {255 215 51}
-	# color2 = {255 255 255}
+d_bishop_of_moresby = {
+	color = {255 215 51}
+	color2 = {255 255 255}
 	
-	# capital = 1 #for now
+	capital = 1 #for now
 	
-	# title = "ARCHBISHOP"
-	# foa = "ARCHBISHOP_FOA"
+	title = "BISHOP"
+	foa = "BISHOP_FOA"
 	
-	# pentarchy = southcrosser
-	# religion = southcrosser
+	pentarchy = southcrosser
+	religion = southcrosser
 	
-	# primary = yes
-	# landless = yes
+	primary = yes
+	landless = yes
 	
-	# dynasty_title_names = no
-# }
+	dynasty_title_names = no
+}
 
-# d_bishop_four = {
-	# color = {255 215 51}
-	# color2 = {255 255 255}
+d_bishop_of_canton = {
+	color = {255 215 51}
+	color2 = {255 255 255}
 	
-	# capital = 1 #for now
+	capital = 144 #for now it's Taipei change to Canton later (or not)
 	
-	# title = "ARCHBISHOP"
-	# foa = "ARCHBISHOP_FOA"
+	title = "BISHOP"
+	foa = "BISHOP_FOA"
 	
-	# pentarchy = southcrosser
-	# religion = southcrosser
+	pentarchy = southcrosser
+	religion = southcrosser
 	
-	# primary = yes
-	# landless = yes
+	primary = yes
+	landless = yes
 	
-	# dynasty_title_names = no
-# }
-
-# d_bishop_five = {
-	# color = {255 215 51}
-	# color2 = {255 255 255}
-	
-	# capital = 1 #for now
-	
-	# title = "ARCHBISHOP"
-	# foa = "ARCHBISHOP_FOA"
-	
-	# pentarchy = southcrosser
-	# religion = southcrosser
-	
-	# primary = yes
-	# landless = yes
-	
-	# dynasty_title_names = no
-# }
-
-# d_bishop_six = {
-	# color = {255 215 51}
-	# color2 = {255 255 255}
-	
-	# capital = 1 #for now
-	
-	# title = "ARCHBISHOP"
-	# foa = "ARCHBISHOP_FOA"
-	
-	# pentarchy = southcrosser
-	# religion = southcrosser
-	
-	# primary = yes
-	# landless = yes
-	
-	# dynasty_title_names = no
-# }
+	dynasty_title_names = no
+}
 
 d_imunu = {
 	color = { 25 25 99 }

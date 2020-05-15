@@ -290,7 +290,7 @@ christian = {
 		religious_clothing_priest = 1
 	}
 	
-	party_jesus_the_religion = { #christian pirates
+	party_jesus_the_religion = {#christian pirates
 		graphical_culture = westerngfx
 		
 		icon = 1
@@ -306,7 +306,7 @@ christian = {
 		high_god_name = GOD_GOD
 		
 		god_names = {
-			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BUDDHA
+			GOD_GOD GOD_THE_LORD GOD_JESUS
 		}
 		
 		evil_god_names = {
@@ -321,6 +321,41 @@ christian = {
 		
 		allow_looting = yes
 		allow_viking_invasion = yes
+		
+		religious_clothing_priest = 1
+	}
+	
+	jiaohui = { 
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
+		
+		icon = 17
+		heresy_icon = 18
+		
+		color = { 3 35 250 }
+		
+		interface_skin = { taoist_interface indian_interface muslim_interface }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		#can_call_crusade = yes
+		#can_excommunicate = yes
+		#can_grant_claim = yes
+		priests_can_marry = yes
 		
 		religious_clothing_priest = 1
 	}
@@ -427,7 +462,7 @@ pagan_group = {
 		icon = 10
 		heresy_icon = 11
 		
-		color = { 0 0 0 }
+		color = { 255 127 39 }
 		
 		crusade_name = GREAT_HOLY_WAR
 		crusade_cb = crusade
@@ -456,7 +491,7 @@ pagan_group = {
 		icon = 9
 		heresy_icon = 11
 		
-		color = { 0 0 0 }
+		color = { 255 127 39 }
 		
 		crusade_name = GREAT_HOLY_WAR
 		crusade_cb = crusade
@@ -485,7 +520,7 @@ pagan_group = {
 		icon = 13
 		heresy_icon = 14
 		
-		color = {0 0 0 }
+		color = { 174 94 208 }
 		
 		crusade_name = GREAT_HOLY_WAR
 		crusade_cb = crusade
@@ -520,7 +555,7 @@ pagan_group = {
 		icon = 12
 		heresy_icon = 14
 		
-		color = {0 0 0 }
+		color = {174 94 208 }
 		
 		crusade_name = GREAT_HOLY_WAR
 		crusade_cb = crusade
@@ -652,7 +687,7 @@ pagan_group = {
 		
 		icon = 2
 		
-		color = {0 0 0 }
+		color = {0 70 232 }
 		
 		crusade_name = GREAT_HOLY_WAR
 		crusade_cb = crusade
@@ -1059,6 +1094,11 @@ eastern_group = { #shenism, shintoism
 		
 		interface_skin = { taoist_interface indian_interface muslim_interface }
 		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_CHINESE_CLASSICS
+		priest_title = PRIEST
+		piety_name = DE
+		
 		high_god_name = GOD_TIAN
 		
 		god_names = {
@@ -1076,11 +1116,42 @@ eastern_group = { #shenism, shintoism
 		
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
+	}
+	
+	red_law = {
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
 		
-		crusade_name = CRUSADE
-		scripture_name = THE_CHINESE_CLASSICS
-		priest_title = PRIEST
-		piety_name = DE
+		icon = 17
+		heresy_icon = 18
+		
+		color = { 250 9 13 }
+		
+		interface_skin = { taoist_interface indian_interface muslim_interface }
+		
+		crusade_name = GREAT_PATROTIC_WAR
+		scripture_name = THE_LITTLE_RED_BOOK
+		priest_title = OFFICIAL
+		
+		high_god_name = GOD_THE_RED_DYNASTY
+		
+		god_names = {
+			GOD_THE_RED_DYNASTY GOD_THE_PEOPLE GOD_THE_CAUSE GOD_LEI_FENG
+		}
+		
+		evil_god_names = {
+			GOD_YAN_WANG FOUR_OLD_ONES
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		max_consorts = 3 #can take concubines
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		
 	}
 	
 	shinto = {
@@ -1093,6 +1164,11 @@ eastern_group = { #shenism, shintoism
 		color = { 0.9 0.65 0.65 }
 		
 		interface_skin = { taoist_interface indian_interface muslim_interface }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_KOJIKI
+		priest_title = PRIEST
+		piety_name = PURITY
 		
 		high_god_name = GOD_THE_EMPEROR
 
@@ -1112,38 +1188,7 @@ eastern_group = { #shenism, shintoism
 
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
-		
-		crusade_name = CRUSADE
-		scripture_name = THE_KOJIKI
-		priest_title = PRIEST
-		piety_name = PURITY
 	}	
-	
-	placeholder_eastern_religion = {
-		graphical_culture = westerngfx
-		
-		icon = 1
-		
-		color = {0 0 0 }
-		
-		crusade_name = PLACEHOLDER
-		crusade_cb = crusade
-		scripture_name = PLACEHOLDER
-		priest_title = PLACEHOLDER
-		
-		high_god_name = PLACEHOLDER
-		
-		god_names = {
-			PLACEHOLDER
-		}
-		 
-		evil_god_names = {
-			PLACEHOLDER
-		}
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-	}
 }
 
 jewish_group = {

@@ -81,3 +81,10 @@
 	father = 1004
 	2658.10.9 = {birth = yes}
 }
+1008 = {
+	name = "Oliver"
+	dynasty = 1001
+	religion = ritualistic
+	culture = polar
+	2650.7.8 = {birth = yes}
+}

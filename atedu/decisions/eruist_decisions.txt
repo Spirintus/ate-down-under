@@ -9,10 +9,10 @@ decisions = {
 			religion = ritualistic
 			or = {
 				NOR = {
-					has_character_modifier = arcane_school
-					has_character_modifier = light_school
-					has_character_modifier = dark_school
-					has_character_modifier = hamon_school
+					has_character_modifier = gray_magic
+					has_character_modifier = white_magic
+					has_character_modifier = brown_magic
+					has_character_modifier = blue_magic
 				}
 				is_adult = no
 			}

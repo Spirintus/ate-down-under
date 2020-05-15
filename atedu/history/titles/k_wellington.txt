@@ -1,3 +1,6 @@
+2100.1.1 = {
+	pentarch = d_bishop_of_auckland
+}
 2574.8.18 = {
 	holder = 26
 }

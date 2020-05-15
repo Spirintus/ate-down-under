@@ -1,0 +1,5 @@
+2665.11.13 = {
+    holding_dynasty = 218
+	liege = d_bass
+	holder = 150
+}

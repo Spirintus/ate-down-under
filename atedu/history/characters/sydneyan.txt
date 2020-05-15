@@ -382,3 +382,10 @@
 	father = 9136
 	2645.4.14 = {birth = yes}
 }
+9140 = { #Bishop of Auckland
+	name = James
+	dynasty = 196
+	religion = southcrosser
+	culture = sydneyan
+	2628.11.7 = { birth = yes }
+}

@@ -129,4 +129,64 @@ decisions = {
 			factor = 1
 		}
 	}
+	
+	create_holy_land = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 24
+		
+		potential = {
+			is_playable = yes
+			religion = southcrosser
+			culture = itaukei
+			k_holy_land = {
+				has_holder = no
+				is_titular = yes
+			}
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			ROOT = {
+				has_landed_title = d_tauranga
+				has_landed_title = d_ruatoria
+				has_landed_title = d_wairoa
+			}
+			prestige = 1000
+			piety = 500
+		}
+		effect = {
+			# make new narrative_event = { id = SoA.102 tooltip = EVTTOOLTIP_SoA_102 }
+			# if = {
+				# limit = {
+					# is_female = yes
+					# has_dlc = "Holy Fury"
+				# }
+				# create_bloodline = {
+					# type = israel_female
+				# }
+				# new_bloodline = {
+					# set_description = "bloodline_desc_israel"
+				# }
+			# }
+			# if = {
+				# limit = {
+					# is_female = no
+					# has_dlc = "Holy Fury"
+				# }
+				# create_bloodline = {
+					# type = israel_male
+				# }
+				# new_bloodline = {
+					# set_description = "bloodline_desc_israel"
+				# }
+			# }
+			grant_title = k_holy_land
+			prestige = 500
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

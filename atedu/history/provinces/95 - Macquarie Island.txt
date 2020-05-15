@@ -1,0 +1,23 @@
+# c_macquarie_island
+
+# County Title
+title = c_macquarie_island
+
+# Settlements
+max_settlements = 2
+
+b_hasselborough_bay = tribal
+
+# b_elder
+# b_langdon_bay
+# b_minas_tarn
+# b_south_east_bay
+# b_fletcher
+# b_gorilla_head
+# b_penguinville
+
+# Misc
+culture = polar
+religion = ritualistic
+
+#History

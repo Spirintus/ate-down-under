@@ -36,7 +36,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPT_eruve_1_A #School of Saruman
+		name = EVTOPT_eruve_1_B #School of Saruman
 		add_character_modifier = {
 			name = white_magic
 			duration = -1
@@ -50,7 +50,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPT_eruve_1_A #School of Radagast
+		name = EVTOPT_eruve_1_C #School of Radagast
 		add_character_modifier = {
 			name = brown_magic
 			duration = -1
@@ -64,7 +64,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPT_eruve_1_A #School of Ithryn Luin
+		name = EVTOPT_eruve_1_D #School of Ithryn Luin
 		add_character_modifier = {
 			name = blue_magic
 			duration = -1

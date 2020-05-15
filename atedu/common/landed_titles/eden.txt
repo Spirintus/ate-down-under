@@ -151,3 +151,11 @@ e_eden = {
 			}
 		}
 	}	
+}
+
+
+## Merchant Republic of Bass
+b_fitzroy = {
+	culture = melbournian
+	religion = southcrosser
+}

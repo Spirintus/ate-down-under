@@ -619,11 +619,24 @@ e_new_zealand = {
 				b_rose = {}
 			}
 			c_campbell = {
-				color = {76 141 183}
+				color = {76 183 141}
 				color2 = { 255 255 255 }
 				
 				b_campbell = {}
 				b_bellfort = {}			
+			}
+			c_macquarie_island = {
+				color = {183 141 76}
+				color2 = { 255 255 255 }
+				
+				b_hasselborough_bay = {}
+				b_elder = {}
+				b_langdon_bay = {}
+				b_midas_tarn = {}
+				b_south_east_bay = {}
+				b_fletcher = {}
+				b_gorilla_head = {}
+				b_penguinville = {}
 			}
 		}	
 	}
