@@ -1,0 +1,46 @@
+#5101-5150
+
+5101 = {
+	name = "Che-wei"
+	dynasty = 5100
+	religion = shinto
+	culture = taiwanese
+	secret_religion = shenist
+	2617.12.3 = { birth = yes }
+}
+
+5102 = {
+	name = "Kai-fu"
+	dynasty = 5101
+	religion = shinto
+	culture = taiwanese
+	2640.12.31 = { birth = yes }
+}
+
+5103 = {
+	name = "Te-fu"
+	dynasty = 5102
+	religion = shenist
+	culture = taiwanese
+	trait = strong
+	trait = cynical
+	trait = genius
+	trait = lustful
+	2638.10.4 = { birth = yes }
+}
+
+5104 = {
+	name = "Pai-han"
+	dynasty = 5103
+	religion = shenist
+	culture = taiwanese
+	2650.10.4 = { birth = yes }
+}
+
+5105 = {
+	name = "Yi-hua"
+	dynasty = 5104
+	religion = shenist
+	culture = taiwanese
+	2647.10.4 = { birth = yes }
+}

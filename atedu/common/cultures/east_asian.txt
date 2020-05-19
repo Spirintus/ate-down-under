@@ -42,13 +42,13 @@ chinese = {
 		dynasty_name_first = yes
 		from_dynasty_prefix = ""
 
-		pat_grf_name_chance = 20
-		mat_grf_name_chance = 10
-		father_name_chance = 20
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
 
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 20
-		mother_name_chance = 10
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
 		
 		used_for_random = no
 		
@@ -110,13 +110,13 @@ nihonjin = {
 		
 		from_dynasty_prefix = ""
 
-		pat_grf_name_chance = 20
-		mat_grf_name_chance = 10
-		father_name_chance = 20
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
 		
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 20
-		mother_name_chance = 10
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
 		
 		used_for_random = no
 
@@ -168,13 +168,13 @@ nihonjin = {
 		
 		from_dynasty_prefix = ""
 
-		pat_grf_name_chance = 20
-		mat_grf_name_chance = 10
-		father_name_chance = 20
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
 		
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 20
-		mother_name_chance = 10
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
 		
 		used_for_random = no
 

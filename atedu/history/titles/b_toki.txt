@@ -1,0 +1,5 @@
+2652.7.18 = {
+    holding_dynasty = 5002
+    holder = 5007
+	liege = d_taipei
+}

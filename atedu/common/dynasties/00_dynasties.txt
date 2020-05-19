@@ -312,7 +312,7 @@
 1009 = { name = "Sealer" culture = polar }
 1010 = { name = "Wing" culture = polar }
 1011 = { name = "Dissapontment" culture = polar }
-1012 = { name = "Hongry" culture = polar }
+1012 = { name = "Hungry" culture = polar }
 1013 = { name = "Lost" culture = polar }
 1014 = { name = "Sailor" culture = polar }
 1015 = { name = "Giftgiver" culture = polar }
@@ -334,5 +334,17 @@
 1103 = { name = "Flower" culture = chathamite }
 1104 = { name = "Knight" culture = chathamite }
 1105 = { name = "Ara" culture = chathamite }
+
+5000 = { name = "Kobayashi" culture = edokko }
+5001 = { name = "Ito" culture = edokko }
+5002 = { name = "Toki" culture = edokko }
+5003 = { name = "Suzuki" culture = edokko }
+5004 = { name = "Dazai" culture = edokko }
+
+5100 = { name = "Tan" culture = taiwanese }
+5101 = { name = "Hwang" culture = taiwanese }
+5102 = { name = "Wong" culture = taiwanese }
+5103 = { name = "Wu" culture = taiwanese }
+5104 = { name = "Lin" culture = taiwanese }
 
 10000 = { name = "Holy Sword" culture = itaukei }

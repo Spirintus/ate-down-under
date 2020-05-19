@@ -45,7 +45,7 @@ d_the_fiords;The Fiords;;;;;;;;;;;;x
 d_the_fiords_adj;Fiordan;;;;;;;;;;;;x
 d_otautahi;Otauahi;;;;;;;;;;;;x
 d_otautahi_adj;Otauahian;;;;;;;;;;;;x
-d_ryukyu_islands;Ryukyu Islands;;;;;;;;;;;;x
+d_ryukyu_islands;Ryukyu;;;;;;;;;;;;x
 d_taipei;Taipei;;;;;;;;;;;;x
 d_kaohsiung;Kaohsiung;;;;;;;;;;;;x
 d_hualien;Hualien;;;;;;;;;;;;x
@@ -61,8 +61,8 @@ c_chatham;Chatham;;;;;;;;;;;;x
 c_russell_forest;Rusell;;;;;;;;;;;;x
 c_mataura;Mataura;;;;;;;;;;;;x
 c_kaipura;Kaipura;;;;;;;;;;;;x
-c_okinawa_islands;Okinawa Islands;;;;;;;;;;;;x
-c_sakishima_islands;Sakishima Islands;;;;;;;;;;;;x
+c_okinawa_islands;Okinawa;;;;;;;;;;;;x
+c_sakishima_islands;Sakishima;;;;;;;;;;;;x
 c_yilan;Yilan;;;;;;;;;;;;x
 c_taipei;Taipei;;;;;;;;;;;;x
 c_hsinchu;Hsinchu;;;;;;;;;;;;x
@@ -367,3 +367,70 @@ d_bishop_of_canton;Bishop of Canton;;;;;;;;;;;;x
 BISHOP;Bishop;;;;;;;;;;;;x
 BISHOP_FOA;Your Excellence;;;;;;;;;;;;x
 ARCHBISHOP_FOA;Your Archexcellence;;;;;;;;;;;;x
+k_tassie;Tassie;;;;;;;;;;;;x
+d_bass;Bass;;;;;;;;;;;;x
+d_huonia;Huonia;;;;;;;;;;;;x
+d_tassieland;Tassieland;;;;;;;;;;;;x
+b_currie;Currie;;;;;;;;;;;;x
+b_naracoopa;Naracoopa;;;;;;;;;;;;x
+b_grassy;Grassy;;;;;;;;;;;;x
+b_lymwood;Lymwood;;;;;;;;;;;;x
+b_pearshape;Pearshape;;;;;;;;;;;;x
+b_loorana;Loorana;;;;;;;;;;;;x
+b_wickham;Wickham;;;;;;;;;;;;x
+b_whitemark;Whitemark;;;;;;;;;;;;x
+b_palana;Palana;;;;;;;;;;;;x
+b_cape_barren;Cape Barren;;;;;;;;;;;;x
+b_wingaroo;Wingaroo;;;;;;;;;;;;x
+b_emita;Emita;;;;;;;;;;;;x
+b_memana;Memana;;;;;;;;;;;;x
+b_babel;Babel;;;;;;;;;;;;x
+b_launceston;Launceston;;;;;;;;;;;;x
+b_george_town;George Town;;;;;;;;;;;;x
+b_scottsdale;Scottsdale;;;;;;;;;;;;x
+b_tomahawk;Tomahawk;;;;;;;;;;;;x
+b_boobyalla;Boobyalla;;;;;;;;;;;;x
+b_gladstone;Gladstone;;;;;;;;;;;;x
+b_forester;Forrester;;;;;;;;;;;;x
+b_wynyard;Winyard;;;;;;;;;;;;x
+b_smithton;Smithton;;;;;;;;;;;;x
+b_burnie;Burnie;;;;;;;;;;;;x
+b_ulverstone;Ulverstone;;;;;;;;;;;;x
+b_devonport;Devonport;;;;;;;;;;;;x
+b_hunter_island;Hunter Island;;;;;;;;;;;;x
+b_montagu;Montagu;;;;;;;;;;;;x
+b_strahan;Strahan;;;;;;;;;;;;x
+b_queenstown_in_tasmania;Queenstown in Tasmania;;;;;;;;;;;;x
+b_corinna;Corinna;;;;;;;;;;;;x
+b_zeehan;Zeehan;;;;;;;;;;;;x
+b_fort_meredith;Fort Meredith;;;;;;;;;;;;x
+b_elliott;Elliott;;;;;;;;;;;;x
+b_princess;Princess;;;;;;;;;;;;x
+b_new_harbour;New Harbour;;;;;;;;;;;;x
+b_berry;Berry;;;;;;;;;;;;x
+b_counsel;Counsel;;;;;;;;;;;;x
+b_ray;Ray;;;;;;;;;;;;x
+b_hean;Hean;;;;;;;;;;;;x
+b_upper_castle;Upper Castle;;;;;;;;;;;;x
+b_port_davey;Port Davey;;;;;;;;;;;;x
+b_longford;Longford;;;;;;;;;;;;x
+b_cressy;Cressy;;;;;;;;;;;;x
+b_evandale;Evandale;;;;;;;;;;;;x
+b_nile;Nile;;;;;;;;;;;;x
+b_bracknell;Bracknell;;;;;;;;;;;;x
+b_conara;Conara;;;;;;;;;;;;x
+b_dover;Dover;;;;;;;;;;;;x
+b_triabunna;Triabunna;;;;;;;;;;;;x
+b_swansea;Swansea;;;;;;;;;;;;x
+b_ross;Ross;;;;;;;;;;;;x
+b_fingal;Fingal;;;;;;;;;;;;x
+b_oatlands;Oatlands;;;;;;;;;;;;x
+b_campbell_town;Campbell Town;;;;;;;;;;;;x
+b_bicheno;Bicheno;;;;;;;;;;;;x
+b_hobart;Hobart;;;;;;;;;;;;x
+b_kingston;Kingston;;;;;;;;;;;;x
+b_port_arthur;Port Arthur;;;;;;;;;;;;x
+b_huonville;Huonville;;;;;;;;;;;;x
+b_south_arm;South Arm;;;;;;;;;;;;x
+b_bruny_island;Bruny Island;;;;;;;;;;;;x
+b_dover;Dover;;;;;;;;;;;;x

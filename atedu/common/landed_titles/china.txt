@@ -325,3 +325,25 @@ e_china = {
 		}
 	}
 }
+
+## Merchant Republic of Taipei
+b_toki = {
+	culture = edokko
+	religion = shinto
+}
+b_suzuki = {
+	culture = edokko
+	religion = shinto
+}
+b_dazai = {
+	culture = edokko
+	religion = shinto
+}
+b_tan = {
+	culture = taiwanese
+	religion = shinto
+}
+b_hwang = {
+	culture = taiwanese
+	religion = shinto
+}

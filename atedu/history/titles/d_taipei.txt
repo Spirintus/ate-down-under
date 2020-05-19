@@ -1,0 +1,4 @@
+2652.7.18 = {
+    holder = 5007
+	liege = k_ryukyu
+}

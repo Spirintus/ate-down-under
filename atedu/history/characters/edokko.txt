@@ -1,0 +1,94 @@
+#5001-5100
+
+5001 = {
+	name = "Takeshi"
+	dynasty = 5000
+	religion = shinto
+	culture = edokko
+	trait = greedy
+	trait = brave
+	trait = ambitious
+	trait = zealous
+	trait = strategist
+	trait = brilliant_strategist
+	2587.5.22 = { birth = yes }
+}
+
+5002 = {
+	name = "Tadayoshi"
+	dynasty = 5000
+	religion = shinto
+	culture = edokko
+	father = 5001
+	trait = kind
+	trait = diligent
+	trait = gregarious
+	2612.3.1 = { birth = yes }
+}
+
+5003 = {
+	name = "Orihime"
+	dynasty = 5000
+	religion = shinto
+	culture = edokko
+	father = 5001
+	female = yes
+	trait = shy
+	trait = chaste
+	trait = quick
+	2622.8.17 = { birth = yes }
+}
+
+5004 = {
+	name = "Takahashi"
+	dynasty = 5000
+	religion = shinto
+	culture = edokko
+	father = 5002
+	trait = brave
+	trait = cynical
+	trait = fair
+	2638.11.4 = { birth = yes }
+}
+
+5005 = {
+	name = "Taisuke"
+	dynasty = 5000
+	religion = shinto
+	culture = edokko
+	father = 5004
+	2665.1.24 = { birth = yes }
+}
+
+5006 = {
+	name = "Junji"
+	dynasty = 5001
+	religion = shinto
+	culture = edokko
+	mother = 5003
+	2649.8.17 = { birth = yes }
+}
+
+5007 = {
+	name = "Daisuke"
+	dynasty = 5002
+	religion = shinto
+	culture = edokko
+	2630.2.22 = { birth = yes }
+}
+
+5008 = {
+	name = "Rai"
+	dynasty = 5003
+	religion = shinto
+	culture = edokko
+	2633.8.17 = { birth = yes }
+}
+
+5009 = {
+	name = "Atsumori"
+	dynasty = 5004
+	religion = shinto
+	culture = edokko
+	2639.2.11 = { birth = yes }
+}
