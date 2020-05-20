@@ -1,0 +1,13 @@
+# County Title
+title = c_shepparton
+
+# Settlements
+max_settlements = 1
+
+b_shepparton = castle
+
+# Misc
+culture = victorian
+religion = southcrosser
+
+#History

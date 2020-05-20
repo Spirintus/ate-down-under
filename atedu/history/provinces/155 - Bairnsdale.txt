@@ -1,0 +1,14 @@
+# County Title
+title = c_bairnsdale
+
+# Settlements
+max_settlements = 4
+
+b_bairnsdale = castle
+b_lakes_entrance = city
+
+# Misc
+culture = victorian
+religion = southcrosser
+
+#History

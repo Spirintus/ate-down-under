@@ -1,0 +1,13 @@
+# County Title
+title = c_corryong
+
+# Settlements
+max_settlements = 2
+
+b_corryong = castle
+
+# Misc
+culture = victorian
+religion = southcrosser
+
+#History

@@ -226,7 +226,7 @@ east_australian = {
 			Gordon Graham_Graham
 			Haydyn_Hayden
 			Ivanhoe
-			Jack_Jacob "Jack Abel" John_John
+			Jack "Jack Abel" John_John
 			Kevin
 			Lawrence_Lawrence
 			Malcolm Michael_Michael Michael_Mike
@@ -275,8 +275,20 @@ east_australian = {
 		graphical_cultures = { englishgfx westerngfx }
 		color = { 100 170 58 }
 		
-		male_names = { Ynarkael }
-		female_names = {Lizzie_Elizabeth}
+		male_names = {
+			Jack
+			Noah
+			Oliver
+			Thomas_Thomas
+			William_William
+		}
+		female_names = {
+			Amelia
+			Charlotte
+			Isla
+			Mia
+			Olivia
+		}
 		
 		from_dynasty_prefix = "of "
 		
@@ -475,7 +487,7 @@ murraylander = {
 			Bob_Robert
 			Chris_Christopher
 			Dave_David
-			Jack_Jacob John_John
+			Jack John_John
 			Mike_Michael
 			Rich_Richard
 			Robert_Robert
@@ -768,7 +780,7 @@ zealandese = {
 			Ethan_Ethan
 			Graeme_Graham
 			Harrison
-			Jack_Jacob Jacob_Jacob James Jayden_Jayden Jordan Joseph_Joseph Joshua_Joshua
+			Jack Jacob_Jacob James Jayden_Jayden Jordan Joseph_Joseph Joshua_Joshua
 			Lachlan Liam Logan Luke_Lucas
 			Matthew_Matthew Max_Max Michael_Michael Mitchell_Mitchell
 			Nathan_Nathan Nicholas_Nicholas
@@ -871,8 +883,8 @@ zealandese = {
 		color = { 190 255 255 }
 		
 		male_names = {
-			Alabaster 
-			Bushy 
+			Alabaster
+			Bushy
 			Gabriel_Gabriel
 			Kris_Christopher
 			John_John
@@ -881,8 +893,8 @@ zealandese = {
 			Oliver
 			Pepper
 			Rudolph
-			Shinny Sugarplum 
-			Wunorse 
+			Shinny Sugarplum
+			Wunorse
 		}
 		female_names = {
 			Anna_Anna

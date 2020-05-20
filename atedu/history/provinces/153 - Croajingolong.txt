@@ -1,0 +1,13 @@
+# County Title
+title = c_croajingolong
+
+# Settlements
+max_settlements = 2
+
+b_mallacoota = castle
+
+# Misc
+culture = victorian
+religion = southcrosser
+
+#History

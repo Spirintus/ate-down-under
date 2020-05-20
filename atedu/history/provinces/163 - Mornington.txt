@@ -1,0 +1,13 @@
+# County Title
+title = c_mornington
+
+# Settlements
+max_settlements = 1
+
+b_mornington = castle
+
+# Misc
+culture = melbournian
+religion = southcrosser
+
+#History

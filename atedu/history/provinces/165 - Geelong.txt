@@ -1,0 +1,13 @@
+# County Title
+title = c_geelong
+
+# Settlements
+max_settlements = 1
+
+b_geelong = castle
+
+# Misc
+culture = melbournian
+religion = southcrosser
+
+#History

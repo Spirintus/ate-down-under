@@ -1,0 +1,13 @@
+# County Title
+title = c_wodonga
+
+# Settlements
+max_settlements = 1
+
+b_wodonga = castle
+
+# Misc
+culture = victorian
+religion = southcrosser
+
+#History
