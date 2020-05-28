@@ -4,7 +4,7 @@ title = c_warrnambool
 # Settlements
 max_settlements = 1
 
-b_warnambool = castle
+b_warrnambool = castle
 
 # Misc
 culture = victorian

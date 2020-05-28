@@ -1,10 +1,10 @@
 # County Title
-title = c_st_arnaud
+title = c_st_arnaud_vic
 
 # Settlements
 max_settlements = 1
 
-b_st_arnaud = castle
+b_st_arnaud_vic = castle
 
 # Misc
 culture = victorian

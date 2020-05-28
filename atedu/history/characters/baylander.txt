@@ -9,6 +9,11 @@
 	trait = diligent
 	trait = brilliant_strategist
 	trait = strategist
+	trait = brave
+	trait = strong
+	trait = shrewd
+	trait = kind
+	trait = socializer
 	2460.1.23 = {birth = yes}
 	2490.6.25 = {
 		give_nickname = nick_the_great

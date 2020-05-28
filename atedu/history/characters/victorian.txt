@@ -1,0 +1,81 @@
+300 = { #duke of eureka
+	name = "Joe"
+	dynasty = 241
+	religion = southcrosser
+	culture = victorian
+	trait = socializer
+	trait = ambitious
+	trait = diligent
+	2620.10.12 = {birth = yes}
+}
+301 = { #count under gippsland, related to 300
+	name = "James"
+	dynasty = 241
+	religion = southcrosser
+	culture = victorian
+	trait = slothful
+	trait = greedy
+	trait = envious
+	2637.1.19 = {birth = yes}
+}
+
+302 = { #count of croajingolong
+	name = "Jon"
+	dynasty = 242
+	religion = southcrosser
+	culture = victorian
+	2615.3.24 = {birth = yes}
+}
+
+303 = { #vassal of eureka
+	name = "Mike"
+	dynasty = 243
+	religion = digger
+	culture = victorian
+	trait = zealous
+	trait = kind
+	trait = shy
+	trait = brave
+	trait = lustful
+	2641.7.18 = {birth = yes}
+}
+
+304 = {
+	name = "David"
+	dynasty = 244
+	religion = southcrosser
+	culture = victorian
+	2630.1.26 = {birth = yes}
+}
+
+305 = {
+	name = "Nick"
+	dynasty = 245
+	religion = southcrosser
+	culture = victorian
+	2660.1.26 = {birth = yes}
+}
+
+306 = {
+	name = "Bob"
+	dynasty = 246
+	religion = southcrosser
+	culture = victorian
+	2619.8.14 = {birth = yes}
+}
+
+307 = {
+	name = "Rick"
+	dynasty = 247
+	religion = southcrosser
+	culture = victorian
+	2645.6.13 = {birth = yes}
+}
+
+308 = {
+	name = "Mike"
+	dynasty = 248
+	religion = southcrosser
+	culture = victorian
+	2627.8.13 = {birth = yes}
+}

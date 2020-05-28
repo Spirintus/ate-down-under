@@ -1,0 +1,4 @@
+2659.6.25 = {
+	holder = 307
+	liege = k_victoria
+}

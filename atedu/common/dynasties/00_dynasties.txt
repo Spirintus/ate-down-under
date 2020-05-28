@@ -254,6 +254,19 @@
 220 = { name = "Count" culture = melbournian }
 221 = { name = "Bass" culture = melbournian }
 222 = { name = "Nickson" culture = melbournian }
+223 = { name = "Hay" culture = melbournian }
+224 = { name = "Wilson" culture = melbournian }
+225 = { name = "Nguyen" culture = melbournian }
+
+240 = { name = "Fernsby" culture = victorian }
+241 = { name = "Gipp" culture = victorian }
+242 = { name = "Jonson" culture = victorian }
+243 = { name = "Red" culture = victorian }
+244 = { name = "Green" culture = victorian }
+245 = { name = "Brown" culture = victorian }
+246 = { name = "of the River" culture = victorian }
+247 = { name = "Hodges" culture = victorian }
+248 = { name = "Kingson" culture = victorian }
 
 300 = { name = "o'Triabunna" culture = witasmen }
 301 = { name = "o'Rick" culture = witasmen }

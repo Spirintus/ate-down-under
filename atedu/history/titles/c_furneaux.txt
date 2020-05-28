@@ -1,3 +1,4 @@
 2665.11.13 = {
     holder = 150
+	liege = k_victoria
 }

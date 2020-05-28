@@ -1,0 +1,12 @@
+2594.3.4 = {
+	holder = 98
+	liege = k_victoria
+}
+2630.8.10 = {
+	holder = 99
+	liege = k_victoria
+}
+2639.5.5 = {
+	holder = 185
+	liege = k_victoria
+}
