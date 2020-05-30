@@ -2,6 +2,8 @@ imunu_disinherited = {
 	cannot_inherit = yes
 	sex_appeal_opinion = -10 #which woman would like weakling?
 	
+	customizer = no
+	
 	male_insult = INSULT_WEAKLING #INSULT_SHAME_OF_THE_CLAN
 }
 
@@ -12,22 +14,97 @@ hero = {
 }
 
 gray_magic_master = { #Gandalf
-	icon = 48
 	learning = 3
+	
+	potential = {religion = ritualistic}
 }
 blue_magic_master = { #Blue Wizards - progenitors of New Zealand
-	icon = 48
 	diplomacy = 2
 	martial = 1
+	
+	potential = {religion = ritualistic}
 } 
 white_magic_master = { #Saruman
-	icon = 48
 	intrigue = 2
 	combat_rating = 5
+	
+	potential = {religion = ritualistic}
 }
 brown_magic_master = { #Radagast
-	icon = 48
 	combat_rating = 10
 	health = 0.5
 	fertility = 0.1
+	
+	potential = {religion = ritualistic}
+}
+localite_digger = {
+	opposites = {
+		greatmanite_digger
+		spiritualite_digger
+		strayaite_digger
+	}
+	
+	opposite_opinion = -5
+	
+	global_revolt_risk = -0.15
+	local_build_cost_modifier = -0.05
+	
+	potential = { religion = digger }
+	religious_branch = digger
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+spiritualite_digger = {
+	opposites = {
+		localite_digger
+		greatmanite_digger
+		strayaite_digger
+	}
+	
+	opposite_opinion = -5
+	
+	monthly_character_piety = 0.5
+	vassal_opinion = 5
+	
+	potential = { religion = digger }
+	religious_branch = digger
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+strayaite_digger = {
+	opposites = {
+		localite_digger
+		greatmanite_digger
+		spiritualite_digger
+	}
+	
+	opposite_opinion = -5
+	
+	demesne_size = 1
+	
+	potential = { religion = digger }
+	religious_branch = digger
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+greatmanite_digger = {
+	opposites = {
+		localite_digger
+		spiritualite_digger
+		strayaite_digger
+	}
+	
+	opposite_opinion = -5
+	
+	monthly_character_prestige = 0.5
+	martial = 1
+	
+	potential = { religion = digger }
+	religious_branch = digger
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
 }

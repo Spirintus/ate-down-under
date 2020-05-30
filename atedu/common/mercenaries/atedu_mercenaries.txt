@@ -1,7 +1,21 @@
 fellowship_composition = {
-	levy_size = 8
+	levy_size = 4
+	archers = 300
+	light_infantry = 400
+	pikemen = 200
+	knights = 200
+}
+all_blacks_composition = {
+	levy_size = 4
+	light_infantry = 100
+	heavy_infantry = 400
+	pikemen = 100
 	archers = 100
-	light_infantry = 240
-	heavy_infantry = 120
-	#heavy_cavalry = 200
+}
+tans_composition = {
+	levy_size = 3
+	light_infantry = 150
+	heavy_infantry = 300
+	pikemen = 100
+	archers = 150
 }

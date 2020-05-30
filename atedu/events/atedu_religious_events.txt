@@ -1,0 +1,238 @@
+namespace = RelDU
+
+# Changed branch of Digger faith
+character_event = {
+	id = RelDU.1
+	desc = {
+		trigger = {
+			NOT = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		text = EVTDESC_RelDU_1
+    }
+	desc = {
+		trigger = {
+			has_alternate_start_parameter = {
+				key = religion_names
+				value = random
+			}
+		}
+		text = EVTDESC_RelDU_1
+    }
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = EVTOPT_RelDU_1_A
+			trigger = {
+				NOT = {
+					has_alternate_start_parameter = {
+						key = religion_names
+						value = random
+					}
+				}
+			}
+		}
+		name = {
+			text = EVTOPT_RelDU_1_A
+			trigger = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		trigger = {
+			NOT = { trait = spiritualite_digger }
+		}
+		add_trait = spiritualite_digger
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = digger
+				NOT = { trait = spiritualite_digger }
+			}
+			add_trait = spiritualite_digger
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = digger
+				NOT = { trait = spiritualite_digger }
+			}
+			add_trait = spiritualite_digger
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_DIGGER_BRANCH_TO_SPIRITUALITE
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+
+	option = {
+		name = {
+			text = EVTOPT_RelDU_1_B
+			trigger = {
+				NOT = {
+					has_alternate_start_parameter = {
+						key = religion_names
+						value = random
+					}
+				}
+			}
+		}
+		name = {
+			text = EVTOPT_RelDU_1_B
+			trigger = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		trigger = {
+			NOT = { trait = strayaite_digger }
+		}
+		add_trait = strayaite_digger
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = digger
+				NOT = { trait = strayaite_digger }
+			}
+			add_trait = strayaite_digger
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = digger
+				NOT = { trait = strayaite_digger }
+			}
+			add_trait = strayaite_digger
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_DIGGER_BRANCH_TO_STRAYAITE
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+
+	option = {
+		name = {
+			text = EVTOPT_RelDU_1_C
+			trigger = {
+				NOT = {
+					has_alternate_start_parameter = {
+						key = religion_names
+						value = random
+					}
+				}
+			}
+		}
+		name = {
+			text = EVTOPT_RelDU_1_C
+			trigger = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		trigger = {
+			NOT = { trait = greatmanite_digger }
+		}
+		add_trait = greatmanite_digger
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = digger
+				NOT = { trait = greatmanite_digger }
+			}
+			add_trait = greatmanite_digger
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = digger
+				NOT = { trait = greatmanite_digger }
+			}
+			add_trait = greatmanite_digger
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_DIGGER_BRANCH_TO_GREATMANITE
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+
+	option = {
+		name = {
+			text = EVTOPT_RelDU_1_D
+			trigger = {
+				NOT = {
+					has_alternate_start_parameter = {
+						key = religion_names
+						value = random
+					}
+				}
+			}
+		}
+		name = {
+			text = EVTOPT_RelDU_1_D
+			trigger = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		trigger = {
+			NOT = { trait = localite_digger }
+		}
+		add_trait = localite_digger
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = digger
+				NOT = { trait = localite_digger }
+			}
+			add_trait = localite_digger
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = digger
+				NOT = { trait = localite_digger }
+			}
+			add_trait = localite_digger
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_DIGGER_BRANCH_TO_LOCALITE
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+}

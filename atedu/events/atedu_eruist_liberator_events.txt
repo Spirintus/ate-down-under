@@ -25,6 +25,10 @@ province_event = {
 	
 	immediate = {
 		clr_global_flag = liberator_not_yet_here
+		activate_title = {
+			title = d_liberator
+			status = yes
+		}
 		c_dunedin = {
 			holder_scope = {
 				random_list = {
@@ -149,7 +153,6 @@ province_event = {
 							trait = diligent
 							trait = proud
 							trait = midas_touched
-							trait = aggressive_leader
 							attributes = {
 								diplomacy = 10
 								martial = 8
@@ -346,7 +349,7 @@ narrative_event = { #liberator become king
 	
 	immediate = {
 		c_dunedin = { usurp_title = ROOT }
-		#capital = 58
+		capital = c_dunedin
 		grant_title = k_dunedin
 		k_dunedin = {
 			add_law = succ_primogeniture
@@ -360,6 +363,11 @@ narrative_event = { #liberator become king
 			else = {
 				add_law = crown_authority_1
 			}
+		}
+		destroy_landed_title = d_liberator
+		activate_title = {
+			title = d_liberator
+			status = no
 		}
 		character_event = {id = erulib.4 days = 7 random = 7}
 	}
@@ -501,7 +509,7 @@ character_event = {
 	immediate = {
 		trigger_switch = {
 			on_trigger = has_character_flag
-			conquest_of_christchurch = { 
+			conquest_of_christchurch = {
 				clr_character_flag = conquest_of_christchurch
 				set_character_flag = conquest_of_south_island
 				character_event = { id = erulib.6 days = 7 }
@@ -513,8 +521,8 @@ character_event = {
 			}
 			conquest_of_north_island = {
 				clr_character_flag = conquest_of_north_island
-				set_character_flag = conquest_has_been_finished
-				#character_event = { id = erulib.7 days = 7 }   ###To be continue###
+				#set_character_flag = conquest_has_been_finished
+				character_event = { id = erulib.8 days = 7 }   ###To be continue###
 			}
 		}
 	}
@@ -693,5 +701,82 @@ character_event = { #Liberator goes to war last time
 				NOT = { THIS = { religion_group = christian } }
 			}
 		}
+	}
+}
+
+narrative_event = {
+	id = erulib.8
+	title = EVTTITLE_erulib_8
+	desc = {
+		text = EVTDESC_erulib_8_eruist
+		trigger = {
+			k_dunedin = {
+				religion = eruist
+			}
+		}
+	}
+	
+	desc = {
+		text = EVTDESC_erulib_8_quendic
+		trigger = {
+			k_dunedin = {
+				religion = quendic
+			}
+		}
+	}
+	
+	desc = {
+		text = EVTDESC_erulib_8_ritualistic
+		trigger = {
+			k_dunedin = {
+				religion = ritualistic
+			}
+		}
+	}
+	#picture = 
+	border = GFX_event_character_frame_war
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	immediate = {
+		#clr_character_flag = conquest_has_been_finished
+	}
+	
+	option = {
+		trigger = {
+			has_character_flag = this_is_liberator
+		}
+		name = EVTOPT_erulib_8_A
+		grant_title = e_new_zealand
+		trigger_switch = {
+			on_trigger = religion
+			eruist = { grant_title = k_eruist }
+			ritualistic = { grant_title = k_ritualistic }
+			quendic = { grant_title = k_quendic }
+		}
+		e_new_zealand = {
+			add_law = succ_primogeniture
+			add_law = true_cognatic_succession
+			if = {
+				limit = {
+					has_dlc = "Zeus"
+				}
+				add_law = revoke_title_law_2
+			}
+			else = {
+				add_law = crown_authority_1
+			}
+		}
+		clr_character_flag = this_is_liberator
+		prestige = 1000
+		piety = 1000
+	}
+	option = {
+		trigger = {
+			NOT = { has_character_flag = this_is_liberator }
+		}
+		name = "Oh shit he won"
 	}
 }

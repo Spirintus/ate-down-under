@@ -1,0 +1,16 @@
+spriteTypes = {
+	spriteType = {
+		 name = "GFX_trait_localite_digger"
+		 texturefile = "gfx/traits/localite_digger.tga"
+		 noOfFrames = 1
+		 norefcount = yes
+		 effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		 name = "GFX_trait_greatmanite_digger"
+		 texturefile = "gfx/traits/greatmanite_digger.tga"
+		 noOfFrames = 1
+		 norefcount = yes
+		 effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

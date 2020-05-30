@@ -24,7 +24,7 @@ k_south_cross = {
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"
 	
-	#pentarchy = southcrosser
+	pentarchy = southcrosser
 	religion = southcrosser
 	controls_religion = southcrosser
 	
@@ -81,7 +81,7 @@ d_bishop_of_sinai = {
 	color = {255 215 51}
 	color2 = {255 255 255}
 	
-	capital = 1 #for now
+	capital = 1 #for now, change to Uluru later (yea, southcrossers believe that Uluru is sinai...)
 	
 	title = "BISHOP"
 	foa = "BISHOP_FOA"
@@ -197,6 +197,10 @@ k_eruist = {
 	
 	primary = yes
 	
+	allow = {
+		always = no
+	}
+	
 	dynasty_title_names = no
 }
 
@@ -214,6 +218,10 @@ k_quendic = {
 	
 	primary = yes
 	
+	allow = {
+		always = no
+	}
+	
 	dynasty_title_names = no
 }
 k_ritualistic = {
@@ -228,6 +236,10 @@ k_ritualistic = {
 	controls_religion = ritualistic
 	
 	primary = yes
+	
+	allow = {
+		always = no
+	}
 	
 	dynasty_title_names = no
 }

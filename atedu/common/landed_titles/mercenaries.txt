@@ -26,3 +26,59 @@ d_the_fellowship_order = {
 	# Extra income due to banking, etc
 	monthly_income = 10 # (Must be an integer between 1 and 512)
 }
+
+d_all_blacks = {
+	color = {0 0 0}
+	color2 = {255 255 255}
+	
+	capital = 1 #Auckland
+	
+	culture = aucklander
+	religion = eruist
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = all_blacks_composition
+}
+
+d_tans = {
+	color = {222 184 135}
+	color2 = {255 255 255}
+	
+	capital = 1 #Auckland
+	
+	culture = aucklander
+	religion = eruist
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = tans_composition
+}
