@@ -15,6 +15,7 @@ k_dunedin;Dunedin;;;;;;;;;;;;x
 k_christchurch;Christchurch;;;;;;;;;;;;x
 k_ryukyu;Ryukyu;;;;;;;;;;;;x
 k_taiwan;Taiwan;;;;;;;;;;;;x
+k_victoria;Victoria;;;;;;;;;;;;x
 d_pegasus;Pegasus;;;;;;;;;;;;x
 d_christchurch;Christchurch;;;;;;;;;;;;x
 d_timaru;Timaru;;;;;;;;;;;;x
@@ -49,6 +50,12 @@ d_ryukyu_islands;Ryukyu;;;;;;;;;;;;x
 d_taipei;Taipei;;;;;;;;;;;;x
 d_kaohsiung;Kaohsiung;;;;;;;;;;;;x
 d_hualien;Hualien;;;;;;;;;;;;x
+d_gippsland;Gippsland;;;;;;;;;;;;x
+d_hume;Hume;;;;;;;;;;;;x
+d_campaspe;Campaspe;;;;;;;;;;;;x
+d_melbourne;Melbourne;;;;;;;;;;;;x
+d_great_south_coast;Great South Coast;;;;;;;;;;;;x
+d_loddon;Loddon;;;;;;;;;;;;x
 c_norfolk;Norfolk;;;;;;;;;;;;x
 c_stewart_island;Stewart Island;;;;;;;;;;;;x
 c_auckland_islands;New Auckland;;;;;;;;;;;;x
@@ -73,6 +80,30 @@ c_kaohsiung;Kaohsiung;;;;;;;;;;;;x
 c_pingtung;Pingtung;;;;;;;;;;;;x
 c_taitung;Taitung;;;;;;;;;;;;x
 c_hualien;Hualien;;;;;;;;;;;;x
+c_croajingolong;Croajingolong;;;;;;;;;;;;x
+c_bairnsdale;Bairnsdale;;;;;;;;;;;;x
+c_sale;Sale;;;;;;;;;;;;x
+c_traralgon;Traralgon;;;;;;;;;;;;x
+c_corryong;Corryong;;;;;;;;;;;;x
+c_wodonga;Wodonga;;;;;;;;;;;;x
+c_shepparton;Shepparton;;;;;;;;;;;;x
+c_yarra;Yarra;;;;;;;;;;;;x
+c_bendigo;Bendigo;;;;;;;;;;;;x
+c_kilmore;Kilmore;;;;;;;;;;;;x
+c_ballarat;Ballarat;;;;;;;;;;;;x
+c_mornington;Mornington;;;;;;;;;;;;x
+c_melbourne;Melbourne;;;;;;;;;;;;x
+c_geelong;Geelong;;;;;;;;;;;;x
+c_otway;Otway;;;;;;;;;;;;x
+c_warrnambool;Warrnambool;;;;;;;;;;;;x
+c_beaufort;Beaufort;;;;;;;;;;;;x
+c_portland;Portland;;;;;;;;;;;;x
+c_swan_hill;Swan Hill;;;;;;;;;;;;x
+c_st_arnaud_vic;St Arnaud;;;;;;;;;;;;x
+c_robinvale;Robinvale;;;;;;;;;;;;x
+c_horsham;Horsham;;;;;;;;;;;;x
+c_ararat;Ararat;;;;;;;;;;;;x
+c_st_arnaud_nz;St Arnaud;;;;;;;;;;;;x
 b_mount_wellington;Mount Wellington;;;;;;;;;;;;x
 b_waiheke;Waiheke;;;;;;;;;;;;x
 b_mount_albert;Mount Albert;;;;;;;;;;;;x
@@ -124,7 +155,7 @@ b_middlegate;Middlegate;;;;;;;;;;;;x
 b_nepean_island;Nepean Island;;;;;;;;;;;;x
 b_phillip_island;Phillip Island;;;;;;;;;;;;x
 b_emily_bay;Emily Bay;;;;;;;;;;;;x
-b_alexandra;Alexandra;;;;;;;;;;;;x
+b_alexandra_nz;Alexandra;;;;;;;;;;;;x
 b_roxburgh;Roxburgh;;;;;;;;;;;;x
 b_piano_flat;Piano Flat;;;;;;;;;;;;x
 b_ettrick;Ettrick;;;;;;;;;;;;x
@@ -322,6 +353,165 @@ b_xincheng;Xincheng;;;;;;;;;;;;x
 b_shoufeng;Shoufeng;;;;;;;;;;;;x
 b_xiulin;Xiulin;;;;;;;;;;;;x
 b_guangfu;Guangfu;;;;;;;;;;;;x
+b_mallacoota;Mallacoota;;;;;;;;;;;;x
+b_goongerah;Goongerah;;;;;;;;;;;;x
+b_gipsy_point;Gipsy Point;;;;;;;;;;;;x
+b_cann_river;Cann River;;;;;;;;;;;;x
+b_noorinbee;Noorinbee;;;;;;;;;;;;x
+b_bemm_river;Bemm River;;;;;;;;;;;;x
+b_genoa;Genoa;;;;;;;;;;;;x
+b_bairnsdale;Bairnsdale;;;;;;;;;;;;x
+b_lakes_entrance;Lakes Entrance;;;;;;;;;;;;x
+b_paynesville;Paynesville;;;;;;;;;;;;x
+b_orbost;Orbost;;;;;;;;;;;;x
+b_metung;Metung;;;;;;;;;;;;x
+b_loch_sport;Loch Sport;;;;;;;;;;;;x
+b_briagolong;Briagolong;;;;;;;;;;;;x
+b_sale;Sale;;;;;;;;;;;;x
+b_maffra;Maffra;;;;;;;;;;;;x
+b_stratford;Stratford;;;;;;;;;;;;x
+b_longford_vic;Longford;;;;;;;;;;;;x
+b_wurruk;Wurruk;;;;;;;;;;;;x
+b_woodside;Woodside;;;;;;;;;;;;x
+b_the_honeysuckles;The Honeysuckles;;;;;;;;;;;;x
+b_traralgon;Traralgon;;;;;;;;;;;;x
+b_moe;Moe;;;;;;;;;;;;x
+b_newborough;Newborough;;;;;;;;;;;;x
+b_warragul;Warragul;;;;;;;;;;;;x
+b_morwell;Morwell;;;;;;;;;;;;x
+b_leongatha;Leongatha;;;;;;;;;;;;x
+b_churchill;Churchill;;;;;;;;;;;;x
+b_corryong;Corryong;;;;;;;;;;;;x
+b_mount_beauty;Mount Beauty;;;;;;;;;;;;x
+b_towong;Towong;;;;;;;;;;;;x
+b_tintaldra;Tintaldra;;;;;;;;;;;;x
+b_cudgewa;Cudgewa;;;;;;;;;;;;x
+b_falls_creek;Falls Creek;;;;;;;;;;;;x
+b_dartmouth;Dartmouth;;;;;;;;;;;;x
+b_wodonga;Wodonga;;;;;;;;;;;;x
+b_wangaratta;Wangaratta;;;;;;;;;;;;x
+b_benalla;Benalla;;;;;;;;;;;;x
+b_yarrawonga;Yarrawonga;;;;;;;;;;;;x
+b_tatura;Tatura;;;;;;;;;;;;x
+b_myrtleford;Myrtleford;;;;;;;;;;;;x
+b_beechworth;Beechworth;;;;;;;;;;;;x
+b_shepparton;Shepparton;;;;;;;;;;;;x
+b_mooroopna;Mooroopna;;;;;;;;;;;;x
+b_cobram;Cobram;;;;;;;;;;;;x
+b_nathalia;Nathalia;;;;;;;;;;;;x
+b_violet;Violet;;;;;;;;;;;;x
+b_healesville;Healesville;;;;;;;;;;;;x
+b_seymour;Seymour;;;;;;;;;;;;x
+b_mansfield;Mansfield;;;;;;;;;;;;x
+b_alexandra_vic;Alexandra;;;;;;;;;;;;x
+b_nagambie;Nagambie;;;;;;;;;;;;x
+b_yea;Yea;;;;;;;;;;;;x
+b_eildon;Eildon;;;;;;;;;;;;x
+b_bendigo;Bendigo;;;;;;;;;;;;x
+b_echuca;Echuca;;;;;;;;;;;;x
+b_kyabram;Kyabram;;;;;;;;;;;;x
+b_rochester;Rochester;;;;;;;;;;;;x
+b_heathcote;Heathcote;;;;;;;;;;;;x
+b_rushworth;Rushworth;;;;;;;;;;;;x
+b_elmore;Elmore;;;;;;;;;;;;x
+b_kilmore;Kilmore;;;;;;;;;;;;x
+b_castlemaine;Castlemaine;;;;;;;;;;;;x
+b_kyneton;Kyneton;;;;;;;;;;;;x
+b_romsey;Romsey;;;;;;;;;;;;x
+b_broadford;Broadford;;;;;;;;;;;;x
+b_woodend;Woodend;;;;;;;;;;;;x
+b_daylesford;Daylesford;;;;;;;;;;;;x
+b_ballarat;Ballarat;;;;;;;;;;;;x
+b_wendouree;Wendouree;;;;;;;;;;;;x
+b_marysborough;Marysborough;;;;;;;;;;;;x
+b_macedon;Macedon;;;;;;;;;;;;x
+b_creswick;Creswick;;;;;;;;;;;;x
+b_ballan;Ballan;;;;;;;;;;;;x
+b_smythesdale;Smythesdale;;;;;;;;;;;;x
+b_pakenham;Pakenham;;;;;;;;;;;;x
+b_mornington;Mornington;;;;;;;;;;;;x
+b_drouin;Drouin;;;;;;;;;;;;x
+b_wothaggi;Wothaggi;;;;;;;;;;;;x
+b_iverloch;Iverloch;;;;;;;;;;;;x
+b_cowes;Cowes;;;;;;;;;;;;x
+b_woori_yallock;Woori Yallock;;;;;;;;;;;;x
+b_melbourne;Melbourne;;;;;;;;;;;;x
+b_melton;Melton;;;;;;;;;;;;x
+b_sunbury;Sunbury;;;;;;;;;;;;x
+b_gisborne;Gisborne;;;;;;;;;;;;x
+b_wallan;Wallan;;;;;;;;;;;;x
+b_whittlesea;Whittlesea;;;;;;;;;;;;x
+b_eyenesbury;Eyenesbury;;;;;;;;;;;;x
+b_geelong;Geelong;;;;;;;;;;;;x
+b_bacchus_marsh;Bacchus Marsh;;;;;;;;;;;;x
+b_lara;Lara;;;;;;;;;;;;x
+b_ocean_grove;Ocean Grove;;;;;;;;;;;;x
+b_drysdale;Drysdale;;;;;;;;;;;;x
+b_torquay;Torquay;;;;;;;;;;;;x
+b_leopold;Leopold;;;;;;;;;;;;x
+b_colac;Colac;;;;;;;;;;;;x
+b_apollo_bay;Apollo Bay;;;;;;;;;;;;x
+b_lorne;Lorne;;;;;;;;;;;;x
+b_birregurra;Birregurra;;;;;;;;;;;;x
+b_airleys_inlet;Airleys Inlet;;;;;;;;;;;;x
+b_elliminyt;Elliminyt;;;;;;;;;;;;x
+b_skenes_creek;Skenes Creek;;;;;;;;;;;;x
+b_warrnambool;Warnambool;;;;;;;;;;;;x
+b_port_fairy;Port Fairy;;;;;;;;;;;;x
+b_camperdown;Camperdown;;;;;;;;;;;;x
+b_terang;Terang;;;;;;;;;;;;x
+b_koroit;Koroit;;;;;;;;;;;;x
+b_cobdem;Cobdem;;;;;;;;;;;;x
+b_mortlake;Mortlake;;;;;;;;;;;;x
+b_beaufort;Beaufort;;;;;;;;;;;;x
+b_dunkeld;Dunkeld;;;;;;;;;;;;x
+b_raglan;Raglan;;;;;;;;;;;;x
+b_skipton;Skipton;;;;;;;;;;;;x
+b_willaura;Willaura;;;;;;;;;;;;x
+b_lake_bolac;Lake Bolac;;;;;;;;;;;;x
+b_glenthompson;Glenthompson;;;;;;;;;;;;x
+b_portland;Portland;;;;;;;;;;;;x
+b_hamilton;Hamilton;;;;;;;;;;;;x
+b_heywood;Heywood;;;;;;;;;;;;x
+b_casterton;Casterton;;;;;;;;;;;;x
+b_coleraine;Coleraine;;;;;;;;;;;;x
+b_macarthur;Macarthur;;;;;;;;;;;;x
+b_bolwarra;Bolwarra;;;;;;;;;;;;x
+b_swan_hill;Swan Hill;;;;;;;;;;;;x
+b_kerang;Kerang;;;;;;;;;;;;x
+b_cohuna;Cohuna;;;;;;;;;;;;x
+b_lake_boga;Lake Boga;;;;;;;;;;;;x
+b_boort;Boort;;;;;;;;;;;;x
+b_nyah;Nyah;;;;;;;;;;;;x
+b_pyramid_hill;Pyramid Hill;;;;;;;;;;;;x
+b_st_arnaud_vic;St Arnaud;;;;;;;;;;;;x
+b_st_arnaud_nz;St Arnaud;;;;;;;;;;;;x
+b_donald_Donald;;;;;;;;;;;;x
+b_inglewood;Inglewood;;;;;;;;;;;;x
+b_charlton;Charlton;;;;;;;;;;;;x
+b_birchip;Birchip;;;;;;;;;;;;x
+b_wedderburn;Wedderburn;;;;;;;;;;;;x
+b_minyip;Minyip;;;;;;;;;;;;x
+b_robinvale;Robinvale;;;;;;;;;;;;x
+b_ouyen;Ouyen;;;;;;;;;;;;x
+b_sea_lake;Sea Lake;;;;;;;;;;;;x
+b_hopetoun;Hopetoun;;;;;;;;;;;;x
+b_patchewollock;Patchewollock;;;;;;;;;;;;x
+b_boundary_bend;Boundary Bend;;;;;;;;;;;;x
+b_horsham;Horsham;;;;;;;;;;;;x
+b_warracknabeal;Warracknabeal;;;;;;;;;;;;x
+b_dimboola;Dimboola;;;;;;;;;;;;x
+b_haven;Haven;;;;;;;;;;;;x
+b_beulah;Beulah;;;;;;;;;;;;x
+b_rainbow;Rainbow;;;;;;;;;;;;x
+b_jeparit;Jeparit;;;;;;;;;;;;x
+b_ararat;Ararat;;;;;;;;;;;;x
+b_stawell;Stawell;;;;;;;;;;;;x
+b_avoca;Avoca;;;;;;;;;;;;x
+b_great_western;Great Western;;;;;;;;;;;;x
+b_halls_gap;Halls Gap;;;;;;;;;;;;x
+b_moyston;Moyston;;;;;;;;;;;;x
+b_pomonal;Pomonal;;;;;;;;;;;;x
 d_otago;Otago;;;;;;;;;;;;x
 d_otago_adj;Otagoan;;;;;;;;;;;;x
 c_invercargill;Invercargill;;;;;;;;;;;;x
@@ -413,7 +603,7 @@ b_ray;Ray;;;;;;;;;;;;x
 b_hean;Hean;;;;;;;;;;;;x
 b_upper_castle;Upper Castle;;;;;;;;;;;;x
 b_port_davey;Port Davey;;;;;;;;;;;;x
-b_longford;Longford;;;;;;;;;;;;x
+b_longford_tas;Longford;;;;;;;;;;;;x
 b_cressy;Cressy;;;;;;;;;;;;x
 b_evandale;Evandale;;;;;;;;;;;;x
 b_nile;Nile;;;;;;;;;;;;x
@@ -434,4 +624,3 @@ b_huonville;Huonville;;;;;;;;;;;;x
 b_south_arm;South Arm;;;;;;;;;;;;x
 b_bruny_island;Bruny Island;;;;;;;;;;;;x
 b_dover;Dover;;;;;;;;;;;;x
-k_victoria;Victoria;;;;;;;;;;;;x

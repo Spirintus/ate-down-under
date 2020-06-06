@@ -194,6 +194,7 @@ e_eden = {
 				
 				b_sale = {}
 				b_maffra = {}
+				b_stratford = {}
 				b_longford_vic = {}
 				b_wurruk = {}
 				b_woodside = {}
@@ -204,13 +205,19 @@ e_eden = {
 				color2 = {255 255 255}
 				
 				b_traralgon = {}
+				b_moe = {}
+				b_newborough = {}
+				b_warragul = {}
+				b_morwell = {}
+				b_leongatha = {}
+				b_churchill = {}
 			}
 		}
 		d_hume = {
 			color = {6 138 94}
 			color2 = {255 255 255}
 			
-			capital = 154
+			capital = 157 # shepparton
 			
 			c_corryong = {
 				color = {22 210 125}
@@ -229,44 +236,79 @@ e_eden = {
 				color2 = {255 255 255}
 				
 				b_wodonga = {}
+				b_wangaratta = {}
+				b_benalla = {}
+				b_yarrawonga = {}
+				b_tatura = {}
+				b_myrtleford = {}
+				b_beechworth = {}
 			}
 			c_shepparton = {
 				color = {3 94 56}
 				color2 = {255 255 255}
 				
 				b_shepparton = {}
+				b_mooroopna = {}
+				b_cobram = {}
+				b_numurkah = {}
+				b_euroa = {}
+				b_nathalia = {}
+				b_violet = {}
 			}
-			c_seymour = {
+			c_yarra = {
 				color = {15 176 103}
 				color2 = {255 255 255}
 				
+				b_healesville = {}
 				b_seymour = {}
+				b_mansfield = {}
+				b_alexandra_vic = {}
+				b_nagambie = {}
+				b_yea = {}
+				b_eildon = {}
 			}
 		}
 		d_campaspe = {
 			color = {248 47 135}
 			color2 = {255 255 255}
 			
-			capital = 159
+			capital = 169 # ballarat
 			
 			c_bendigo = {
 				color = {239 22 85}
 				color2 = {255 255 255}
 				
 				b_bendigo = {}
+				b_echuca = {}
+				b_kyabram = {}
+				b_rochester = {}
+				b_heathcote = {}
+				b_rushworth = {}
+				b_elmore = {}
 			}
-			c_castlemaine = {
+			c_kilmore = {
 				color = {236 37 223}
 				color2 = {255 255 255}
 				
+				b_kilmore = {}
 				b_castlemaine = {}
+				b_kyneton = {}
+				b_romsey = {}
+				b_broadford = {}
+				b_woodend = {}
+				b_daylesford = {}
 			}
 			c_ballarat = {
 				color = {148 9 116}
 				color2 = {255 255 255}
 				
 				b_ballarat = {}
+				b_wendouree = {}
+				b_maryborough = {}
 				b_macedon = {}
+				b_creswick = {}
+				b_ballan = {}
+				b_smythesdale = {}
 			}
 		}
 		d_melbourne = {
@@ -279,87 +321,159 @@ e_eden = {
 				color = {22 182 233}
 				color2 = {255 255 255}
 				
+				b_pakenham = {}
 				b_mornington = {}
+				b_drouin = {}
+				b_wothaggi = {}
+				b_iverloch = {}
+				b_cowes = {}
+				b_woori_yallock = {}
 			}
 			c_melbourne = {
 				color = {6 9 182}
 				color2 = {255 255 255}
 				
 				b_melbourne = {}
+				b_melton = {}
+				b_sunbury = {}
+				b_gisborne = {}
+				b_wallan = {}
+				b_whittlesea = {}
+				b_eyenesbury = {}
 			}
 			c_geelong = {
 				color = {31 107 204}
 				color2 = {255 255 255}
 				
 				b_geelong = {}
+				b_bacchus_marsh = {}
+				b_lara = {}
+				b_ocean_grove = {}
+				b_drysdale = {}
+				b_torquay = {}
+				b_leopold = {}
 			}
 		}
 		d_great_south_coast = {
 			color = {113 105 118}
 			color2 = {255 255 255}
 			
-			capital = 166
+			capital = 167 # warrnambool
 			
-			c_apollo_bay = {
+			c_otway = {
 				color = {151 116 113}
 				color2 = {255 255 255}
 				
+				b_colac = {}
 				b_apollo_bay = {}
+				b_lorne = {}
+				b_birregurra = {}
+				b_airleys_inlet = {}
+				b_elliminyt = {}
+				b_skenes_creek = {}
 			}
 			c_warrnambool = {
 				color = {129 122 166}
 				color2 = {255 255 255}
 				
 				b_warrnambool = {}
+				b_port_fairy = {}
+				b_camperdown = {}
+				b_terang = {}
+				b_koroit = {}
+				b_cobden = {}
+				b_mortlake = {}
 			}
 			c_beaufort = {
 				color = {148 176 151}
 				color2 = {255 255 255}
 				
 				b_beaufort = {}
+				b_dunkeld = {}
+				b_raglan = {}
+				b_skipton = {}
+				b_willaura = {}
+				b_lake_bolac = {}
+				b_glenthompson = {}
 			}
 			c_portland = {
 				color = {107 192 198}
 				color2 = {255 255 255}
 				
 				b_portland = {}
+				b_hamilton = {}
+				b_heywood = {}
+				b_casterton = {}
+				b_coleraine = {}
+				b_macarthur = {}
+				b_bolwarra = {}
 			}
 		}
 		d_loddon = {
 			color = {53 129 157}
 			color2 = {255 255 255}
 			
-			capital = 171
+			capital = 174 # horsham
 			
 			c_swan_hill = {
 				color = {63 195 176}
 				color2 = {255 255 255}
 				
 				b_swan_hill = {}
+				b_kerang = {}
+				b_cohuna = {}
+				b_lake_boga = {}
+				b_boort = {}
+				b_nyah = {}
+				b_pyramid_hill = {}
 			}
 			c_st_arnaud_vic = {
 				color = {51 43 155}
 				color2 = {255 255 255}
 				
 				b_st_arnaud_vic = {}
+				b_donald = {}
+				b_inglewood = {}
+				b_charlton = {}
+				b_birchip = {}
+				b_wedderburn = {}
+				b_minyip = {}
 			}
-			c_ouyen = {
+			c_robinvale = {
 				color = {37 116 97}
 				color2 = {255 255 255}
 				
+				b_robinvale = {}
 				b_ouyen = {}
+				b_sea_lake = {}
+				b_hopetoun = {}
+				b_underbool = {}
+				b_patchewollock = {}
+				b_boundary_bend = {}
 			}
 			c_horsham = {
 				color = {135 122 204}
 				color2 = {255 255 255}
 				
 				b_horsham = {}
+				b_warracknabeal = {}
+				b_dimboola = {}
+				b_haven = {}
+				b_beulah = {}
+				b_rainbow = {}
+				b_jeparit = {}
 			}
-			c_stawell = {
+			c_ararat = {
 				color = {75 163 220}
 				color2 = {255 255 255}
 				
-				b_stawell
+				b_ararat = {}
+				b_stawell = {}
+				b_avoca = {}
+				b_great_western = {}
+				b_halls_gap = {}
+				b_moyston = {}
+				b_pomonal = {}
 			}
 		}
 		d_limestone_coast
@@ -379,6 +493,7 @@ e_eden = {
 				color2 = {255 255 255}
 				
 				b_edenhope = {}
+				b_nhill = {}
 			}
 			c_naracoorte = {
 				color = {229 179 198}
@@ -422,6 +537,8 @@ e_eden = {
 				color2 = {255 255 255}
 				
 				b_mildura = {}
+				b_red_cliffs = {}
+				b_merbein = {}
 			}
 		}
 	}

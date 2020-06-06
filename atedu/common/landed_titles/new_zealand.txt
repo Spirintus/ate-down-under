@@ -69,7 +69,7 @@ e_new_zealand = {
 				color = { 181 27 122}
 				color2 = {255 255 255}
 				
-				b_alexandra = {}
+				b_alexandra_nz = {}
 				b_roxburgh = {}
 				b_piano_flat = {}
 				b_ettrick = {}
@@ -395,10 +395,10 @@ e_new_zealand = {
 				color2 = { 255 255 255 }
 				b_richmond = {}
 			}
-			c_st_arnaud = {
+			c_st_arnaud_nz = {
 				color = {3 66 165 }
 				color2 = { 255 255 255 }
-				b_st_arnaud = {}
+				b_st_arnaud_nz = {}
 			}
 		}		
 	}
