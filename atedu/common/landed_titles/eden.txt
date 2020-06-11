@@ -390,7 +390,7 @@ e_eden = {
 				
 				b_beaufort = {}
 				b_dunkeld = {}
-				b_raglan = {}
+				b_raglan_vic = {}
 				b_skipton = {}
 				b_willaura = {}
 				b_lake_bolac = {}
@@ -401,7 +401,7 @@ e_eden = {
 				color2 = {255 255 255}
 				
 				b_portland = {}
-				b_hamilton = {}
+				b_hamilton_vic = {}
 				b_heywood = {}
 				b_casterton = {}
 				b_coleraine = {}
