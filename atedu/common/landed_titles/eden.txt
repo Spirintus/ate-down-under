@@ -336,7 +336,7 @@ e_eden = {
 				b_melbourne = {}
 				b_melton = {}
 				b_sunbury = {}
-				b_gisborne = {}
+				b_gisborne_vic = {}
 				b_wallan = {}
 				b_whittlesea = {}
 				b_eyenesbury = {}
@@ -548,4 +548,20 @@ e_eden = {
 b_fitzroy = {
 	culture = melbournian
 	religion = southcrosser
+}
+b_micallef = {
+	culture = maltralian
+	religion = southcrosser
+}
+b_shang = {
+	culture = aozhouren
+	religion = southcrosser
+}
+b_argenti = {
+	culture = melbournian
+	religion = southcrosser
+}
+b_polites = {
+	culture = melbournian
+	religion = digger
 }

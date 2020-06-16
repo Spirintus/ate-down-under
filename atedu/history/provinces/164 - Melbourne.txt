@@ -7,8 +7,10 @@ max_settlements = 7
 b_melbourne = castle
 b_melton = city
 b_sunbury = temple
-b_gisborne = city
+b_gisborne_vic = city
 b_wallan = castle
+b_whittlesea = city
+b_eyenesbury = castle
 
 # Misc
 culture = melbournian

@@ -1,0 +1,12 @@
+#2000-2050
+
+2000 = { #patrician
+	name = "Pawl"
+	dynasty = 2000
+	religion = southcrosser
+	culture = maltralian
+	2612.4.15 = {birth = yes}
+	trait = wroth
+	trait = trusting
+	trait = gregarious
+}

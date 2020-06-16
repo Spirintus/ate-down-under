@@ -1,0 +1,12 @@
+#2100-2150
+
+2100 = { #patrician
+	name = "John"
+	dynasty = 2100
+	religion = southcrosser
+	culture = aozhouren
+	2638.9.18 = {birth = yes}
+	trait = diligent
+	trait = kind
+	trait = paranoid
+}
