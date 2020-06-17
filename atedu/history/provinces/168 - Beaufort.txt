@@ -8,6 +8,6 @@ b_beaufort = castle
 
 # Misc
 culture = victorian
-religion = southcrosser
+religion = digger
 
 #History

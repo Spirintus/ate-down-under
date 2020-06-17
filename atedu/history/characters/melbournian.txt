@@ -1149,3 +1149,25 @@
 	culture = melbournian
 	2638.9.24 = {birth = yes}
 }
+
+190 = { #patrician
+	name = "Andrew"
+	dynasty = 226
+	religion = digger
+	culture = melbournian
+	2625.4.30 = {birth = yes}
+	trait = lefthanded
+	trait = strong
+	trait = administrator
+}
+
+193 = { #patrician
+	name = "Paul"
+	dynasty = 227
+	religion = southcrosser
+	culture = melbournian
+	2643.9.18 = {birth = yes}
+	trait = greedy
+	trait = kind
+	trait = fair
+}

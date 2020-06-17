@@ -1,0 +1,5 @@
+2647.2.19 = {
+    holding_dynasty = 226
+	liege = d_bass
+	holder = 190
+}

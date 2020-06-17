@@ -5,7 +5,7 @@ title = c_portland
 max_settlements = 4
 
 b_portland = castle
-b_hamilton = temple
+b_hamilton_vic = temple
 
 # Misc
 culture = victorian

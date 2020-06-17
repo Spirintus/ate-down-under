@@ -257,6 +257,8 @@
 223 = { name = "Hay" culture = melbournian }
 224 = { name = "Wilson" culture = melbournian }
 225 = { name = "Nguyen" culture = melbournian }
+226 = { name = "Polites" culture = melbournian }
+227 = { name = "Argenti" culture = melbournian }
 
 240 = { name = "Fernsby" culture = victorian }
 241 = { name = "Gipp" culture = victorian }
@@ -347,6 +349,10 @@
 1103 = { name = "Flower" culture = chathamite }
 1104 = { name = "Knight" culture = chathamite }
 1105 = { name = "Ara" culture = chathamite }
+
+2000 = { name = "Micallef" culture = maltralian }
+
+2100 = { name = "Shang" culture = aozhouren }
 
 5000 = { name = "Kobayashi" culture = edokko }
 5001 = { name = "Ito" culture = edokko }

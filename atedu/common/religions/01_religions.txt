@@ -383,7 +383,7 @@ oldworld = {
 	digger = {
 		graphical_culture = westerngfx
 		
-		icon = 2
+		icon = 19
 		
 		color = {255 255 230} #{ 105 48 112 }
 		

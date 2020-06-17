@@ -7,6 +7,8 @@ max_settlements = 5
 b_pakenham = castle
 b_mornington = city
 b_drouin = temple
+b_wothaggi = city
+b_iverloch = castle
 
 # Misc
 culture = melbournian
