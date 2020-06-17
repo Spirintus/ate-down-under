@@ -124,21 +124,21 @@ christian = {
 		scripture_name = THE_NEW_TESTAMENT
 		priest_title = PRIEST
 		
-		high_god_name = GOD_THE_HIDDEN_GOD
+		high_god_name = GOD_THE_SAVIOUR
 		
 		god_names = {
-			GOD_THE_LORD GOD_JESUS GOD_STPAUL PROPHET_MARCION
+			GOD_THE_LORD GOD_JESUS GOD_THE_SAVIOUR 
 		}
 		
 		evil_god_names = {
-			DEMIURGE HEBREW_GOD SATAN 
+			SATAN FALLEN_ANGEL THE_GREAT_HERETIC THE_CREATOR
 		}
 		
-		character_modifier = {
-			martial = -2
-			learning = +2
-			stewardship = +2
-		}
+		# character_modifier = {
+			# martial = -2
+			# learning = +2
+			# stewardship = +2
+		# }
 		pacifist = yes
 		autocephaly = yes
 		feminist = yes
