@@ -39,114 +39,115 @@ k_south_cross = {
 		"Chosen By the Southern Cross" "The Pure One" "He Who Fight the Great Heretic"
 		"He Who Fights for the Holy Church" "Lord of the Pure" "Lord of Lords on Earth" "Holy Guide"
 	}
-}
 
-d_bishop_of_auckland = {
-	color = {255 215 51}
-	color2 = {255 255 255}
-	
-	capital = 1 
-	
-	title = "BISHOP"
-	foa = "BISHOP_FOA"
-	
-	pentarchy = southcrosser
-	religion = southcrosser
-	
-	primary = yes
-	landless = yes
-	
-	dynasty_title_names = no
-}
 
-d_bishop_of_canberra = {
-	color = {255 215 51}
-	color2 = {255 255 255}
-	
-	capital = 124 #for now it's Hobart, change to Canberra later
-	
-	title = "BISHOP"
-	foa = "BISHOP_FOA"
-	
-	pentarchy = southcrosser
-	religion = southcrosser
-	
-	primary = yes
-	landless = yes
-	
-	dynasty_title_names = no
-}
+	d_bishop_of_auckland = {
+		color = {255 215 51}
+		color2 = {255 255 255}
+		
+		capital = 1 
+		
+		title = "BISHOP"
+		foa = "BISHOP_FOA"
+		
+		pentarchy = southcrosser
+		religion = southcrosser
+		
+		primary = yes
+		landless = yes
+		
+		dynasty_title_names = no
+	}
 
-d_bishop_of_sinai = {
-	color = {255 215 51}
-	color2 = {255 255 255}
-	
-	capital = 1 #for now, change to Uluru later (yea, southcrossers believe that Uluru is sinai...)
-	
-	title = "BISHOP"
-	foa = "BISHOP_FOA"
-	
-	pentarchy = southcrosser
-	religion = southcrosser
-	
-	primary = yes
-	landless = yes
-	
-	dynasty_title_names = no
-}
+	d_bishop_of_canberra = {
+		color = {255 215 51}
+		color2 = {255 255 255}
+		
+		capital = 124 #for now it's Hobart, change to Canberra later
+		
+		title = "BISHOP"
+		foa = "BISHOP_FOA"
+		
+		pentarchy = southcrosser
+		religion = southcrosser
+		
+		primary = yes
+		landless = yes
+		
+		dynasty_title_names = no
+	}
 
-d_bishop_of_jakarta = {
-	color = {255 215 51}
-	color2 = {255 255 255}
-	
-	capital = 1 #for now
-	
-	title = "BISHOP"
-	foa = "BISHOP_FOA"
-	
-	pentarchy = southcrosser
-	religion = southcrosser
-	
-	primary = yes
-	landless = yes
-	
-	dynasty_title_names = no
-}
+	d_bishop_of_sinai = {
+		color = {255 215 51}
+		color2 = {255 255 255}
+		
+		capital = 1 #for now, change to Uluru later (yea, southcrossers believe that Uluru is sinai...)
+		
+		title = "BISHOP"
+		foa = "BISHOP_FOA"
+		
+		pentarchy = southcrosser
+		religion = southcrosser
+		
+		primary = yes
+		landless = yes
+		
+		dynasty_title_names = no
+	}
 
-d_bishop_of_moresby = {
-	color = {255 215 51}
-	color2 = {255 255 255}
-	
-	capital = 1 #for now
-	
-	title = "BISHOP"
-	foa = "BISHOP_FOA"
-	
-	pentarchy = southcrosser
-	religion = southcrosser
-	
-	primary = yes
-	landless = yes
-	
-	dynasty_title_names = no
-}
+	d_bishop_of_jakarta = {
+		color = {255 215 51}
+		color2 = {255 255 255}
+		
+		capital = 1 #for now
+		
+		title = "BISHOP"
+		foa = "BISHOP_FOA"
+		
+		pentarchy = southcrosser
+		religion = southcrosser
+		
+		primary = yes
+		landless = yes
+		
+		dynasty_title_names = no
+	}
 
-d_bishop_of_canton = {
-	color = {255 215 51}
-	color2 = {255 255 255}
+	d_bishop_of_moresby = {
+		color = {255 215 51}
+		color2 = {255 255 255}
+		
+		capital = 1 #for now
+		
+		title = "BISHOP"
+		foa = "BISHOP_FOA"
+		
+		pentarchy = southcrosser
+		religion = southcrosser
+		
+		primary = yes
+		landless = yes
+		
+		dynasty_title_names = no
+	}
 	
-	capital = 144 #for now it's Taipei change to Canton later (or not)
-	
-	title = "BISHOP"
-	foa = "BISHOP_FOA"
-	
-	pentarchy = southcrosser
-	religion = southcrosser
-	
-	primary = yes
-	landless = yes
-	
-	dynasty_title_names = no
+	d_bishop_of_canton = {
+		color = {255 215 51}
+		color2 = {255 255 255}
+		
+		capital = 144 #for now it's Taipei change to Canton later (or not)
+		
+		title = "BISHOP"
+		foa = "BISHOP_FOA"
+		
+		pentarchy = southcrosser
+		religion = southcrosser
+		
+		primary = yes
+		landless = yes
+		
+		dynasty_title_names = no
+	}
 }
 
 d_imunu = {

@@ -1,6 +1,6 @@
 on_startup = { #on startup triggers also on loading from save
 	events = {
-		#ButWhatAboutDragons.1
+		ButWhatAboutDragons.2
 	}
 }
 

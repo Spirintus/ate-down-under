@@ -1,0 +1,250 @@
+targeted_decisions = {
+	choose_representative = {
+		is_high_prio = yes
+		filter = court
+		from_potential = {
+			OR = {
+				AND = {
+					independent = yes
+					OR = { 
+						has_landed_title = d_bishop_of_auckland
+						has_landed_title = d_bishop_of_canberra
+						has_landed_title = d_bishop_of_sinai
+						has_landed_title = d_bishop_of_jakarta
+						has_landed_title = d_bishop_of_moresby
+						has_landed_title = d_bishop_of_canton
+					}
+				}
+				any_vassal = {
+					OR = { 
+						has_landed_title = d_bishop_of_auckland
+						has_landed_title = d_bishop_of_canberra
+						has_landed_title = d_bishop_of_sinai
+						has_landed_title = d_bishop_of_jakarta
+						has_landed_title = d_bishop_of_moresby
+						has_landed_title = d_bishop_of_canton
+					}
+				}
+			}
+		}
+		potential = {
+			religion = southcrosser
+			is_landed = no
+			is_adult = yes
+			is_female = no
+			prisoner = no
+			NOT = { trait = incapable }
+		}
+		allow = {
+			OR = {
+				AND = {
+					NOT = { has_global_flag = representative_of_auckland_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_auckland
+							any_vassal = {
+								has_landed_title = d_bishop_of_auckland
+							}
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = representative_of_canberra_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_canberra
+							any_vassal = {
+								has_landed_title = d_bishop_of_canberra
+							}
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = representative_of_sinai_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_sinai
+							any_vassal = {
+								has_landed_title = d_bishop_of_sinai
+							}
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = representative_of_jakarta_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_jakarta
+							any_vassal = {
+								has_landed_title = d_bishop_of_jakarta
+							}
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = representative_of_moresby_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_moresby
+							any_vassal = {
+								has_landed_title = d_bishop_of_moresby
+							}
+						}
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = representative_of_canton_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_canton
+							any_vassal = {
+								has_landed_title = d_bishop_of_canton
+							}
+						}
+					}
+				}
+			}
+
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = representative_of_auckland_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_auckland
+							any_vassal = {
+								has_landed_title = d_bishop_of_auckland
+							}
+						}
+					}
+				}
+				set_global_flag = representative_of_auckland_appointed
+				k_south_cross = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				ROOT = {
+					set_character_flag = auckland_representative
+					give_minor_title = title_auckland_representative
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_global_flag = representative_of_canberra_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_canberra
+							any_vassal = {
+								has_landed_title = d_bishop_of_canberra
+							}
+						}
+					}
+				}
+				set_global_flag = representative_of_canberra_appointed
+				k_south_cross = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				ROOT = {
+					set_character_flag = canberra_representative
+					give_minor_title = title_canberra_representative
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_global_flag = representative_of_sinai_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_sinai
+							any_vassal = {
+								has_landed_title = d_bishop_of_sinai
+							}
+						}
+					}
+				}
+				set_global_flag = representative_of_sinai_appointed
+				k_south_cross = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				ROOT = {
+					set_character_flag = sinai_representative
+					give_minor_title = title_sinai_representative
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_global_flag = representative_of_jakarta_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_jakarta
+							any_vassal = {
+								has_landed_title = d_bishop_of_jakarta
+							}
+						}
+					}
+				}
+				set_global_flag = representative_of_jakarta_appointed
+				k_south_cross = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				ROOT = {
+					set_character_flag = jakarta_representative
+					give_minor_title = title_jakarta_representative
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_global_flag = representative_of_moresby_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_moresby
+							any_vassal = {
+								has_landed_title = d_bishop_of_moresby
+							}
+						}
+					}
+				}
+				set_global_flag = representative_of_moresby_appointed
+				k_south_cross = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				ROOT = {
+					set_character_flag = moresby_representative
+					give_minor_title = title_moresby_representative
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_global_flag = representative_of_canton_appointed }
+					FROM = {
+						OR = {
+							has_landed_title = d_bishop_of_canton
+							any_vassal = {
+								has_landed_title = d_bishop_of_canton
+							}
+						}
+					}
+				}
+				set_global_flag = representative_of_canton_appointed
+				k_south_cross = {
+					holder_scope = {
+						ROOT = { move_character = PREV }
+					}
+				}
+				ROOT = {
+					set_character_flag = canton_representative
+					give_minor_title = title_canton_representative
+				}
+			}
+		}
+	}
+}
