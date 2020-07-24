@@ -124,21 +124,21 @@ christian = {
 		scripture_name = THE_NEW_TESTAMENT
 		priest_title = PRIEST
 		
-		high_god_name = GOD_THE_HIDDEN_GOD
+		high_god_name = GOD_THE_SAVIOUR
 		
 		god_names = {
-			GOD_THE_LORD GOD_JESUS GOD_STPAUL PROPHET_MARCION
+			GOD_THE_LORD GOD_JESUS GOD_THE_SAVIOUR 
 		}
 		
 		evil_god_names = {
-			DEMIURGE HEBREW_GOD SATAN 
+			GOD_THE_CREATOR SATAN FALLEN_ANGEL THE_GREAT_HERETIC
 		}
 		
-		character_modifier = {
-			martial = -2
-			learning = +2
-			stewardship = +2
-		}
+		# character_modifier = {
+			# martial = -2
+			# learning = +2
+			# stewardship = +2
+		# }
 		pacifist = yes
 		autocephaly = yes
 		feminist = yes
@@ -216,7 +216,7 @@ christian = {
 		
 		allow_viking_invasion = yes
 		hard_to_convert = yes
-		
+		seafarer = yes
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
@@ -254,7 +254,7 @@ christian = {
 		
 		allow_viking_invasion = yes
 		hard_to_convert = yes
-		
+		seafarer = yes
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
@@ -433,6 +433,42 @@ oldworld = {
 		can_grant_claim = yes
 		uses_jizya_tax = yes
 		allow_looting = yes
+	}
+	
+	red_law = {
+		graphical_culture = chinesegfx
+		secondary_event_pictures = sunni
+		
+		icon = 17
+		heresy_icon = 18
+		
+		color = { 250 9 13 }
+		
+		interface_skin = { taoist_interface indian_interface muslim_interface }
+		
+		crusade_name = GREAT_PATROTIC_WAR
+		scripture_name = THE_LITTLE_RED_BOOK
+		priest_title = OFFICIAL
+		
+		high_god_name = GOD_THE_RED_DYNASTY
+		
+		god_names = {
+			GOD_THE_RED_DYNASTY GOD_THE_PEOPLE GOD_THE_CAUSE GOD_LEI_FENG
+		}
+		
+		evil_god_names = {
+			GOD_YAN_WANG FOUR_OLD_ONES
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		max_consorts = 3 #can take concubines
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		
 	}
 }
 
@@ -757,8 +793,68 @@ pagan_group = {
 		}
 		
 		allow_looting = yes
+		allow_rivermovement = yes
+		seafarer = yes
 		
 		reformed = kaharingan_refomed
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	mutineer_reformed = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = {0 0 0 }
+		
+		crusade_name = PLACEHOLDER
+		crusade_cb = crusade
+		scripture_name = PLACEHOLDER
+		priest_title = PLACEHOLDER
+		
+		high_god_name = BOUNTY
+		
+		god_names = {
+			 BOUNTY COOK FLETCHER MAUATUA
+		}
+		 
+		evil_god_names = {
+			THE_KING
+		}
+		
+		allow_looting = yes
+		allow_rivermovement = yes
+		seafarer = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	
+	mutineer = {
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = {0 0 0 }
+		
+		crusade_name = PLACEHOLDER
+		crusade_cb = crusade
+		scripture_name = PLACEHOLDER
+		priest_title = PLACEHOLDER
+		
+		high_god_name = PLACEHOLDER
+		
+		god_names = {
+			PLACEHOLDER
+		}
+		 
+		evil_god_names = {
+			PLACEHOLDER
+		}
+		
+		reformed = mutineer_reformed
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
@@ -772,7 +868,7 @@ eruist_group = {
 	hostile_within_group = yes
 	
 	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 0	# never try to convert
+	ai_convert_other_group = 2	# never try to convert
 	
 	color = { 0.6 0.0 0.0 }
 	
@@ -811,6 +907,7 @@ eruist_group = {
 		allow_looting = yes
 		allow_rivermovement = yes
 		allow_viking_invasion = yes
+		seafarer = yes
 		
 		religious_clothing_head = 1
 		religious_clothing_priest = 1
@@ -846,6 +943,7 @@ eruist_group = {
 		allow_looting = yes
 		allow_rivermovement = yes
 		allow_viking_invasion = yes
+		seafarer = yes
 		
 		religious_clothing_head = 1
 		religious_clothing_priest = 1
@@ -882,6 +980,7 @@ eruist_group = {
 		allow_looting = yes
 		allow_rivermovement = yes
 		allow_viking_invasion = yes
+		seafarer = yes
 		
 		religious_clothing_head = 1
 		religious_clothing_priest = 1
@@ -889,51 +988,6 @@ eruist_group = {
 
 	
 }
-
-# cult_of_saints = {
-	#has_coa_on_barony_only = yes
-	#graphical_culture = westerngfx
-	#crusade_cb = crusade
-	#playable = yes
-	#ai_peaceful = yes # Will make Hordes lose their super aggressiveness
-	#hostile_within_group = yes
-	
-	#ai_convert_same_group = 1 # try to convert if ai_zeal is high
-	#ai_convert_other_group = 2 # always try to convert
-	
-	#color = { 0.8 0.2 0.1 }
-	
-	#male_names = {
-	#}
-	#female_names = {
-	#}
-	
-	#placeholder_cos = {
-		#graphical_culture = westerngfx
-		
-		#icon = 1
-		
-		#color = {0 0 0 }
-		
-		#crusade_name = PLACEHOLDER
-		#crusade_cb = crusade
-		#scripture_name = PLACEHOLDER
-		#priest_title = PLACEHOLDER
-		
-		#high_god_name = PLACEHOLDER
-		
-		#god_names = {
-			#PLACEHOLDER
-		#}
-		 
-		#evil_god_names = {
-		#	PLACEHOLDER
-		#}
-		
-		#religious_clothing_head = 0
-		#religious_clothing_priest = 1
-	#}
-#}
 
 muslim = {
 	has_coa_on_barony_only = no
@@ -955,7 +1009,7 @@ muslim = {
 	female_names = {
 	}
 	
-	kebatinan = {
+	kejawen = {
 		graphical_culture = westerngfx
 		
 		icon = 1
@@ -987,6 +1041,43 @@ muslim = {
 		uses_decadence = yes
 		uses_jizya_tax = yes
 	}
+	
+	kebajakan = { #muslim pirates
+		graphical_culture = westerngfx
+		
+		icon = 1
+		
+		color = {0 0 0 }
+		
+		crusade_name = JIHAD
+		scripture_name = THE_KORAN
+		priest_title = IMAM_PRIEST
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		can_call_crusade = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		
+		allow_looting = yes
+		allow_rivermovement = yes
+		seafarer = yes
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+	}
 }
 
 indian_group = {
@@ -998,34 +1089,47 @@ indian_group = {
 	ai_convert_same_group = 1 
 	ai_convert_other_group = 2	
 	
-	color = { 0.8 0.4 0.0 }
+	color = { 1.0 0.0 0.0 }
 	
 	interface_skin = { indian_interface muslim_interface }
 	
-	placeholder_hindu_religion = {
-		graphical_culture = westerngfx
+	hindu = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
 		
-		icon = 1
+		color = { 1.0 0.0 0.0 }
 		
-		color = {0 0 0 }
+		scripture_name = THE_MAHABHARATA
+		priest_title = PUJARI
+		piety_name = KARMA
 		
-		crusade_name = PLACEHOLDER
-		crusade_cb = crusade
-		scripture_name = PLACEHOLDER
-		priest_title = PLACEHOLDER
-		
-		high_god_name = PLACEHOLDER
+		high_god_name = GOD_BRAHMA
 		
 		god_names = {
-			PLACEHOLDER
-		}
-		 
-		evil_god_names = {
-			PLACEHOLDER
+			GOD_SHIVA GOD_THE_LORD GOD_THE_SUPREME GOD_BRAHMA
 		}
 		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
+		evil_god_names = {
+			THE_VINAYAKAS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
 	}
 }
 
@@ -1042,30 +1146,45 @@ buddhist_group = {
 	
 	interface_skin = { indian_interface muslim_interface }
 	
-	placeholder_budhist_religion = {
-		graphical_culture = westerngfx
+	theravada = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 40
+		heresy_icon = 41
 		
-		icon = 1
+		color = { 0.8 0.4 0.0 }
 		
-		color = {0 0 0 }
+		scripture_name = THE_BUDDHACAVANA
+		priest_title = BHIKKHU
+		piety_name = KARMA
 		
-		crusade_name = PLACEHOLDER
-		crusade_cb = crusade
-		scripture_name = PLACEHOLDER
-		priest_title = PLACEHOLDER
-		
-		high_god_name = PLACEHOLDER
+		high_god_name = GOD_BRAHMA
 		
 		god_names = {
-			PLACEHOLDER
-		}
-		 
-		evil_god_names = {
-			PLACEHOLDER
+			GOD_THE_BUDDHA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES
 		}
 		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
+		evil_god_names = {
+			MARA
+		}
+		
+		character_modifier = {
+			learning = 4
+		}
+		
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		max_consorts = 3
+
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
 	}
 }
 
@@ -1115,42 +1234,6 @@ eastern_group = { #shenism, shintoism
 		
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
-	}
-	
-	red_law = {
-		graphical_culture = chinesegfx
-		secondary_event_pictures = sunni
-		
-		icon = 17
-		heresy_icon = 18
-		
-		color = { 250 9 13 }
-		
-		interface_skin = { taoist_interface indian_interface muslim_interface }
-		
-		crusade_name = GREAT_PATROTIC_WAR
-		scripture_name = THE_LITTLE_RED_BOOK
-		priest_title = OFFICIAL
-		
-		high_god_name = GOD_THE_RED_DYNASTY
-		
-		god_names = {
-			GOD_THE_RED_DYNASTY GOD_THE_PEOPLE GOD_THE_CAUSE GOD_LEI_FENG
-		}
-		
-		evil_god_names = {
-			GOD_YAN_WANG FOUR_OLD_ONES
-		}
-		
-		can_grant_divorce = yes
-		priests_can_inherit = yes
-		priests_can_marry = yes
-		max_consorts = 3 #can take concubines
-		
-		religious_clothing_head = 10
-		religious_clothing_priest = 10
-		
-		
 	}
 	
 	shinto = {
@@ -1203,30 +1286,35 @@ jewish_group = {
 	
 	interface_skin = { jews_interface }
 	
-	placeholder_jewish_religion = {
-		graphical_culture = westerngfx
+	jewish = {
+		graphical_culture = jewishgfx
 		
-		icon = 1
+		icon = 38
+		heresy_icon = 39
 		
-		color = {0 0 0 }
+		color = { 0.1 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TORAH
+		priest_title = RABBI
 		
-		crusade_name = PLACEHOLDER
-		crusade_cb = crusade
-		scripture_name = PLACEHOLDER
-		priest_title = PLACEHOLDER
-		
-		high_god_name = PLACEHOLDER
+		high_god_name = GOD_GOD
 		
 		god_names = {
-			PLACEHOLDER
+			GOD_GOD GOD_THE_LORD ADONAI
 		}
-		 
 		evil_god_names = {
-			PLACEHOLDER
+			SATAN
 		}
 		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		priests_can_marry = yes
+		
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
 	}
 }
 zoroastrian_group = {
@@ -1241,29 +1329,39 @@ zoroastrian_group = {
 	
 	interface_skin = { zoroastrian_interface muslim_interface }
 	
-	placeholder_mazdan_religion = {
-		graphical_culture = westerngfx
+	zoroastrian = {
+		graphical_culture = persiangfx
+		secondary_event_pictures = sunni
 		
-		icon = 1
+		icon = 10
+		heresy_icon = 12
 		
-		color = {0 0 0 }
+		color = { 0.5 0.7 0.2 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_GATHAS
+		priest_title = HERBAD
 		
-		crusade_name = PLACEHOLDER
-		crusade_cb = crusade
-		scripture_name = PLACEHOLDER
-		priest_title = PLACEHOLDER
-		
-		high_god_name = PLACEHOLDER
+		high_god_name = GOD_AHURA_MAZDA
 		
 		god_names = {
-			PLACEHOLDER
+			GOD_AHURA_MAZDA GOD_ZURVAN GOD_OHRMAZD GOD_MANAH PROPHET_ZOROASTER
 		}
-		 
 		evil_god_names = {
-			PLACEHOLDER
+			AHRIMAN ANGRA_MAINYU
 		}
 		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		max_consorts = 3 # Can take concubines
+		
+		#divine_blood = yes # Sacred Xwedodah close-kin marriage mechanics
+		#pc_marriage = yes # Parent/child marriage allowed
+		#bs_marriage = yes # Brother/sister marriage allowed
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
 	}
 }

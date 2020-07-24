@@ -236,3 +236,93 @@ character_event = {
 		}
 	}
 }
+
+character_event = { #Purism is religion for Maori only, believers of other cultures have to change their culture or deconvert
+	id = RelDU.2
+	desc =  EVTDESC_RelDU_2
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	#is_triggered_only = yes
+	
+	religion = purist
+	
+	trigger = {
+		not = {culture = maori-}
+	}
+	mean_time_to_happen = {
+		days = 10
+	}
+	option = {
+		name = EVTOPT_RelDU_2_A #Then I shall learn adequate ways
+		culture = maori
+		prestige = -10
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = EVTOPT_RelDU_2_B #
+		trigger = {
+			NOT = {trait = zealous}
+		}
+		religion = aotearoan
+		piety = -10
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = EVTOPT_RelDU_2_C #Maybe I shall rather try to associate with my people more 
+		trigger = {
+			NOT = { trait = zealous }
+			capital_scope = {
+				NOR = {
+					religion = purist
+					religion = aotearoan
+				}
+			}
+		}
+		if = { #there is smaller penalty for conversion within religious group
+			limit = {
+				capital_scope = {
+					religion_group = christian
+				}
+			}
+			piety = -500
+		}
+		else = {
+			piety = -750
+		}
+		# custom_tooltip = {
+			# text = converts_to_religion_of_capital
+			# hidden_tooltip = {
+				# capital_scope = {
+					# ROOT = { religion = PREV }
+				# }
+			# }
+		# }
+		capital_scope = {
+			ROOT = { religion = PREV }
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2 #person with who lacks faith but care about his subjects is more probable to adopt their faith
+				trait = cynical
+				trait = just
+			}
+			modifier = {
+				factor = 2 #conversion within religious group is more probable
+				capital_scope = {
+					religion_group = christian
+				}
+			}
+			modifier = {
+				factor = 0.5 #faithful would probably care about his piety more
+				NOT = { trait = cynical }
+				NOT = {piety = 750} 
+			}
+		}
+	}
+}
