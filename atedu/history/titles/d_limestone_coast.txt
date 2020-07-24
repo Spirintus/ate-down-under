@@ -1,4 +1,4 @@
 2648.5.26 = {
-	holder = 308
+	holder = 2308
 	liege = k_victoria
 }

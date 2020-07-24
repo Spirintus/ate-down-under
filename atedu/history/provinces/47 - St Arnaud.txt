@@ -1,7 +1,7 @@
 # c_st_arnaud
 
 # County Title
-title = c_st_arnaud
+title = c_st_arnaud_nz
 
 # Settlements
 max_settlements = 4

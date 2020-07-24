@@ -1,3 +1,15 @@
 2100.1.1 = {
 	pentarch = k_south_cross
 }
+2365.2.26 = {
+    holder = 811
+	liege = e_new_zealand
+}
+2379.6.21 = {
+    holder = 813
+	liege = e_new_zealand
+}
+2399.3.13 = {
+    holder = 815
+	liege = e_new_zealand
+} 

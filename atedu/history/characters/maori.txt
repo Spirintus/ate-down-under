@@ -27,7 +27,7 @@
 	2472.1.30 = { death = yes}
 }
 
-704 = { #was eleted as king of Taupo to fight back an invasion, died soon after winning, the kingdom imploded after that
+704 = { #was elected as king of Taupo to fight back an invasion, died soon after winning, the kingdom imploded after that
 	name = "Mikaere"
 	dynasty = 700
 	religion = aotearoan

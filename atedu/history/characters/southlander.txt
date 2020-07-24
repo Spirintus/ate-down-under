@@ -1,0 +1,701 @@
+#801-899
+
+801 = { #physician for the previous king of the land, took power in a bloodless coup and started expansion, taking over the entire east side of the south island, though the victories costed him dearly. His grandchild would go on to become the first high king
+	name = "George"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	trait = brilliant_strategist
+	trait = cynical
+	trait = gluttonous
+	trait = erudite
+	trait = gregarious
+	trait = proud
+	trait = one_handed
+	trait = lustful
+	trait = physician
+	trait = one_legged
+	trait = one_eyed
+	trait = scarred_high
+	trait = fat
+	trait = shrewd
+	trait = depressed
+	trait = envious
+	trait = blind
+	2182.4.17 = {birth = yes}
+	2250.1.1 = {
+		give_nickname = nick_the_monster
+	}
+	2264.2.26 = {death = yes}
+}
+802 = { #intended heir, died in battle
+	name = "George"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 801
+	trait = brave
+	trait = impaler
+	trait = cruel
+	2201.10.31 = { birth = yes }
+	2220.7.14 = { death = yes }
+}
+803 = { #second intended heir, died in battle
+	name = "Aragorn"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 801
+	trait = brave
+	trait = kind
+	trait = deceitful
+	2207.3.21 = { birth = yes }
+	2242.1.11 = { death = yes }
+}
+804 = { #third intended heir, was murdered by the jadites when his father planned to send him to conquer them
+	name = "James"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 801
+	trait = brave
+	trait = patient
+	trait = lunatic
+	2212.6.29 = { birth = yes }
+	2257.8.12 = { death = yes }
+}
+805 = { #james' son and unifier of new zealand
+	name = "Durin"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 804
+	trait = socializer
+	trait = genius
+	trait = honest
+	trait = strong
+	trait = grey_eminence
+	trait = zealous
+	trait = ambitious
+	2235.9.3 = { birth = yes }
+	2275.3.17 = {
+		give_nickname = nick_the_good
+	}
+	2279.2.5 = { death = yes }
+}
+806 = { #second high king, conquered Chatham and Tasmania, crushed a maori uprising and may have been secretly quendic
+	name = "Gandalf"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 805
+	trait = strategist
+	trait = brave
+	trait = strong
+	trait = elusive_shadow
+	trait = patient
+	trait = just
+	trait = charitable
+	trait = ambitious
+	2261.8.5 = { birth = yes }
+	2289.1.1 = {
+		give_nickname = nick_the_elf_king
+	}
+	2312.7.25 = { death = yes }
+}
+807 = { #bastard uncle of the elf king, loyal and competent follower of his and first lord of Triabunna, fiefdom he was awarded as a retirement gift
+	name = "Saruman"
+	dynasty = 300
+	culture = southlander
+	religion = eruist
+	father = 804
+	trait = brave
+	trait = quick
+	trait = wroth
+	trait = chaste
+	trait = content
+	trait = bastard
+	2250.1.6 = { birth = yes }
+	2295.8.23 = {
+		give_nickname = nick_the_brave
+	}
+	2319.6.13 = { death = yes }
+}
+808 = { #third high king
+	name = "Michael"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 806
+	trait = scholar
+	trait = just
+	trait = cruel
+	trait = proud
+	2289.2.14 = { birth = yes }
+	2337.1.23 = { death = yes }
+}
+809 = { #second lord of Triabunna and close friend of the high king, who rewarded him by giving making him duke of Huonia
+	name = "James"
+	dynasty = 300
+	culture = southlander
+	religion = eruist
+	father = 807
+	trait = shrewd
+	trait = humble
+	trait = deceitful
+	trait = ambitious
+	2278.9.20 = { birth = yes }
+	2346.4.14 = { death = yes }
+}
+810 = { #fourth high king, the previous high king really hated his wife's appearance and thus had much trouble producing him
+	name = "George"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 808
+	trait = shy
+	trait = arbitrary
+	trait = humble
+	trait = kind
+	trait = twin
+	2325.8.25 = { birth = yes }
+	2361.9.30 = { death = yes }
+}
+811 = { #third lord of Triabunna, was awarded overlordship over all kiwi-held land west of the tasman as 'king of Australia'. He was a great traveller and raider, going as far as Perth
+	name = "Aragorn"
+	dynasty = 300
+	culture = southlander
+	religion = eruist
+	father = 809
+	trait = fair
+	trait = strong
+	trait = quick
+	trait = impaler
+	2308.3.9 = { birth = yes }
+	2350.1.1 = {
+		give_nickname = nick_the_far_travelled
+	}
+	2379.6.21 = { death = yes }
+}
+812 = { #fifth high queen
+	name = "Arwen"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 810
+	female = yes
+	trait = administrator
+	trait = diligent
+	trait = gluttonous
+	trait = trusting
+	2343.12.25 = { birth = yes }
+	2353.12.13 = {
+		add_matrilineal_spouse = 814
+	}
+	2372.1.1 = {
+		give_nickname = nick_the_good
+	}
+	2398.6.7 = { death = yes }
+}
+813 = { #fourth lord of Triabunna, helped establish a seizable kiwi minority in many parts of Australia, who would go on to become the Witasmen
+	name = "Sam"
+	dynasty = 300
+	culture = southlander
+	religion = eruist
+	father = 811
+	trait = chaste
+	trait = ugly
+	2331.6.29 = { birth = yes }
+	2399.3.13 = { death = yes }
+}
+814 = { #guy
+	name = "Anarion"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 808
+	trait = twin
+	2325.8.25 = { birth = yes }
+	2387.5.31 = { death = yes }
+}
+815 = { #fifth lord of Triabunna, died in a raid againt Port Moresby
+	name = "Sam"
+	dynasty = 300
+	culture = southlander
+	religion = eruist
+	father = 813
+	2379.8.22 = { birth = yes }
+	2405.7.7 = { death = yes }
+}
+816 = { #sixth high king, while not particularly... bright, Durin II was a master at seduction, but eventually a cuckolded nobleman found out and hit him in the face with a hammer several times, not killing him, but permanently disfiguring him
+	name = "Durin"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	mother = 812
+	father = 814
+	trait = disfigured
+	trait = fair
+	trait = seducer
+	trait = slow
+	trait = lustful
+	2364.11.4 = { birth = yes }
+	2405.8.17 = {
+		give_nickname = nick_the_hideous
+	}
+	2420.5.31 = { death = yes }
+}
+817 = { #seventh high king, Durin III is considered the last competent high king, died childless
+	name = "Durin"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 816
+	trait = genius
+	trait = gardener
+	trait = just
+	trait = zealous
+	2380.12.7 = { birth = yes }
+	2433.1.8 = { death = yes }
+}
+818 = { #eigth high king, Durin III's brother, he is said to have served heretic's meat at feasts
+	name = "Robert"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 816
+	trait = cannibal
+	trait = cruel
+	trait = impaler
+	trait = lunatic
+	trait = zealous
+	2384.3.14 = { birth = yes }
+	2434.1.1 = {
+		give_nickname = nick_the_impaler
+	}
+	2436.3.4 = { death = yes }
+}
+819 = { #ninth high queen, Durin III's niece
+	name = "Luthien"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 818
+	female = yes
+	trait = content
+	trait = falconer
+	trait = honest
+	trait = cancer
+	2406.4.25 = { birth = yes }
+	2445.9.24 = { death = yes }
+}
+820 = { #guy
+	name = "Gandalf"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 816
+	2391.6.23 = { birth = yes }
+	2422.1.1 = { death = yes }
+}
+821 = { #tenth high king, puppet of his Triabunna wife, during his reign the Maori broke away
+	name = "Nick"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 820
+	trait = theologian
+	trait = kind
+	trait = craven
+	trait = infection
+	2417.8.16 = { birth = yes }
+	2446.1.1 = {
+		give_nickname = nick_the_theologian
+	}
+	2453.5.2 = { death = yes }
+}
+822 = { #eleventh high king, puppet of his Triabunna mother, and after her death a puppet of his Triabunna wife
+	name = "Gandalf"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 821
+	trait = clubfooted
+	trait = imbecile
+	trait = content
+	2444.5.21 = { birth = yes }
+	2479.7.23 = { death = yes }
+}
+823 = { #twelvth high queen, lasted exactly one week in the throne before a powerful noble stormed the palace and killed her, starting the Kiwi Civil War
+	name = "Susanna"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 822
+	female = yes
+	trait = inbred
+	2475.5.25 = { birth = yes }
+	2479.7.30 = { death = yes }
+}
+824 = { #thirteenth high king, sat on the throne after slaying the 4 year old high king that ruled before him, though he was soon ousted in the turmoil of the civil war
+	name = "Charles"
+	dynasty = 802
+	culture = southlander
+	religion = eruist
+	trait = ambitious
+	trait = brave
+	2432.3.7 = { birth = yes }
+	2481.6.2 = { death = yes }
+}
+825 = { #fourteenth high king, was a puppet of the Kea dynasty (the pre-crusade lords of Auckland) and ruled over a much smaller territory, as both aussie reconquests and independent minded nobles shrank his territory
+	name = "James"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 820
+	trait = giant
+	trait = robust
+	trait = strong
+	trait = dull
+	2421.12.24 = { birth = yes }
+	2487.9.22 = { death = yes }
+}
+826 = { #fifteenth high king, was also a puppet of the Kea dynasty and ruled over even less lands than his father, essentially just Otago and Auckland (though the Kea were acting indepently at this point)
+	name = "Saruman"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	father = 825
+	2458.4.18 = { birth = yes }
+	2498.2.6 = { death = yes }
+}
+827 = { #last Kid high queen, though she was independent, as the Kea thought it was no longer worth it to spend their resources on controlling the high kingdom (instead relocating said resources towards more productive ventures), she was easy pickings for the lord of Fiordland, who took Dunedin and claimed the title for himself
+	name = "Mary"
+	dynasty = 801
+	culture = southlander
+	religion = eruist
+	female = yes
+	trait = brave
+	trait = kind
+	father = 826
+	2481.6.20 = { birth = yes }
+	2569.8.9 = { death = yes }
+}
+828 = { #last person to be recognized as high king, though his successors would also claim the title, he was the last one whose claim was seen with some validity by the rest of New Zealand. He would also conquer many provinces in south island, but gavelkind ended his realm, and the crusades ended any hopes of reunification
+	name = "Durin"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	trait = strategist
+	trait = genius
+	trait = brilliant_strategist
+	trait = brave
+	2456.12.2 = { birth = yes }
+	2525.3.24 = { death = yes }
+}
+829 = { #duke of the Mainland, main heir who was also awarded alpland and rakiura
+	name = "Robert"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 828
+	trait = deceitful
+	trait = shrewd
+	2473.4.9 = { birth = yes }
+	2535.2.1 = { death = yes }
+}
+830 = { #duke of the Fiords
+	name = "Anarion"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 828
+	trait = honest
+	trait = arbitrary
+	2477.6.12 = { birth = yes }
+	2548.1.19 = { death = yes }
+}
+831 = { #duke of Otago
+	name = "Fred"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 828
+	trait = strong
+	trait = homosexual
+	2484.8.19 = { birth = yes }
+	2529.4.14 = { death = yes }
+}
+832 = { #next duke of the Mainland, avoided fragmentation by killing his siblings and installing primogeniture
+	name = "Thorin"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 829
+	trait = fair
+	trait = quick
+	trait = kinslayer
+	trait = ambitious
+	trait = depressed 
+	2500.8.19 = { birth = yes }
+	2587.4.15 = { death = yes }
+}
+833 = { #next duchess of the Fiords, only legitimate daughter and thus had no trouble instituting primogeniture
+	name = "Susanna"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 830
+	female = yes
+	trait = dwarf
+	trait = patient
+	2494.9.11 = { birth = yes }
+	2577.3.25 = { death = yes }
+}
+834 = { #next duke of Otago, never renounced gavelkind and gave each of his children a county, who were conquered by duke Thorin
+	name = "Fred"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 831
+	trait = content
+	trait = dull
+	2506.3.11 = { birth = yes }
+	2564.7.21 = { death = yes }
+}
+835 = { #count, died in combat against Thorin
+	name = "Michael"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 834
+	trait = brave
+	trait = feeble
+	2526.8.22 = { birth = yes }
+	2567.7.21 = { death = yes }
+}
+836 = { #countess
+	name = "Luthien"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 834
+	female = yes
+	trait = honest
+	trait = kind
+	2530.4.15 = { birth = yes }
+	2618.5.2 = { death = yes }
+}
+837 = { #countess
+	name = "Mabel"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 834
+	female = yes
+	trait = lustful
+	trait = just
+	2536.8.14 = { birth = yes }
+	2590.2.22 = { death = yes }
+}
+838 = { #countess
+	name = "Arwen"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 834
+	trait = fair
+	trait = rabies
+	2541.9.5 = { birth = yes }
+	2576.3.12 = { death = yes }
+}
+839 = { #count, the Bloody Peacock, he most likely killed a bunch of relatives
+	name = "John"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 834
+	trait = impaler
+	trait = groomed
+	2549.8.28 = { birth = yes }
+	2621.6.26 = { death = yes }
+}
+840 = { #died young
+	name = "George"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 832
+	2527.5.1 = { birth = yes }
+	2547.2.2 = { death = yes }
+}
+841 = { #died young
+	name = "Arwen"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 832
+	female = yes
+	2535.7.6 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+842 = { #died young
+	name = "Mabel"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 832
+	female = yes
+	2541.2.16 = { birth = yes }
+	2561.11.11 = { death = yes }
+}
+843 = { #died young
+	name = "Mary"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 832
+	female = yes
+	2546.2.16 = { birth = yes }
+	2566.3.17 = { death = yes }
+}
+844 = { #died young
+	name = "Gandalf"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 832
+	2553.8.22 = { birth = yes }
+	2573.9.13 = { death = yes }
+}
+845 = { #died young
+	name = "Thorin"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 832
+	2559.5.30 = { birth = yes }
+	2579.9.30 = { death = yes }
+}
+846 = { #died young
+	name = "Durin"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 832
+	2565.4.3 = { birth = yes }
+	2585.6.1 = { death = yes }
+}
+847 = { #died young
+	name = "Galadriel"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 832
+	female = yes
+	2566.12.23 = { birth = yes }
+	2586.8.29 = { death = yes }
+}
+848 = { #died young
+	name = "Mabel"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 832
+	female = yes
+	trait = twin
+	2569.5.25 = { birth = yes }
+	2589.2.13 = { death = yes }
+}
+849 = { #died young
+	name = "Saruman"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 832
+	trait = twin
+	2569.5.25 = { birth = yes }
+	2589.2.19 = { death = yes }
+}
+850 = { #finally a child of Thorin who doesn't die young, needless to say the death of all his siblings took a heavy toll on his mental health (he still was murdered, though)
+	name = "George"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 832
+	trait = twin
+	trait = paranoid
+	trait = cruel
+	2569.5.25 = { birth = yes }
+	2609.8.27 = { death = yes }
+}
+851 = { #last lord of the Mainland, died fighting the crusaders (though tbf his entire dynasty was annihilated by them)
+	name = "James"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 850
+	trait = humble
+	trait = paranoid
+	trait = lustful
+	trait = homosexual
+	2594.4.4 = { birth = yes }
+	2630.11.7 = { death = yes }
+}
+852 = { #duchess of the Fiords
+	name = "Galadriel"
+	dynasty = 804
+	culture = southlander
+	religion = eruist
+	father = 830
+	female = yes
+	trait = trusting
+	trait = diligent
+	2499.7.18 = { birth = yes }
+	2564.2.21 = { death = yes }
+}
+853 = { #duke of the Fiords
+	name = "Robert"
+	dynasty = 805
+	culture = southlander
+	religion = eruist
+	mother = 852
+	trait = chaste
+	trait = charitable
+	2523.8.9 = { birth = yes }
+	2586.1.12 = { death = yes }
+}
+854 = { #duke of the Fiords
+	name = "Saruman"
+	dynasty = 805
+	culture = southlander
+	religion = eruist
+	father = 853
+	trait = honest
+	trait = proud
+	2558.2.13 = { birth = yes }
+	2615.5.7 = { death = yes }
+}
+855 = { #duchess of the Fiords
+	name = "Susanna"
+	dynasty = 805
+	culture = southlander
+	religion = eruist
+	father = 854
+	female = yes
+	trait = envious
+	trait = just
+	2570.12.2 = { birth = yes }
+	2628.10.31 = { death = yes }
+}
+856 = { #last eruist duke of the Fiords, was killed by the crusaders, like the rest of his dynasty
+	name = "Thorin"
+	dynasty = 805
+	culture = southlander
+	religion = eruist
+	mother = 855
+	trait = craven
+	trait = brawny
+	2601.5.26 = { birth = yes }
+	2630.11.9 = { death = yes }
+}

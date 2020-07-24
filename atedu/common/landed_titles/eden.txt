@@ -268,7 +268,7 @@ e_eden = {
 				b_eildon = {}
 			}
 		}
-		d_campaspe = {
+		d_eureka = {
 			color = {248 47 135}
 			color2 = {255 255 255}
 			

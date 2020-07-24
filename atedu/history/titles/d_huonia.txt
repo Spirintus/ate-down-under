@@ -1,3 +1,19 @@
+2332.6.13 = {
+    holder = 809
+	liege = e_new_zealand
+}
+2346.4.14 = {
+    holder = 811
+	liege = e_new_zealand
+}
+2379.6.21 = {
+    holder = 813
+	liege = e_new_zealand
+}
+2399.3.13 = {
+    holder = 815
+	liege = e_new_zealand
+} 
 2637.3.22 = {
     holder = 121
 	liege = k_victoria
