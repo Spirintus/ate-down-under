@@ -809,19 +809,19 @@ pagan_group = {
 		
 		color = {0 0 0 }
 		
-		crusade_name = PLACEHOLDER
+		crusade_name = GREAT_HOLY_WAR
 		crusade_cb = crusade
-		scripture_name = PLACEHOLDER
+		scripture_name = THE_ACT
 		priest_title = PLACEHOLDER
 		
 		high_god_name = BOUNTY
 		
 		god_names = {
-			 BOUNTY COOK FLETCHER MAUATUA
+			 BOUNTY COOK FLETCHER MAUATUA THUNDERBOLT
 		}
 		 
 		evil_god_names = {
-			THE_KING
+			THE_KING THE_MARINES GAOL
 		}
 		
 		allow_looting = yes
@@ -839,19 +839,19 @@ pagan_group = {
 		
 		color = {0 0 0 }
 		
-		crusade_name = PLACEHOLDER
+		crusade_name = GREAT_HOLY_WAR
 		crusade_cb = crusade
-		scripture_name = PLACEHOLDER
+		scripture_name = THE_ACT
 		priest_title = PLACEHOLDER
 		
-		high_god_name = PLACEHOLDER
+		high_god_name = BOUNTY
 		
 		god_names = {
-			PLACEHOLDER
+			 BOUNTY COOK FLETCHER MAUATUA THUNDERBOLT
 		}
 		 
 		evil_god_names = {
-			PLACEHOLDER
+			THE_KING THE_MARINES GAOL
 		}
 		
 		reformed = mutineer_reformed
