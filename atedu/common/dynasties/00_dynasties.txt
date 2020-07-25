@@ -315,6 +315,12 @@
 
 751 = { name="Dane" culture = wellingtonian }
 
+801 = { name="Kid" culture = southlander }
+802 = { name="Durinson" culture = southlander }
+803 = { name="Kea" culture = southlander }
+804 = { name="of Linton" culture = southlander }
+805 = { name="of Grasston" culture = southlander }
+
 1000 = { name = "Saint" culture = polar }
 1001 = { name = "Troyan" culture = polar }
 1002 = { name = "Adams" culture = polar }
@@ -366,4 +372,4 @@
 5103 = { name = "Wu" culture = taiwanese }
 5104 = { name = "Lin" culture = taiwanese }
 
-10000 = { name = "Holy Sword" culture = itaukei }
+10000 = { name = "Holy Sword" culture = noculture }
