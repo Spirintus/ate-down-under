@@ -17,7 +17,7 @@ johanite;Johanite;;;;;;;;;;;;;x
 SATAN;Satan;;;;;;;;;;;;;x
 THE_NEW_TESTAMENT;The New Testament;;;;;;;;;;;;;x
 johanite_full;Johanite;;;;;;;;;;;;;x
-johanite_DESC;This movement claims to be based on the ideas of John I, duke of Toowoomba, who famously opposed archbishop Holy Warrior I during the Sydney Accusations. Though in reality these two movements don’t share much beyond an opposition to the archbishop. ;;;;;;;;;;;;;x
+johanite_DESC;This movement claims to be based on the ideas of John I, duke of Toowoomba, who famously opposed archbishop Holy Warrior I during the Sydney Accusations. Though in reality these two movements donâ€™t share much beyond an opposition to the archbishop. ;;;;;;;;;;;;;x
 gnostic;Markonite;;;;;;;;;;;;;x
 gnostic_full;The Church of Markos;;;;;;;;;;;;;x
 gnostic_DESC;The early days of the life of Prophet Markos were rather adventurous. He was the son of a significant Westralian merchant, but in his twenties he traveled east, becoming a member of the Church of Southern Cross. He participated in the Third Crusade and fought on the front lines. After suffering a severe injury, he settled down in newly founded Kingdom of Elizabeth. There he wrote his Gospel of The Saviour, based on the Southcrosser version of Jesus' life, with the teaching of True Church and his newly acquired pacifistic and gnostic ideals influencing it significantly. /nMarkonites reject the Creator featured in Southcrosser Book of Journey and Book of Drought as a genocidal maniac and the doctrine of four distinct forms of God. Rather, Markonites direct their worship towards Jesus, who is seen as an aspect of a Saviour god sent to rescue humanity from earthly suffering.;;;;;;;;;;;;;x
@@ -31,15 +31,15 @@ MANA;Mana;;;;;;;;;;;;;x
 GOD_ATUA;Atua;;;;;;;;;;;;;x
 purist;Purist;;;;;;;;;;;;;x
 purist_full;Purist;;;;;;;;;;;;;x
-purist_DESC;After the Aotearoan Church became widespread and started accepting anglos and other peoples into the fold, a group of priests and theologians founded the Purist Movement, which sought to bring the church back to what they saw as ‘the rightful path’, in which the maori are the chosen people and foreigners are not allowed.;;;;;;;;;;;;;x,,,
+purist_DESC;After the Aotearoan Church became widespread and started accepting anglos and other peoples into the fold, a group of priests and theologians founded the Purist Movement, which sought to bring the church back to what they saw as â€˜the rightful pathâ€™, in which the maori are the chosen people and foreigners are not allowed.;;;;;;;;;;;;;x,,,
 indian;Indian;;;;;;;;;;;;;x
 indian_full;Indian;;;;;;;;;;;;;x
 indian_DESC;Indian church is christian denomination which have evolved from baptist and presbyterian churches in northeastern India.;;;;;;;;;;;;;x
 eruist;Eruist;;;;;;;;;;;;x
 eruist_full;Eruism;;;;;;;;;;;;x
-eruist_DESC;Though the origins of Eruism are shrouded in mystery and legend, with some claiming it was founded by a prophet known only as ‘Tolkien’, it is known that this monotheistic religion only became widespread after the XXII century. Followers believe in Eru Ilúvatar, the only god and the creator of all life, though they also believe in countless other beings, like the Ainur, and in the prophecy of the Chosen One.
+eruist_DESC;Though the origins of Eruism are shrouded in mystery and legend, with some claiming it was founded by a prophet known only as â€˜Tolkienâ€™, it is known that this monotheistic religion only became widespread after the XXII century. Followers believe in Eru IlÃºvatar, the only god and the creator of all life, though they also believe in countless other beings, like the Ainur, and in the prophecy of the Chosen One.
 ;;;;;;;;;;;;x
-GOD_ERU_ILUVATAR;Eru Ilúvatar;;;;;;;;;;;;x
+GOD_ERU_ILUVATAR;Eru IlÃºvatar;;;;;;;;;;;;x
 GOD_THE_HEROES;the Heroes;;;;;;;;;;;;x
 GOD_THE_CHOOSEN_ONE;The Chosen One;;;;;;;;;;;;x
 GOD_VALAR;the Valar;;;;;;;;;;;;x
@@ -122,3 +122,16 @@ JOHNY_TURK;Johny Turk;;;;;;;;;;;;x
 JAP;Jap;;;;;;;;;;;;x
 HUN;Hun;;;;;;;;;;;;x
 localite;Localite;;;;;;;;;;;;x
+mutineer;Mutineer;;;;;;;;;;;;x
+mutineer_DESC;tbd;;;;;;;;;;;;x
+mutineer_reformed;Mutineer;;;;;;;;;;;;x
+mutineer_reformed_DESC;tbd;;;;;;;;;;;;x
+BOUNTY;Bounty;;;;;;;;;;;;x
+FLETCHER;Fletcher;;;;;;;;;;;;x
+COOK;Cook;;;;;;;;;;;;x
+MAUATUA;Mauatua;;;;;;;;;;;;x
+THUNDERBOLT;Thunderbolt;;;;;;;;;;;;x
+THE_KING;The King;;;;;;;;;;;;x
+THE_MARINES;The Marines;;;;;;;;;;;;x
+GAOL;Gaol;;;;;;;;;;;;x
+THE_ACT;The Act;;;;;;;;;;;;x
