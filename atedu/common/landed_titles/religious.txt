@@ -34,7 +34,7 @@ k_south_cross = {
 	dynasty_title_names = no
 	
 	male_names = {
-		"True Guide" "The Most Faithful" "The Faith’s Defender" "Our Lord’s Chosen" "Holy One"
+		"True Guide" "The Most Faithful" "The Faithâ€™s Defender" "Our Lordâ€™s Chosen" "Holy One"
 		"The Holiest of the Holy" "Holyman" "Sacred Guide" "Saviour On earth" "Guide of the Pure" "Holy Warrior"
 		"Chosen By the Southern Cross" "The Pure One" "He Who Fight the Great Heretic"
 		"He Who Fights for the Holy Church" "Lord of the Pure" "Lord of Lords on Earth" "Holy Guide"
@@ -289,6 +289,26 @@ d_digger = {
 	controls_religion = digger
 	
 	primary = yes
+	
+	dynasty_title_names = no
+}
+
+d_mariner = {
+	color = { 30 30 200 }
+	color2 = {255 255 255}
+	
+	capital = 1 #temporary
+	creation_requires_capital = no
+	
+	title = "PRIMATE"
+	foa = "PRIMATE_FOA"
+
+	short_name = yes
+	religion = mariner
+	controls_religion = mariner
+	
+	primary = yes
+	landless = yes
 	
 	dynasty_title_names = no
 }
