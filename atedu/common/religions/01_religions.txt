@@ -290,7 +290,7 @@ christian = {
 		religious_clothing_priest = 1
 	}
 	
-	party_jesus_the_religion = {#christian pirates
+	mariner = {#christian pirates
 		graphical_culture = westerngfx
 		
 		icon = 1
@@ -310,13 +310,13 @@ christian = {
 		}
 		
 		evil_god_names = {
-			SATAN LUCIFER THE_DEVIL
+			SATAN LEVIATHAN THE_DEVIL BUNYIP
 		}
 		
-		#can_call_crusade = yes
-		#can_excommunicate = yes
-		#can_grant_claim = yes
-		#can_retire_to_monastery = yes
+		can_call_crusade = no
+		can_excommunicate = yes
+		can_grant_claim = yes
+		can_grant_claim = yes
 		priests_can_marry = yes
 		
 		allow_looting = yes
