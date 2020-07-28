@@ -20,7 +20,66 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 16
+		years = 24
+		
+		modifier = {
+			factor = 0.9
+			holder_scope = {
+				religion_group = christian
+				NOR = {
+					religion = aotearoan
+					religion = purist
+				}
+			}
+		}
+		modifier = {
+			factor = 0.7
+			holder_scope = {
+				trait = arbitrary
+			}
+		}
+		modifier = {
+			factor = 0.6
+			holder_scope = {
+				trait = cruel
+			}
+		}
+		modifier = {
+			factor = 0.8
+			holder_scope = {
+				trait = arbitrary
+			}
+		}
+		modifier = {
+			factor = 0.8
+			holder_scope = {
+				trait = zealous
+			}
+		}
+		modifier = {
+			factor = 2
+			holder_scope = {
+				trait = kind
+			}
+		}
+		modifier = {
+			factor = 2
+			holder_scope = {
+				trait = just
+			}
+		}
+		# modifier = {
+			# factor = 3
+			# holder_scope = {
+				# trait = <eruist_sympathy_trait> #not implemented yet
+			# }
+		# }
+		modifier = {
+			factor = 2
+			holder_scope = {
+				secret_religion_group = eruist_group
+			}
+		}
 	}
 	
 	immediate = {
@@ -106,6 +165,44 @@ province_event = {
 					}
 					set_defacto_liege = THIS
 					narrative_event = { id = erulib.2 days = 7 }
+					
+					if = {
+						limit = {
+							religion = ritualistic
+						}
+						while = {
+							count = 3
+							random_list = {
+								20 = {
+									trait = gray_magic_master
+									trigger = {
+										NOT = {trait = gray_magic_master}
+									}
+								}
+								20 = {
+									trait = blue_magic_master
+									trigger = {
+										NOT = {trait = blue_magic_master}
+									}
+								}
+								20 = {
+									trait = white_magic_master
+									trigger = {
+										NOT = {trait = white_magic_master}
+									}
+								}
+								20 = {
+									trait = brown_magic_master
+									trigger = {
+										NOT = {trait = brown_magic_master} 
+									}
+								}
+								20 = {
+									
+								}
+							}
+						}
+					}
 					
 					if = {
 						limit = {

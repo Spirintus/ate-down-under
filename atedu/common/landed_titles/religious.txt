@@ -19,7 +19,7 @@ k_south_cross = {
 	color = {255 215 51}
 	color2 = {255 255 255}
 	
-	capital = 1 #for now
+	capital = 124 # Hobart for now, change to brisbane later
 	
 	title = "ARCHBISHOP"
 	foa = "ARCHBISHOP_FOA"

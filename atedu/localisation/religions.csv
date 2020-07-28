@@ -101,13 +101,13 @@ shenist_full;Shenist;;;;;;;;;;;;x
 shenist_DESC;Also known as the Chinese Folk Religion, Shenism is a polytheistic religion originating from ancient China, with Shenists worship an ever-expanding list of gods and immortals. The religious head of Shenism is the Emperor, who through the mandate of Heaven claims dominion over the Empire of China. Shenism is highly syncretic, with many different branches such as Taoism, Chenghuangshendao, Qigong, and Yiguandao.;;;;;;;;;;;;x
 GOD_THE_RED_DYNASTY;The Red Dynasty;;;;;;;;;;;;x
 GOD_THE_PEOPLE;The People;;;;;;;;;;;;x
-GOD_THE_CAUSE
-GOD_LEI_FENG
-FOUR_OLD_ONES
-GREAT_PATROTIC_WAR
-THE_LITTLE_RED_BOOK
-red_law
-OFFICIAL
+GOD_THE_CAUSE;The Cause;;;;;;;;;;;;x
+GOD_LEI_FENG;Lei Feng;;;;;;;;;;;;x
+FOUR_OLD_ONES;Four Old Ones;;;;;;;;;;;;x
+GREAT_PATROTIC_WAR;Great Patriotic War;;;;;;;;;;;;x
+THE_LITTLE_RED_BOOK;The Little Red Book;;;;;;;;;;;;x
+red_law;Red Law;;;;;;;;;;;;x
+OFFICIAL;Official;;;;;;;;;;;;x
 oldworld;Old World Cultist;;;;;;;;;;;;x
 digger;Digger;;;;;;;;;;;;x
 MISSIONS;Mission;;;;;;;;;;;;x
@@ -121,4 +121,3 @@ GOD_NED_KELLY;Ned Kelly;;;;;;;;;;;;x
 JOHNY_TURK;Johny Turk;;;;;;;;;;;;x
 JAP;Jap;;;;;;;;;;;;x
 HUN;Hun;;;;;;;;;;;;x
-localite;Localite;;;;;;;;;;;;x

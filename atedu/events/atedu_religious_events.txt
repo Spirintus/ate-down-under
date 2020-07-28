@@ -326,3 +326,238 @@ character_event = { #Purism is religion for Maori only, believers of other cultu
 		}
 	}
 }
+character_event = { #Shenist branches
+	id = RelDU.3
+	desc = {
+		trigger = {
+			NOT = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		text = EVTDESC_RelDU_3
+    }
+	desc = {
+		trigger = {
+			has_alternate_start_parameter = {
+				key = religion_names
+				value = random
+			}
+		}
+		text = EVTDESC_RelDU_3
+    }
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = EVTOPT_RelDU_3_A
+			trigger = {
+				NOT = {
+					has_alternate_start_parameter = {
+						key = religion_names
+						value = random
+					}
+				}
+			}
+		}
+		name = {
+			text = EVTOPT_RelDU_3_A
+			trigger = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		trigger = {
+			NOT = { trait = dao_shenist }
+		}
+		add_trait = dao_shenist
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = shenist
+				NOT = { trait = dao_shenist }
+			}
+			add_trait = dao_shenist
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = shenist
+				NOT = { trait = dao_shenist }
+			}
+			add_trait = dao_shenist
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_SHENIST_BRANCH_TO_DAO
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+
+	option = {
+		name = {
+			text = EVTOPT_RelDU_3_B
+			trigger = {
+				NOT = {
+					has_alternate_start_parameter = {
+						key = religion_names
+						value = random
+					}
+				}
+			}
+		}
+		name = {
+			text = EVTOPT_RelDU_3_B
+			trigger = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		trigger = {
+			NOT = { trait = chenghuangshendao_shenist }
+		}
+		add_trait = chenghuangshendao_shenist
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = shenist
+				NOT = { trait = chenghuangshendao_shenist }
+			}
+			add_trait = chenghuangshendao_shenist
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = shenist
+				NOT = { trait = chenghuangshendao_shenist }
+			}
+			add_trait = chenghuangshendao_shenist
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_SHENIST_BRANCH_TO_CHENGHUANGSHENDAO
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+
+	option = {
+		name = {
+			text = EVTOPT_RelDU_3_C
+			trigger = {
+				NOT = {
+					has_alternate_start_parameter = {
+						key = religion_names
+						value = random
+					}
+				}
+			}
+		}
+		name = {
+			text = EVTOPT_RelDU_3_C
+			trigger = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		trigger = {
+			NOT = { trait = qigong_shenist }
+		}
+		add_trait = qigong_shenist
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = shenist
+				NOT = { trait = qigong_shenist }
+			}
+			add_trait = qigong_shenist
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = shenist
+				NOT = { trait = qigong_shenist }
+			}
+			add_trait = qigong_shenist
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_SHENIST_BRANCH_TO_QIGONG
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+
+	option = {
+		name = {
+			text = EVTOPT_RelDU_3_D
+			trigger = {
+				NOT = {
+					has_alternate_start_parameter = {
+						key = religion_names
+						value = random
+					}
+				}
+			}
+		}
+		name = {
+			text = EVTOPT_RelDU_3_D
+			trigger = {
+				has_alternate_start_parameter = {
+					key = religion_names
+					value = random
+				}
+			}
+		}
+		trigger = {
+			NOT = { trait = yiguandao_shenist }
+		}
+		add_trait = yiguandao_shenist
+		any_courtier = {
+			limit = { 
+				is_close_relative = ROOT
+				NOT = { trait = zealous }
+				religion = shenist
+				NOT = { trait = yiguandao_shenist }
+			}
+			add_trait = yiguandao_shenist
+		}
+		any_spouse = {
+			limit = { 
+				is_consort = no
+				NOT = { trait = zealous }
+				religion = shenist
+				NOT = { trait = yiguandao_shenist }
+			}
+			add_trait = yiguandao_shenist
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_CHANGE_SHENIST_BRANCH_TO_YIGUANDAO
+				picture = GFX_evt_bishop_hindu
+			}
+		}
+	}
+}
