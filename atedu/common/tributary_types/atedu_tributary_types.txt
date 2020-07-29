@@ -86,7 +86,7 @@ dependent_fleet = {
 	piety_to_suzerain = {
 		value = 0
 	}
-	piety_tributary = {
+	piety_to_tributary = {
 		value = 0
 	}
 	modifier = {

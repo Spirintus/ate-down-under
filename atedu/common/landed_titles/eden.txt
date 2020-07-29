@@ -31,7 +31,7 @@ e_eden = {
 				color2 = {255 255 255}
 				
 				b_hobart = {}
-                b_kingston = {}
+                b_kingston_h = {}
                 b_port_arthur = {}
                 b_huonville = {}
                 b_south_arm = {}
@@ -45,7 +45,7 @@ e_eden = {
 				
 				b_triabunna = {}
                 b_swansea = {}
-                b_ross = {}
+                b_ross_f = {}
                 b_fingal = {}
                 b_oatlands = {}
                 b_campbell_town = {}
@@ -61,7 +61,7 @@ e_eden = {
                 b_nile = {}
                 b_bracknell = {}
                 b_conara = {}
-                b_dover = {}
+                b_dover_sl = {}
 			}
 		}	
 		d_tassieland = {
@@ -194,7 +194,7 @@ e_eden = {
 				
 				b_sale = {}
 				b_maffra = {}
-				b_stratford = {}
+				b_stratford_s = {}
 				b_longford_vic = {}
 				b_wurruk = {}
 				b_woodside = {}
@@ -476,7 +476,7 @@ e_eden = {
 				b_pomonal = {}
 			}
 		}
-		d_limestone_coast
+		d_limestone_coast = {
 			color = {220 226 192}
 			color2 = {255 255 255}
 			

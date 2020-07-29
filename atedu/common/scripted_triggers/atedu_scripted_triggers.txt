@@ -1,6 +1,6 @@
 atedu_pirate_trigger = {
 	OR = {
-		religion = party_jesus_the_religion
+		religion = mariner
 		religion = mutineer_reformed
 		religion = mutineer
 		religion = kebajakan

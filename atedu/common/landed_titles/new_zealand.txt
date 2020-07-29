@@ -793,7 +793,7 @@ e_new_zealand = {
 				b_skippers = {}
 				b_agepee = {}
 				b_climax = {}
-				b_anchor = {}
+				b_anchor_a = {}
 			}
 			c_ionia = {
 				color = {177 183 157 }
