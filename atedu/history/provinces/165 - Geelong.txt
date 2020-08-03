@@ -12,7 +12,7 @@ b_drysdale = temple
 b_torquay = city
 
 # Misc
-culture = maltrajian
+culture = maltraljan
 religion = southcrosser
 
 #History
