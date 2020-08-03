@@ -4,7 +4,7 @@
 	name = "Pawl"
 	dynasty = 2000
 	religion = southcrosser
-	culture = maltralian
+	culture = maltrajian
 	2612.4.15 = {birth = yes}
 	trait = wroth
 	trait = trusting
