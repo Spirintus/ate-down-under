@@ -54,26 +54,6 @@ chinese = {
 		
 		modifier = default_culture_modifier
 	}
-	aozhouren = {
-		graphical_cultures = { chinesegfx }
-		unit_graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
-		color = { 255 102 94 }
-		
-		male_names = { Ynarkael }
-		female_names = {Lizzie_Elizabeth}
-		
-		from_dynasty_prefix = "of "
-		
-		pat_grf_name_chance = 20
-		mat_grf_name_chance = 10
-		father_name_chance = 20
-		
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 20
-		mother_name_chance = 10
-		
-		modifier = default_culture_modifier
-	}
 }
 			
 
