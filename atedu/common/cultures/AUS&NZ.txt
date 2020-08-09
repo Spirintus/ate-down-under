@@ -179,9 +179,28 @@ east_australian = {
 		unit_graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
 		color = { 255 102 94 }
 		
-		male_names = { Ynarkael }
-		female_names = {Lizzie_Elizabeth}
+			male_names = {
+		Adam Andy Alec
+		Billy_Bill Brett
+		Chang Chen Charlie Caleb Chris
+		Dannie David
+		Ed_Edward Edward_Eddie
+		Faung
+		Guang Greg
+		Jackson Jason Jackie Jamie Jing Jack
+		Paul
+		Wong 
+		Yang
+	  	}
 		
+		female_names = {
+		Anna Annette
+		Bin
+		Cindy Claudia Cheltzie Courtney
+		Elizabeth
+		Jaymee
+		Nina Natalie Natashas
+		}		
 		from_dynasty_prefix = "of "
 		
 		pat_grf_name_chance = 20
