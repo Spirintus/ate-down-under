@@ -1,0 +1,19 @@
+# County Title
+title = c_bereina
+
+# Settlements
+max_settlements = 2
+
+b_bereina = tribal
+# b_kairuku = {}
+# b_hisiu = {}
+# b_pinu = {}
+# b_tapini = {}
+# b_boera = {}
+# b_kosipe = {}
+
+# Misc
+culture = motu
+religion = lotu
+
+#History

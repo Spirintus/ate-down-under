@@ -1,0 +1,162 @@
+e_papua = { #at least I guess it will be one empire
+	color = {142 48 142}
+	color2 = {42 250 42}
+	
+	capital  = 190 #Port Moresby
+		
+		d_milne_bay = {
+			color = { 184 93 162 }
+			color2 = { 255 255 255 }
+			
+			capital = 187
+			
+			c_louisiade = {
+				color = {181 61 159}
+				color2 = { 255 255 255 }
+				
+				b_bwagaoia = {}
+				b_rambuso = {}
+				b_rossel = {}
+				b_liak = {}
+				b_narian = {}
+				b_eden = {}
+				b_emeli = {}
+			}
+			c_dentrecasteaux = {
+				color = {182 102 167}
+				color2 = { 255 255 255 }
+				
+				b_losuia = {}
+				b_kaibola = {}
+				b_esaala = {}
+				b_kolumadau = {}
+				b_fergusson = {}
+				b_goodenough = {}
+				b_dobu = {}
+			}
+			c_alotau =  {
+				color = {188 110 173}
+				color2 = { 255 255 255 }
+				
+				b_alotau = {}
+				b_gibara = {}
+				b_daudau = {}
+				b_gaduda = {}
+				b_loani = {}
+				b_sideia = {}
+				b_basilaki = {}
+				b_sariba = {}
+			}
+		}
+		d_moresby = {
+			color = {142 49 125}
+			color2 = { 255 255 255 }
+			
+			capital = 189
+			
+			c_rabaraba = {
+				color = {214 12 175}
+				color2 = { 255 255 255 }
+				
+				b_rabaraba = {}
+				b_mapona = {}
+				b_menapi = {}
+				b_midino = {}
+				b_magarida = {}
+				b_amazon_b = {}
+				b_loupom = {}
+				b_gisem = {}
+			}
+			c_port_moresby = {
+				color = {116 30 98}
+				color2 = { 255 255 255 }
+				
+				b_moresby = {}
+				b_sogeri = {}
+				b_iove = {}
+				b_boregaina = {}
+				b_goada = {}
+				b_vuru = {}
+				b_kupiano = {}
+				b_abau = {}
+			}
+			c_bereina = {
+				color = {174 76 153}
+				color2 = { 255 255 255 }
+				
+				b_bereina = {}
+				b_kairuku = {}
+				b_hisiu = {}
+				b_pinu = {}
+				b_tapini = {}
+				b_boera = {}
+				b_kosipe = {}
+			}
+		}
+		d_gulf = {
+			color = { 114 21 69 }
+			color2 = { 255 255 255 }
+			
+			c_kerema = {
+				color = {83 38 73}
+				color2 = { 255 255 255 }
+				
+				b_kerema = {}
+				b_hepa = {}
+				b_ihu = {}
+				b_urulau = {}
+				b_terapo = {}
+				b_iokea = {}
+				b_iuku = {}
+				b_iori = {}
+			}
+			c_kikori = {
+				color = {147 7 64}
+				color2 = { 255 255 255 }
+				
+				b_kikori = {}
+				b_maubi = {}
+				b_kaivu = {}
+				b_baimuru = {}
+				b_araara = {}
+				b_masusu = {}
+				b_aumo = {}
+				b_mirua = {}
+			}
+		}
+# 194;173;124;164;Ijivitari;x
+# 195;127;26;109;Popondetta;x
+# 196;145;58;130;Sohe;x
+# 197;137;79;127;Morobe;x
+# 198;95;50;87;Garaina;x
+# 222;169;89;154;Lae;x
+# 223;103;12;49;Finschhafen;x
+# 224;86;22;48;Monara;x
+# 225;115;39;70;Madang;x
+# 226;110;51;75;Bogia;x
+# 227;223;79;147;Middle Ramu;x
+# 228;173;9;143;Mount Hagen;x
+# 229;223;36;189;Mondop;x
+# 230;157;22;77;Mendi;x
+# 231;210;63;123;Chimbu;x
+# 232;202;15;168;Goroka;x
+# 233;124;39;74;Umboi Island;x
+# 234;132;56;87;Sagsag;x
+# 235;87;87;87;Kandrian;x
+# 236;202;76;128;Awio;x
+# 237;116;63;85;Fulleborne;x
+# 238;210;13;94;Kimbe;x
+# 239;233;86;146;Talasea;x
+# 240;182;22;88;Ubai;x
+# 241;190;45;104;Ulamona;x
+# 242;213;36;107;Pomio;x
+# 243;215;130;165;Kokopo;x
+# 244;223;85;141;Dakature;x
+# 245;137;33;76;Kavieng;x
+# 246;126;24;65;Sentral Niu Ailan;x
+# 247;148;109;125;Namatanai;x
+# 248;143;54;90;Hitung;x
+# 249;193;5;82;Kanoagil;x
+# 250;111;60;81;Lihir Islands;x
+
+}

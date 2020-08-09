@@ -1,0 +1,20 @@
+# County Title
+title = c_alotau
+
+# Settlements
+max_settlements = 2
+
+b_alotau = tribal
+# b_gibara = {}
+# b_daudau = {}
+# b_gaduda = {}
+# b_loani = {}
+# b_sideia = {}
+# b_basilaki = {}
+# b_sariba = {}
+
+# Misc
+culture = motu
+religion = lotu
+
+#History

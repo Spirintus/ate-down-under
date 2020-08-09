@@ -1,0 +1,20 @@
+# County Title
+title = c_kikori
+
+# Settlements
+max_settlements = 1
+
+b_kikori = tribal
+# b_maubi = {}
+# b_kaivu = {}
+# b_baimuru = {}
+# b_araara = {}
+# b_masusu = {}
+# b_aumo = {}
+# b_mirua = {}
+
+# Misc
+culture = kikori
+religion = lotu
+
+#History

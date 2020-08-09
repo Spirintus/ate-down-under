@@ -1,0 +1,20 @@
+# County Title
+title = c_kerema
+
+# Settlements
+max_settlements = 2
+
+b_kerema = tribal
+# b_hepa = {}
+# b_ihu = {}
+# b_urulau = {}
+# b_terapo = {}
+# b_iokea = {}
+# b_iuku = {}
+# b_iori = {}
+
+# Misc
+culture = motu
+religion = lotu
+
+#History

@@ -1,0 +1,20 @@
+# County Title
+title = c_rabaraba
+
+# Settlements
+max_settlements = 1
+
+b_rabaraba = tribal
+# b_mapona = {}
+# b_menapi = {}
+# b_midino = {}
+# b_magarida = {}
+# b_amazon_b = {}
+# b_loupom = {}
+# b_gisem = {}
+
+# Misc
+culture = motu
+religion = lotu
+
+#History

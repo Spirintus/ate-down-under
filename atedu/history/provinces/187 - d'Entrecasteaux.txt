@@ -1,0 +1,19 @@
+# County Title
+title = c_dentrecasteaux
+
+# Settlements
+max_settlements = 1
+
+b_losuia = tribal
+# b_kaibola = {}
+# b_esaala = {}
+# b_kolumadau = {}
+# b_fergusson = {}
+# b_goodenough = {}
+# b_dobu = {}
+
+# Misc
+culture = motu
+religion = lotu
+
+#History
