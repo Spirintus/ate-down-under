@@ -173,7 +173,7 @@ e_new_zealand = {
 				color2 = {255 255 255}
 				b_queenstown = {}
 				b_closeburn = {}
-				b_kingston = {}
+				b_kingston_z = {}
 				b_halfway_bay = {}
 				b_mavora = {}
 				b_mount_nicholas = {}
@@ -793,7 +793,7 @@ e_new_zealand = {
 				b_skippers = {}
 				b_agepee = {}
 				b_climax = {}
-				b_anchor = {}
+				b_anchor_a = {}
 			}
 			c_ionia = {
 				color = {177 183 157 }

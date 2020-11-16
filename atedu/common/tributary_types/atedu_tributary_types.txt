@@ -1,0 +1,95 @@
+###Pirates###
+pirate_tributary = {
+	tributary_name = PIRATE_TRIBUTARY_NAME
+	tributary_plural = PIRATE_TRIBUTARY_PLURAL
+	suzerain_name = PIRATE_suzerain_NAME
+	tribute_name = PIRATE_TRIBUTE
+	
+	breaks_at_suzerain_death = yes
+	breaks_at_tributary_death = no
+	suzerain_can_be_called = yes
+	suzerain_must_defend = no
+	
+	tributary_can_be_summoned = yes
+	tributary_must_defend = yes
+	tributaries_can_infight = yes
+	suzerain_can_join_infighting = no
+	
+	tributaries_can_unite = yes
+	
+	breaks_on_realm_change = yes
+	
+	icon = 7
+	
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0.10
+	}
+	reinforce_tribute_percentage = {
+		value = 0.05
+	}
+	prestige_to_suzerain = {
+		value = 0.25
+	}
+	prestige_to_tributary = {
+		value = 0
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+	# modifier = {
+		
+	# }
+}
+dependent_fleet = {
+	tributary_name = DEPENDENT_FLEET_NAME
+	tributary_plural = DEPENDENT_FLEET_PLURAL
+	suzerain_name = PIRATE_suzerain_NAME
+	tribute_name = PIRATE_TRIBUTE
+	
+	breaks_at_suzerain_death = no
+	breaks_at_tributary_death = no
+	suzerain_can_be_called = yes
+	suzerain_must_defend = yes
+	
+	tributary_can_be_summoned = yes
+	tributary_must_defend = yes
+	tributaries_can_infight = no
+	suzerain_can_join_infighting = yes
+	
+	tributaries_can_unite = no
+	
+	breaks_on_realm_change = yes
+	
+	icon = 7
+	
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0.25
+	}
+	reinforce_tribute_percentage = {
+		value = 0.15
+	}
+	prestige_to_suzerain = {
+		value = 0.4
+	}
+	prestige_to_tributary = {
+		value = 0
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+	modifier = {
+		
+	}
+}

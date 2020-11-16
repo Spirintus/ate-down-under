@@ -14,3 +14,24 @@ character_event = {
 		set_global_flag = liberator_not_yet_here
 	}
 }
+
+character_event = { #makes Archbishop use his succession
+	id = ButWhatAboutDragons.2
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_landed_title = k_south_cross
+	}
+	
+	immediate = {
+		any_demesne_title = { #First apply law.
+			add_law = {
+				law = succ_archbishop_elective
+				cooldown = no
+				opinion_effect = no
+			}
+		}
+	}
+}

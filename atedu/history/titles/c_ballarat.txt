@@ -1,4 +1,3 @@
-2646.5.21 = {
-	holder = 300
-	liege = k_victoria
-}
+2658.5.21 = {
+	holder = 2303
+	liege = d_eureka

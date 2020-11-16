@@ -1,0 +1,37 @@
+targetted_decisions = {
+	convert_shenist_branch = {
+		only_playable = yes
+		
+		filter = self
+		ai_target_filter = self
+		ai = no
+		
+		potential = {
+			is_playable = yes
+			is_adult = yes
+			is_theocracy = no
+			religion = shenist
+		}
+		allow = {
+			NOT = { trait = zealous }
+			prestige = 50
+			custom_tooltip = {
+				text = shenist_has_not_converted
+				NOT = { has_character_flag = shenist_branch_converted } 
+			}
+		}
+		effect = {
+			set_character_flag = shenist_branch_converted
+			prestige = -50
+			piety = 25
+			character_event = { id = RelDU.3 } # Choose branch
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}

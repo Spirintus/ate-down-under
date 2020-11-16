@@ -257,6 +257,8 @@
 223 = { name = "Hay" culture = melbournian }
 224 = { name = "Wilson" culture = melbournian }
 225 = { name = "Nguyen" culture = melbournian }
+226 = { name = "Polites" culture = melbournian }
+227 = { name = "Argenti" culture = melbournian }
 
 240 = { name = "Fernsby" culture = victorian }
 241 = { name = "Gipp" culture = victorian }
@@ -313,6 +315,12 @@
 
 751 = { name="Dane" culture = wellingtonian }
 
+801 = { name="Kid" culture = southlander }
+802 = { name="Durinson" culture = southlander }
+803 = { name="Kea" culture = southlander }
+804 = { name="of Linton" culture = southlander }
+805 = { name="of Grasston" culture = southlander }
+
 1000 = { name = "Saint" culture = polar }
 1001 = { name = "Troyan" culture = polar }
 1002 = { name = "Adams" culture = polar }
@@ -348,6 +356,10 @@
 1104 = { name = "Knight" culture = chathamite }
 1105 = { name = "Ara" culture = chathamite }
 
+2000 = { name = "Micallef" culture = maltrajian }
+
+2100 = { name = "Shang" culture = aozhouren }
+
 5000 = { name = "Kobayashi" culture = edokko }
 5001 = { name = "Ito" culture = edokko }
 5002 = { name = "Toki" culture = edokko }
@@ -360,4 +372,4 @@
 5103 = { name = "Wu" culture = taiwanese }
 5104 = { name = "Lin" culture = taiwanese }
 
-10000 = { name = "Holy Sword" culture = itaukei }
+10000 = { name = "Holy Sword" culture = noculture }

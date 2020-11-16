@@ -1,0 +1,20 @@
+# County Title
+title = c_port_moresby
+
+# Settlements
+max_settlements = 4
+
+b_moresby = tribal
+b_sogeri = temple
+# b_iove = {}
+# b_boregaina = {}
+# b_goada = {}
+# b_vuru = {}
+# b_kupiano = {}
+# b_abau = {}
+
+# Misc
+culture = motu
+religion = lotu
+
+#History

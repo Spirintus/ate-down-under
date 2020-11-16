@@ -1,0 +1,5 @@
+2662.4.28 = {
+    holding_dynasty = 227
+	liege = d_bass
+	holder = 193
+}

@@ -10,6 +10,6 @@ b_maryborough = temple
 
 # Misc
 culture = victorian
-religion = southcrosser
+religion = digger
 
 #History

@@ -1,0 +1,103 @@
+papuan = {
+	graphical_cultures = {muslimgfx}
+	
+	motu = {
+		graphical_cultures = {westafricangfx}
+		color = {160 72 168}
+		
+		 male_names = {
+			Ynarkael
+		}
+		female_names = {
+			Liz
+		}
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	morobe = {
+		graphical_cultures = {westafricangfx}
+		color = {160 72 168}
+		
+		 male_names = {
+			Ynarkael
+		}
+		female_names = {
+			Liz
+		}
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	kikori = {
+		graphical_cultures = {westafricangfx}
+		color = {147 7 64}
+		
+		 male_names = {
+			Ynarkael
+		}
+		female_names = {
+			Liz
+		}
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	hailans = {
+		graphical_cultures = {westafricangfx}
+		color = {160 72 168}
+		
+		 male_names = {
+			Matisyahu
+		}
+		female_names = {
+			Liz
+		}
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	sepik = {
+		graphical_cultures = {westafricangfx}
+		color = {160 72 168}
+		
+		 male_names = {
+			Ynarkael
+		}
+		female_names = {
+			Liz
+		}
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	niubritish = {
+		graphical_cultures = {westafricangfx}
+		color = {160 72 168}
+		
+		 male_names = {
+			Ynarkael
+		}
+		female_names = {
+			Liz
+		}
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	latangai = {
+		graphical_cultures = {westafricangfx}
+		color = {160 72 168}
+		
+		 male_names = {
+			Ynarkael
+		}
+		female_names = {
+			Liz
+		}
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+
+}

@@ -13,4 +13,18 @@ spriteTypes = {
 		 norefcount = yes
 		 effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		 name = "GFX_trait_strayaite_digger"
+		 texturefile = "gfx/traits/strayaite_digger.tga"
+		 noOfFrames = 1
+		 norefcount = yes
+		 effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		 name = "GFX_trait_spiritualite_digger"
+		 texturefile = "gfx/traits/spiritualite_digger.tga"
+		 noOfFrames = 1
+		 norefcount = yes
+		 effectFile = "gfx/FX/buttonstate.lua"
+	}
 }

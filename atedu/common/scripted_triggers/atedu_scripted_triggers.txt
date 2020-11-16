@@ -1,0 +1,8 @@
+atedu_pirate_trigger = {
+	OR = {
+		religion = mariner
+		religion = mutineer_reformed
+		religion = mutineer
+		religion = kebajakan
+	}
+}

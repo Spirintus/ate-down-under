@@ -20,7 +20,66 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 16
+		years = 24
+		
+		modifier = {
+			factor = 0.9
+			holder_scope = {
+				religion_group = christian
+				NOR = {
+					religion = aotearoan
+					religion = purist
+				}
+			}
+		}
+		modifier = {
+			factor = 0.7
+			holder_scope = {
+				trait = arbitrary
+			}
+		}
+		modifier = {
+			factor = 0.6
+			holder_scope = {
+				trait = cruel
+			}
+		}
+		modifier = {
+			factor = 0.8
+			holder_scope = {
+				trait = arbitrary
+			}
+		}
+		modifier = {
+			factor = 0.8
+			holder_scope = {
+				trait = zealous
+			}
+		}
+		modifier = {
+			factor = 2
+			holder_scope = {
+				trait = kind
+			}
+		}
+		modifier = {
+			factor = 2
+			holder_scope = {
+				trait = just
+			}
+		}
+		# modifier = {
+			# factor = 3
+			# holder_scope = {
+				# trait = <eruist_sympathy_trait> #not implemented yet
+			# }
+		# }
+		modifier = {
+			factor = 2
+			holder_scope = {
+				secret_religion_group = eruist_group
+			}
+		}
 	}
 	
 	immediate = {
@@ -106,6 +165,44 @@ province_event = {
 					}
 					set_defacto_liege = THIS
 					narrative_event = { id = erulib.2 days = 7 }
+					
+					if = {
+						limit = {
+							religion = ritualistic
+						}
+						while = {
+							count = 3
+							random_list = {
+								20 = {
+									trait = gray_magic_master
+									trigger = {
+										NOT = {trait = gray_magic_master}
+									}
+								}
+								20 = {
+									trait = blue_magic_master
+									trigger = {
+										NOT = {trait = blue_magic_master}
+									}
+								}
+								20 = {
+									trait = white_magic_master
+									trigger = {
+										NOT = {trait = white_magic_master}
+									}
+								}
+								20 = {
+									trait = brown_magic_master
+									trigger = {
+										NOT = {trait = brown_magic_master} 
+									}
+								}
+								20 = {
+									
+								}
+							}
+						}
+					}
 					
 					if = {
 						limit = {
@@ -503,28 +600,34 @@ character_event = {
 	has_character_flag = this_is_liberator
 	
 	trigger = {
-		war = no
+		NOT = { any_war = { using_cb = liberator_invasion }}
 	}
 	
 	immediate = {
-		trigger_switch = {
-			on_trigger = has_character_flag
-			conquest_of_christchurch = {
-				clr_character_flag = conquest_of_christchurch
-				set_character_flag = conquest_of_south_island
-				character_event = { id = erulib.6 days = 7 }
+		if = {
+			limit = {
+				war = no
 			}
-			conquest_of_south_island = {
-				clr_character_flag = conquest_of_south_island
-				set_character_flag = conquest_of_north_island
-				character_event = { id = erulib.7 days = 7 }
-			}
-			conquest_of_north_island = {
-				clr_character_flag = conquest_of_north_island
-				#set_character_flag = conquest_has_been_finished
-				character_event = { id = erulib.8 days = 7 }   ###To be continue###
+			trigger_switch = {
+				on_trigger = has_character_flag
+				conquest_of_christchurch = {
+					clr_character_flag = conquest_of_christchurch
+					set_character_flag = conquest_of_south_island
+					character_event = { id = erulib.6 days = 7 }
+				}
+				conquest_of_south_island = {
+					clr_character_flag = conquest_of_south_island
+					set_character_flag = conquest_of_north_island
+					character_event = { id = erulib.7 days = 7 }
+				}
+				conquest_of_north_island = {
+					clr_character_flag = conquest_of_north_island
+					#set_character_flag = conquest_has_been_finished
+					character_event = { id = erulib.8 days = 7 }   ###To be continue###
+				}
 			}
 		}
+		else = {character_event = {id = erulib.5 days = 7}}
 	}
 }
 
@@ -742,6 +845,13 @@ narrative_event = {
 	
 	immediate = {
 		#clr_character_flag = conquest_has_been_finished
+		
+		any_independent_ruler = {
+			limit = {
+				religion = ROOT
+			}
+			character_event = { id = erulib.9 days = 7 } #asks faithful to become his vassals
+		}
 	}
 	
 	option = {
@@ -778,5 +888,108 @@ narrative_event = {
 			NOT = { has_character_flag = this_is_liberator }
 		}
 		name = "Oh shit he won"
+	}
+}
+
+character_event = {
+	id = erulib.9 #faithful is asked to become vassal
+	title = EVTTITLE_erulib_9
+	desc = EVTDESC_erulib_9
+	#picture = 
+	border = GFX_event_character_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_erulib_9_A #yay
+		piety = 75
+		prestige = -50
+		set_defacto_liege = FROM
+		hidden_tooltip = {
+			FROM = {character_event { id = erulib.10 }}
+		}
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.5
+				trait = proud
+			}
+			modifier = {
+				factor = 0.8
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.9
+				opinion = {
+					who = FROM
+					value <= 25
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPT_erulib_9_B #nay
+		prestige = 50
+		custom_tooltip = {
+			text = liberator_might_try_to_conquer_you
+			hidden_tooltip = {
+				set_character_flag = duck_the_lib
+				character_event { id = erulib.11 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.5
+				trait = humble
+			}
+			modifier = {
+				factor = 0.9
+				opinion = {
+					who = FROM
+					value >= 25
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = erulib.10 #faithful agrees
+	title = EVTTITLE_erulib_10
+	desc = EVTDESC_erulib_10
+	#picture = 
+	border = GFX_event_character_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_erulib_10_A
+		prestige = 10
+	}
+}
+
+character_event = {
+	id = erulib.11 #faithful disagrees
+	title = EVTTITLE_erulib_11
+	desc = EVTDESC_erulib_11
+	#picture = 
+	border = GFX_event_character_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_erulib_11_A
+		
 	}
 }

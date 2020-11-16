@@ -1,0 +1,216 @@
+title_auckland_representative = {
+	dignity = 2.0
+	grant_limit = 1
+	
+	monthly_salary = 0.2
+	monthly_prestige = 0.3
+	monthly_character_piety = 0.5
+	
+	show_as_title = yes
+	is_voter = yes
+	
+	
+	allowed_to_hold = {
+		is_adult = yes
+		has_character_flag = auckland_representative
+		NOT = { trait = incapable }
+		is_landed = no
+		religion = southcrosser
+		is_female = no
+	}
+	allowed_to_grant = {
+		has_landed_title = k_south_cross
+	}
+	revoke_trigger = {
+		always = no
+	}
+	lose_effect = {
+		clr_global_flag = representative_of_auckland_appointed
+	}
+	retire_effect = {
+		clr_global_flag = representative_of_auckland_appointed
+	}
+	death_effect = {
+		clr_global_flag = representative_of_auckland_appointed
+	}
+}
+title_canberra_representative = {
+	dignity = 2.0
+	grant_limit = 1
+	
+	monthly_salary = 0.2
+	monthly_prestige = 0.3
+	monthly_character_piety = 0.5
+	
+	show_as_title = yes
+	is_voter = yes
+	
+	
+	allowed_to_hold = {
+		is_adult = yes
+		has_character_flag = canberra_representative
+		NOT = { trait = incapable }
+		is_landed = no
+		religion = southcrosser
+		is_female = no
+	}
+	allowed_to_grant = {
+		has_landed_title = k_south_cross
+	}
+	revoke_trigger = {
+		always = no
+	}
+	lose_effect = {
+		clr_global_flag = representative_of_canberra_appointed
+	}
+	retire_effect = {
+		clr_global_flag = representative_of_canberra_appointed
+	}
+	death_effect = {
+		clr_global_flag = representative_of_canberra_appointed
+	}
+}
+title_sinai_representative = {
+	dignity = 2.0
+	grant_limit = 1
+	
+	monthly_salary = 0.2
+	monthly_prestige = 0.3
+	monthly_character_piety = 0.5
+	
+	show_as_title = yes
+	is_voter = yes
+	
+	
+	allowed_to_hold = {
+		is_adult = yes
+		has_character_flag = sinai_representative
+		NOT = { trait = incapable }
+		is_landed = no
+		religion = southcrosser
+		is_female = no
+	}
+	allowed_to_grant = {
+		has_landed_title = k_south_cross
+	}
+	revoke_trigger = {
+		always = no
+	}
+	lose_effect = {
+		clr_global_flag = representative_of_sinai_appointed
+	}
+	retire_effect = {
+		clr_global_flag = representative_of_sinai_appointed
+	}
+	death_effect = {
+		clr_global_flag = representative_of_sinai_appointed
+	}
+}
+title_jakarta_representative = {
+	dignity = 2.0
+	grant_limit = 1
+	
+	monthly_salary = 0.2
+	monthly_prestige = 0.3
+	monthly_character_piety = 0.5
+	
+	show_as_title = yes
+	is_voter = yes
+	
+	
+	allowed_to_hold = {
+		is_adult = yes
+		has_character_flag = jakarta_representative
+		NOT = { trait = incapable }
+		is_landed = no
+		religion = southcrosser
+		is_female = no
+	}
+	allowed_to_grant = {
+		has_landed_title = k_south_cross
+	}
+	revoke_trigger = {
+		always = no
+	}
+	lose_effect = {
+		clr_global_flag = representative_of_jakarta_appointed
+	}
+	retire_effect = {
+		clr_global_flag = representative_of_jakarta_appointed
+	}
+	death_effect = {
+		clr_global_flag = representative_of_jakarta_appointed
+	}
+}
+title_moresby_representative = {
+	dignity = 2.0
+	grant_limit = 1
+	
+	monthly_salary = 0.2
+	monthly_prestige = 0.3
+	monthly_character_piety = 0.5
+	
+	show_as_title = yes
+	is_voter = yes
+	
+	
+	allowed_to_hold = {
+		is_adult = yes
+		has_character_flag = moresby_representative
+		NOT = { trait = incapable }
+		is_landed = no
+		religion = southcrosser
+		is_female = no
+	}
+	allowed_to_grant = {
+		has_landed_title = k_south_cross
+	}
+	revoke_trigger = {
+		always = no
+	}
+	lose_effect = {
+		clr_global_flag = representative_of_moresby_appointed
+	}
+	retire_effect = {
+		clr_global_flag = representative_of_moresby_appointed
+	}
+	death_effect = {
+		clr_global_flag = representative_of_moresby_appointed
+	}
+}
+title_canton_representative = {
+	dignity = 2.0
+	grant_limit = 1
+	
+	monthly_salary = 0.2
+	monthly_prestige = 0.3
+	monthly_character_piety = 0.5
+	
+	show_as_title = yes
+	is_voter = yes
+	
+	
+	allowed_to_hold = {
+		is_adult = yes
+		has_character_flag = canton_representative
+		NOT = { trait = incapable }
+		is_landed = no
+		religion = southcrosser
+		is_female = no
+	}
+	allowed_to_grant = {
+		has_landed_title = k_south_cross
+	}
+	revoke_trigger = {
+		always = no
+	}
+	lose_effect = {
+		clr_global_flag = representative_of_canton_appointed
+	}
+	retire_effect = {
+		clr_global_flag = representative_of_canton_appointed
+	}
+	death_effect = {
+		clr_global_flag = representative_of_canton_appointed
+	}
+}

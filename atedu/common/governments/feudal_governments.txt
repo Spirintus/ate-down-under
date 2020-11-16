@@ -26,6 +26,7 @@ feudal_governments = {
 				religion = digger
 				has_religion_feature = religion_temporal_head
 			}
+			NOT = {atedu_pirate_trigger = yes}
 			NOT = {	religion_group = muslim	}
 			NOT = { religion_group = indian_group }
 			NOT = { is_government_potential = order_government }
@@ -242,15 +243,6 @@ feudal_governments = {
 		}
 		frame_suffix = "_chineseimperial"
 		potential = {
-			# tier = EMPEROR
-			# primary_title = { has_title_flag = pretender_chinese_empire }
-			# OR = {
-				# culture_group = chinese_group
-				# culture = khitan
-				# culture = tangut
-				# culture = jurchen
-				# has_character_flag = chinese_imperial_government_preserve #keeps government when player is given culture change opton
-			# }
 			NOT = { is_government_potential = order_government }
 			
 			OR  = {
@@ -290,6 +282,60 @@ feudal_governments = {
 		# }
 		## Modifiers
 		court_size_modifier = 15
+	}
+	
+	pirate_government = {
+		preferred_holdings = { CITY }
+		allowed_holdings = { 
+			CASTLE 
+			CITY
+			TRIBAL
+			TRADE_POST
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			feudal_government
+			muslim_government
+			theocratic_feudal_government
+			chinese_imperial_government
+			mandala_government
+			republic_government
+			merchant_republic_government
+			tribal_government
+		}
+		potential = {
+			OR = {
+				controls_religion = no
+				has_religion_feature = religion_temporal_head
+			}
+			atedu_pirate_trigger = yes
+			is_patrician = no
+		}
+		
+		color = { 15 19 23 }
+
+		can_build_temple = no
+		
+		can_create_empires = no
+		can_create_kingdoms = no
+		can_usurp_kingdoms_and_empires = no
+		can_grant_kingdoms_and_empires_to_other_government = no
+		can_be_granted_kingdoms_and_empires_by_other_government = no
+		uses_bride_price = yes
+		can_revoke_without_reason = no
+		
+		ignore_in_vassal_limit_calculation = {
+			theocracy_government
+		}
+		capital_move_delay = 120
+
+		## Modifiers
+		court_size_modifier = 5
+		demesne_size = -3
 	}
 
 	order_government = {

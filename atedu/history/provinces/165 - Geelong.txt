@@ -8,9 +8,11 @@ b_geelong = castle
 b_bacchus_marsh = city
 b_lara = temple
 b_ocean_grove = temple
+b_drysdale = temple
+b_torquay = city
 
 # Misc
-culture = melbournian
+culture = maltraljan
 religion = southcrosser
 
 #History

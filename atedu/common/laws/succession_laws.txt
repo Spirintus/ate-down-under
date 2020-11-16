@@ -16,6 +16,7 @@ succession_laws = {
 					# title = e_roman_empire
 				# }
 			# }
+			NOT = {title = k_south_cross}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -50,7 +51,7 @@ succession_laws = {
 				holder_scope = { is_tribal = yes }
 			}
 			is_primary_type_title = no
-			#NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
 		allow = {
 			holder_scope = {
@@ -283,7 +284,6 @@ succession_laws = {
 			}
 			is_primary_type_title = no
 			#NOT = { holder_scope = { government = confucian_bureaucracy } }
-			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
 		allow = {
 			conditional_tooltip = {
@@ -1291,7 +1291,7 @@ succession_laws = {
 	}
 	succ_papal_succession = {
 		potential = {
-			
+			always = no
 		}
 		
 		effect = {
@@ -1333,7 +1333,7 @@ succession_laws = {
 					title = e_roman_empire
 				}
 			}
-			NOT = { title = k_papal_state }
+			NOT = {title = k_south_cross}
 			temporary = no
 			OR = {
 				is_primary_type_title = yes
@@ -1487,6 +1487,20 @@ succession_laws = {
 			always = no
 		}			
 	}
+	succ_archbishop_elective = {
+		potential = {
+			title = k_south_cross
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = archbishop_elective
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+	}
 }
 
 gender_laws = {
@@ -1581,6 +1595,7 @@ gender_laws = {
 				NOT = { has_religion_feature = religion_matriarchal } 
 				NOT = { has_religion_feature = religion_equal }
 				not = { religion_group = eruist_group }
+				not = { religion = aotearoan }
 			}
 		}
 		effect = {
@@ -1609,6 +1624,13 @@ gender_laws = {
 						NOT = { has_law = status_of_women_3 }
 						NOT = { has_law = status_of_women_4 }
 					}
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				holder_scope = {
+					religion_group = eruist_group
 				}
 			}
 		}
