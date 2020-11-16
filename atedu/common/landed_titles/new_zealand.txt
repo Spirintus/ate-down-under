@@ -493,7 +493,7 @@ e_new_zealand = {
 			c_hamilton = {
 				color = {41 38 130}
 				color2 = {255 255 255}
-				b_hamilton = {}
+				b_hamilton_nz = {}
 			}
 			c_coromandel = {
 				color = {42 38 112}
@@ -503,7 +503,7 @@ e_new_zealand = {
 			c_raglan = {
 				color = {69 38 99}
 				color2 = {255 255 255}
-				b_raglan = {}
+				b_raglan_nz = {}
 			}
 			c_mokau = {
 				color = {59 12 200}
